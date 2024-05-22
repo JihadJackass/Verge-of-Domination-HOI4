@@ -11,6 +11,10 @@ USG = { # United States of Northern Africa
 	color = rgb { 20 110 240 }
 	color_ui = rgb { 20 110 240 }
 }
+USE = { # United States of Northern Africa
+	color = rgb { 10 110 220 }
+	color_ui = rgb { 10 110 220 }
+}
 # Start Dynamic Country TAGs
 D01 = {
 	color = rgb { 122 179 97 }

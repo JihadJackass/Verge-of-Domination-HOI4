@@ -2,44 +2,59 @@
 
     #  Countries
 
-        # Soviet Union
-        SOV_fascism: "Russian Empire"
-        SOV_fascism_DEF: "the Russian Empire"
-        SOV_fascism_ADJ: "Russian"
-        SOV_democratic: "Russian Federation"
-        SOV_democratic_DEF: "Liberal Democratic Party of the Soviet Union"
-        SOV_democratic_ADJ: "Russian"
-        SOV_neutrality: "Empire of Russia"
-        SOV_neutrality_DEF: "the Empire of Russia"
-        SOV_neutrality_ADJ: "Russian"
-        SOV_communism: "Union of Socialist Republics"
-        SOV_communism_DEF: "the Union of Soviet Socialist Republics"
-        SOV_communism_ADJ: "Soviet"
+        # American Factions
 
-        # America
-        USA_fascism: "American Empire"
-        USA_fascism_DEF: "the United American Empire"
-        USA_fascism_ADJ: "American"
-        USA_democratic: "United Federal States"
-        USA_democratic_DEF: "the United States Federal Republic"
-        USA_democratic_ADJ: "American"
-        USA_neutrality: "American Loyalists"
-        USA_neutrality_DEF: "the Loyalists"
-        USA_neutrality_ADJ: "American"
-        USA_communism: "Communist States of America"
-        USA_communism_DEF: "the Communist States of America"
-        USA_communism_ADJ: "American"
+            # American Federal Republic
+            USA_fascism: "American Empire"
+            USA_fascism_DEF: "the United American Empire"
+            USA_fascism_ADJ: "American"
+            USA_democratic: "American United Federal Republic"
+            USA_democratic_DEF: "the United States Federal Republic"
+            USA_democratic_ADJ: "American"
+            USA_neutrality: "American Loyalists"
+            USA_neutrality_DEF: "the Loyalists"
+            USA_neutrality_ADJ: "American"
+            USA_communism: "Communist States of America"
+            USA_communism_DEF: "the Communist States of America"
+            USA_communism_ADJ: "American"
 
-        # Germany
-        GER_fascism: "Fourth Deutsches Reich"
-        GER_fascism_DEF: "the Deutches Reich"
-        GER_democratic: "Deutches Bundesrepublik"
-        GER_democratic_DEF: "the Deutches Bundesrepublik "
-        GER_neutrality: " Großdeutscher Königsreich"
-        GER_neutrality_DEF: "das Großdeutsche Königsreich"
-        GER_communism: "Volksratsrepubliken"
-        GER_communism_DEF: "Das Volksratsrepubliken"
-        GER_fascism_ADJ: "German"
-        GER_democratic_ADJ: "German"
-        GER_neutrality_ADJ: "German"
-        GER_communism_ADJ: "German"
+            # American European Occupation Zone
+            USE_democratic: "American-European Occupation Zone"
+            USE_democratic_DEF: "the American-European Occupation Zone"
+            USE_democratic_ADJ: "American"
+
+            # American North Africa Occupation Zone
+            USG_democratic: "American United Federal Republic"
+            USG_democratic_DEF: "the American-North African Occupation Zone"
+            USG_democratic_ADJ: "American"
+
+        # Soviet Factions
+
+            # Soviet Union
+            SOV_fascism: "Russian Empire"
+            SOV_fascism_DEF: "the Russian Empire"
+            SOV_fascism_ADJ: "Russian"
+            SOV_democratic: "Russian Federation"
+            SOV_democratic_DEF: "Liberal Democratic Party of the Soviet Union"
+            SOV_democratic_ADJ: "Russian"
+            SOV_neutrality: "Empire of Russia"
+            SOV_neutrality_DEF: "the Empire of Russia"
+            SOV_neutrality_ADJ: "Russian"
+            SOV_communism: "Union of Socialist Republics"
+            SOV_communism_DEF: "the Union of Soviet Socialist Republics"
+            SOV_communism_ADJ: "Soviet"
+
+            # Soviet Germany
+            GER_fascism: "Fourth Deutsches Reich"
+            GER_fascism_DEF: "the Deutches Reich"
+            GER_democratic: "Deutches Bundesrepublik"
+            GER_democratic_DEF: "the Deutches Bundesrepublik "
+            GER_neutrality: "Großdeutscher Königsreich"
+            GER_neutrality_DEF: "das Großdeutsche Königsreich"
+            GER_communism: "Volksratsrepubliken"
+            GER_communism_DEF: "Das Volksratsrepubliken"
+            GER_fascism_ADJ: "German"
+            GER_democratic_ADJ: "German"
+            GER_neutrality_ADJ: "German"
+            GER_communism_ADJ: "German"
+

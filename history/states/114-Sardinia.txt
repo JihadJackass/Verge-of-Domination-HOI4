@@ -2,16 +2,17 @@ state = {
 	id = 114
 	name = "STATE_114"
 	manpower = 991921
-	
+
 	state_category = town
-	
+
 	history = {
-		owner = SOV
+		owner = USG
+		add_core_of = USG
 		victory_points = {
-			11773 3 
+			11773 3
 		}
 		victory_points = {
-			9772 2 
+			9772 2
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,12 +26,10 @@ state = {
 				naval_base = 5
 			}
 		}
-		add_core_of = SOV
-		add_core_of = SPM
 	}
 	provinces = {
-		902 6891 9772 9863 11755 11773 11824 11874 	
+		902 6891 9772 9863 11755 11773 11824 11874
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

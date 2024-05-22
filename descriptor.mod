@@ -7,9 +7,12 @@ tags={
 }
 picture="thumbnail.png"
 remote_file_id="893583678"
+replace_path = "events/"
+replace_path = "common/ai_strategy_plans"
 replace_path = "common/country_tags"
 replace_path = "common/scripted_effects"
 replace_path = "common/decisions"
+replace_path = "common/scripted_localisation"
 replace_path = "common/national_focus"
 replace_path = "common/decisions/categories"
 replace_path = "history/states"

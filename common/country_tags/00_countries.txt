@@ -9,6 +9,10 @@ PRC = "countries/Soviet_China.txt" # Soviet Occupied China
 USA = "countries/USA.txt"
 USE = "countries/USA_Europa.txt"
 USG = "countries/USA_North_Africa.txt"
+USC = "countries/USA_Central_Africa.txt"
+USS = "countries/USA_South_Africa.txt"
+USE = "countries/USA_South_America.txt"
+USM = "countries/USA_Central_America.txt"
 # Rebel Factions
 REB = "countries/Rebel_wasteland.txt" # Rebel Wastelands (Territories controlled by armed rebel groups which is unable to be conquered)
 NUC = "countries/Nuclear_wasteland.txt" # Nuclear Wastelands (Territories completely destroyed)

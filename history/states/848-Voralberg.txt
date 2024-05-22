@@ -1,0 +1,26 @@
+
+state={
+	id=848
+	name="STATE_848"
+	manpower = 154354
+	state_category = pastoral
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_claim_by = USA
+		1938.3.12 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+		}
+	}
+	provinces={
+		6678 6680 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

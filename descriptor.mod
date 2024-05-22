@@ -1,0 +1,16 @@
+name="Verge of Domination"
+path="mod/verge_of_domination"
+user_dir="Verge of Domination"
+tags={
+	"Alternative History"
+	"Gameplay"
+}
+picture="thumbnail.png"
+remote_file_id="893583678"
+replace_path = "common/country_tags"
+replace_path = "common/scripted_effects"
+replace_path = "common/decisions"
+replace_path = "common/national_focus"
+replace_path = "common/decisions/categories"
+replace_path = "history/states"
+supported_version="1.14.*"

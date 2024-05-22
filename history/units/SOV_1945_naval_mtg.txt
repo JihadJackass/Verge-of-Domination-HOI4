@@ -1,0 +1,22 @@
+﻿units = {
+
+	#######################
+	##### NAVAL UNITS #####
+	#######################
+
+	### Northern Fleet -- Murmansk
+
+	### Baltic Fleet -- Leningrad
+
+
+	### Black Sea Fleet -- Sevastopol
+
+
+	### Pacific Fleet -- Vladivostok
+
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+

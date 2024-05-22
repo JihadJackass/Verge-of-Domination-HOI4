@@ -1,0 +1,44 @@
+bookmarks = {
+	bookmark = {
+		name = "VERGE_OF_DOMINATION_DOMINATION_NAME"
+		desc = "VERGE_OF_DOMINATION_DOMINATION_DESC" # 1v1 VS Mode
+		picture = "GFX_select_date_1936" # TODO: Change this to proper custom image
+		date = 1950.1.1.12
+		default = no
+
+		"USA" = {
+			history = "USA_THE_COLD_WAR_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"SOV" = {
+			history = "SOV_THE_COLD_WAR_DESC"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		# other
+
+		"---" = {
+			history = "OTHER_THE_COLD_WAR_DESC"
+		}
+
+		# minors from DLC ####
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

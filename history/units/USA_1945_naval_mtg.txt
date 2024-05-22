@@ -1,0 +1,26 @@
+﻿units = {
+
+	#######################
+	##### NAVAL UNITS #####
+	#######################
+
+	### BATTLE FLEET ###
+
+	### SCOUTING FLEET ###
+
+	### SUBMARINE FORCE ###
+
+	### PACIFIC RESERVES ###
+
+	##### ATLANTIC FLEET #####
+
+	### CARIBBEAN AND FOREIGN DEPLOYMENTS ###
+
+	##### ASIATIC FLEET #####
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################

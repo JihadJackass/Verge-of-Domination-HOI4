@@ -2,11 +2,11 @@ state={
 	id=862
 	name="STATE_862"
 	provinces={
-		983 1341 1764 3911 7435 7875 10249 10700 11682 11902 12205 12276 
+		983 1341 1764 3911 7435 7875 10249 10700 11682 11902 12205 12276
 	}
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = CAN
+		add_core_of = CAN
 	}
 	manpower=80000
 	state_category = rural

@@ -3,15 +3,15 @@ state=
 	id=297
 	name="STATE_297" # Equatorial Guinea
 	manpower = 185000
-	
+
 	state_category = enclave
-	
+
 	history=
 	{
-		owner = USE
-		add_core_of = EQG
+		owner = USC
+		add_core_of = USC
 		victory_points = {
-			1903 1 
+			1903 1
 		}
 		buildings = {
 			infrastructure = 1
@@ -27,5 +27,5 @@ state=
 	{
 1903 8244 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

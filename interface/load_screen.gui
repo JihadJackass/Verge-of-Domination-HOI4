@@ -20,17 +20,6 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 		}
 
-		iconType = { # TODO: JihadiJackass Studios Logo
-			name ="bg_jihadijackass_studios_logo"
-			spriteType = "GFX_jihadijackass_studios_logo"
-			position = { x= -130 y = -160 }
-			Orientation = "LOWER_LEFT"
-		}
-
-		# TODO: Verge of Domination Custom Title
-
-		# TODO: Support Ukraine Image + Words
-
 		iconType = {
 			name ="bg_pdx_int_logo"
 			spriteType = "GFX_frontend_dev_logo_s"

@@ -3,15 +3,15 @@ state=
 	id=298
 	name="STATE_298"
 	manpower = 745000
-	
+
 	state_category = rural
 	resources={
 		rubber=6 # was: 7
-	}	
-	
+	}
+
 
 	history= {
-		owner = USA
+		owner = USG
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -23,11 +23,11 @@ state=
 		victory_points = {
 			7959 3
 		}
-		add_core_of = USA
+		add_core_of = USG
 	}
 	provinces={
 		7959 8006
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

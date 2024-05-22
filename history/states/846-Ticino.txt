@@ -5,19 +5,19 @@ state={
 	manpower = 160553
 	state_category = town
 	resources={
-		aluminium=15 # was: 24 
+		aluminium=15 # was: 24
 	}
 	history={
-		owner = USA
+		owner = USE
 		victory_points = { 9600 1 }
 		buildings = {
-			infrastructure = 2 
+			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = USE
 	}
 	provinces={
-		9600 3641 
+		9600 3641
 	}
-	local_supplies=0.0  
+	local_supplies=0.0
 }

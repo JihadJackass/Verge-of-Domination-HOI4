@@ -6,12 +6,12 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = {
-			11805 20 
+			11805 20
 		}
 		victory_points = {
-			3798 1 
+			3798 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -23,16 +23,16 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = USA
+		add_core_of = USE
 
 	}
 
 	provinces={
-		799 3798 3861 6924 11805 
+		799 3798 3861 6924 11805
 	}
 	manpower=1995800
 	buildings_max_level_factor=1.000
 	state_category=city
 
-	local_supplies=12.0 
+	local_supplies=12.0
 }

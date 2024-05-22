@@ -3,13 +3,13 @@ state=
 	id=164
 	name="STATE_164"
 	manpower = 120000
-	
+
 	state_category = small_island
-	
+
 	history = {
-		owner = SOV
+		owner = USA
 		victory_points = {
-			10007 1 
+			10007 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -21,7 +21,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
+		add_core_of = USA
 
 		#CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
 		set_state_name = STATE_164_ITA
@@ -32,5 +32,5 @@ state=
 		7003 10007
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

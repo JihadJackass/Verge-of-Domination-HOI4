@@ -3,7 +3,7 @@ state={
 	id=131
 	name="STATE_131"
 	manpower = 2128860
-	
+
 	state_category = city
 	resources={
 		steel=38 # was: 60
@@ -11,9 +11,9 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = {
-			351 10 
+			351 10
 		}
 		victory_points = {
 			11332 1 #Cockermouth
@@ -33,7 +33,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
+		add_core_of = USE
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
@@ -43,8 +43,8 @@ state={
 	}
 
 	provinces={
-		219 351 3311 6399 9285 11270 11299 11332 
+		219 351 3311 6399 9285 11270 11299 11332
 	}
 
-	local_supplies=14.0 
+	local_supplies=14.0
 }

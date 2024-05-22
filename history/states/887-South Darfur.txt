@@ -4,10 +4,10 @@ state={
 
 	manpower = 302020
 	state_category = wasteland
-	
+
 	history = {
-		owner = USA
-		add_core_of = SUD
+		owner = USC
+		add_core_of = USC
 		buildings = {
 			infrastructure = 1
 		}
@@ -15,9 +15,9 @@ state={
 	}
 
 	provinces={
-		1960 5060 10857 
+		1960 5060 10857
 	}
-	
+
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

@@ -3,7 +3,7 @@ state={
 	name="STATE_179"
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = {
 			3790 1
 		}
@@ -24,17 +24,17 @@ state={
 
 			}
 		}
-		add_core_of = USA
-		add_extra_state_shared_building_slots = 1 
+		add_core_of = USE
+		add_extra_state_shared_building_slots = 1
 
 	}
 
 	provinces={
-		970 980 3790 3866 6880 6884 6933 9765 9819 
+		970 980 3790 3866 6880 6884 6933 9765 9819
 	}
 	manpower=777895
 	buildings_max_level_factor=1.000
 	state_category=rural
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

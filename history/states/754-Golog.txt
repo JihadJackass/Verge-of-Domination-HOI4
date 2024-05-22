@@ -21,19 +21,10 @@ state={
 			arms_factory = 1
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				SOV = {
-					transfer_state = PREV
-
-				}
-			}
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			controller = SOV
 		}
 	}
 

@@ -5,13 +5,13 @@ state= {
 	resources={
 		oil=3 # was: 4
 	}
-	
+
 	state_category = rural
 
 	history= {
-		owner = USA
-		add_core_of = USA
-		
+		owner = SOV
+		add_core_of = SOV
+
 		buildings = {
 			infrastructure = 2
 			12446 = {
@@ -28,5 +28,5 @@ state= {
 	{
 1322 1820 12446 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

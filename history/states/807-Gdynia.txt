@@ -3,7 +3,7 @@ state={
 	id=807
 	name="STATE_807"
 	manpower = 713370
-	
+
 	state_category = city
 	history={
 		owner = POL
@@ -27,8 +27,10 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = KSH
-		1938.3.12 = {
-			add_claim_by = SOV
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			controller = SOV
 		}
 	}
 
@@ -36,5 +38,5 @@ state={
 		243 279 334 389 3295 3324 6347 9263
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

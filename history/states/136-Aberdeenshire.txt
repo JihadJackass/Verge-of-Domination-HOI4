@@ -3,7 +3,7 @@ state={
 	id=136
 	name="STATE_136"
 	manpower = 745466
-	
+
 	state_category = town
 	resources={
 		tungsten=4 # was: 6
@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		add_core_of = SCO
-		owner = USA
+		add_core_of = USE
+		owner = USE
 		victory_points = {
 			200 5 #Aberdeen
 		}
@@ -23,12 +23,11 @@ state={
 			infrastructure = 3 #was: 6
 			dockyard = 2
 		}
-		add_core_of = USA
 	}
 
 	provinces={
-		200 3150 9161 11055 11136 11207 11306 
+		200 3150 9161 11055 11136 11207 11306
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

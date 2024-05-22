@@ -4,15 +4,14 @@ state=
 	name="STATE_743"
 	manpower = 385000
 	state_category = large_town
-	
-	
+
+
 	history=
 	{
-		owner = SOV
-		add_core_of = SOV
+		owner = PRC
 		add_core_of = PRC
 		victory_points = {
-			10000 5 
+			10000 5
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -25,13 +24,15 @@ state=
 			}
 		}
 
-		1938.10.25 = {
-			controller = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			controller = SOV
 		}
 	}
 	provinces={
 		10000
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

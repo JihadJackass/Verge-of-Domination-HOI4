@@ -11,37 +11,20 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
+		owner = PRC
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		victory_points = { 
-			7137 10 
-		}
-
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = SOV
-				SOV = { transfer_state = PREV }
-			}
-			USA = {
-				set_province_controller = 1018
-				set_province_controller = 4023
-				set_province_controller = 10004
-			} 			
+		victory_points = {
+			7137 10
 		}
 	}
 
 	provinces={
-		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023 
+		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023
 	}
 
-	local_supplies=1.0 
+	local_supplies=1.0
 }

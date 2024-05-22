@@ -6,8 +6,8 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = QAT
-		owner = USA
+		add_core_of = SOV
+		owner = SOV
 		victory_points = {
 			8051 1
 		}
@@ -23,5 +23,5 @@ state={
 		8051
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

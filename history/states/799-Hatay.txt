@@ -2,10 +2,10 @@ state={
 	id=799
 	name="STATE_799"
 	provinces={
-		12029 
+		12029
 	}
 	manpower = 234379
-	
+
 	state_category = enclave
 
 	history= {
@@ -19,11 +19,12 @@ state={
 			infrastructure = 1
 		}
 
-		1938.9.30 = {
+		1950.1.1 = {
 			owner = SOV
+			add_core_of = SOV
 			controller = SOV
 		}
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

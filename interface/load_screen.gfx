@@ -31,11 +31,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/clausewitz_logo.dds"
 	}
 
-	spriteType = {
-		name = "GFX_jihadijackass_studios_logo"
-		texturefile = "gfx/interface/jihadijackass_studios_logo.dds"
-	}
-
 	progressbartype = {
 		name = "GFX_loadingstatus_progress"
 		color = { 0.0 0.5 0.0 }

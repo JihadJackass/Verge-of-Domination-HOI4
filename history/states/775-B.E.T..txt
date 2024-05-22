@@ -1,13 +1,13 @@
 state={
 	id=775
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
-	
+
 	state_category = wasteland
 	impassable = yes
 
 	history={
-		owner = USE
-		add_core_of = CHA
+		owner = USC
+		add_core_of = USC
 		buildings = {
 			infrastructure = 0
 		}
@@ -19,5 +19,5 @@ state={
 	manpower=18744
 	buildings_max_level_factor=1.000
 
-	local_supplies=1.0 
+	local_supplies=1.0
 }

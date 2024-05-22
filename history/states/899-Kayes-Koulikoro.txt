@@ -5,9 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USE
-		add_core_of = MLI
-		
+		owner = USG
+		add_core_of = USG
+
 		buildings = {
 			infrastructure = 2
 
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		2012 10812 10829 10915 12751 12838 
+		2012 10812 10829 10915 12751 12838
 	}
-	
+
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

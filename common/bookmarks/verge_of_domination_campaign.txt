@@ -32,17 +32,6 @@ bookmarks = {
 
 		"---" = {
 
-		"USG" = {
-			history = "SOV_VERGE_OF_DOMINATION_DESC"
-			ideology = democratic
-			minors = yes
-			ideas = {
-			}
-			focuses = {
-			}
-			history = "OTHER_VERGE_OF_DOMINATION_DESC"
-		}
-
 		# minors from DLC ####
 
 		effect = {

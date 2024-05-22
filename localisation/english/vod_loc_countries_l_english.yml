@@ -18,15 +18,30 @@
             USA_communism_DEF: "the Communist States of America"
             USA_communism_ADJ: "American"
 
+            # American Canadian Occupation Zone
+            CAN_democratic: "American-Canadian Occupation Zone"
+            CAN_democratic_DEF: "the American-Canadian Occupation Zone"
+            CAN_democratic_ADJ: "American-Canadian"
+
             # American European Occupation Zone
             USE_democratic: "American-European Occupation Zone"
             USE_democratic_DEF: "the American-European Occupation Zone"
-            USE_democratic_ADJ: "American"
+            USE_democratic_ADJ: "American-European"
 
             # American North Africa Occupation Zone
-            USG_democratic: "American United Federal Republic"
+            USG_democratic: "American-North African Occupation Zone"
             USG_democratic_DEF: "the American-North African Occupation Zone"
-            USG_democratic_ADJ: "American"
+            USG_democratic_ADJ: "American-North African"
+
+            # American Central Africa Occupation Zone
+            USC_democratic: "American-Central African Occupation Zone"
+            USC_democratic_DEF: "the American-Central African Occupation Zone"
+            USC_democratic_ADJ: "American-Central African"
+
+            # American South Africa Occupation Zone
+            USS_democratic: "American-South African Occupation Zone"
+            USS_democratic_DEF: "the American-South African Occupation Zone"
+            USS_democratic_ADJ: "American-South African"
 
         # Soviet Factions
 
@@ -43,6 +58,18 @@
             SOV_communism: "Union of Socialist Republics"
             SOV_communism_DEF: "the Union of Soviet Socialist Republics"
             SOV_communism_ADJ: "Soviet"
+
+            # People's Republic of China
+
+            PRC_communism: "Chinese Soviet Movement"
+            PRC_communism_DEF: "the Chinese Soviet Worker Movement"
+            PRC_communism_ADJ: "Soviet-Chinese"
+
+            # Polish People's Republic
+
+            POL_communism: "Polish Soviet Republic"
+            POL_communism_DEF: "the Polish Soviet Socialist Republic"
+            POL_communism_ADJ: "Soviet-Polish"
 
             # Soviet Germany
             GER_fascism: "Fourth Deutsches Reich"

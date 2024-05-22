@@ -3,18 +3,17 @@ state={
 	id=290
 	name="STATE_290"
 	manpower = 744000
-	
-	
+
+
 	state_category = rural
-	
+
 	resources={
 		steel=23 # was: 20 . Changed to 23 (from 15) due to Portugal Setup
 	}
 
 	history={
-		owner = USE
-		add_core_of = MOR
-		add_core_of = RIF
+		owner = USG
+		add_core_of = USG
 		victory_points = {
 			9945 3
 		}
@@ -37,8 +36,8 @@ state={
 	}
 
 	provinces = {
-		4199 7215 9945 10113 12087 12100 
+		4199 7215 9945 10113 12087 12100
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

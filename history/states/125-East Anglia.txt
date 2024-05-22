@@ -3,11 +3,11 @@ state={
 	id=125
 	name="STATE_125"
 	manpower = 1363174
-	
+
 	state_category = city
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = { 271 5 }
 		buildings = {
 			infrastructure = 4 #was: 7
@@ -20,12 +20,12 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
+		add_core_of = USE
 	}
 
 	provinces={
-		221 271 296 322 3287 11221 11253 
+		221 271 296 322 3287 11221 11253
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

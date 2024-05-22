@@ -3,14 +3,14 @@ state=
 	id=456
 	name="STATE_456" # Aswan
 	manpower = 4224516
-	
+
 	state_category = rural
-	
+
 	history = {
 		victory_points = {
 			11999 1
 		}
-		owner = USA
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 		}
@@ -22,12 +22,12 @@ state=
 			11974 1
 		}
 
-		add_core_of = EGY
+		add_core_of = SOV
 
 	}
 	provinces={
-		1028 1064 1151 1206 7030 7073 7144 10028 10097 10844 11974 11999 12044 12071 12771 
+		1028 1064 1151 1206 7030 7073 7144 10028 10097 10844 11974 11999 12044 12071 12771
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -12,14 +12,14 @@ state={
 		}
 		add_core_of = SOV
 		add_claim_by = USA
-		1938.3.12 = {
+		1950.1.1 = {
 			owner = SOV
-			controller = SOV
 			add_core_of = SOV
+			controller = SOV
 		}
 	}
 	provinces={
-		6678 6680 
+		6678 6680
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

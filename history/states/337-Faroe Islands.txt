@@ -3,21 +3,21 @@ state=
 	id=337
 	name="STATE_337"
 	manpower = 25900
-	
+
 	state_category = small_island
-	
+
 	history=
 	{
-		owner = SOV
+		owner = USA
 		buildings = {
 			infrastructure = 2
 			13003 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
+		add_core_of = USA
 	}
 	provinces= { 13003 }
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

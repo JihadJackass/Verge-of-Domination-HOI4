@@ -6,11 +6,10 @@ state=
 	state_category = large_town
 	history=
 	{
-		owner = USA
-		add_core_of = SOV
-		add_core_of = PRC
+		owner = SSC
+		add_core_of = SSC
 		victory_points = {
-			10062 3 
+			10062 3
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -25,5 +24,5 @@ state=
 		10062
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

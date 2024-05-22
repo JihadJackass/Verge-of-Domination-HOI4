@@ -3,15 +3,15 @@ state={
 	id=181
 	name="STATE_181"
 	manpower = 964700
-	
+
 	state_category = town
-	
+
 	resources={
 		tungsten=150 # was: 300
 	}
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = {
 			9787 1
 		}
@@ -22,12 +22,12 @@ state={
 			infrastructure = 2
 			industrial_complex = 2
 		}
-		add_core_of = USA
+		add_core_of = USE
 	}
 
 	provinces={
-		845 889 938 3969 6818 6996 9787 11885 
+		845 889 938 3969 6818 6996 9787 11885
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

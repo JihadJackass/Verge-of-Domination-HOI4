@@ -2,11 +2,11 @@ state= {
 	id=123
 	name="STATE_123"
 	manpower = 1221013
-	
+
 	state_category = town
 
 	history= {
-		owner = USA
+		owner = USE
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {
@@ -20,12 +20,12 @@ state= {
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = USE
 	}
 
 	provinces= {
 		540 3422 3463 6526 9562 11406
  	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

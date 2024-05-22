@@ -10,11 +10,9 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
-		add_core_of = PRC
-		
+		owner = SSC
+		add_core_of = SSC
+
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -30,28 +28,12 @@ state={
 		victory_points = {
 			1047 5
 		}
-
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = SOV
-				SOV = { transfer_state = PREV }
-			}
-			USA = {
-				set_province_controller = 1047
-				set_province_controller = 7152
-				set_province_controller = 11938
-				set_province_controller = 11941
-			} 			
-		}
 	}
 
 	provinces={
-		1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
+		1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077
 	}
 
-	local_supplies=1.0 
+	local_supplies=1.0
 }
 

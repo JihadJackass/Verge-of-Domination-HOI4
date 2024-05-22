@@ -1,19 +1,37 @@
 #reload countrycolors
+# Soviet Factions
 SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 176 29 21 }
+	color_ui = rgb { 176 29 21 }
 }
+POL = {
+	color = rgb { 160 30 25 }
+	color_ui = rgb { 160 30 25 }
+}
+PRC = {
+	color = rgb { 150 55 30 }
+	color_ui = rgb { 150 55 30 }
+}
+# American Factions
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 23 96 163 }
+	color_ui = rgb { 23 96 163 }
 }
 USG = { # United States of Northern Africa
-	color = rgb { 20 110 240 }
-	color_ui = rgb { 20 110 240 }
+	color = rgb { 30 120 150 }
+	color_ui = rgb { 30 120 150 }
 }
 USE = { # United States of Northern Africa
-	color = rgb { 10 110 220 }
-	color_ui = rgb { 10 110 220 }
+	color = rgb { 5 125 180 }
+	color_ui = rgb { 5 125 180 }
+}
+USC = { # United States of Central Africa
+	color = rgb { 10 80 215 }
+	color_ui = rgb { 10 80 215 }
+}
+USS = { # United States of Sth Africa
+	color = rgb { 43 23 143 }
+	color_ui = rgb { 43 23 143 }
 }
 # Start Dynamic Country TAGs
 D01 = {

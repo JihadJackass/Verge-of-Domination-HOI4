@@ -3,13 +3,11 @@ state={
 	id=611
 	name="STATE_611" # South Chahar
 	manpower = 1470000
-	
+
 	state_category = pastoral
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
+		owner = PRC
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
@@ -21,8 +19,8 @@ state={
 	}
 
 	provinces={
-		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 
+		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

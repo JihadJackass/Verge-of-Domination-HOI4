@@ -57,7 +57,7 @@ state=
 		}
 		add_core_of = SOV
 
-		1938.9.30 = {
+		1950.1.1 = {
 			owner = SOV
 			controller = SOV
 		}

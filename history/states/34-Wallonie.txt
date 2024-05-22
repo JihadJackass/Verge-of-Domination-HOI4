@@ -3,11 +3,11 @@ state={
 	id=34
 	name="STATE_34"
 	manpower = 3381300
-	
+
 	state_category = large_city
 
 	history={
-		owner = USA
+		owner = USE
 		victory_points = {
 			3516 5
 		}
@@ -24,12 +24,12 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = USA
+		add_core_of = USE
 	}
 
 	provinces={
-		3488 3516 6537 9418 9444 9536 11407 11519 13081 
+		3488 3516 6537 9418 9444 9536 11407 11519 13081
 	}
 
-	local_supplies=14.0 
+	local_supplies=14.0
 }

@@ -5,17 +5,17 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USA
-		add_core_of = NGA
+		owner = USC
+		add_core_of = USC
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces={
-		1891 1932 1969 2025 4938 4972 8021 
+		1891 1932 1969 2025 4938 4972 8021
 	}
-	
+
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

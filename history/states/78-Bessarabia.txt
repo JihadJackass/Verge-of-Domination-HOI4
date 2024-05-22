@@ -3,12 +3,11 @@ state=
 	id=78
 	name="STATE_78"
 	manpower = 2296800
-	
+
 	state_category = town
-	
+
 	history= {
-		add_core_of = MOL
-		owner = ROM
+		owner = SOV
 		victory_points = {
 			3707 1
 		}
@@ -16,11 +15,11 @@ state=
 			infrastructure = 2
 			air_base = 2
 		}
-		add_core_of = ROM
+		add_core_of = SOV
 	}
 	provinces=
 	{
 414 565 3407 3577 3707 3724 6600 9683 11686 11705 	}
 
-	local_supplies=4.0 
+	local_supplies=4.0
 }

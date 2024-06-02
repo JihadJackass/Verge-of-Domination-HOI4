@@ -1,14 +1,14 @@
-# Verge-of-Domination-HOI4
+# Verge of Domination - Hearts of Iron IV Total Conversion
 
-[h1][b]Verge of Domination is a 1v1 Cold War USA vs USSR scenario where history split off and caused the soviets to take as much of Asia and Europe as quickly as possible, forcing the capitalists to conquer all of the americas.
+## Verge of Domination is a 1v1 Cold War USA vs USSR scenario where history split off and caused the soviets to take as much of Asia and Europe as quickly as possible, forcing the capitalists to conquer all of the americas.
 
-It's just a matter of time now...[/b][/h1]
+### It's just a matter of time now...
 
-[img]http://i.imgur.com/fVVaDCS.gif[/img]
+![](http://i.imgur.com/fVVaDCS.gif)
 
-[img]http://i.imgur.com/hp9DHxW.png[/img]
+![](http://i.imgur.com/hp9DHxW.png)
 
-[h1][b]Confirmed Features:[/b][/h1][b]
+**Confirmed Features:**
 ~USA will be able to reclaim lots of it's lost allied land (such as UK, AUS, etc) through events on historical mode similar to how germany begins to take lots of land in vanilla hoi4, if any war happens before certain events happen losses will be massive on both sides
 
 ~Other nations able to be freed/liberated through various methods (African Union, Asianic Alliance, Brazilian Reich, Cuba, China, People's Republic of China, and much more)
@@ -52,17 +52,14 @@ It's just a matter of time now...[/b][/h1]
 ~Alternate History
 
 ~1v1 Scenario
-[/b]
 
-[img]http://i.imgur.com/INIQi6C.png[/img]
+![](http://i.imgur.com/INIQi6C.png)
 
-[h1][b]Info about development:[/b][/h1]
-[i]Verge of Domination is currently in [b]alpha 0.3.1[/b]. Please do not expect a fully completed mod.[/i]
+Info about development:
+Verge of Domination is currently in **alpha 0.3.1**. Please do not expect a fully completed mod.
 
-[h1]Release Date:[i][b] ON HOLD[/b][/i][/h1]
-I am currently taking a break due to frustration with the lack of development with Hearts of Iron IV. All DLC's to date have been underwhelming and to this day the game still has game breaking issues and issues that completely ruin playthroughs. Until Paradox is able to make Hearts of Iron IV into the game it should and will eventually be, I cannot commit all my time to this, or any of my mods. I apologize deeply, but I assure you this and all mods of mine will be completely finished sooner or later. I do not give up on my code or my projects and I enjoy making them to the fullest extent possible. I want to make mods that people truly enjoy and love to play with their friends and on their own. But I cannot do that when I dislike the game in it's current state. I cannot put time into something that angers me. I work on my mods now and then (If I am playing Hearts of Iron IV, I am 95% likely to be modding. I do not actively play HOI4 as I have basically mastered it. I only play my own mods or new big mods like mine.) Thanks for reading! Hope to see you when the next big update for this mod drops!
+## Release Date:
+In development
 
-[img]http://i.imgur.com/Vvl8AzS.png[/img]
-[img]http://i.imgur.com/fVVaDCS.gif[/img]
-
-(Any planned mods, along with this mod is subject to [url=https://www.checkforplagiarism.net/plagiarism-law]Plagiarism Law[/url] and [url=https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810]Steam Rules, Guidelines [/url]and [url=http://store.steampowered.com/online_conduct/]Conduct.[/url] I would appreciate being contacted should you wish to make a similar mod to this or any other. If I discover any similar mods which are clearly blatant plagarism I will contact steam and file a complaint. I appreciate the understanding of this.)
+![](http://i.imgur.com/Vvl8AzS.png)
+![](http://i.imgur.com/fVVaDCS.gif)

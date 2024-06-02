@@ -1,0 +1,50 @@
+focus_tree = {
+	id = poland_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 20
+			tag = POL
+		}
+
+	}
+
+	default = no
+
+	############################
+	##### INDUSTRY SECTION #####
+	############################
+
+	focus = {
+		id = POL_basic_focus
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 24
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+}

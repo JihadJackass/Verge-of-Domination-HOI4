@@ -7,11 +7,16 @@ state={
 		steel=3 # was: 4
 		aluminium=100 # was: 194
 	}
-	
+
 	state_category = large_city
 
 	history={
-		owner = SOV
+		owner = HUN
+		add_core_of = HUN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 4
@@ -19,14 +24,13 @@ state={
 			air_base = 4
 		}
 		victory_points = {
-			9660 20 
+			9660 20
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		684 716 3713 3731 6716 6751 9660 9690 11520 
+		684 716 3713 3731 6716 6751 9660 9690 11520
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

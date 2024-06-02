@@ -3,10 +3,14 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = USA
-		add_core_of = MLW
+		owner = USS
+		add_core_of = USS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		victory_points = {
-			12986 1 
+			12986 1
 		}
 		buildings = {
 			infrastructure = 2
@@ -16,11 +20,11 @@ state={
 	}
 
 	provinces={
-		2255 12908 12986 13209 
+		2255 12908 12986 13209
 	}
 	manpower=1603975
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

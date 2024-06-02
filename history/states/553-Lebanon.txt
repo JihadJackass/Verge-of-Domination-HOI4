@@ -7,7 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = SOV
+		add_core_of = SOV
 		victory_points = {
 			792 5
 		}
@@ -20,7 +21,11 @@ state={
 			}
 		}
 
-		add_core_of = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+			controller = SOV
+		}
 	}
 
 	provinces={

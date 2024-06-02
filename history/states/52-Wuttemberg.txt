@@ -6,11 +6,10 @@ state={
 	resources={
 		aluminium=18 # was: 30
 	}
-	
+
 	state_category = city
 
 	history={
-		owner = SOV
 		victory_points = {
 			692 20
 		}
@@ -23,18 +22,17 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = SOV
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-			}
+		owner = GER
+		add_core_of = GER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 
 	provinces={
-		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
+		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653
 	}
 
-	local_supplies=8.0 
+	local_supplies=8.0
 }

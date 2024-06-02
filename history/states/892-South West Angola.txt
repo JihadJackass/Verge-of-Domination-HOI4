@@ -5,19 +5,23 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = USS
+		add_core_of = USS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
-			10966 1 
+			10966 1
 		}
-		add_core_of = ANG
 
 	}
 
 	provinces={
-		8138 8202 10966 12391 12958 12985 
+		8138 8202 10966 12391 12958 12985
 	}
 
 	buildings_max_level_factor=1.000

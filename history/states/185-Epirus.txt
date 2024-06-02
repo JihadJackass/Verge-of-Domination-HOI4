@@ -3,15 +3,21 @@ state={
 	id=185
 	name="STATE_185"
 	manpower = 760900
-	
+
 	state_category = rural
-	
+
 	resources={
 		chromium=14 # was: 20
 		steel = 14 # was: 20
 	}
 
 	history={
+		owner = TRM
+		add_core_of = TRM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			10203 1
 		}
@@ -21,7 +27,6 @@ state={
 		victory_points = {
 			1205 1
 		}
-		owner = SOV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -30,12 +35,11 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
 	}
 
 	provinces = {
-		841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001 
+		841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001
 	}
 
-	local_supplies=9.0 
+	local_supplies=9.0
 }

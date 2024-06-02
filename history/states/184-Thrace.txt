@@ -11,22 +11,24 @@ state={
 	}
 
 	history={
-		victory_points = {
-			11905 1 
+		owner = TRM
+		add_core_of = TRM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		owner = SOV
+		victory_points = {
+			11905 1
+		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-
 		}
-		add_core_of = SOV
-		add_claim_by = SOV
 	}
 
 	provinces={
-		9791 9930 11774 11905 
+		9791 9930 11774 11905
 	}
 
-	local_supplies=9.0 
+	local_supplies=9.0
 }

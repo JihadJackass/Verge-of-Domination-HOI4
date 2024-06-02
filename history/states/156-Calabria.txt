@@ -3,12 +3,17 @@ state = {
 	id = 156
 	name = "STATE_156"
 	manpower = 1772000 # was 2966315 before Puglia was added
-	
+
 	state_category = town
 	history = {
-		owner = SOV
+		owner = ITA
+		add_core_of = ITA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
-			9990 1 
+			9990 1
 		}
 		buildings = {
 			infrastructure = 2 #was: 5
@@ -18,13 +23,11 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = SOV
-		add_core_of = TTS
 	}
 
 	provinces = {
-		3901 9990 10027 12066 12098 
+		3901 9990 10027 12066 12098
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

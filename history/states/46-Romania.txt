@@ -10,7 +10,12 @@ state={
 	state_category = city
 
 	history={
-		owner = SOV
+		owner = WAL
+		add_core_of = WAL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = { 9617 20 }
 		victory_points = { 3663 5 }
 		victory_points = { 657 3 }
@@ -19,20 +24,15 @@ state={
 			arms_factory = 4
 			industrial_complex = 1
 			air_base = 3
-			657 = {
-				naval_base = 8
-			}
-			687 = {
-				naval_base = 1
-			}
+			657 = { naval_base = 8 }
+			687 = { naval_base = 1 }
 			dockyard = 1
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		657 660 674 687 818 3076 3636 3639 3663 6658 6677 6695 9617 9635 9651 11603 11619 11636 
+		657 660 674 687 818 3076 3636 3639 3663 6658 6677 6695 9617 9635 9651 11603 11619 11636
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

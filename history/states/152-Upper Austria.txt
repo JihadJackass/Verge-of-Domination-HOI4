@@ -12,7 +12,6 @@ state={
 	}
 
 	history={
-		owner = SOV
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
@@ -29,15 +28,11 @@ state={
 		victory_points = {
 			732 10
 		}
-		#victory_points = {
-		#	11612 3
-		#}
-		add_core_of = SOV
-
+		owner = AUS
+		add_core_of = AUS
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
-			controller = SOV
 		}
 	}
 

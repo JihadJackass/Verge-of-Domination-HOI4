@@ -5,12 +5,16 @@ state={
 	resources={
 		chromium=60 # was: 116
 	}
-	
+
 	state_category = city
 
-
 	history={
-		owner = USA
+		owner = CAP
+		add_core_of = CAP
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
@@ -18,22 +22,18 @@ state={
 			1468 = {
 				naval_base = 2
 			}
-			4696 = {
-				naval_base = 2
-			}
 		}
 		victory_points = {
-			1468 3 
+			1468 3
 		}
 		victory_points = {
-			4696 1 
+			4696 1
 		}
-		add_core_of = USA
 	}
 
 	provinces={
-		1468 1494 1833 4556 4584 4696 7576 7900 8178 
+		1468 1494 1833 4556 4584 4696 7576 7900 8178
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

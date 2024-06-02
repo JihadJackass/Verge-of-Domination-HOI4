@@ -2,12 +2,12 @@ state={
 	id=706
 	name="STATE_706"
 	manpower = 186637
-	
+
 	state_category = small_island
 
 	history={
-		owner = USE
-		add_core_of = MAD
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 2
 			13017 = {
@@ -17,8 +17,8 @@ state={
 	}
 
 	provinces={
-		13017 
+		13017
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

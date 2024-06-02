@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = CAP
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
@@ -17,14 +17,14 @@ state={
 			}
 		}
 		victory_points = {
-			12589 10 
+			12589 10
 		}
-		add_core_of = USA
+		add_core_of = CAP
 	}
 
 	provinces={
-		1509 4528 4822 5203 10415 10442 10697 12419 12547 12589 12692 
+		1509 4528 4822 5203 10415 10442 10697 12419 12547 12589 12692
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

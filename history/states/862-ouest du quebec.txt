@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = CAN
 		add_core_of = CAN
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 	}
 	manpower=80000
 	state_category = rural

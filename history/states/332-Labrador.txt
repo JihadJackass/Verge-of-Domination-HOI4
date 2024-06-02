@@ -1,11 +1,11 @@
 state={
 	id=332
 	name="STATE_332"
-	
+
 	state_category = wasteland
 
 	history={
-		owner = USA
+		owner = QEB
 		buildings = {
 			infrastructure = 1
 
@@ -13,15 +13,15 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
+		add_core_of = QEB
 
 	}
 
 	provinces={
-		1426 1785 4720 4787 12503 13165 13180 
+		1426 1785 4720 4787 12503 13165 13180
 	}
 	manpower=22179
 	buildings_max_level_factor=1.000
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

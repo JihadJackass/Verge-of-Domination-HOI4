@@ -5,14 +5,18 @@ state= {
 	resources={
 		aluminium=6 # was: 10
 	}
-	
+
 	state_category = town
 
-	history=
-	{
-		owner = SOV
+	history= {
+		owner = DEN
+		add_core_of = DEN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
-			6364 3 
+			6364 3
 		}
 		buildings = {
 			infrastructure = 4
@@ -25,11 +29,8 @@ state= {
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
 	}
-	provinces=
-	{
-316 332 394 399 3206 3277 3341 6235 6364 11251 	}
+	provinces= { 316 332 394 399 3206 3277 3341 6235 6364 11251 }
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

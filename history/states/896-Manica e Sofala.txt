@@ -4,17 +4,21 @@ state={
 	manpower = 188600
 	state_category = pastoral
 	history={
-		owner = USA
+		owner = USS
+		add_core_of = USS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = MZB
 	}
 
 
 	provinces={
-		2120 5155 12935 12950 
+		2120 5155 12935 12950
 	}
 
 	buildings_max_level_factor=1.000

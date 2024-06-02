@@ -3,12 +3,16 @@ state={
 	id=543
 	name="STATE_543"
 	manpower = 3694611
-	
+
 	state_category = rural
-	
+
 	history={
-		add_core_of = MAD
-		owner = USE
+		owner = USA
+		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		victory_points = {
 			5128 1
 		}
@@ -23,8 +27,8 @@ state={
 	}
 
 	provinces={
-		2200 5128 5185 5222 8180 8188 8246 10993 11015 12956 
+		2200 5128 5185 5222 8180 8188 8246 10993 11015 12956
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

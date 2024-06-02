@@ -2,16 +2,20 @@ state={
 	id=687
 	name="STATE_687"
 	manpower = 309000
-	
+
 	state_category = pastoral
-	
+
 	resources={
 		aluminium=64 # was: 112
 	}
 
 	history={
-		add_core_of = GYA
-		owner = USA
+		owner = GUS
+		add_core_of = GUS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		victory_points = {
 			4982 1
 		}
@@ -22,10 +26,10 @@ state={
 			}
 		}
 	}
-	
+
 	provinces={
-		4982 8107 12716 
+		4982 8107 12716
 	}
 
-	local_supplies=5.0 
+	local_supplies=5.0
 }

@@ -3,25 +3,28 @@ state={
 	name="STATE_890"
 	manpower = 710035
 	state_category = pastoral
-	
+
 	resources = {
 		rubber=3.000
 	}
-	
+
 	history={
-		owner = USA
+		owner = USC
+		add_core_of = USC
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = COG
-
 	}
-	
+
 	provinces={
 		1181 4201 4941 7161 10766 12783 13176
 	}
-	
+
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

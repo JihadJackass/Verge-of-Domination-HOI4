@@ -3,20 +3,24 @@ state={
 	id=486
 	name="STATE_486"
 	manpower = 213160
-	
+
 	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = USV
+		add_core_of = USV
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = USA
 	}
 
 	provinces={
-		1887 2007 5026 10792 12729 12770 12825 
+		1887 2007 5026 10792 12729 12770 12825
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

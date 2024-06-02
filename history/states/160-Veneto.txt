@@ -5,16 +5,21 @@ state = {
 		steel=20 # was: 32.000
 		aluminium=11 # was: 18.000
 	}
-	
+
 	state_category = large_city
 
 	history = {
-		owner = SOV
+		owner = ITA
+		add_core_of = ITA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = { #Venezia
-			11584 10 
+			11584 10
 		}
 		victory_points = { #Padova
-			3604 3 
+			3604 3
 		}
 		victory_points = { #Verona
 			603 1
@@ -30,22 +35,14 @@ state = {
 				naval_base = 6
 			}
 		}
-		add_core_of = SOV
-		add_core_of = LBV
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				industrial_complex = 5
-			}
-		}
 
 	}
 
 	provinces = {
-		603 628 3604 3657 6656 9582 9613 11584 
+		603 628 3604 3657 6656 9582 9613 11584
 	}
 	manpower = 3963151
 	buildings_max_level_factor = 1.000
 
-	local_supplies = 5.0 
+	local_supplies = 5.0
 }

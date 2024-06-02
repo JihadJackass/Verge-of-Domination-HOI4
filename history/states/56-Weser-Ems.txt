@@ -2,13 +2,12 @@ state={
 	id=56
 	name="STATE_56"
 	manpower = 2058467
-	
+
 	state_category = city
 
 	history={
-		owner = SOV
 		victory_points = {
-			241 5 
+			241 5
 		}
 		victory_points = {
 			11360 1
@@ -28,18 +27,17 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 3
-			}
+		owner = GER
+		add_core_of = GER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 
 	provinces={
-		241 247 309 336 3234 9281 11233 11264 11360 11388 
+		241 247 309 336 3234 9281 11233 11264 11360 11388
 	}
 
-	local_supplies=14.0 
+	local_supplies=14.0
 }

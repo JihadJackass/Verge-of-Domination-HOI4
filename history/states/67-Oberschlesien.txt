@@ -7,27 +7,30 @@ state={
 		steel=19 # was: 60
 		aluminium=6 # was: 20
 	}
-	
+
 	state_category = city
 
 	history={
+		owner = BSL
+		add_core_of = BSL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			11467 5
 		}
 		victory_points = {
 			9511 3
 		}
-		owner = SOV
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
-		add_core_of = SIL
 	}
 
 	provinces={
-		479 6512 9457 9511 11467 
+		479 6512 9457 9511 11467
 	}
 
-	local_supplies=4.0 
+	local_supplies=4.0
 }

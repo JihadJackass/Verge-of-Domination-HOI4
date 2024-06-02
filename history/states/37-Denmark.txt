@@ -5,11 +5,15 @@ state= {
 
 	state_category = large_city
 
-	history=
-	{
-		owner = SOV
-		victory_points = { 
-			6287 20 
+	history= {
+		owner = DEN
+		add_core_of = DEN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		victory_points = {
+			6287 20
 		}
 		victory_points = {
 			3325 5
@@ -30,12 +34,11 @@ state= {
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
 	}
 
 	provinces= {
-		3260 3305 3325 3374 6287 6361 6393 
+		3260 3305 3325 3374 6287 6361 6393
 	}
 
-	local_supplies=15.0 
+	local_supplies=15.0
 }

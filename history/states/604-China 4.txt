@@ -5,6 +5,10 @@ state={
 	history={
 		owner = PRC
 		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			7940 10
 		}
@@ -13,12 +17,6 @@ state={
 			industrial_complex = 2
 
 		}
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
-			controller = SOV
-		}
-
 	}
 
 	provinces={

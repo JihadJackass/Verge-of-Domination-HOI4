@@ -1,7 +1,7 @@
 state={
 	id=771
 	name="STATE_771" # Zambia
-	
+
 	state_category = rural
 
 	resources={
@@ -10,8 +10,12 @@ state={
 	}
 
 	history={
-		owner = USA
-		add_core_of = ZAM
+		owner = USS
+		add_core_of = USS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		victory_points = {
 			5199 1
 		}
@@ -27,5 +31,5 @@ state={
 	manpower=1380089
 	buildings_max_level_factor=1.000
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

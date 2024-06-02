@@ -3,11 +3,11 @@ state={
 	id=178
 	name="STATE_178"
 	manpower = 561347
-	
+
 	state_category = small_island
 
 	history={
-		owner = USE
+		owner = USA
 		victory_points = {
 			13071 1
 		}
@@ -17,12 +17,12 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USE
+		add_core_of = USA
 	}
 
 	provinces={
-		13071 
+		13071
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

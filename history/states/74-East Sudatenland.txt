@@ -3,30 +3,28 @@ state=
 	id=74
 	name="STATE_74"
 	manpower = 820000
-	
+
 	state_category = rural
-	
-	
-	history=
-	{
+
+
+	history= {
+		owner = BSL
+		add_core_of = BSL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			3583 5
 		}
-		owner = SOV
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-		}
-		add_core_of = SOV
-
-		1950.1.1 = {
-			owner = SOV
-			controller = SOV
 		}
 	}
 	provinces= {
 		421 3414 3583 6485
  	}
 
-	local_supplies=2.0 
+	local_supplies=2.0
 }

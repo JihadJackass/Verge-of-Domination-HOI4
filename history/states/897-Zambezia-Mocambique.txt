@@ -2,24 +2,25 @@ state={
 	id=897
 	name="STATE_897"
 	manpower = 1386000
-	state_category = pastoral 
+	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = USS
+		add_core_of = USS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
 			2123 = {
 				naval_base = 1
 
 			}
-
 		}
-
-		add_core_of = MZB
-
 	}
 	provinces={
-		2123 2159 2180 2202 2217 5164 10972 12971 
+		2123 2159 2180 2202 2217 5164 10972 12971
 	}
 
 	buildings_max_level_factor=1.000

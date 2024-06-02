@@ -2,21 +2,25 @@ state={
 	id=662
 	name="STATE_662"
 	manpower = 13213
-	
+
 	state_category = wasteland
-	
-	
+
+
 	history={
-		owner = SOV
+		owner = LIB
+		add_core_of = LIB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = LBA
-	}
-	
-	provinces={
-		4200 7076 7136 8069 13073 
 	}
 
-	local_supplies=0.0 
+	provinces={
+		4200 7076 7136 8069 13073
+	}
+
+	local_supplies=0.0
 }

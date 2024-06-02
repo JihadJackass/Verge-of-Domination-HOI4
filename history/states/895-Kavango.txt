@@ -6,19 +6,19 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = CAP
+		add_core_of = CAP
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
-
 		}
-		
-		add_core_of = USA
-		add_core_of = NMB
-
 	}
 
 	provinces={
-		8136 12519 13217 
+		8136 12519 13217
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

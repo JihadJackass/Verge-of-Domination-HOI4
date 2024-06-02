@@ -5,11 +5,10 @@ state={
 	resources={
 		steel=5 # was: 8
 	}
-	
+
 	state_category = large_city
-	
+
 	history={
-		owner = SOV
 		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
 		victory_points = { 9569 5 }
@@ -21,17 +20,17 @@ state={
 			anti_air_building = 5
 			air_base = 5
 		}
-		add_core_of = SOV
-
-		1939.3.14 = {
+		owner = BOH
+		add_core_of = BOH
+		1950.1.1 = {
 			owner = SOV
-			controller = SOV
+			add_core_of = SOV
 		}
 	}
 
 	provinces={
-		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
+		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

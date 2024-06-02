@@ -9,27 +9,23 @@ state={
 		#chromium=45 # was: 84
 		#steel = 10 # was: 20
 	}
-	
+
 	state_category = pastoral
 
 	history= {
-		owner = SOV
+		owner = TRM
+		add_core_of = TRM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			914 1
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
-		add_claim_by = SOV
-		add_claim_by = SOV
-
-		1939.4.12 = {
-			owner = SOV
-			controller = SOV
-			remove_claim_by = SOV
-		}
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

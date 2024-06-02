@@ -3,21 +3,25 @@ state={
 	id=273
 	name="STATE_273" # Libyan Desert
 	manpower = 42633
-	
+
 	state_category = wasteland
 	impassable = yes
 
 	history={
-		owner = SOV
+		owner = LIB
+		add_core_of = LIB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		buildings = {
 			infrastructure = 0
 		}
-		add_core_of = LBA
 	}
 
 	provinces={
-		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866 
+		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

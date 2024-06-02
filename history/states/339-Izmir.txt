@@ -6,12 +6,16 @@ state={
 	resources={
 		chromium=50 # was: 86
 	}
-	
+
 	state_category = large_town
 
 	history={
-		owner = SOV
-		
+		owner = TRM
+		add_core_of = TRM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			4112 15
 		}
@@ -26,12 +30,11 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		928 3927 4112 6992 7130 9921 9929 10038 11848 11898 
+		928 3927 4112 6992 7130 9921 9929 10038 11848 11898
 	}
 
-	local_supplies=8.0 
+	local_supplies=8.0
 }

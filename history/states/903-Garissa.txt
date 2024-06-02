@@ -5,21 +5,21 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = USC
+		add_core_of = USC
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
-
 		}
-		
-		add_core_of = KEN
-		add_core_of = SOM
-
 	}
 
 	provinces={
-		8133 10761 10976 12927 
+		8133 10761 10976 12927
 	}
-	
+
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

@@ -5,21 +5,21 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = USA
+		owner = CAP
+		add_core_of = CAP
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
-
 		}
-		
-		add_core_of = USA
-		add_core_of = NMB
-
 	}
 
 	provinces={
-		2229 5154 5189 7605 10963 
+		2229 5154 5189 7605 10963
 	}
-	
+
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

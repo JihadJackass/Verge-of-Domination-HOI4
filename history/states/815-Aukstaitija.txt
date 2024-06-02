@@ -4,7 +4,12 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = SOV
+		owner = LIT
+		add_core_of = LIT
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
 			6229 1 #Panevezys
 		}
@@ -12,12 +17,10 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		530 6229 6376 9246 9374 9438 11226 11498 
+		530 6229 6376 9246 9374 9438 11226 11498
 	}
 	manpower=161450
 	buildings_max_level_factor=1.000

@@ -19,7 +19,7 @@
             USA_communism_ADJ: "American"
 
             # American Canadian Occupation Zone
-            CAN_democratic: "American-Canadian Occupation Zone"
+            CAN_democratic: "Canadian Occupation Zone"
             CAN_democratic_DEF: "the American-Canadian Occupation Zone"
             CAN_democratic_ADJ: "American-Canadian"
 
@@ -43,6 +43,26 @@
             USS_democratic_DEF: "the American-South African Occupation Zone"
             USS_democratic_ADJ: "American-South African"
 
+            # American South Africa Occupation Zone
+            USV_South_America_democratic: "American-South American Occupation Zone"
+            USV_South_America_democratic_DEF: "the American-South American Occupation Zone"
+            USV_South_America_democratic_ADJ: "American-South American"
+
+            # Quebec
+            QEB_democratic: "Quebec Occupation Zone"
+            QEB_democratic_DEF: "the American-Quebec Occupation Zone"
+            QEB_democratic_ADJ: "Quebecois"
+
+            # Brazil
+            BRA_democratic: "Brazil Occupation Zone"
+            BRA_democratic_DEF: "the American-Brazilian Occupation Zone"
+            BRA_democratic_ADJ: "Brazilian"
+
+            # Guyana
+            GUS_democratic: "Guyana Occupation Zone"
+            GUS_democratic_DEF: "the American-Guyana Occupation Zone"
+            GUS_democratic_ADJ: "Guyanan"
+
         # Soviet Factions
 
             # Soviet Union
@@ -60,13 +80,11 @@
             SOV_communism_ADJ: "Soviet"
 
             # People's Republic of China
-
             PRC_communism: "Chinese Soviet Movement"
             PRC_communism_DEF: "the Chinese Soviet Worker Movement"
             PRC_communism_ADJ: "Soviet-Chinese"
 
             # Polish People's Republic
-
             POL_communism: "Polish Soviet Republic"
             POL_communism_DEF: "the Polish Soviet Socialist Republic"
             POL_communism_ADJ: "Soviet-Polish"
@@ -84,4 +102,54 @@
             GER_democratic_ADJ: "German"
             GER_neutrality_ADJ: "German"
             GER_communism_ADJ: "German"
+
+            # Soviet West Prussia
+            WPR_communism: "Soviet West Prussia"
+            WPR_communism_DEF: "the Soviet-West Prussian Socialist Republic"
+            WPR_communism_ADJ: "Soviet-West Prussian"
+
+            # Soviet Bohemia
+            BOH_communism: "Soviet Bohemia"
+            BOH_communism_DEF: "the Soviet-Bohemian Social Republic"
+            BOH_communism_ADJ: "Soviet-Bohemian"
+
+            # Soviet Austria
+            AUS_communism: "Soviet Austria"
+            AUS_communism_DEF: "the Soviet-Austrian Federal Republic"
+            AUS_communism_ADJ: "Soviet-Austrian"
+
+            # Soviet Hungary
+            HUN_communism: "Soviet Hungary"
+            HUN_communism_DEF: "the Soviet-Hungarian Constitutional Social Republic"
+            HUN_communism_ADJ: "Soviet-Hungarian"
+
+            # Soviet Italy
+            ITA_communism: "Soviet Italy"
+            ITA_communism_DEF: "the Soviet-Italian Social Republic"
+            ITA_communism_ADJ: "Soviet-Italian"
+
+            # Third Rome
+            TRM_communism: "Third Rome"
+            TRM_communism_DEF: "the Third Rome Soviet Republic"
+            TRM_communism_ADJ: "Greco-Soviet"
+
+            # Breslau
+            BSL_communism: "Breslau Soviet State"
+            BSL_communism_DEF: "the Breslau Soviet State"
+            BSL_communism_ADJ: "Soviet-Breslau"
+
+            # Ukraine
+            UKR_communism: "Ukrainian Soviet Republic"
+            UKR_communism_DEF: "the Soviet Republic of Ukraine"
+            UKR_communism_ADJ: "Soviet-Ukrainian"
+
+            # Libya
+            LIB_communism: "Libyan Socialist Republic"
+            LIB_communism_DEF: "the Socialist Republic of Libya"
+            LIB_communism_ADJ: "Soviet-Libyan"
+
+            # Egypt
+            EGY_communism: "Egyptian Socialist Republic"
+            EGY_communism_DEF: "the Socialist Republic of Egypt"
+            EGY_communism_ADJ: "Soviet-Egyptian"
 

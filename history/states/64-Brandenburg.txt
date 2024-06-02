@@ -9,12 +9,12 @@ state={
 
 
 	history={
-		owner = SOV
+		owner = GER
 		victory_points = {
-			6521 50 
+			6521 50
 		}
 		victory_points = {
-			3522 5 
+			3522 5
 		}
 		buildings = {
 			infrastructure = 4
@@ -24,21 +24,17 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = SOV
+		add_core_of = GER
 
-		1939.1.1 = {
-			buildings = {
-				air_base = 10
-				anti_air_building = 5
-				arms_factory = 10
-				industrial_complex = 7
-			}
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

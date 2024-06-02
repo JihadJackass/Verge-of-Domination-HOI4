@@ -2,24 +2,28 @@
 state={
 	id=280
 	name="STATE_280"
-	
+
 	state_category = pastoral
 
 	history={
-		owner = USA
+		owner = BRA
+		add_core_of = BRA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = USA
 
 	}
 
 	provinces={
-		2142 2147 2204 8175 11010 12939 
+		2142 2147 2204 8175 11010 12939
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -8,14 +8,18 @@ state={
 	}
 
 	history={
+		owner = SER
+		add_core_of = SER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
-			9809 3 
+			9809 3
 		}
 		victory_points = {
 			9821 1
 		}
-		owner = SOV
-		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -26,16 +30,14 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		937 6913 9809 9821 11858
 	}
 	manpower=895500
 	buildings_max_level_factor=1.000
 	state_category=rural
 
-	local_supplies=3.0 
+	local_supplies=3.0
 }

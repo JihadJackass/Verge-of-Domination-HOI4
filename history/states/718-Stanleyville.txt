@@ -10,20 +10,23 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = USC
+		add_core_of = USC
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = COG
-
 	}
 
 	provinces={
-		1950 2034 2073 2154 6027 11934 12808 12847 
+		1950 2034 2073 2154 6027 11934 12808 12847
 	}
-	
+
 	buildings_max_level_factor = 1.000
-	
+
 	local_supplies=2.000
 }

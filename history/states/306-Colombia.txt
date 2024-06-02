@@ -3,18 +3,22 @@ state={
 	id=306
 	name="STATE_306" # Cundinamarca
 	manpower = 4953049
-	
+
 	state_category = city
-	
+
 	history={
-		owner = USA
+		owner = USV
+		add_core_of = USV
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 2
 		}
-		add_core_of = USA
 		victory_points = {
 			10747 10
 		}
@@ -22,8 +26,8 @@ state={
 	}
 
 	provinces={
-		2079 7936 7991 7993 10747 10790 10846 
+		2079 7936 7991 7993 10747 10790 10846
 	}
 
-	local_supplies=4.0 
+	local_supplies=4.0
 }

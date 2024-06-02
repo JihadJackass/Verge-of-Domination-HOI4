@@ -7,7 +7,12 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = BUL
+		add_core_of = BUL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -17,17 +22,14 @@ state={
 		victory_points = {
 			3882 5
 		}
-		add_core_of = SOV
-		add_core_of = MAC
-		add_claim_by = SOV
 	}
 
 	provinces={
-		833 867 907 974 3833 3865 3882 6886 11856 
+		833 867 907 974 3833 3865 3882 6886 11856
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000
 	state_category=rural
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

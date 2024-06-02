@@ -3,13 +3,18 @@ state = {
 	id = 192
 	name = "STATE_192"
 	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
-	
+
 	state_category = city
 
 	history = {
-		owner = SOV
+		owner = UKR
+		add_core_of = UKR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = {
-			11670 10 
+			11670 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -20,18 +25,11 @@ state = {
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = SOV
-		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {
-		  3575 3738 9698 9714 11670 11703 
+		  3575 3738 9698 9714 11670 11703
 	}
 
-	local_supplies = 6.0 
+	local_supplies = 6.0
 }

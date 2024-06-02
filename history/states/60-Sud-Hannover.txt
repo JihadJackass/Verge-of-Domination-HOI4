@@ -8,29 +8,27 @@ state={
 		chromium = 3 # was: 4
 		tungsten = 3 # was: 4
 	}
-	
+
 	state_category = large_city
 
 	history={
-		owner = SOV
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = SOV
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 3
-				arms_factory = 2
-			}
+		owner = GER
+		add_core_of = GER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
 	}
 
 	provinces={
-		425 482 538 3500 3561 6501 6524 6582 9497 
+		425 482 538 3500 3561 6501 6524 6582 9497
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

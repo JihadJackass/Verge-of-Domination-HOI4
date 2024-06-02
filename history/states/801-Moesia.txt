@@ -6,7 +6,12 @@ state={
 	state_category=rural
 
 	history={
-		owner = SOV
+		owner = BUL
+		add_core_of = BUL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		victory_points = { #Ruse
 			9612 3
 		}
@@ -18,16 +23,14 @@ state={
 			industrial_complex =1
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		3796 3819 3952 6842 9610 9612 
+		3796 3819 3952 6842 9610 9612
 	}
 #	resources={
 #		oil=1
 #	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

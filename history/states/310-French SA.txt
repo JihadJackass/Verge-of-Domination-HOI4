@@ -7,8 +7,12 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = USE
-		add_core_of = CAY
+		owner = GUS
+		add_core_of = GUS
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 			12885 = {
@@ -16,13 +20,13 @@ state={
 			}
 		}
 		victory_points = {
-			12885 1 
+			12885 1
 		}
 	}
 
 	provinces={
-		4934 12885 
+		4934 12885
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

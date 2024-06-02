@@ -6,11 +6,16 @@ state={
 	resources={
 		oil=15 # was: 20
 	}
-	
+
 	state_category = town
 
 	history={
-		owner = USA
+		owner = USV
+		add_core_of = USV
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -22,19 +27,18 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
 		victory_points = {
-			2023 1 
+			2023 1
 		}
 		victory_points = {
-			12790 5 
+			12790 5
 		}
 
 	}
 
 	provinces={
-		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872 
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 12872
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

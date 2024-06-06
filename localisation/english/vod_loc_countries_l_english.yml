@@ -128,28 +128,42 @@
             ITA_communism_DEF: "the Soviet-Italian Social Republic"
             ITA_communism_ADJ: "Soviet-Italian"
 
-            # Third Rome
-            TRM_communism: "Third Rome"
+            # Soviet Third Rome
+            TRM_communism: "Soviet Third Rome"
             TRM_communism_DEF: "the Third Rome Soviet Republic"
             TRM_communism_ADJ: "Greco-Soviet"
 
-            # Breslau
+            # Soviet Breslau
             BSL_communism: "Breslau Soviet State"
             BSL_communism_DEF: "the Breslau Soviet State"
             BSL_communism_ADJ: "Soviet-Breslau"
 
-            # Ukraine
+            # Soviet Ukraine
             UKR_communism: "Ukrainian Soviet Republic"
             UKR_communism_DEF: "the Soviet Republic of Ukraine"
             UKR_communism_ADJ: "Soviet-Ukrainian"
 
-            # Libya
+            # Soviet Libya
             LIB_communism: "Libyan Socialist Republic"
             LIB_communism_DEF: "the Socialist Republic of Libya"
             LIB_communism_ADJ: "Soviet-Libyan"
 
-            # Egypt
+            # Soviet Egypt
             EGY_communism: "Egyptian Socialist Republic"
             EGY_communism_DEF: "the Socialist Republic of Egypt"
             EGY_communism_ADJ: "Soviet-Egyptian"
 
+            # Soviet Zagreb
+            ZAG_communism: "Republic of Zagreb"
+            ZAG_communism_DEF: "the Socialist Republic of Egypt"
+            ZAG_communism_ADJ: "Soviet-Zagrebi"
+
+            # Soviet Serbia
+            SER_communism: "Federal Serbian Republic"
+            SER_communism_DEF: "the Socialist Federation of Serbia"
+            SER_communism_ADJ: "Soviet-Serbian"
+
+            # Soviet Lithuania
+            SER_communism: "Lithuanian Soviet"
+            SER_communism_DEF: "the Soviet-Lithuanian State"
+            SER_communism_ADJ: "Soviet-Lithuanian"

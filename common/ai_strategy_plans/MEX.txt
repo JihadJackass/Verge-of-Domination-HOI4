@@ -1,1 +1,6 @@
 # placeholder
+
+PRC_default_plan = {
+	name = "Communist China default plan"
+	desc = "Default behavior for Communist China"
+}

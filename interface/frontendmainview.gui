@@ -186,7 +186,7 @@ guiTypes = {
 			position = { x= -275 y = 75 }
 		}
 
-		containerWindowType = {
+		containerWindowType = { # TODO: fix name error
 
 			ButtonType = {
 				name = "discord_button"

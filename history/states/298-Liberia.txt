@@ -1,5 +1,4 @@
-state=
-{
+state= {
 	id=298
 	name="STATE_298"
 	manpower = 745000
@@ -11,7 +10,12 @@ state=
 
 
 	history= {
-		owner = USG
+		owner = USA
+		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -23,7 +27,6 @@ state=
 		victory_points = {
 			7959 3
 		}
-		add_core_of = USG
 	}
 	provinces={
 		7959 8006

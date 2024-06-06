@@ -17,8 +17,8 @@ GER = {
 	color_ui = rgb { 140 40 30 }
 }
 BOH = {
-	color = rgb { 184 54 15 }
-	color_ui = rgb { 184 54 15 }
+	color = rgb { 224 170 61 }
+	color_ui = rgb { 224 170 61 }
 }
 WPR = {
 	color = rgb { 186 78 78 }
@@ -60,6 +60,38 @@ EGY = { # Egypt
 	color = rgb { 166 149 53 }
 	color_ui = rgb { 166 149 53 }
 }
+LIT = { # Lithuania
+	color = rgb { 140 149 40 }
+	color_ui = rgb { 140 149 40 }
+}
+BEL = { # Belarus
+	color = rgb { 100 149 40 }
+	color_ui = rgb { 100 149 40 }
+}
+BEL = { # Denmark
+	color = rgb { 170 120 40 }
+	color_ui = rgb { 170 120 40 }
+}
+TRS = { # Trieste
+	color = rgb { 170 120 70 }
+	color_ui = rgb { 170 120 70 }
+}
+TRS = { # Trieste
+	color = rgb { 170 120 70 }
+	color_ui = rgb { 170 120 70 }
+}
+SER = {
+	color = rgb { 224 71 63 }
+	color_ui = rgb { 224 71 63 }
+}
+ALB = {
+	color = rgb { 133 22 9 }
+	color_ui = rgb { 133 22 9 }
+}
+MOL = {
+	color = rgb { 133 22 9 }
+	color_ui = rgb { 133 22 9 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }
@@ -84,6 +116,10 @@ USS = { # United States of Sth Africa
 CAP = { # Cape
 	color = rgb { 125 140 171 }
 	color_ui = rgb { 125 140 171 }
+}
+USV = {
+	color = rgb { 115 160 171 }
+	color_ui = rgb { 115 160 171 }
 }
 # Start Dynamic Country TAGs
 D01 = {

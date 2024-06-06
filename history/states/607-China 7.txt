@@ -11,6 +11,10 @@ state={
 	history={
 		owner = PRC
 		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

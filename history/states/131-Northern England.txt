@@ -12,6 +12,11 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
 		victory_points = {
 			351 10
 		}
@@ -26,19 +31,7 @@ state={
 			industrial_complex = 1
 			dockyard = 4
 			air_base = 6
-			351 = {
-				naval_base = 6
-			}
-			3311 = {
-				naval_base = 1
-			}
-		}
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
-			}
+			351 = { naval_base = 6 }
 		}
 	}
 

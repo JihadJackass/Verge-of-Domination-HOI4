@@ -155,7 +155,7 @@
 
             # Soviet Zagreb
             ZAG_communism: "Republic of Zagreb"
-            ZAG_communism_DEF: "the Socialist Republic of Egypt"
+            ZAG_communism_DEF: "the Socialist Republic of Zagreb"
             ZAG_communism_ADJ: "Soviet-Zagrebi"
 
             # Soviet Serbia
@@ -167,3 +167,8 @@
             SER_communism: "Lithuanian Soviet"
             SER_communism_DEF: "the Soviet-Lithuanian State"
             SER_communism_ADJ: "Soviet-Lithuanian"
+
+            # Soviet Moldavia
+            MOL_communism: "Moldavian Soviet"
+            MOL_communism_DEF: "the Soviet-Moldavian State"
+            MOL_communism_ADJ: "Soviet-Moldavian"

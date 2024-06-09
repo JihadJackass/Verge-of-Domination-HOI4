@@ -17,8 +17,8 @@ GER = {
 	color_ui = rgb { 140 40 30 }
 }
 BOH = {
-	color = rgb { 224 170 61 }
-	color_ui = rgb { 224 170 61 }
+	color = rgb { 180 140 40 }
+	color_ui = rgb { 180 140 40 }
 }
 WPR = {
 	color = rgb { 186 78 78 }

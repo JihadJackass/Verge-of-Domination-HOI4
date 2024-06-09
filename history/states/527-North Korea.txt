@@ -9,19 +9,17 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = KOR
+		add_core_of = KOR
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
 		set_variable = { 527.nationality = 321 } # Korean
+		victory_points = { 4052 1 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-		}
-		victory_points = {
-			4052 1
 		}
 	}
 

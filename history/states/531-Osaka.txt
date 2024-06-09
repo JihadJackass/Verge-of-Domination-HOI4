@@ -9,38 +9,27 @@ state={
 	}
 
 	history={
-		owner = USA
-		add_core_of = USA
+		owner = JAP
+		add_core_of = JAP
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 531.nationality = 62 } # Japanese
+		victory_points = { 7072 40 }
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
 			industrial_complex = 4
 			dockyard = 2
-			1136 = {
-				naval_base = 6
-
-			}
-			7072 = {
-				naval_base = 3
-
-			}
-
+			1136 = { naval_base = 6 }
+			7072 = { naval_base = 3 }
 		}
-		victory_points = {
-			7072 40
-		}
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 5
-			}
-		}
-
 	}
 
 	provinces={
-		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031
 	}
 
-	local_supplies=9.0 
+	local_supplies=9.0
 }

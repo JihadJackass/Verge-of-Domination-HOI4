@@ -4,34 +4,33 @@ state={
 	name="STATE_535" # Koshinetsu
 	manpower = 3871000
 	state_category = large_city
-	
+
 	resources={
 		steel=27 # was: 35
 		tungsten=8 # was: 10
 	}
 
 	history={
-		owner = USA
-		add_core_of = USA
+		owner = JAP
+		add_core_of = JAP
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 535.nationality = 62 } # Japanese
+		victory_points = { 10032 15 }
 		buildings = {
-		
 			arms_factory = 1
 			industrial_complex = 2
 			infrastructure = 2
 			dockyard = 1
 			fuel_silo = 1
-
 		}
-		
-		victory_points = {
-			10032 15
-		}
-
 	}
 
 	provinces={
-		998 7102 7217 10015 10032 
+		998 7102 7217 10015 10032
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

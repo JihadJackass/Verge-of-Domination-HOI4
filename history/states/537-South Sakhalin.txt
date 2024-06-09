@@ -9,24 +9,20 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = SOV
-		add_core_of = SOV
-
+		owner = JAP
+		add_core_of = JAP
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 537.nationality = 62 } # Japanese
 		buildings = {
 			infrastructure = 2
-			12446 = {
-				naval_base = 1
-
-			}
+			12446 = { naval_base = 1 }
 		}
-		victory_points = {
-			12446 1
-		}
-
+		victory_points = { 12446 1 }
 	}
-	provinces=
-	{
-1322 1820 12446 	}
+	provinces= { 1322 1820 12446 }
 
 	local_supplies=0.0
 }

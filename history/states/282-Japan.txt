@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		owner = USE
-		add_core_of = USE
+		owner = JAP
+		add_core_of = JAP
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV

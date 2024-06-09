@@ -6,28 +6,22 @@ state={
 	state_category = large_city
 
 	history={
-		owner = USA
-		add_core_of = USA
+		owner = JAP
+		add_core_of = JAP
 		1950.1.1 = {
-			owner = USA
-			add_core_of = USA
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 529.nationality = 62 } # Japanese
+		victory_points = { 1092 30 }
 		buildings = {
 			infrastructure = 4 #was: 7
 			air_base = 3
 			dockyard = 2
 			arms_factory = 2
 			industrial_complex = 2
-			1092 = {
-				naval_base = 10
-
-			}
+			1092 = { naval_base = 10 }
 		}
-
-		victory_points = {
-			1092 30
-		}
-
 	}
 
 	provinces={

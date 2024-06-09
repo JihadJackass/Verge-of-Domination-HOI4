@@ -8,19 +8,21 @@ state={
 	state_category = large_town
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 25.nationality = 125 } # Occitan
 		buildings = {
 			infrastructure = 3
 		}
-		victory_points = {
-			620 5
-		}
-		add_core_of = OCC
-		add_core_of = USE
+		victory_points = { 620 5 }
 	}
 
 	provinces={
-		620 625 755 3598 3771 6618 6775 6792 9717 9734 9751 11718 11720 
+		620 625 755 3598 3771 6618 6775 6792 9717 9734 9751 11718 11720
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

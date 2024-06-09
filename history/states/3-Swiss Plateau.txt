@@ -11,6 +11,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 3.nationality = 303 } # Swiss French
 		victory_points = { 9620 15 }
 		victory_points = { 663 10 }
 		buildings = {
@@ -19,7 +25,6 @@ state={
 			industrial_complex = 3
 			air_base = 4
 		}
-		add_core_of = USE
 	}
 
 	provinces={

@@ -7,6 +7,12 @@ state= {
 
 	history= {
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 123.nationality = 126 } # South English
 		victory_points = { 540 10 }
 		victory_points = { 6526 1 }
 		buildings = {
@@ -18,9 +24,7 @@ state= {
 			540 = {
 				naval_base = 8
 			}
-
 		}
-		add_core_of = USE
 	}
 
 	provinces= {

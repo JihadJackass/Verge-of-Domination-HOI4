@@ -1,0 +1,4116 @@
+scripted_map_modes = {
+	culture_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 1 } #Prussian
+						}
+					}
+					set_temp_variable = { red = 0.34 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.396 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 2 } #Sicilian
+						}
+					}
+					set_temp_variable = { red = 0.333 }
+					set_temp_variable = { green = 0.498 }
+					set_temp_variable = { blue = 0.349 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 3 } #Slovenian
+						}
+					}
+					set_temp_variable = { red = 0.610 }
+					set_temp_variable = { green = 0.610 }
+					set_temp_variable = { blue = 0.730 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 4 } #Northern Italian
+						}
+					}
+					set_temp_variable = { red = 0.252 }
+					set_temp_variable = { green = 0.683 }
+					set_temp_variable = { blue = 0.409 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 5 } #Southern Italian
+						}
+					}
+					set_temp_variable = { red = 0.152 }
+					set_temp_variable = { green = 0.593 }
+					set_temp_variable = { blue = 0.209 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 6 } #Central Italian
+						}
+					}
+					set_temp_variable = { red = 0.052 }
+					set_temp_variable = { green = 0.503 }
+					set_temp_variable = { blue = 0.109 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 7 } #Provencal
+						}
+					}
+					set_temp_variable = { red = 0.211 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 8 } #Greco-Turkish
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.369 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 9 } #Syrian
+						}
+					}
+					set_temp_variable = { red = 0.469 }
+					set_temp_variable = { green = 0.429 }
+					set_temp_variable = { blue = 0.462 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 10 } #Kurdish
+						}
+					}
+					set_temp_variable = { red = 0.569 }
+					set_temp_variable = { green = 0.561 }
+					set_temp_variable = { blue = 0.762 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 11 } #Georgian
+						}
+					}
+					set_temp_variable = { red = 0.669 }
+					set_temp_variable = { green = 0.762 }
+					set_temp_variable = { blue = 0.561 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 12 } #Armenian
+						}
+					}
+					set_temp_variable = { red = 0.881 }
+					set_temp_variable = { green = 0.630 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 13 } #Turkish
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.282 }
+					set_temp_variable = { blue = 0.282 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 14 } #Basque
+						}
+					}
+					set_temp_variable = { red = 0.391 }
+					set_temp_variable = { green = 0.521 }
+					set_temp_variable = { blue = 0.391 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 15 } #Catalan
+						}
+					}
+					set_temp_variable = { red = 0.662 }
+					set_temp_variable = { green = 0.526 }
+					set_temp_variable = { blue = 0.082 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 16 } #Portuguese
+						}
+					}
+					set_temp_variable = { red = 0.251 }
+					set_temp_variable = { green = 0.621 }
+					set_temp_variable = { blue = 0.497 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 17 } #Castilian
+						}
+					}
+					set_temp_variable = { red = 0.692 }
+					set_temp_variable = { green = 0.626 }
+					set_temp_variable = { blue = 0.122 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 18 } #Iraqi
+						}
+					}
+					set_temp_variable = { red = 0.722 }
+					set_temp_variable = { green = 0.726 }
+					set_temp_variable = { blue = 0.622 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				### There is no 19 ###
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 20 } #Lebanese
+						}
+					}
+					set_temp_variable = { red = 0.522 }
+					set_temp_variable = { green = 0.1 }
+					set_temp_variable = { blue = 0.1 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 21 } #Levantine Arab
+						}
+					}
+					set_temp_variable = { red = 0.21 }
+					set_temp_variable = { green = 0.412 }
+					set_temp_variable = { blue = 0.21 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 22 } #Omani
+						}
+					}
+					set_temp_variable = { red = 0.321 }
+					set_temp_variable = { green = 0.412 }
+					set_temp_variable = { blue = 0.421 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 23 } #Yemeni
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.422 }
+					set_temp_variable = { blue = 0.424 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 24 } #Kikuyu
+						}
+					}
+					set_temp_variable = { red = 0.690 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.355 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 25 } #Somali
+						}
+					}
+					set_temp_variable = { red = 0.51 }
+					set_temp_variable = { green = 0.66 }
+					set_temp_variable = { blue = 0.723 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 26 } #Amhara
+						}
+					}
+					set_temp_variable = { red = 0.813 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.39 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 27 } #Eritrean
+						}
+					}
+					set_temp_variable = { red = 0.213 }
+					set_temp_variable = { green = 0.44 }
+					set_temp_variable = { blue = 0.49 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 28 } #Sudanese
+						}
+					}
+					set_temp_variable = { red = 0.154 }
+					set_temp_variable = { green = 0.354 }
+					set_temp_variable = { blue = 0.554 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 29 } #Andalusian
+						}
+					}
+					set_temp_variable = { red = 0.642 }
+					set_temp_variable = { green = 0.656 }
+					set_temp_variable = { blue = 0.422 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 30 } #Egyptian
+						}
+					}
+					set_temp_variable = { red = 0.650 }
+					set_temp_variable = { green = 0.650 }
+					set_temp_variable = { blue = 0.400 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 31 } #Libyan
+						}
+					}
+					set_temp_variable = { red = 0.411 }
+					set_temp_variable = { green = 0.542 }
+					set_temp_variable = { blue = 0.551 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 32 } #Algerian
+						}
+					}
+					set_temp_variable = { red = 0.311 }
+					set_temp_variable = { green = 0.442 }
+					set_temp_variable = { blue = 0.311 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 33 } #Tunisian
+						}
+					}
+					set_temp_variable = { red = 0.562 }
+					set_temp_variable = { green = 0.226 }
+					set_temp_variable = { blue = 0.206 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 34 } #Berber
+						}
+					}
+					set_temp_variable = { red = 0.542 }
+					set_temp_variable = { green = 0.311 }
+					set_temp_variable = { blue = 0.311 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 35 } #Moroccan
+						}
+					}
+					set_temp_variable = { red = 0.362 }
+					set_temp_variable = { green = 0.246 }
+					set_temp_variable = { blue = 0.206 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 36 } #Albanian
+						}
+					}
+					set_temp_variable = { red = 0.49 }
+					set_temp_variable = { green = 0.01 }
+					set_temp_variable = { blue = 0.01 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 37 } #Greek
+						}
+					}
+					set_temp_variable = { red = 0.610 }
+					set_temp_variable = { green = 0.550 }
+					set_temp_variable = { blue = 0.690 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 38 } #Montenegrin
+						}
+					}
+					set_temp_variable = { red = 0.29 }
+					set_temp_variable = { green = 0.21 }
+					set_temp_variable = { blue = 0.38 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 39 } #Croatian
+						}
+					}
+					set_temp_variable = { red = 0.721 }
+					set_temp_variable = { green = 0.622 }
+					set_temp_variable = { blue = 0.622 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 41 } #Sindhi
+						}
+					}
+					set_temp_variable = { red = 0.225 }
+					set_temp_variable = { green = 0.568 }
+					set_temp_variable = { blue = 0.431 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 42 } #Punjabi
+						}
+					}
+		 			set_temp_variable = { red = 0.286 }
+		 			set_temp_variable = { green = 0.413 }
+		 			set_temp_variable = { blue = 0.287 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 43 } #Gujarat
+						}
+					}
+					set_temp_variable = { red = 0.826 }
+					set_temp_variable = { green = 0.568 }
+					set_temp_variable = { blue = 0.391 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 44 } #Marathi
+						}
+					}
+					set_temp_variable = { red = 0.796 }
+					set_temp_variable = { green = 0.618 }
+					set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 45 } #Kannadiga
+						}
+					}
+					set_temp_variable = { red = 0.696 }
+					set_temp_variable = { green = 0.618 }
+					set_temp_variable = { blue = 0.441 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 46 } #Malayali
+						}
+					}
+					set_temp_variable = { red = 0.596 }
+					set_temp_variable = { green = 0.218 }
+					set_temp_variable = { blue = 0.441 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 47 } #Tamil
+						}
+					}
+					set_temp_variable = { red = 0.258 }
+					set_temp_variable = { green = 0.232 }
+					set_temp_variable = { blue = 0.426 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 48 } #Telugu
+						}
+					}
+					set_temp_variable = { red = 0.386 }
+					set_temp_variable = { green = 0.452 }
+					set_temp_variable = { blue = 0.481 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 49 } #Hindustani
+						}
+					}
+		 			set_temp_variable = { red = 0.776 }
+		 			set_temp_variable = { green = 0.518 }
+		 			set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 50 } #Odia
+						}
+					}
+		 			set_temp_variable = { red = 0.596 }
+		 			set_temp_variable = { green = 0.248 }
+		 			set_temp_variable = { blue = 0.261 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 52 } #Kashmiri
+						}
+					}
+		 			set_temp_variable = { red = 0.426 }
+		 			set_temp_variable = { green = 0.513 }
+		 			set_temp_variable = { blue = 0.277 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 53 } #Konkani
+						}
+					}
+		 			set_temp_variable = { red = 0.676 }
+		 			set_temp_variable = { green = 0.478 }
+		 			set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 54 } #Balochi
+						}
+					}
+		 			set_temp_variable = { red = 0.696 }
+		 			set_temp_variable = { green = 0.676 }
+		 			set_temp_variable = { blue = 0.491 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 55 } #Maldivian
+						}
+					}
+					set_temp_variable = { red = 0.401 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.318 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 56 } #Bihari
+						}
+					}
+		 			set_temp_variable = { red = 0.696 }
+		 			set_temp_variable = { green = 0.448 }
+		 			set_temp_variable = { blue = 0.261 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 57 } #Bengali
+						}
+					}
+					set_temp_variable = { red = 0.310 }
+					set_temp_variable = { green = 0.439 }
+					set_temp_variable = { blue = 0.231 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 58 } #Australian
+						}
+					}
+					set_temp_variable = { red = 0.720 }
+					set_temp_variable = { green = 0.500 }
+					set_temp_variable = { blue = 0.500 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 59 } #Aboriginal
+						}
+					}
+					set_temp_variable = { red = 0.420 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.100 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 60 } #Austronesian
+						}
+					}
+					set_temp_variable = { red = 0.042 }
+					set_temp_variable = { green = 0.681 }
+					set_temp_variable = { blue = 0.681 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 61 } #Papuan
+						}
+					}
+					set_temp_variable = { red = 0.726 }
+					set_temp_variable = { green = 0.264 }
+					set_temp_variable = { blue = 0.264 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 62 } #Japanese
+						}
+					}
+					set_temp_variable = { red = 0.737 }
+					set_temp_variable = { green = 0.627 }
+					set_temp_variable = { blue = 0.627 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 63 } #Zhongyuan
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.228 }
+					set_temp_variable = { blue = 0.228 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 64 } #Jianghuai
+						}
+					}
+					set_temp_variable = { red = 0.561 }
+					set_temp_variable = { green = 0.118 }
+					set_temp_variable = { blue = 0.118 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 65 } #Korean
+						}
+					}
+					set_temp_variable = { red = 0.637 }
+					set_temp_variable = { green = 0.217 }
+					set_temp_variable = { blue = 0.517 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 66 } #Ainu
+						}
+					}
+					set_temp_variable = { red = 0.737 }
+					set_temp_variable = { green = 0.517 }
+					set_temp_variable = { blue = 0.637 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 67 } #Wu
+						}
+					}
+					set_temp_variable = { red = 0.471 }
+					set_temp_variable = { green = 0.108 }
+					set_temp_variable = { blue = 0.108 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 68 } #Min
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.178 }
+					set_temp_variable = { blue = 0.208 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 69 } #Yue
+						}
+					}
+					set_temp_variable = { red = 0.721 }
+					set_temp_variable = { green = 0.258 }
+					set_temp_variable = { blue = 0.268 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 70 } #Yue
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.358 }
+					set_temp_variable = { blue = 0.368 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 71 } #Gan
+						}
+					}
+					set_temp_variable = { red = 0.611 }
+					set_temp_variable = { green = 0.308 }
+					set_temp_variable = { blue = 0.308 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 72 } #Gan
+						}
+					}
+					set_temp_variable = { red = 0.571 }
+					set_temp_variable = { green = 0.238 }
+					set_temp_variable = { blue = 0.238 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 73 } #Malay
+						}
+					}
+					set_temp_variable = { red = 0.287 }
+					set_temp_variable = { green = 0.287 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 74 } #Laotian
+						}
+					}
+					set_temp_variable = { red = 0.699 }
+					set_temp_variable = { green = 0.538 }
+					set_temp_variable = { blue = 0.581 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 75 } #Thai
+						}
+					}
+					set_temp_variable = { red = 0.51 }
+					set_temp_variable = { green = 0.09 }
+					set_temp_variable = { blue = 0.21 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 76 } #Shan
+						}
+					}
+					set_temp_variable = { red = 0.810 }
+					set_temp_variable = { green = 0.673 }
+					set_temp_variable = { blue = 0.08 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 77 } #Bamar
+						}
+					}
+					set_temp_variable = { red = 0.337 }
+					set_temp_variable = { green = 0.478 }
+					set_temp_variable = { blue = 0.275 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 78 } #Tani
+						}
+					}
+					set_temp_variable = { red = 0.2 }
+					set_temp_variable = { green = 0.529 }
+					set_temp_variable = { blue = 0.482 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 79 } #Meitei
+						}
+					}
+					set_temp_variable = { red = 0.729 }
+					set_temp_variable = { green = 0.231 }
+					set_temp_variable = { blue = 0.231 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 80 } #Khmer
+						}
+					}
+					set_temp_variable = { red = 0.45 }
+					set_temp_variable = { green = 0.338 }
+					set_temp_variable = { blue = 0.481 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 81 } #Vietnamese
+						}
+					}
+					set_temp_variable = { red = 0.81 }
+					set_temp_variable = { green = 0.788 }
+					set_temp_variable = { blue = 0.467 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 82 } #Yankee
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.55 }
+					set_temp_variable = { blue = 0.72 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 83 } #Superior Dixie Culture, accept no substitutes, North Carolina for life. Fuck Yankees.
+						}
+					}
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.55 }
+					set_temp_variable = { blue = 0.63 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 84 } #Africa-American
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.35 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 85 } #Steel Belt
+						}
+					}
+					set_temp_variable = { red = 0.41 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.61 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 86 } #Southwestern
+						}
+					}
+					set_temp_variable = { red = 0.50 }
+					set_temp_variable = { green = 0.50 }
+					set_temp_variable = { blue = 0.59 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 87 } #Rockies
+						}
+					}
+					set_temp_variable = { red = 0.41 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.65 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 88 } #Pacific
+						}
+					}
+					set_temp_variable = { red = 0.44 }
+					set_temp_variable = { green = 0.56 }
+					set_temp_variable = { blue = 0.72 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 89 } #Hawaiian
+						}
+					}
+					set_temp_variable = { red = 0.780 }
+					set_temp_variable = { green = 0.780 }
+					set_temp_variable = { blue = 0.310 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 90 } #Puerto Rican
+						}
+					}
+					set_temp_variable = { red = 0.44 }
+					set_temp_variable = { green = 0.63 }
+					set_temp_variable = { blue = 0.71 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 91 } #Falklander
+						}
+					}
+					set_temp_variable = { red = 0.731 }
+					set_temp_variable = { green = 0.510 }
+					set_temp_variable = { blue = 0.600 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 92 } #Ontarian
+						}
+					}
+					set_temp_variable = { red = 0.77 }
+					set_temp_variable = { green = 0.06 }
+					set_temp_variable = { blue = 0.20 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 93 } #Quebecois
+						}
+					}
+					set_temp_variable = { red = 0.311 }
+					set_temp_variable = { green = 0.307 }
+					set_temp_variable = { blue = 0.460 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 94 } #Inuit
+						}
+					}
+					set_temp_variable = { red = 0.684 }
+					set_temp_variable = { green = 0.773 }
+					set_temp_variable = { blue = 0.776 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 95 } #Maritimer
+						}
+					}
+					set_temp_variable = { red = 0.77 }
+					set_temp_variable = { green = 0.06 }
+					set_temp_variable = { blue = 0.35 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 96 } #Anglo-Caribbean
+						}
+					}
+					set_temp_variable = { red = 0.681 }
+					set_temp_variable = { green = 0.500 }
+					set_temp_variable = { blue = 0.650 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 97 } #Franco-Caribbean
+						}
+					}
+					set_temp_variable = { red = 0.241 }
+					set_temp_variable = { green = 0.397 }
+					set_temp_variable = { blue = 0.540 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 98 } #Dutch-Caribbean
+						}
+					}
+					set_temp_variable = { red = 0.692 }
+					set_temp_variable = { green = 0.511 }
+					set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 99 } #Jamaican
+						}
+					}
+					set_temp_variable = { red = 0.165 }
+					set_temp_variable = { green = 0.622 }
+					set_temp_variable = { blue = 0.165 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 100 } #Acehnese
+						}
+					}
+					set_temp_variable = { red = 0.522 }
+					set_temp_variable = { green = 0.240 }
+					set_temp_variable = { blue = 0.422 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 101 } #Haitian
+						}
+					}
+					set_temp_variable = { red = 0.422 }
+					set_temp_variable = { green = 0.125 }
+					set_temp_variable = { blue = 0.440 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 102 } #Dominican
+						}
+					}
+					set_temp_variable = { red = 0.322 }
+					set_temp_variable = { green = 0.125 }
+					set_temp_variable = { blue = 0.140 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 103 } #Belize
+						}
+					}
+					set_temp_variable = { red = 0.202 }
+					set_temp_variable = { green = 0.322 }
+					set_temp_variable = { blue = 0.451 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 104 } #Guatemala
+						}
+					}
+					set_temp_variable = { red = 0.402 }
+					set_temp_variable = { green = 0.561 }
+					set_temp_variable = { blue = 0.651 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 105 } #Honduran
+						}
+					}
+					set_temp_variable = { red = 0.312 }
+					set_temp_variable = { green = 0.312 }
+					set_temp_variable = { blue = 0.565 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 106 } #El Salvadorian
+						}
+					}
+					set_temp_variable = { red = 0.512 }
+					set_temp_variable = { green = 0.312 }
+					set_temp_variable = { blue = 0.528 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 107 } #Nicaraguan
+						}
+					}
+					set_temp_variable = { red = 0.350 }
+					set_temp_variable = { green = 0.412 }
+					set_temp_variable = { blue = 0.515 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 108 } #Costa Rican
+						}
+					}
+					set_temp_variable = { red = 0.615 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.450 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 109 } #Panamanian
+						}
+					}
+					set_temp_variable = { red = 0.635 }
+					set_temp_variable = { green = 0.310 }
+					set_temp_variable = { blue = 0.635 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 110 } #Colombian
+						}
+					}
+					set_temp_variable = { red = 0.750 }
+					set_temp_variable = { green = 0.700 }
+					set_temp_variable = { blue = 0.312 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 111 } #Venezuelan
+						}
+					}
+					set_temp_variable = { red = 0.750 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.502 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 112 } #Ecuadorian
+						}
+					}
+					set_temp_variable = { red = 0.775 }
+					set_temp_variable = { green = 0.741 }
+					set_temp_variable = { blue = 0.612 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 113 } #Peruvian
+						}
+					}
+					set_temp_variable = { red = 0.775 }
+					set_temp_variable = { green = 0.512 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 114 } #Indigenous Peruvian
+						}
+					}
+					set_temp_variable = { red = 0.575 }
+					set_temp_variable = { green = 0.312 }
+					set_temp_variable = { blue = 0.612 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 117 } #Argentine
+						}
+					}
+					set_temp_variable = { red = 0.500 }
+					set_temp_variable = { green = 0.500 }
+					set_temp_variable = { blue = 0.760 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 118 } #Uraguayan
+						}
+					}
+					set_temp_variable = { red = 0.500 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.600 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 119 } #Paraguayan
+						}
+					}
+					set_temp_variable = { red = 0.440 }
+					set_temp_variable = { green = 0.250 }
+					set_temp_variable = { blue = 0.440 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 120 } #Bolivian
+						}
+					}
+					set_temp_variable = { red = 0.720 }
+					set_temp_variable = { green = 0.620 }
+					set_temp_variable = { blue = 0.300 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 121 } #Brazilian Caipira
+						}
+					}
+					set_temp_variable = { red = 0.300 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.300 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 122 } #Indigenous Brazilian
+						}
+					}
+					set_temp_variable = { red = 0.341 }
+					set_temp_variable = { green = 0.692 }
+					set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 123 } #French
+						}
+					}
+					set_temp_variable = { red = 0.211 }
+					set_temp_variable = { green = 0.387 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 124 } #Breton
+						}
+					}
+					set_temp_variable = { red = 0.511 }
+					set_temp_variable = { green = 0.587 }
+					set_temp_variable = { blue = 0.610 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 125 } #Occitan
+						}
+					}
+					set_temp_variable = { red = 0.441 }
+					set_temp_variable = { green = 0.387 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 126 } #South English
+						}
+					}
+					set_temp_variable = { red = 0.591 }
+					set_temp_variable = { green = 0.310 }
+					set_temp_variable = { blue = 0.310 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 127 } #North English
+						}
+					}
+					set_temp_variable = { red = 0.531 }
+					set_temp_variable = { green = 0.310 }
+					set_temp_variable = { blue = 0.410 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				### There is no 128 ###
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 129 } #Welsh
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.651 }
+					set_temp_variable = { blue = 0.551 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 130 } #Lowlander
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.511 }
+					set_temp_variable = { blue = 0.651 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 131 } #Highlander
+						}
+					}
+					set_temp_variable = { red = 0.411 }
+					set_temp_variable = { green = 0.411 }
+					set_temp_variable = { blue = 0.551 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 132 } #Irish
+						}
+					}
+					set_temp_variable = { red = 0.1 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.2 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 133 } #Faroese
+						}
+					}
+					set_temp_variable = { red = 0.511 }
+					set_temp_variable = { green = 0.411 }
+					set_temp_variable = { blue = 0.551 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 134 } #Icelandic
+						}
+					}
+		 			set_temp_variable = { red = 0.1 }
+		 			set_temp_variable = { green = 0.1 }
+		 			set_temp_variable = { blue = 0.472 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 135 } #Norwegian
+						}
+					}
+		 			set_temp_variable = { red = 0.321 }
+		 			set_temp_variable = { green = 0.621 }
+		 			set_temp_variable = { blue = 0.672 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 136 } #Swedish
+						}
+					}
+		 			set_temp_variable = { red = 0.321 }
+		 			set_temp_variable = { green = 0.321 }
+		 			set_temp_variable = { blue = 0.572 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 137 } #Sami
+						}
+					}
+		 			set_temp_variable = { red = 0.621 }
+		 			set_temp_variable = { green = 0.572 }
+		 			set_temp_variable = { blue = 0.621 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 138 } #Danish
+						}
+					}
+		 			set_temp_variable = { red = 0.572 }
+		 			set_temp_variable = { green = 0.321 }
+		 			set_temp_variable = { blue = 0.321 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 139 } #Dutch
+						}
+					}
+		 			set_temp_variable = { red = 0.532 }
+		 			set_temp_variable = { green = 0.491 }
+		 			set_temp_variable = { blue = 0.421 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 140 } #Burgundian
+						}
+					}
+					set_temp_variable = { red = 0.311 }
+					set_temp_variable = { green = 0.05 }
+					set_temp_variable = { blue = 0.210 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 141 } #Rhenisch
+						}
+					}
+					set_temp_variable = { red = 0.43 }
+					set_temp_variable = { green = 0.456 }
+					set_temp_variable = { blue = 0.435 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 142 } #Bavarian
+						}
+					}
+					set_temp_variable = { red = 0.41 }
+					set_temp_variable = { green = 0.416 }
+					set_temp_variable = { blue = 0.445 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 143 } #Austrian
+						}
+					}
+					set_temp_variable = { red = 0.45 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.45 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 144 } #Schleswigen
+						}
+					}
+					set_temp_variable = { red = 0.471 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.45 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 145 } #Hanoverian
+						}
+					}
+					set_temp_variable = { red = 0.42 }
+					set_temp_variable = { green = 0.42 }
+					set_temp_variable = { blue = 0.42 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 146 } #Markisch
+						}
+					}
+					set_temp_variable = { red = 0.48 }
+					set_temp_variable = { green = 0.48 }
+					set_temp_variable = { blue = 0.48 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 147 } #Sudeten
+						}
+					}
+					set_temp_variable = { red = 0.34 }
+					set_temp_variable = { green = 0.34 }
+					set_temp_variable = { blue = 0.34 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 148 } #Eastern German
+						}
+					}
+					set_temp_variable = { red = 0.39 }
+					set_temp_variable = { green = 0.39 }
+					set_temp_variable = { blue = 0.39 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 149 } #Luxembourgish
+						}
+					}
+					set_temp_variable = { red = 0.41 }
+					set_temp_variable = { green = 0.529 }
+					set_temp_variable = { blue = 0.499 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 150 } #Swiss German
+						}
+					}
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.529 }
+					set_temp_variable = { blue = 0.499 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 151 } #Russian
+						}
+					}
+		 			set_temp_variable = { red = 0.021 }
+		 			set_temp_variable = { green = 0.375 }
+		 			set_temp_variable = { blue = 0.125 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 152 } #Udmurt
+						}
+					}
+		 			set_temp_variable = { red = 0.692 }
+		 			set_temp_variable = { green = 0.315 }
+		 			set_temp_variable = { blue = 0.315 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 153 } #Tatar
+						}
+					}
+		 			set_temp_variable = { red = 0.276 }
+		 			set_temp_variable = { green = 0.441 }
+		 			set_temp_variable = { blue = 0.488 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 154 } #Yakut
+						}
+					}
+		 			set_temp_variable = { red = 0.473 }
+		 			set_temp_variable = { green = 0.441 }
+		 			set_temp_variable = { blue = 0.225 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 155 } #Altai
+						}
+					}
+		 			set_temp_variable = { red = 0.566 }
+		 			set_temp_variable = { green = 0.716 }
+		 			set_temp_variable = { blue = 0.758 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 156 } #Buryat
+						}
+					}
+		 			set_temp_variable = { red = 0.205 }
+		 			set_temp_variable = { green = 0.627 }
+		 			set_temp_variable = { blue = 0.649 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 157 } #Chukchi
+						}
+					}
+		 			set_temp_variable = { red = 0.624 }
+		 			set_temp_variable = { green = 0.753 }
+		 			set_temp_variable = { blue = 0.756 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 158 } #Nganasany
+						}
+					}
+		 			set_temp_variable = { red = 0.251 }
+		 			set_temp_variable = { green = 0.591 }
+		 			set_temp_variable = { blue = 0.768 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 159 } #Nentsy
+						}
+					}
+		 			set_temp_variable = { red = 0.357 }
+		 			set_temp_variable = { green = 0.726 }
+		 			set_temp_variable = { blue = 0.823 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 160 } #Eveny
+						}
+					}
+		 			set_temp_variable = { red = 0.613 }
+		 			set_temp_variable = { green = 0.863 }
+		 			set_temp_variable = { blue = 0.863 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 161 } #Tuvan
+						}
+					}
+					set_temp_variable = { red = 0.387 }
+					set_temp_variable = { green = 0.628 }
+					set_temp_variable = { blue = 0.566 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 162 } #Ost-German
+						}
+					}
+		 			set_temp_variable = { red = 0.461 }
+		 			set_temp_variable = { green = 0.452 }
+		 			set_temp_variable = { blue = 0.452 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 163 } #Volga-German
+						}
+					}
+		 			set_temp_variable = { red = 0.431 }
+		 			set_temp_variable = { green = 0.432 }
+		 			set_temp_variable = { blue = 0.492 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 164 } #Ukrainian
+						}
+					}
+		 			set_temp_variable = { red = 0.349 }
+		 			set_temp_variable = { green = 0.471 }
+		 			set_temp_variable = { blue = 0.531 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 165 } #Caucasian
+						}
+					}
+					set_temp_variable = { red = 0.221 }
+					set_temp_variable = { green = 0.325 }
+					set_temp_variable = { blue = 0.125 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 166 } #Azeri
+						}
+					}
+					set_temp_variable = { red = 0.284 }
+					set_temp_variable = { green = 0.261 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				### There is no 167 ###
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 168 } #Estonian
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.680 }
+					set_temp_variable = { blue = 0.837 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 169 } #Latvian
+						}
+					}
+					set_temp_variable = { red = 0.568 }
+					set_temp_variable = { green = 0.164 }
+					set_temp_variable = { blue = 0.262 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 170 } #Byelorussian
+						}
+					}
+					set_temp_variable = { red = 0.361 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.365 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 171 } #Finnish
+						}
+					}
+					set_temp_variable = { red = 0.80 }
+					set_temp_variable = { green = 0.85 }
+					set_temp_variable = { blue = 0.80 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 172 } #Karelian
+						}
+					}
+					set_temp_variable = { red = 0.461 }
+					set_temp_variable = { green = 0.641 }
+					set_temp_variable = { blue = 0.465 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 173 } #Romanian
+						}
+					}
+					set_temp_variable = { red = 0.72 }
+					set_temp_variable = { green = 0.72 }
+					set_temp_variable = { blue = 0.421 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 174 } #Serbian
+						}
+					}
+					set_temp_variable = { red = 0.529 }
+					set_temp_variable = { green = 0.285 }
+					set_temp_variable = { blue = 0.323 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 175 } #Bulgarian
+						}
+					}
+					set_temp_variable = { red = 0.152 }
+					set_temp_variable = { green = 0.483 }
+					set_temp_variable = { blue = 0.209 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 176 } #Macedonian
+						}
+					}
+					set_temp_variable = { red = 0.59 }
+					set_temp_variable = { green = 0.31 }
+					set_temp_variable = { blue = 0.45 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 177 } #Hungarian
+						}
+					}
+					set_temp_variable = { red = 0.729 }
+					set_temp_variable = { green = 0.505 }
+					set_temp_variable = { blue = 0.471 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 178 } #Polish
+						}
+					}
+					set_temp_variable = { red = 0.647 }
+					set_temp_variable = { green = 0.492 }
+					set_temp_variable = { blue = 0.492 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 179 } #Uzbeki
+						}
+					}
+					set_temp_variable = { red = 0.499 }
+					set_temp_variable = { green = 0.405 }
+					set_temp_variable = { blue = 0.371 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 180 } #Kazakh
+						}
+					}
+					set_temp_variable = { red = 0.476 }
+					set_temp_variable = { green = 0.592 }
+					set_temp_variable = { blue = 0.598 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 181 } #Turkmen
+						}
+					}
+					set_temp_variable = { red = 0.671 }
+					set_temp_variable = { green = 0.631 }
+					set_temp_variable = { blue = 0.668 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 182 } #Tajik
+						}
+					}
+					set_temp_variable = { red = 0.478 }
+					set_temp_variable = { green = 0.491 }
+					set_temp_variable = { blue = 0.431 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 183 } #Pashtun
+						}
+					}
+		 			set_temp_variable = { red = 0.248 }
+		 			set_temp_variable = { green = 0.361 }
+		 			set_temp_variable = { blue = 0.447 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 184 } #Hazara
+						}
+					}
+					set_temp_variable = { red = 0.64 }
+					set_temp_variable = { green = 0.64 }
+					set_temp_variable = { blue = 0.34 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 185 } #Bosniak
+						}
+					}
+					set_temp_variable = { red = 0.422 }
+					set_temp_variable = { green = 0.621 }
+					set_temp_variable = { blue = 0.422 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 186 } #Karakalpak
+						}
+					}
+					set_temp_variable = { red = 0.691 }
+					set_temp_variable = { green = 0.671 }
+					set_temp_variable = { blue = 0.588 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 187 } #Persian
+						}
+					}
+					set_temp_variable = { red = 0.239 }
+					set_temp_variable = { green = 0.647 }
+					set_temp_variable = { blue = 0.541 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 188 } #Rusyn
+						}
+					}
+					set_temp_variable = { red = 0.449 }
+					set_temp_variable = { green = 0.621 }
+					set_temp_variable = { blue = 0.651 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 190 } #Cossack
+						}
+					}
+					set_temp_variable = { red = 0.479 }
+					set_temp_variable = { green = 0.411 }
+					set_temp_variable = { blue = 0.531 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 191 } #Moldovian
+						}
+					}
+					set_temp_variable = { red = 0.62 }
+					set_temp_variable = { green = 0.72 }
+					set_temp_variable = { blue = 0.39 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 192 } #Mongolian
+						}
+					}
+					set_temp_variable = { red = 0.187 }
+					set_temp_variable = { green = 0.488 }
+					set_temp_variable = { blue = 0.616 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 193 } #Malayan Chinese
+						}
+					}
+					set_temp_variable = { red = 0.651 }
+					set_temp_variable = { green = 0.178 }
+					set_temp_variable = { blue = 0.198 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 194 } #Formosan
+						}
+					}
+					set_temp_variable = { red = 0.727 }
+					set_temp_variable = { green = 0.547 }
+					set_temp_variable = { blue = 0.597 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 195 } #Filipino
+						}
+					}
+					set_temp_variable = { red = 0.509 }
+					set_temp_variable = { green = 0.212 }
+					set_temp_variable = { blue = 0.325 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 196 } #Dongbei
+						}
+					}
+					set_temp_variable = { red = 0.82 }
+					set_temp_variable = { green = 0.718 }
+					set_temp_variable = { blue = 0.267 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 197 } #New Zealander
+						}
+					}
+					set_temp_variable = { red = 0.738 }
+					set_temp_variable = { green = 0.511 }
+					set_temp_variable = { blue = 0.681 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 198 } #Tibetan
+						}
+					}
+					set_temp_variable = { red = 0.304 }
+					set_temp_variable = { green = 0.304 }
+					set_temp_variable = { blue = 0.304 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 199 } #Bohmisch
+						}
+					}
+					set_temp_variable = { red = 0.427 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.487 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 200 } #Slovak
+						}
+					}
+					set_temp_variable = { red = 0.751 }
+					set_temp_variable = { green = 0.701 }
+					set_temp_variable = { blue = 0.701 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 201 } #Sardinian
+						}
+					}
+					set_temp_variable = { red = 0.653 }
+					set_temp_variable = { green = 0.598 }
+					set_temp_variable = { blue = 0.639 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 202 } #Corsican
+						}
+					}
+					set_temp_variable = { red = 0.311 }
+					set_temp_variable = { green = 0.387 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 203 } #Xinan
+						}
+					}
+					set_temp_variable = { red = 0.611 }
+					set_temp_variable = { green = 0.108 }
+					set_temp_variable = { blue = 0.108 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 204 } #Hui
+						}
+					}
+					set_temp_variable = { red = 0.8 }
+					set_temp_variable = { green = 0.78 }
+					set_temp_variable = { blue = 0.75 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 205 } #Galician
+						}
+					}
+					set_temp_variable = { red = 0.522 }
+					set_temp_variable = { green = 0.616 }
+					set_temp_variable = { blue = 0.632 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 206 } #Astur-Leonese
+						}
+					}
+					set_temp_variable = { red = 0.692 }
+					set_temp_variable = { green = 0.626 }
+					set_temp_variable = { blue = 0.422 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 207 } #Uyghur
+						}
+					}
+					set_temp_variable = { red = 0.601 }
+					set_temp_variable = { green = 0.671 }
+					set_temp_variable = { blue = 0.758 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 208 } #Jin
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.138 }
+					set_temp_variable = { blue = 0.158 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 209 } #Jilu
+						}
+					}
+					set_temp_variable = { red = 0.651 }
+					set_temp_variable = { green = 0.118 }
+					set_temp_variable = { blue = 0.128 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 210 } #Ambon-Timor
+						}
+					}
+					set_temp_variable = { red = 0.589 }
+					set_temp_variable = { green = 0.241 }
+					set_temp_variable = { blue = 0.241 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 211 } #Bima-Sumba
+						}
+					}
+					set_temp_variable = { red = 0.889 }
+					set_temp_variable = { green = 0.559 }
+					set_temp_variable = { blue = 0.191 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 212 } #Acehnese
+						}
+					}
+					set_temp_variable = { red = 0.415 }
+					set_temp_variable = { green = 0.090 }
+					set_temp_variable = { blue = 0.090 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 213 } #Minangkabau
+						}
+					}
+					set_temp_variable = { red = 0.750 }
+					set_temp_variable = { green = 0.550 }
+					set_temp_variable = { blue = 0.150 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 214 } #Javanese
+						}
+					}
+					set_temp_variable = { red = 0.312 }
+					set_temp_variable = { green = 0.513 }
+					set_temp_variable = { blue = 0.251 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 215 } #Bhutanese
+						}
+					}
+					set_temp_variable = { red = 0.686 }
+					set_temp_variable = { green = 0.494 }
+					set_temp_variable = { blue = 0.459 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 216 } #Nepalese
+						}
+					}
+					set_temp_variable = { red = 0.66 }
+					set_temp_variable = { green = 0.123 }
+					set_temp_variable = { blue = 0.272 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 217 } #Dayak
+						}
+					}
+					set_temp_variable = { red = 0.699 }
+					set_temp_variable = { green = 0.699 }
+					set_temp_variable = { blue = 0.120 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 218 } #Sinhalese
+						}
+					}
+		 			set_temp_variable = { red = 0.548 }
+		 			set_temp_variable = { green = 0.361 }
+		 			set_temp_variable = { blue = 0.547 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 219 } #Haratin
+						}
+					}
+					set_temp_variable = { red = 0.700 }
+					set_temp_variable = { green = 0.710 }
+					set_temp_variable = { blue = 0.700 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 220 } #Saharawi
+						}
+					}
+					set_temp_variable = { red = 0.596 }
+					set_temp_variable = { green = 0.562 }
+					set_temp_variable = { blue = 0.506 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 221 } #Mestico
+						}
+					}
+					set_temp_variable = { red = 0.21 }
+					set_temp_variable = { green = 0.64 }
+					set_temp_variable = { blue = 0.41 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 222 } #Fang
+						}
+					}
+					set_temp_variable = { red = 0.40 }
+					set_temp_variable = { green = 0.65 }
+					set_temp_variable = { blue = 0.20 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 223 } #Tubu
+						}
+					}
+					set_temp_variable = { red = 0.354 }
+					set_temp_variable = { green = 0.173 }
+					set_temp_variable = { blue = 0.354 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 224 } #Fur
+						}
+					}
+					set_temp_variable = { red = 0.513 }
+					set_temp_variable = { green = 0.123 }
+					set_temp_variable = { blue = 0.123 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 225 } #Zande
+						}
+					}
+					set_temp_variable = { red = 0.413 }
+					set_temp_variable = { green = 0.19 }
+					set_temp_variable = { blue = 0.19 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 226 } #South Sudanese
+						}
+					}
+					set_temp_variable = { red = 0.523 }
+					set_temp_variable = { green = 0.523 }
+					set_temp_variable = { blue = 0.723 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 227 } #Swahili
+						}
+					}
+					set_temp_variable = { red = 0.71 }
+					set_temp_variable = { green = 0.71 }
+					set_temp_variable = { blue = 0.21 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 228 } #Kalenjin
+						}
+					}
+					set_temp_variable = { red = 0.48 }
+					set_temp_variable = { green = 0.25 }
+					set_temp_variable = { blue = 0.25 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 229 } #Oromo
+						}
+					}
+					set_temp_variable = { red = 0.441 }
+					set_temp_variable = { green = 0.700 }
+					set_temp_variable = { blue = 0.257 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 230 } #Afar
+						}
+					}
+					set_temp_variable = { red = 0.213 }
+					set_temp_variable = { green = 0.64 }
+					set_temp_variable = { blue = 0.59 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 231 } #Highland Cushitic
+						}
+					}
+					set_temp_variable = { red = 0.36 }
+					set_temp_variable = { green = 0.25 }
+					set_temp_variable = { blue = 0.56 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 232 } #Kanembu
+						}
+					}
+					set_temp_variable = { red = 0.213 }
+					set_temp_variable = { green = 0.59 }
+					set_temp_variable = { blue = 0.59 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 233 } #Liberian
+						}
+					}
+					set_temp_variable = { red = 0.124 }
+					set_temp_variable = { green = 0.124 }
+					set_temp_variable = { blue = 0.582 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 234 } #Kru
+						}
+					}
+					set_temp_variable = { red = 0.760 }
+					set_temp_variable = { green = 0.760 }
+					set_temp_variable = { blue = 0.740 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 235 } #Soninke
+						}
+					}
+					set_temp_variable = { red = 0.512 }
+					set_temp_variable = { green = 0.731 }
+					set_temp_variable = { blue = 0.321 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 236 } #Wolof
+						}
+					}
+					set_temp_variable = { red = 0.271 }
+					set_temp_variable = { green = 0.271 }
+					set_temp_variable = { blue = 0.612 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 237 } #Akan
+						}
+					}
+					set_temp_variable = { red = 0.812 }
+					set_temp_variable = { green = 0.812 }
+					set_temp_variable = { blue = 0.123 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 238 } #Malinke
+						}
+					}
+					set_temp_variable = { red = 0.509 }
+					set_temp_variable = { green = 0.724 }
+					set_temp_variable = { blue = 0.882 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 239 } #Bambara
+						}
+					}
+					set_temp_variable = { red = 0.612 }
+					set_temp_variable = { green = 0.212 }
+					set_temp_variable = { blue = 0.124 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 240 } #Fulani
+						}
+					}
+					set_temp_variable = { red = 0.131 }
+					set_temp_variable = { green = 0.41 }
+					set_temp_variable = { blue = 0.129 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 241 } #Mende
+						}
+					}
+					set_temp_variable = { red = 0.224 }
+					set_temp_variable = { green = 0.624 }
+					set_temp_variable = { blue = 0.682 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 242 } #Susu
+						}
+					}
+					set_temp_variable = { red = 0.731 }
+					set_temp_variable = { green = 0.213 }
+					set_temp_variable = { blue = 0.213 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 243 } #Dyula
+						}
+					}
+					set_temp_variable = { red = 0.323 }
+					set_temp_variable = { green = 0.612 }
+					set_temp_variable = { blue = 0.123 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 244 } #Mossi
+						}
+					}
+					set_temp_variable = { red = 0.780 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.100 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 245 } #Gbe
+						}
+					}
+					set_temp_variable = { red = 0.600 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.200 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 246 } #Hausa
+						}
+					}
+					set_temp_variable = { red = 0.450 }
+					set_temp_variable = { green = 0.10 }
+					set_temp_variable = { blue = 0.020 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 247 } #Hausa
+						}
+					}
+					set_temp_variable = { red = 0.300 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.450 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 248 } #Kanuri
+						}
+					}
+					set_temp_variable = { red = 0.123 }
+					set_temp_variable = { green = 0.492 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 249 } #Yoruba
+						}
+					}
+					set_temp_variable = { red = 0.150 }
+					set_temp_variable = { green = 0.500 }
+					set_temp_variable = { blue = 0.325 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 250 } #Biafran
+						}
+					}
+					set_temp_variable = { red = 0.500 }
+					set_temp_variable = { green = 0.650 }
+					set_temp_variable = { blue = 0.205 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 251 } #Duala
+						}
+					}
+					set_temp_variable = { red = 0.122 }
+					set_temp_variable = { green = 0.312 }
+					set_temp_variable = { blue = 0.295 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 252 } #Gbaya
+						}
+					}
+					set_temp_variable = { red = 0.258 }
+					set_temp_variable = { green = 0.392 }
+					set_temp_variable = { blue = 0.129 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 253 } #Sara
+						}
+					}
+					set_temp_variable = { red = 0.050 }
+					set_temp_variable = { green = 0.392 }
+					set_temp_variable = { blue = 0.307 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 254 } #Chadian
+						}
+					}
+					set_temp_variable = { red = 0.81 }
+					set_temp_variable = { green = 0.74 }
+					set_temp_variable = { blue = 0.31 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 255 } #Banda
+						}
+					}
+					set_temp_variable = { red = 0.45 }
+					set_temp_variable = { green = 0.61 }
+					set_temp_variable = { blue = 0.51 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 256 } #Congolese
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.60 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 257 } #Luba
+						}
+					}
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.75 }
+					set_temp_variable = { blue = 0.75 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 258 } #Tabwa
+						}
+					}
+					set_temp_variable = { red = 0.20 }
+					set_temp_variable = { green = 0.50 }
+					set_temp_variable = { blue = 0.10 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 259 } #Kinyarwanda
+						}
+					}
+					set_temp_variable = { red = 0.12 }
+					set_temp_variable = { green = 0.52 }
+					set_temp_variable = { blue = 0.68 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 260 } #Kirundi
+						}
+					}
+					set_temp_variable = { red = 0.60 }
+					set_temp_variable = { green = 0.20 }
+					set_temp_variable = { blue = 0.20 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 261 } #Kikumu
+						}
+					}
+					set_temp_variable = { red = 0.38 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.25 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 262 } #Mongo
+						}
+					}
+					set_temp_variable = { red = 0.38 }
+					set_temp_variable = { green = 0.32 }
+					set_temp_variable = { blue = 0.51 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 263 } #Maasai
+						}
+					}
+					set_temp_variable = { red = 0.700 }
+					set_temp_variable = { green = 0.125 }
+					set_temp_variable = { blue = 0.165 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 264 } #Bemba
+						}
+					}
+					set_temp_variable = { red = 0.75 }
+					set_temp_variable = { green = 0.40 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 265 } #Lunda
+						}
+					}
+					set_temp_variable = { red = 0.599 }
+					set_temp_variable = { green = 0.339 }
+					set_temp_variable = { blue = 0.339 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 266 } #Lozi
+						}
+					}
+					set_temp_variable = { red = 0.700 }
+					set_temp_variable = { green = 0.175 }
+					set_temp_variable = { blue = 0.175 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 267 } #Zambezi
+						}
+					}
+					set_temp_variable = { red = 0.661 }
+					set_temp_variable = { green = 0.512 }
+					set_temp_variable = { blue = 0.661 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 268 } #Lithuanian
+						}
+					}
+					set_temp_variable = { red = 0.533 }
+					set_temp_variable = { green = 0.535 }
+					set_temp_variable = { blue = 0.253 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 269 } #Sukuma
+						}
+					}
+					set_temp_variable = { red = 0.500 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.650 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 270 } #Nyamwezi
+						}
+					}
+					set_temp_variable = { red = 0.400 }
+					set_temp_variable = { green = 0.512 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 271 } #Makonde
+						}
+					}
+					set_temp_variable = { red = 0.32 }
+					set_temp_variable = { green = 0.30 }
+					set_temp_variable = { blue = 0.30 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 272 } #Gogo
+						}
+					}
+					set_temp_variable = { red = 0.300 }
+					set_temp_variable = { green = 0.612 }
+					set_temp_variable = { blue = 0.551 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 273 } #Chewa
+						}
+					}
+					set_temp_variable = { red = 0.50 }
+					set_temp_variable = { green = 0.25 }
+					set_temp_variable = { blue = 0.25 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 274 } #Lango-Acoli
+						}
+					}
+					set_temp_variable = { red = 0.12 }
+					set_temp_variable = { green = 0.41 }
+					set_temp_variable = { blue = 0.49 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 275 } #Baganda
+						}
+					}
+					set_temp_variable = { red = 0.150 }
+					set_temp_variable = { green = 0.150 }
+					set_temp_variable = { blue = 0.500 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 276 } #Makua
+						}
+					}
+					set_temp_variable = { red = 0.45 }
+					set_temp_variable = { green = 0.71 }
+					set_temp_variable = { blue = 0.45 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 277 } #Sena
+						}
+					}
+					set_temp_variable = { red = 0.100 }
+					set_temp_variable = { green = 0.451 }
+					set_temp_variable = { blue = 0.451 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 278 } #Tsonga
+						}
+					}
+					set_temp_variable = { red = 0.30 }
+					set_temp_variable = { green = 0.70 }
+					set_temp_variable = { blue = 0.85 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 279 } #Shona
+						}
+					}
+					set_temp_variable = { red = 0.80 }
+					set_temp_variable = { green = 0.70 }
+					set_temp_variable = { blue = 0.15 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 280 } #Ndebele
+						}
+					}
+					set_temp_variable = { red = 0.30 }
+					set_temp_variable = { green = 0.72 }
+					set_temp_variable = { blue = 0.50 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 281 } #Ovimbundu
+						}
+					}
+					set_temp_variable = { red = 0.672 }
+					set_temp_variable = { green = 0.672 }
+					set_temp_variable = { blue = 0.612 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 282 } #Ovimbundu
+						}
+					}
+					set_temp_variable = { red = 0.214 }
+					set_temp_variable = { green = 0.414 }
+					set_temp_variable = { blue = 0.512 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 283 } #Chokwe
+						}
+					}
+					set_temp_variable = { red = 0.699 }
+					set_temp_variable = { green = 0.539 }
+					set_temp_variable = { blue = 0.41 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 284 } #Nama
+						}
+					}
+					set_temp_variable = { red = 0.70 }
+					set_temp_variable = { green = 0.65 }
+					set_temp_variable = { blue = 0.30 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 285 } #Herero
+						}
+					}
+					set_temp_variable = { red = 0.10 }
+					set_temp_variable = { green = 0.65 }
+					set_temp_variable = { blue = 0.10 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 286 } #Ovambo
+						}
+					}
+					set_temp_variable = { red = 0.200 }
+					set_temp_variable = { green = 0.512 }
+					set_temp_variable = { blue = 0.651 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 287 } #Malagasy
+						}
+					}
+					set_temp_variable = { red = 0.590 }
+					set_temp_variable = { green = 0.725 }
+					set_temp_variable = { blue = 0.200 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 288 } #Boer
+						}
+					}
+					set_temp_variable = { red = 0.65 }
+					set_temp_variable = { green = 0.40 }
+					set_temp_variable = { blue = 0.15 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 289 } #Cape
+						}
+					}
+					set_temp_variable = { red = 0.30 }
+					set_temp_variable = { green = 0.45 }
+					set_temp_variable = { blue = 0.30 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 290 } #Zulu
+						}
+					}
+					set_temp_variable = { red = 0.66 }
+					set_temp_variable = { green = 0.34 }
+					set_temp_variable = { blue = 0.34 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 291 } #Sotho
+						}
+					}
+					set_temp_variable = { red = 0.45 }
+					set_temp_variable = { green = 0.58 }
+					set_temp_variable = { blue = 0.50 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 292 } #Swazi
+						}
+					}
+					set_temp_variable = { red = 0.46 }
+					set_temp_variable = { green = 0.24 }
+					set_temp_variable = { blue = 0.24 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 293 } #Tswana
+						}
+					}
+					set_temp_variable = { red = 0.50 }
+					set_temp_variable = { green = 0.50 }
+					set_temp_variable = { blue = 0.60 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 294 } #Xhosa
+						}
+					}
+					set_temp_variable = { red = 0.50 }
+					set_temp_variable = { green = 0.65 }
+					set_temp_variable = { blue = 0.70 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 295 } #Riffian
+						}
+					}
+					set_temp_variable = { red = 0.662 }
+					set_temp_variable = { green = 0.546 }
+					set_temp_variable = { blue = 0.506 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 296 } #Jewish
+						}
+					}
+					set_temp_variable = { red = 0.450 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.700 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 297 } #African Creole
+						}
+					}
+					set_temp_variable = { red = 0.400 }
+					set_temp_variable = { green = 0.400 }
+					set_temp_variable = { blue = 0.221 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 298 } #Sulawesi
+						}
+					}
+					set_temp_variable = { red = 0.799 }
+					set_temp_variable = { green = 0.641 }
+					set_temp_variable = { blue = 0.450 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 299 } #North Moluccan
+						}
+					}
+					set_temp_variable = { red = 0.641 }
+					set_temp_variable = { green = 0.450 }
+					set_temp_variable = { blue = 0.640 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 300 } #Xibei
+						}
+					}
+					set_temp_variable = { red = 0.601 }
+					set_temp_variable = { green = 0.338 }
+					set_temp_variable = { blue = 0.388 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 301 } #Jiaoliao
+						}
+					}
+					set_temp_variable = { red = 0.701 }
+					set_temp_variable = { green = 0.338 }
+					set_temp_variable = { blue = 0.358 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 302 } #Mexican
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.53 }
+					set_temp_variable = { blue = 0.35 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 303 } #Swiss French
+						}
+					}
+					set_temp_variable = { red = 0.411 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 304 } #Swiss Italian
+						}
+					}
+					set_temp_variable = { red = 0.552 }
+					set_temp_variable = { green = 0.623 }
+					set_temp_variable = { blue = 0.409 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 305 } #Zhujin
+						}
+					}
+					set_temp_variable = { red = 0.837 }
+					set_temp_variable = { green = 0.627 }
+					set_temp_variable = { blue = 0.627 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 306 } #Kirghiz
+						}
+					}
+					set_temp_variable = { red = 0.35 }
+					set_temp_variable = { green = 0.42 }
+					set_temp_variable = { blue = 0.21 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 307 } #Gulf Arab
+						}
+					}
+					set_temp_variable = { red = 0.25 }
+					set_temp_variable = { green = 0.382 }
+					set_temp_variable = { blue = 0.21 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 308 } #Hijazi
+						}
+					}
+					set_temp_variable = { red = 0.294 }
+					set_temp_variable = { green = 0.491 }
+					set_temp_variable = { blue = 0.194 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 309 } #Najdi
+						}
+					}
+					set_temp_variable = { red = 0.094 }
+					set_temp_variable = { green = 0.311 }
+					set_temp_variable = { blue = 0.094 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 310 } #Chin
+						}
+					}
+					set_temp_variable = { red = 0.599 }
+					set_temp_variable = { green = 0.364 }
+					set_temp_variable = { blue = 0.391 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 311 } #Kachin
+						}
+					}
+					set_temp_variable = { red = 0.752 }
+					set_temp_variable = { green = 0.635 }
+					set_temp_variable = { blue = 0.392 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 312 } #Karen
+						}
+					}
+					set_temp_variable = { red = 0.564 }
+					set_temp_variable = { green = 0.459 }
+					set_temp_variable = { blue = 0.647 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 313 } #Mon
+						}
+					}
+					set_temp_variable = { red = 0.711 }
+					set_temp_variable = { green = 0.601 }
+					set_temp_variable = { blue = 0.686 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 314 } #Rakhine
+						}
+					}
+					set_temp_variable = { red = 0.625 }
+					set_temp_variable = { green = 0.480 }
+					set_temp_variable = { blue = 0.491 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 315 } #Ulster
+						}
+					}
+					set_temp_variable = { red = 0.601 }
+					set_temp_variable = { green = 0.650 }
+					set_temp_variable = { blue = 0.42 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 316 } #Kalmyk
+						}
+					}
+					set_temp_variable = { red = 0.701 }
+					set_temp_variable = { green = 0.701 }
+					set_temp_variable = { blue = 0.241 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 317 } #Bodo
+						}
+					}
+					set_temp_variable = { red = 0.712 }
+					set_temp_variable = { green = 0.532 }
+					set_temp_variable = { blue = 0.323 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 318 } #Assamese
+						}
+					}
+					set_temp_variable = { red = 0.312 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.523 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 319 } #Naga
+						}
+					}
+					set_temp_variable = { red = 0.478 }
+					set_temp_variable = { green = 0.67 }
+					set_temp_variable = { blue = 0.749 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 320 } #Mizo
+						}
+					}
+					set_temp_variable = { red = 0.588 }
+					set_temp_variable = { green = 0.549 }
+					set_temp_variable = { blue = 0.416 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 321 } #Kongo
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.491 }
+					set_temp_variable = { blue = 0.415 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 322 } #Bashkir
+						}
+					}
+					set_temp_variable = { red = 0.421 }
+					set_temp_variable = { green = 0.671 }
+					set_temp_variable = { blue = 0.525 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 323 } #Komi
+						}
+					}
+					set_temp_variable = { red = 0.391 }
+					set_temp_variable = { green = 0.541 }
+					set_temp_variable = { blue = 0.565 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 324 } #Elsässisch
+						}
+					}
+					set_temp_variable = { red = 0.38 }
+					set_temp_variable = { green = 0.38 }
+					set_temp_variable = { blue = 0.39 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 325 } #Alemannisch
+						}
+					}
+					set_temp_variable = { red = 0.41 }
+					set_temp_variable = { green = 0.41 }
+					set_temp_variable = { blue = 0.41 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 326 } #Westfälisch
+						}
+					}
+					set_temp_variable = { red = 0.37 }
+					set_temp_variable = { green = 0.37 }
+					set_temp_variable = { blue = 0.37 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 327 } #Fränkisch
+						}
+					}
+					set_temp_variable = { red = 0.395 }
+					set_temp_variable = { green = 0.395 }
+					set_temp_variable = { blue = 0.395 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 328 } #Schwäbisch
+						}
+					}
+					set_temp_variable = { red = 0.445 }
+					set_temp_variable = { green = 0.445 }
+					set_temp_variable = { blue = 0.445 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 329 } #Krainisch
+						}
+					}
+					set_temp_variable = { red = 0.510 }
+					set_temp_variable = { green = 0.510 }
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 330 } #Thüringisch
+						}
+					}
+					set_temp_variable = { red = 0.365 }
+					set_temp_variable = { green = 0.365 }
+					set_temp_variable = { blue = 0.365 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 331 } #Sächsisch
+						}
+					}
+					set_temp_variable = { red = 0.435 }
+					set_temp_variable = { green = 0.445 }
+					set_temp_variable = { blue = 0.435 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 332 } #Volksdeutsch
+						}
+					}
+					set_temp_variable = { red = 0.457 }
+					set_temp_variable = { green = 0.422 }
+					set_temp_variable = { blue = 0.422 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 333 } #Mecklenburgisch
+						}
+					}
+					set_temp_variable = { red = 0.417 }
+					set_temp_variable = { green = 0.417 }
+					set_temp_variable = { blue = 0.427 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 334 } #Hessisch
+						}
+					}
+					set_temp_variable = { red = 0.479 }
+					set_temp_variable = { green = 0.479 }
+					set_temp_variable = { blue = 0.479 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 335 } #Hessisch
+						}
+					}
+					set_temp_variable = { red = 0.397 }
+					set_temp_variable = { green = 0.397 }
+					set_temp_variable = { blue = 0.407 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 336 } #Berliner
+						}
+					}
+					set_temp_variable = { red = 0.34 }
+					set_temp_variable = { green = 0.34 }
+					set_temp_variable = { blue = 0.34 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 337 } #Corn Belt
+						}
+					}
+					set_temp_variable = { red = 0.38 }
+					set_temp_variable = { green = 0.58 }
+					set_temp_variable = { blue = 0.75 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 338 } #Nurestani
+						}
+					}
+					set_temp_variable = { red = 0.568 }
+					set_temp_variable = { green = 0.568 }
+					set_temp_variable = { blue = 0.731 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 339 } #Nordeste
+						}
+					}
+					set_temp_variable = { red = 0.340 }
+					set_temp_variable = { green = 0.480 }
+					set_temp_variable = { blue = 0.340 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 340 } #Minerio
+						}
+					}
+					set_temp_variable = { red = 0.300 }
+					set_temp_variable = { green = 0.510 }
+					set_temp_variable = { blue = 0.300 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 341 } #Paulista
+						}
+					}
+					set_temp_variable = { red = 0.370 }
+					set_temp_variable = { green = 0.520 }
+					set_temp_variable = { blue = 0.370 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 342 } #Carioca
+						}
+					}
+					set_temp_variable = { red = 0.290 }
+					set_temp_variable = { green = 0.580 }
+					set_temp_variable = { blue = 0.290 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 343 } #Sulista
+						}
+					}
+					set_temp_variable = { red = 0.320 }
+					set_temp_variable = { green = 0.470 }
+					set_temp_variable = { blue = 0.400 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 344 } #Sichuanese
+						}
+					}
+					set_temp_variable = { red = 0.491 }
+					set_temp_variable = { green = 0.118 }
+					set_temp_variable = { blue = 0.118 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 345 } #Polish-Belarusian
+						}
+					}
+					set_temp_variable = { red = 0.617 }
+					set_temp_variable = { green = 0.552 }
+					set_temp_variable = { blue = 0.492 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 346 } #Polish-Weichseldeutsch
+						}
+					}
+					set_temp_variable = { red = 0.647 }
+					set_temp_variable = { green = 0.572 }
+					set_temp_variable = { blue = 0.572 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 347 } #Lur
+						}
+					}
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.382 }
+					set_temp_variable = { blue = 0.482 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 348 } #Gilaki
+						}
+					}
+					set_temp_variable = { red = 0.321 }
+					set_temp_variable = { green = 0.482 }
+					set_temp_variable = { blue = 0.598 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 349 } #Mazandarani
+						}
+					}
+					set_temp_variable = { red = 0.221 }
+					set_temp_variable = { green = 0.482 }
+					set_temp_variable = { blue = 0.498 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 350 } #Norteño
+						}
+					}
+					set_temp_variable = { red = 0.200 }
+					set_temp_variable = { green = 0.200 }
+					set_temp_variable = { blue = 0.340 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 351 } #Centrino
+						}
+					}
+					set_temp_variable = { red = 0.100 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.390 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 352 } #Sureño
+						}
+					}
+					set_temp_variable = { red = 0.060 }
+					set_temp_variable = { green = 0.060 }
+					set_temp_variable = { blue = 0.420 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 353 } #Sureño with Mapuche characteristics
+						}
+					}
+					set_temp_variable = { red = 0.350 }
+					set_temp_variable = { green = 0.260 }
+					set_temp_variable = { blue = 0.470 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 354 } #Sureño with European characteristics
+						}
+					}
+					set_temp_variable = { red = 0.360 }
+					set_temp_variable = { green = 0.360 }
+					set_temp_variable = { blue = 0.470 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 355 } #Chilote
+						}
+					}
+					set_temp_variable = { red = 0.210 }
+					set_temp_variable = { green = 0.210 }
+					set_temp_variable = { blue = 0.450 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 356 } #Magallanico with Military characteristics
+						}
+					}
+					set_temp_variable = { red = 0.120 }
+					set_temp_variable = { green = 0.360 }
+					set_temp_variable = { blue = 0.440 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 357 } #Abkhaz
+						}
+					}
+					set_temp_variable = { red = 0.241 }
+					set_temp_variable = { green = 0.601 }
+					set_temp_variable = { blue = 0.241 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 358 } #Kumyk
+						}
+					}
+					set_temp_variable = { red = 0.341 }
+					set_temp_variable = { green = 0.501 }
+					set_temp_variable = { blue = 0.741 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 361 } #Balkar
+						}
+					}
+					set_temp_variable = { red = 0.241 }
+					set_temp_variable = { green = 0.507 }
+					set_temp_variable = { blue = 0.629 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 362 } #Chechen
+						}
+					}
+					set_temp_variable = { red = 0.441 }
+					set_temp_variable = { green = 0.501 }
+					set_temp_variable = { blue = 0.341 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 363 } #Hamburger
+						}
+					}
+					set_temp_variable = { red = 0.55 }
+					set_temp_variable = { green = 0.55 }
+					set_temp_variable = { blue = 0.55 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 364 } #Soviet
+						}
+					}
+					set_temp_variable = { red = 0.53 }
+					set_temp_variable = { green = 0.01 }
+					set_temp_variable = { blue = 0.23 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 365 } #Westerner
+						}
+					}
+					set_temp_variable = { red = 0.63 }
+					set_temp_variable = { green = 0.14 }
+					set_temp_variable = { blue = 0.27 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 366 } #British Columbian
+						}
+					}
+					set_temp_variable = { red = 0.75 }
+					set_temp_variable = { green = 0.14 }
+					set_temp_variable = { blue = 0.27 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 367 } #Newfoundlander
+						}
+					}
+					set_temp_variable = { red = 0.90 }
+					set_temp_variable = { green = 0.01 }
+					set_temp_variable = { blue = 0.27 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 368 } # Hiligaynon
+						}
+					}
+					set_temp_variable = { red = 0.688 }
+					set_temp_variable = { green = 0.519 }
+					set_temp_variable = { blue = 0.084 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 369 } # Iloko
+						}
+					}
+					set_temp_variable = { red = 0.405 }
+					set_temp_variable = { green = 0.782 }
+					set_temp_variable = { blue = 0.79 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 370 } # Waray
+						}
+					}
+					set_temp_variable = { red = 0.774 }
+					set_temp_variable = { green = 0.351 }
+					set_temp_variable = { blue = 0.339 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 371 } # Tagalog
+						}
+					}
+					set_temp_variable = { red = 0.401 }
+					set_temp_variable = { green = 0.758 }
+					set_temp_variable = { blue = 0.519 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 372 } # Bisaya
+						}
+					}
+					set_temp_variable = { red = 0.829 }
+					set_temp_variable = { green = 0.421 }
+					set_temp_variable = { blue = 0.704 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 373 } # Bangsamoro
+						}
+					}
+					set_temp_variable = { red = 0.386 }
+					set_temp_variable = { green = 0.488 }
+					set_temp_variable = { blue = 0.778 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 374 } # Bikolnon
+						}
+					}
+					set_temp_variable = { red = 0.563 }
+					set_temp_variable = { green = 0.009 }
+					set_temp_variable = { blue = 0.707 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 375 } # Pony
+						}
+					}
+					set_temp_variable = { red = 1 }
+					set_temp_variable = { green = 0.753 }
+					set_temp_variable = { blue = 0.796 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 376 } #Bohmisch
+						}
+					}
+					set_temp_variable = { red = 0.427 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.487 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 377 } #Austrian Italian
+						}
+					}
+					set_temp_variable = { red = 0.427 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.487 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 378 } #Caiçaran
+						}
+					}
+					set_temp_variable = { red = 0.246 }
+					set_temp_variable = { green = 0.255 }
+					set_temp_variable = { blue = 0 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 378 } #Spanish
+						}
+					}
+					set_temp_variable = { red = 235 }
+					set_temp_variable = { green = 64 }
+					set_temp_variable = { blue = 52 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 379 } #Bavarian
+						}
+					}
+					set_temp_variable = { red = 235 }
+					set_temp_variable = { green = 64 }
+					set_temp_variable = { blue = 52 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 380 } #Spanish
+						}
+					}
+					set_temp_variable = { red = 0.210 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 381 } #French Dutch
+						}
+					}
+					set_temp_variable = { red = 0.210 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else = {
+		 			set_temp_variable = { red = 0.001 }
+		 			set_temp_variable = { green = 0.001 }
+		 			set_temp_variable = { blue = 0.001 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+			}
+		}
+		far_text = none
+		near_text = state
+		update_daily = no
+	}
+}

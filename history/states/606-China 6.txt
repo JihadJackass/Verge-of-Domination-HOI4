@@ -12,6 +12,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 606.nationality = 64 } # Jianghuai
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

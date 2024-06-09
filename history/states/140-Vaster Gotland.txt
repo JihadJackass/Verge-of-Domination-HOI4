@@ -4,19 +4,25 @@ state={
 	name="STATE_140"
 	manpower = 1282827
 	state_category = city
-	
+
 	resources={
 		steel=6 # was: 10
 	}
 
 
 	history={
-		owner = SOV
+		owner = SWE
+		add_core_of = SWE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 140.nationality = 136 } # Swedish
 		victory_points = {
-			11114 1 
+			11114 1
 		}
 		victory_points = {
-			383 10 
+			383 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
@@ -29,13 +35,12 @@ state={
 				coastal_bunker = 5
 			}
 		}
-		add_core_of = SOV
-	}
-	
-	
-	provinces={
-		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 13096 
 	}
 
-	local_supplies=0.0 
+
+	provinces={
+		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 13096
+	}
+
+	local_supplies=0.0
 }

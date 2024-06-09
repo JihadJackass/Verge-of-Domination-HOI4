@@ -1,16 +1,20 @@
 
 state={
 	id=851
-	name="STATE_851" # Var (Split-off from former Provence now Bouches-du-Rhône)
-	manpower = 485000 # 400k (Var) + 85k (~1/2 Alpes-de-Haute-Provence and Hautes-Alpes pop) # was 2060400 before Var split off from Provence (no Bouches-du-Rhône)
+	name="STATE_851" # Var
+	manpower = 485000
 
 	state_category = large_town
 
 	history={
 		owner = USE
-		victory_points = {
-			911 1 
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 851.nationality = 123 } # French
+		victory_points = { 911 1 }
 		buildings = {
 			infrastructure = 3
 			dockyard = 3
@@ -19,18 +23,11 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = OCC
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				dockyard = 1
-			}
-		}
 	}
 
 	provinces={
 		911 956 3928 3961
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

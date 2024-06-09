@@ -1,0 +1,9 @@
+on_actions = {
+    on_weekly_SOV = { # TODO: SOV tag required?
+		effect = {
+			force_update_map_mode = {
+				mapmode = culture_map_mode
+			}
+		}
+	}
+}

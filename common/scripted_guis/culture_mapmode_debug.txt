@@ -1,0 +1,36 @@
+scripted_gui = {
+	culture_mapmode_debug = {
+		context_type = player_context
+		window_name = "culture_mapmode_debug"
+		mapmode = culture_map_mode
+		parent_window_name = "WindowWithAllMapModes_Standalone"
+		visible = {
+			has_country_flag = culture_debug
+			is_debug = yes
+		}
+		effects = {
+			culture_debug_button_click = {
+				random_state = {
+					limit = {
+						NOT = {
+							check_variable = { nationality > 0 }
+							owner = {
+								OR = {
+									original_tag = USA
+									original_tag = SOV
+								}
+							}
+						}
+					}
+					meta_effect = {
+						text = {
+							set_temp_variable = { state_to_go = [STATE] }
+						}
+						STATE = "[This.GetID]"
+					}
+				}
+				goto_state = var:state_to_go
+			}
+		}
+	}
+}

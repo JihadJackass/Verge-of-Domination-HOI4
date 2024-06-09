@@ -8,6 +8,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 125.nationality = 126 } # English
 		victory_points = { 271 5 }
 		buildings = {
 			infrastructure = 4 #was: 7

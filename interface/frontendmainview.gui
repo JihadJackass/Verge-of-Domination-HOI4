@@ -189,7 +189,7 @@ guiTypes = {
 		containerWindowType = { # TODO: fix name error
 
 			ButtonType = {
-				name = "discord_button"
+				#name = "discord_button"
 				position = { x=190 y=700 }
 				quadTextureSprite ="discord_logo"
 				spriteType = "GFX_discord_logo"

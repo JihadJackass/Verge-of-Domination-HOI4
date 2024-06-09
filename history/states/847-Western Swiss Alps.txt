@@ -8,11 +8,16 @@ state={
 	}
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 847.nationality = 303 } # Swiss French
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = USE
 	}
 	provinces={
 		636 9587 3612 9618

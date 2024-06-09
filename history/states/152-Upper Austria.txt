@@ -12,6 +12,13 @@ state={
 	}
 
 	history={
+		owner = AUS
+		add_core_of = AUS
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 152.nationality = 375 } # Austrian
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
@@ -27,12 +34,6 @@ state={
 		}
 		victory_points = {
 			732 10
-		}
-		owner = AUS
-		add_core_of = AUS
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

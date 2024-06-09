@@ -1,34 +1,38 @@
-
 state={
 	id=17
 	name="STATE_17" # Lorraine
 	manpower = 1517500
-	
+
 	state_category = city
-	
+
 	resources={
 		steel=28 # was: 48
 	}
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 17.nationality = 123 } # French
 		victory_points = {
-			9642 5 
+			9642 5
 		}
 		victory_points = {
-			11516 5 
+			11516 5
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 5
 		}
-		add_core_of = USE
 	}
 
 	provinces={
-		521 698 3646 3666 6698 9642 9658 11488 11516 11642 
+		521 698 3646 3666 6698 9642 9658 11488 11516 11642
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

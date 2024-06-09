@@ -2,19 +2,22 @@ state={
 	id=785
 	name="STATE_785"
 	manpower = 1580000
-	
+
 	state_category = town
 	resources={
 		steel=20 # was: 112
 		aluminium=4 # was: 22
 	}
-	
+
 	history={
-		victory_points = {
-			11420 5
-		}
 		owner = USE
 		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 785.nationality = 123 } # French
+		victory_points = { 11420 5 }
 		buildings = {
 			infrastructure = 4 #was: 8
 			industrial_complex = 1
@@ -25,5 +28,5 @@ state={
 		454 3402 3447 6585 9561 11420 11549
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

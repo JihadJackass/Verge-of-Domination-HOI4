@@ -92,6 +92,22 @@ MOL = {
 	color = rgb { 133 22 9 }
 	color_ui = rgb { 133 22 9 }
 }
+DEN = {
+	color = rgb { 150 50 9 }
+	color_ui = rgb { 150 50 9 }
+}
+BUL = {
+	color = rgb { 100 50 20 }
+	color_ui = rgb { 100 50 20 }
+}
+WAL = {
+	color = rgb { 70 100 20 }
+	color_ui = rgb { 70 100 20 }
+}
+EPR = {
+	color = rgb { 20 100 20 }
+	color_ui = rgb { 20 100 20 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }

@@ -1,0 +1,24 @@
+add_namespace = culture
+
+country_event = {
+    id = culture.1
+    option = {
+        # Prussian
+        5 = { set_variable = { 5.nationality = 1 } } # Ermland-Masuren
+        set_variable = { 85.nationality = 1 } # Danzig
+        set_variable = { 763.nationality = 1 } #
+        set_variable = { 807.nationality = 1 }
+    }
+    immediate = {
+        # Prussian
+        5 = { set_variable = { 5.nationality = 1 } } # Ermland-Masuren
+	    set_variable = { 85.nationality = 1 } # Danzig
+        set_variable = { 763.nationality = 1 } #
+        set_variable = { 807.nationality = 1 }
+    }
+    title = CULTURE.1776.t
+	desc = CULTURE.1776.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	#hidden = yes
+}

@@ -1,4 +1,3 @@
-
 state={
 	id=845
 	name="STATE_845"
@@ -6,9 +5,17 @@ state={
 	resources={
 		aluminium=18 # was: 28 #CarloTODO
 	}
+
 	state_category = large_town
+
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 845.nationality = 303 } # Swiss French
 		victory_points = { 9638 5 }
 		victory_points = { 6666 5 }
 		buildings = {
@@ -16,7 +23,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 		}
-		add_core_of = USE
 	}
 	provinces={
 		6666 6683 9622 9638 13124

@@ -7,9 +7,13 @@ state={
 
 	history={
 		owner = USE
-		victory_points = {
-			6103 50
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 126.nationality = 126 } # English
+		victory_points = { 6103 50 }
 		buildings = {
 			infrastructure = 5 #was: 9
 			arms_factory = 3
@@ -20,13 +24,6 @@ state={
 			air_base = 10
 			11374 = {
 				naval_base = 10
-			}
-		}
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 4
-				industrial_complex = 4
 			}
 		}
 	}

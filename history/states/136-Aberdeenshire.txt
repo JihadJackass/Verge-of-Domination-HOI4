@@ -11,8 +11,13 @@ state={
 	}
 
 	history={
-		add_core_of = USE
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 136.nationality = 131 } # Highlander
 		victory_points = {
 			200 5 #Aberdeen
 		}

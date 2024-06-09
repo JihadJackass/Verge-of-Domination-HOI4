@@ -4,16 +4,22 @@ state={
 	name="STATE_141" # Svealand
 	manpower = 1488181
 	state_category = city
-	
+
 	resources={
 		steel=24 # was: 40
 		aluminium=2 # was: 4
 	}
 
 	history={
-		owner = SOV
+		owner = SWE
+		add_core_of = SWE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 141.nationality = 136 } # Swedish
 		victory_points = {
-			6050 20 
+			6050 20
 		}
 		buildings = {
 			infrastructure = 4 #was: 7
@@ -27,12 +33,11 @@ state={
 			}
 
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		35 161 3106 3182 6050 6084 6127 6164 6188 6209 9109 9149 9185 9209 11044 11082 11163 11188 11278 13097 13098 
+		35 161 3106 3182 6050 6084 6127 6164 6188 6209 9109 9149 9185 9209 11044 11082 11163 11188 11278 13097 13098
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

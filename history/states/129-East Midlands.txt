@@ -12,6 +12,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 129.nationality = 126 } # English
 		victory_points = {
 			6237 10 #Nottingham
 		}
@@ -23,13 +29,6 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 5
-		}
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 2
-			}
 		}
 	}
 

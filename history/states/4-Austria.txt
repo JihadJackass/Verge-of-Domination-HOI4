@@ -10,6 +10,13 @@ state={
 	state_category = large_city
 
 	history={
+		owner = AUS
+		add_core_of = AUS
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 4.nationality = 375 } # Austrian
 		victory_points = {
 			11666 30.0
 		}
@@ -21,12 +28,6 @@ state={
 			arms_factory = 3
 			industrial_complex = 5
 			air_base = 6
-		}
-		owner = AUS
-		add_core_of = AUS
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

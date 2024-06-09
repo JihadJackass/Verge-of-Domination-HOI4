@@ -13,9 +13,10 @@ state={
 		owner = TRM
 		add_core_of = TRM
 		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
+			owner = USA
+			add_core_of = USA
 		}
+		set_variable = { 340.nationality = 8 } # Greco-Turkish
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -8,6 +8,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 34.nationality = 139 } # Dutch
 		victory_points = {
 			3516 5
 		}
@@ -24,7 +30,6 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = USE
 	}
 
 	provinces={

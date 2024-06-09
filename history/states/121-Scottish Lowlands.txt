@@ -7,8 +7,13 @@ state={
 	state_category = city
 
 	history={
-		add_core_of = USE
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 121.nationality = 130 } # Lowlander
 		victory_points = { 9392 10 }
 		victory_points = { 6300 1 }
 		buildings = {

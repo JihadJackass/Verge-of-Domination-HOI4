@@ -3,12 +3,18 @@ state={
 	id=24
 	name="STATE_24"
 	manpower = 1546300
-	
-	
+
+
 	state_category = large_town
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 24.nationality = 123 } # French
 		victory_points = {
 			3671 10
 		}
@@ -20,17 +26,11 @@ state={
 			industrial_complex = 2
 
 		}
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
 	}
 
 	provinces={
-		512 3493 3671 6518 6533 6688 9492 11611 11631 
+		512 3493 3671 6518 6533 6688 9492 11611 11631
 	}
 
-	local_supplies=15.0 
+	local_supplies=15.0
 }

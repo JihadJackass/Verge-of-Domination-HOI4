@@ -1,28 +1,28 @@
-
 state={
 	id=26
 	name="STATE_26" # Auveregne
 	manpower = 877800
-	
+
 	state_category = town
 
 	history={
 		owner = USE
-		victory_points = {
-			3594 3 
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 26.nationality = 123 } # French
+		victory_points = { 3594 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
 		}
-		add_core_of = OCC
-		add_core_of = USE
 	}
 
 	provinces={
-		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576 
+		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576
 	}
 
-	local_supplies=6.0 
+	local_supplies=6.0
 }

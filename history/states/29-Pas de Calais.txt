@@ -3,7 +3,7 @@ state={
 	id=29
 	name="STATE_29"
 	manpower = 2976400
-	
+
 	state_category = large_city
 	resources={
 		steel=42 # was: 112
@@ -12,6 +12,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 29.nationality = 381 } # French Dutch
 		victory_points = {
 			575 5
 		}
@@ -29,17 +35,11 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = USE
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 6
-			}
-		}
 	}
 
 	provinces={
-		575 3476 3536 6504 9500 11483 11548 11606 
+		575 3476 3536 6504 9500 11483 11548 11606
 	}
 
-	local_supplies=15.0 
+	local_supplies=15.0
 }

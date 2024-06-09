@@ -1,5 +1,4 @@
-state=
-{
+state= {
 	id=8
 	name="STATE_8"
 
@@ -10,21 +9,23 @@ state=
 		steel=5 # was: 8
 	}
 
-	history=
-	{
+	history= {
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 8.nationality = 139 } # Dutch
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
 		}
 		victory_points = { 6583 5 }
-		add_core_of = USE
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces= { 6583 	}
 
 	local_supplies=0.0
 }

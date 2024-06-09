@@ -14,9 +14,10 @@ state={
 		owner = USE
 		add_core_of = USE
 		1950.1.1 = {
-			owner = USA
-			add_core_of = USA
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 133.nationality = 130 } # Lowlander
 		victory_points = {
 			3273 15
 		}

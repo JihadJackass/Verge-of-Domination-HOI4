@@ -17,9 +17,8 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Bolzano
-			11598 1
-		}
+		set_variable = { 39.nationality = 377 } # Austrian Italian
+		victory_points = { 11598 1 } #Bolzano
 		buildings = {
 			infrastructure = 2 # was 3 before split
 			industrial_complex = 1 #Bolzano's industrial zone started in 1934-35 (Steel meels, Lancia...)

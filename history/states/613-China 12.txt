@@ -7,8 +7,13 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SSC
-		add_core_of = SSC
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 613.nationality = 64 } # Jianghuai
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1

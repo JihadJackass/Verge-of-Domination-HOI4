@@ -19,6 +19,7 @@ state={
 			owner = USA
 			add_core_of = USA
 		}
+		set_variable = { 797.nationality = 8 } # Greco-Turkish
 		victory_points = {
 			9833 25
 		}

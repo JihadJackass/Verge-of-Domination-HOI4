@@ -5,6 +5,11 @@ state={
 	history={
 		owner = USE
 		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 35.nationality = 139 } # Dutch
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5

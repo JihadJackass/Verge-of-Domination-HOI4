@@ -1,0 +1,11 @@
+﻿l_english:
+
+ # Culture map mode
+ MAPMODE_CULTURE_MAP_MODE:0 "§YCulture§!"
+ MAPMODE_CULTURE_MAP_MODE_NAME:0 "Culture"
+ MAPMODE_CULTURE_MAP_MODE_DESCRIPTION:0 "Shows the majority cultures in the world map."
+
+ culture_map_mode_tooltip:0 "§Y[FROM.GetNationality]§!"
+ culture_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName] has a majority culture of §Y[FROM.GetNationality]§!.§!"
+
+ culture_map_mode_debug: "§TDEBUG: Go to a state without a culture§!"

@@ -1,28 +1,27 @@
-
 state={
 	id=806
 	name="STATE_806"
 
 	history={
 		owner = USE
-		victory_points = {
-			9710 3 
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		add_core_of = NAV
+		set_variable = { 806.nationality = 14 } # Basque
+		victory_points = { 9710 3 }
 		buildings = {
 			infrastructure = 3 #was: 6
-
 		}
-		add_core_of = USE
-
 	}
 
 	provinces={
-		743 9710 11697 
+		743 9710 11697
 	}
 	manpower=280723
 	buildings_max_level_factor=1.000
 	state_category=town
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

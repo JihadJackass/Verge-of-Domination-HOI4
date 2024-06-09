@@ -7,12 +7,14 @@ state={
 
 	history={
 		owner = USE
-		victory_points = {
-			3938 30 
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			858 1
-		}
+		set_variable = { 41.nationality = 380 } # Spanish
+		victory_points = { 3938 30 }
+		victory_points = { 858 1 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -20,16 +22,15 @@ state={
 			air_base = 6
 
 		}
-		add_core_of = USE
 
 	}
 
 	provinces={
-		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224 
+		858 896 939 977 3794 3845 3938 3986 6914 9767 9800 11820 13224
 	}
 	manpower=2064659
 	buildings_max_level_factor=1.000
 	state_category=city
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

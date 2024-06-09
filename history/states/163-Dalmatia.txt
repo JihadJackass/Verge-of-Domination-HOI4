@@ -12,9 +12,8 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Zara/Zadar
-			3943 5
-		}
+		set_variable = { 163.nationality = 6 } # Italian
+		victory_points = { 3943 5 } #Zara/Zadar
 		buildings = {
 			infrastructure = 3 #was: 5
 			3943 = {

@@ -7,30 +7,16 @@ state={
 	state_category = city
 	history={
 		owner = POL
-		victory_points = {
-			6558 10
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			11232 = {
-				bunker = 1
-
-			}
-			9532 = {
-				bunker = 1
-
-			}
-			3381 = {
-				bunker = 1
-
-			}
-			air_base = 3
-		}
 		add_core_of = POL
 		1950.1.1 = {
 			owner = SOV
-			controller = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 86.nationality = 178 } # Polish
+		victory_points = { 6558 10 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 		}
 	}
 

@@ -2273,4 +2273,46 @@ defined_text = {
 		}
 		localization_key = var_nationality.376
 	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 377 }
+		}
+		localization_key = var_nationality.377
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 378 }
+		}
+		localization_key = var_nationality.378
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 379 }
+		}
+		localization_key = var_nationality.379
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 380 }
+		}
+		localization_key = var_nationality.380
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 381 }
+		}
+		localization_key = var_nationality.381
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 382 } # Okie
+		}
+		localization_key = var_nationality.382
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 383 } # American
+		}
+		localization_key = var_nationality.383
+	}
 }

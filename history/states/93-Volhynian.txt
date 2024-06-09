@@ -3,31 +3,28 @@ state={
 	name="STATE_93"
 
 	history={
-		victory_points = {
-			6557 1
-		}
-		#victory_points = {
-		#	572 5
-		#}
-		victory_points = {
-			422 3
-		}
 		owner = POL
-		buildings = {
-			infrastructure = 3
-
-		}
 		add_core_of = POL
 		add_core_of = UKR
-
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 93.nationality = 178 } # Polish
+		victory_points = { 6557 1 }
+		victory_points = { 572 5 }
+		victory_points = { 422 3 }
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={
-		422 474 513 572 3412 6435 6520 6557 11441 11543 
+		422 474 513 572 3412 6435 6520 6557 11441 11543
 	}
 	manpower=1985600
 	buildings_max_level_factor=1.000
 	state_category=town
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

@@ -8,6 +8,11 @@ state = {
 	history = {
 		owner = USA
 		add_core_of = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 114.nationality = 201 } # Sardinian
 		victory_points = {
 			11773 3
 		}

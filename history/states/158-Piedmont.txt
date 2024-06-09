@@ -13,12 +13,13 @@ state = {
 	}
 
 	history = {
-		owner = USE
-		add_core_of = USE
+		owner = ITA
+		add_core_of = ITA
 		1950.1.1 = {
 			owner = USA
 			add_core_of = USA
 		}
+		set_variable = { 158.nationality = 4 } # Northern Italian
 		victory_points = {
 			6788 10
 		}

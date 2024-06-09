@@ -11,17 +11,19 @@ state={
 	}
 	state_category = city
 	history={
-		victory_points = {
-			6464 5
-		}
 		owner = POL
+		add_core_of = POL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 762.nationality = 162 } # East German
+		victory_points = { 6464 5 }
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
 		}
-		add_core_of = POL
-		add_core_of = SIL
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

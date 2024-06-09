@@ -18,6 +18,7 @@ state={
 			owner = USA
 			add_core_of = USA
 		}
+		set_variable = { 275.nationality = 294 } # Xhosa
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

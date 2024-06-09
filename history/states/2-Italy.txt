@@ -12,7 +12,7 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 172.nationality = 6 } # Central Italian
+		set_variable = { 2.nationality = 6 } # Central Italian
 		victory_points = { 9904 40 } #Rome
 		victory_points = { 11846 1 } #Anzio (was 5)
 		buildings = {

@@ -13,9 +13,8 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Trento
-			9598 1
-		}
+		set_variable = { 850.nationality = 377 } # Austrian Italian
+		victory_points = { 9598 1 } #Trento
 		buildings = {
 			infrastructure = 2 #was 3 before split
 		}

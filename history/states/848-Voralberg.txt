@@ -11,6 +11,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 848.nationality = 304 } # Swiss Italian
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

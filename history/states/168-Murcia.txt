@@ -4,29 +4,29 @@ state={
 
 	history={
 		owner = USE
-		victory_points = {
-			10024 3
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 168.nationality = 380 } # Spanish
+		victory_points = { 10024 3 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			dockyard = 1
 			air_base = 2
 			10024 = {
 				naval_base = 8
-
 			}
-
 		}
-		add_core_of = USE
-
 	}
 
 	provinces={
-		832 1093 3835 4195 7111 9903 10024 10109 11807 11812 11884 
+		832 1093 3835 4195 7111 9903 10024 10109 11807 11812 11884
 	}
 	manpower=1007605
 	buildings_max_level_factor=1.000
 	state_category=town
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

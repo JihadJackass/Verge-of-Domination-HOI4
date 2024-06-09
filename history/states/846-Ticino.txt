@@ -9,12 +9,17 @@ state={
 	}
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 846.nationality = 4 } # Northern Italian
 		victory_points = { 9600 1 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = USE
 	}
 	provinces={
 		9600 3641

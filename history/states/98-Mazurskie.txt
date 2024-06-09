@@ -2,22 +2,26 @@ state={
 	id=98
 	name="STATE_98"
 	manpower = 1412100
-	
+
 	state_category = rural
+
 	history={
-		victory_points = {
-			3230 5
-		}
 		owner = POL
+		add_core_of = POL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 98.nationality = 178 } # Polish
+		victory_points = { 3230 5 }
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = POL
 	}
 
 	provinces={
-		548 3230 6259 6321 6401 6567 9290 9316 11385 
+		548 3230 6259 6321 6401 6567 9290 9316 11385
 	}
 
-	local_supplies=7.0 
+	local_supplies=7.0
 }

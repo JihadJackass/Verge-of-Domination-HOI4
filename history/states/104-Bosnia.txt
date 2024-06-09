@@ -18,12 +18,9 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = {
-			11899 5
-		}
-		victory_points = {
-			6983 3
-		}
+		set_variable = { 104.nationality = 40 } # Bosnian
+		victory_points = { 11899 5 }
+		victory_points = { 6983 3 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

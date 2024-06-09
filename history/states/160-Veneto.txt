@@ -15,16 +15,10 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Venezia
-			11584 10
-		}
-		victory_points = { #Padova
-			3604 3
-		}
-		victory_points = { #Verona
-			603 1
-		}
-
+		set_variable = { 160.nationality = 4 } # Northern Italian
+		victory_points = { 11584 10 } #Venezia
+		victory_points = { 3604 3 } #Padova
+		victory_points = { 603 1 } #Verona
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
@@ -35,7 +29,6 @@ state = {
 				naval_base = 6
 			}
 		}
-
 	}
 
 	provinces = {

@@ -14,6 +14,7 @@ state=
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 74.nationality = 162 } # East German
 		victory_points = {
 			3583 5
 		}

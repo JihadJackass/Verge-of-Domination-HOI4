@@ -84,8 +84,8 @@
   var_nationality.79: "Meitai"
   var_nationality.80: "Khmer"
   var_nationality.81: "Vietnamese"
-  var_nationality.82: "Yankee"
-  var_nationality.83: "Dixie"
+  var_nationality.82: "Yankee" # Old North American
+  var_nationality.83: "Dixie" # Old South American
   var_nationality.84: "African-American"
   var_nationality.85: "Steel Belt"
   var_nationality.86: "Southwestern"
@@ -94,8 +94,10 @@
   var_nationality.89: "Hawaiian"
   var_nationality.90: "Puerto Rican"
   var_nationality.91: "Falklander"
-  var_nationality.92: "Ontarian, §Ymade up of mostly §YOld Stock Canadians§!, with the remainder being comprised of §YFrancophones§! and §YNew Canadians§!. §YIndigenous§! peoples include the §YAnishinaabe§!, §YHaudenosaunee§! and §YMohawk§!§!"
-  var_nationality.93: "Québecois, §YQuébec being Canada's only §YFrancophone§! majority province, with a politically influential minority of §YOld Stock Canadians§!. The largest §YFirst Nations§! are the §YAlgonquin§!, §YCree§! and §YInnu§!§!"
+  var_nationality.92: "Ontarian"
+  #§Ymade up of mostly §YOld Stock Canadians§!, with the remainder being comprised of §YFrancophones§! and §YNew Canadians§!. §YIndigenous§! peoples include the §YAnishinaabe§!, §YHaudenosaunee§! and §YMohawk§!§!
+  var_nationality.93: "Québecois"
+  #§YQuébec being Canada's only §YFrancophone§! majority province, with a politically influential minority of §YOld Stock Canadians§!. The largest §YFirst Nations§! are the §YAlgonquin§!, §YCree§! and §YInnu§!§!"
   var_nationality.94: "Inuit"
   var_nationality.95: "Maritimer, §Ywith an overwhelmingly §YOld Stock Canadian§! population, and only small minorities of §YFrancophones§! and §YIndigenous§! peoples. The primary §YFirst Nation§! in the Maritimes is the §YMi'kmaq§!§!"
   var_nationality.96: "Anglo-Caribbean"
@@ -381,3 +383,5 @@
   var_nationality.379: "Bavarian"
   var_nationality.380: "Spanish"
   var_nationality.381: "French Dutch"
+  var_nationality.382: "Okie"
+  var_nationality.383: "American" # Modern American

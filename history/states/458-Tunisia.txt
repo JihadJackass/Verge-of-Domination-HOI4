@@ -11,15 +11,14 @@ state={
 	history={
 		owner = USG
 		add_core_of = USG
-		victory_points = {
-			11969 10
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			9994 1
-		}
-		victory_points = {
-			11921 1
-		}
+		set_variable = { 458.nationality = 33 } # Tunisian
+		victory_points = { 11969 10 }
+		victory_points = { 9994 1 }
+		victory_points = { 11921 1 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

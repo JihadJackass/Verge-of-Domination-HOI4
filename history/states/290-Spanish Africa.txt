@@ -4,7 +4,6 @@ state={
 	name="STATE_290"
 	manpower = 744000
 
-
 	state_category = rural
 
 	resources={
@@ -14,24 +13,19 @@ state={
 	history={
 		owner = USG
 		add_core_of = USG
-		victory_points = {
-			9945 3
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			12100 2
-		}
-		victory_points = {
-			12087 1
-		}
+		set_variable = { 290.nationality = 380 } # Spanish
+		victory_points = { 9945 3 }
+		victory_points = { 12100 2 }
+		victory_points = { 12087 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 3
-			12100 = {
-				naval_base = 3
-			}
-			9945 = {
-				naval_base = 3
-			}
+			12100 = { naval_base = 3 }
+			9945 = { naval_base = 3 }
 		}
 	}
 

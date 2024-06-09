@@ -1,4 +1,3 @@
-
 state = {
 	id = 159
 	name = "STATE_159"
@@ -12,18 +11,14 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Milano
-			3780 15
-		}
-		victory_points = { #Brescia
-			773 3
-		}
+		set_variable = { 159.nationality = 4 } # Northern Italian
+		victory_points = { 3780 15 } #Milano
+		victory_points = { 773 3 } #Brescia
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 7
 			industrial_complex = 3
 			air_base = 5
-
 		}
 	}
 

@@ -11,18 +11,11 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Bari
-			9784 3
-		}
-		victory_points = { #Brindisi
-			11998 3
-		}
-		victory_points = { #Taranto
-			11837 15
-		}
-		victory_points = { #Foggia
-			883 3
-		}
+		set_variable = { 849.nationality = 5 } # Southern Italian
+		victory_points = { 9784 3 }  #Bari
+		victory_points = { 11998 3 }  #Brindisi
+		victory_points = { 11837 15 } #Taranto
+		victory_points = { 883 3 } #Foggia
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

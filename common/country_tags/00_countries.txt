@@ -43,3 +43,11 @@ CAP = "countries/Cape.txt"
 # Rebel Factions
 REB = "countries/Rebel_wasteland.txt" # Rebel Wastelands (Territories controlled by armed rebel groups which is unable to be conquered)
 NUC = "countries/Nuclear_wasteland.txt" # Nuclear Wastelands (Territories completely destroyed)
+
+# Unused TAGs
+FRA = "countries/Unused.txt"
+ENG = "countries/Unused.txt"
+JAP = "countries/Unused.txt"
+MAN = "countries/Unused.txt"
+MEN = "countries/Unused.txt"
+CHI = "countries/Unused.txt"

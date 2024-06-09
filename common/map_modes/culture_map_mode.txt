@@ -4059,7 +4059,7 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							check_variable = { nationality = 378 } #Spanish
+							check_variable = { nationality = 378 } #Caiçaran
 						}
 					}
 					set_temp_variable = { red = 235 }
@@ -4084,9 +4084,9 @@ scripted_map_modes = {
 							check_variable = { nationality = 380 } #Spanish
 						}
 					}
-					set_temp_variable = { red = 0.210 }
-					set_temp_variable = { green = 0.100 }
-					set_temp_variable = { blue = 0.40 }
+					set_temp_variable = { red = 0.455 }
+					set_temp_variable = { green = 0.421 }
+					set_temp_variable = { blue = 0.10 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
 				else_if = {

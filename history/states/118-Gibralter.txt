@@ -3,10 +3,16 @@ state=
 	id=118
 	name="STATE_118"
 	manpower=21372
-	
+
 	state_category = enclave
 	history={
-		owner = USA
+		owner = USG
+		add_core_of = USG
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 290.nationality = 380 } # Spanish
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 3
@@ -16,11 +22,10 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = USE
 	}
 	provinces={
 		4135
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

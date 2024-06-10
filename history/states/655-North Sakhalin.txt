@@ -5,8 +5,8 @@ state = {
 
 	state_category = pastoral
 	history = {
-		owner = JAP
-		add_core_of = JAP
+		owner = SOV
+		add_core_of = SOV
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV

@@ -1,4 +1,3 @@
-
 state={
 	id=135
 	name="STATE_135"
@@ -8,17 +7,18 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 135.nationality = 132 } # Irish
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 3
 		}
-		victory_points = {
-			7394 5 #Cork
-		}
-		victory_points = {
-			6313 1 #Limerick
-		}
-		add_core_of = USE
+		victory_points = { 7394 5 } #Cork
+		victory_points = { 6313 1 } #Limerick
 	}
 
 	provinces={

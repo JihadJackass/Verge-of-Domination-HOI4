@@ -8,18 +8,19 @@ state={
 	state_category = town
 
 	history={
+		owner = GER
+		add_core_of = GER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 62.nationality = 162 } # East German
 		victory_points = {
 			9388 1
 		}
 		buildings = {
 			infrastructure = 3
 			fuel_silo = 1
-		}
-		owner = GER
-		add_core_of = GER
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

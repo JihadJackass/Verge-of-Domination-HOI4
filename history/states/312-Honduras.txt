@@ -1,37 +1,33 @@
-state=
-{
+state= {
 	id=312
 	name="STATE_312"
 	manpower=859761
 	resources={
 		chromium=1 # was: 1
 	}
-	
+
 	state_category = town
-	history=
-	{
+	history= {
 		owner = USA
+		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 312.nationality = 105 } # Honduran
+		victory_points = { 12865 3  }
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 1
-			12865 = {
-				naval_base = 1
-			}
-			8017 = {
-				naval_base = 1
-			}
+			12865 = { naval_base = 1 }
+			8017 = { naval_base = 1 }
 		}
-		add_core_of = USA
-		victory_points = {
-			12865 3 
-		}
-
 	}
 	provinces={
 		2031 8017 12865
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

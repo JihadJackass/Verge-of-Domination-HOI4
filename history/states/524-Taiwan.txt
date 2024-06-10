@@ -1,15 +1,17 @@
-state=
-{
+state= {
 	id=524
 	name="STATE_524"
 	manpower = 4592537
-	
+
 	state_category = large_town
-	history=
-	{
-		owner = USA
-		add_core_of = SOV
+	history= {
+		owner = PRC
 		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 524.nationality = 194 } # Taiwanese
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -19,10 +21,10 @@ state=
 			}
 		}
 		victory_points = {
-			7186 5 
+			7186 5
 		}
 		victory_points = {
-			12068 1 
+			12068 1
 		}
 
 	}
@@ -30,5 +32,5 @@ state=
 		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
 		}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

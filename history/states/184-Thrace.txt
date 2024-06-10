@@ -1,4 +1,3 @@
-
 state={
 	id=184
 	name="STATE_184"
@@ -17,9 +16,8 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = {
-			11905 1
-		}
+		set_variable = { 184.nationality = 37 } # Greek
+		victory_points = { 11905 1 }
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

@@ -7,12 +7,14 @@ state={
 
 	history={
 		owner = USE
-		victory_points = {
-			11805 20
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			3798 1
-		}
+		set_variable = { 112.nationality = 16 } # Portuguese
+		victory_points = { 11805 20 }
+		victory_points = { 3798 1 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -23,8 +25,6 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = USE
-
 	}
 
 	provinces={

@@ -2313,12 +2313,30 @@ defined_text = {
 		trigger = {
 			check_variable = { nationality = 383 } # Modern American
 		}
-		localization_key = var_nationality.384
+		localization_key = var_nationality.383
 	}
 	text = {
 		trigger = {
 			check_variable = { nationality = 384 } # Modern Chinese
 		}
-		localization_key = var_nationality.383
+		localization_key = var_nationality.384
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 385 } # Zagrebi
+		}
+		localization_key = var_nationality.385
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 386 } # Kam-Tai
+		}
+		localization_key = var_nationality.386
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 387 } # Burman
+		}
+		localization_key = var_nationality.386
 	}
 }

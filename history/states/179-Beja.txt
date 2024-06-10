@@ -4,29 +4,22 @@ state={
 
 	history={
 		owner = USE
-		victory_points = {
-			3790 1
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			6880 1
-		}
-		victory_points = {
-			6933 1
-		}
-		victory_points = {
-			970 1
-		}
+		set_variable = { 179.nationality = 16 } # Portuguese
+		victory_points = { 3790 1 }
+		victory_points = { 6880 1 }
+		victory_points = { 6933 1 }
+		victory_points = { 970 1 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 3
-			3790 = {
-				naval_base = 2
-
-			}
+			3790 = { naval_base = 2 }
 		}
-		add_core_of = USE
 		add_extra_state_shared_building_slots = 1
-
 	}
 
 	provinces={

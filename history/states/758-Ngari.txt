@@ -2,19 +2,24 @@ state={
 	id=758
 	name="STATE_758"
 	provinces={
-		1961 5094 8029 10802 12784 12801 
+		1961 5094 8029 10802 12784 12801
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = SOV
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 758.nationality = 198 } # Tibetan
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SOV
 
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

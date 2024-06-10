@@ -143,7 +143,7 @@
   var_nationality.137: "Sami"
   var_nationality.138: "Danish"
   var_nationality.139: "Dutch"
-  var_nationality.140: "Burgundian, §Ya state-enforced \"culture\" of §Robedience§! and §Roppression§!§!"
+  var_nationality.140: "Flemish"
   var_nationality.141: "Rheinisch"
   var_nationality.142: "Bairisch"
   var_nationality.143: "Österreichisch"
@@ -152,7 +152,7 @@
   var_nationality.146: "Märkisch"
   var_nationality.147: "Sudeten"
   var_nationality.148: "Schlesisch" # TODO: change
-  var_nationality.149: "Luxemburgisch" # TODO: change
+  var_nationality.149: "Luxembourgian" # TODO: change
   var_nationality.150: "Swiss German"
   var_nationality.151: "Russian"
   var_nationality.152: "Udmurt"
@@ -202,7 +202,7 @@
   var_nationality.196: "Dongbei"
   var_nationality.197: "New Zealander"
   var_nationality.198: "Tibetan"
-  var_nationality.199: "Böhmisch, §Ythe result of the successful §YGermanization§! of §YCzech§! culture§!"
+  var_nationality.199: "Bohemian"
   var_nationality.200: "Slovak"
   var_nationality.201: "Sardinian"
   var_nationality.202: "Corsican"
@@ -339,7 +339,7 @@
   var_nationality.333: "Mecklenburgisch"
   var_nationality.334: "Hessisch"
   var_nationality.335: "Pommersch"
-  var_nationality.336: "Berliner"
+  var_nationality.336: "Central German"
   var_nationality.337: "Corn Belt"
   var_nationality.338: "Nurestani"
   var_nationality.339: "Nordeste"
@@ -382,7 +382,11 @@
   var_nationality.378: "Caiçaran"
   var_nationality.379: "Bavarian"
   var_nationality.380: "Spanish"
-  var_nationality.381: "French Dutch"
+  var_nationality.381: "Franco-Flemish"
   var_nationality.382: "Okie"
   var_nationality.383: "American" # Modern American
   var_nationality.384: "Chinese" # Modern Chinese
+  var_nationality.385: "Zagrebi"
+  var_nationality.386: "Kam-Tai"
+  var_nationality.387: "Burman"
+  var_nationality.388: "Israeli"

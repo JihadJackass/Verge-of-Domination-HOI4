@@ -13,6 +13,11 @@ state={
 	history={
 		owner = PRC
 		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 594.nationality = 70 } # Hakka
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

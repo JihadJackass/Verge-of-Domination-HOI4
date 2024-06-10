@@ -4,13 +4,13 @@ state={
 	name="STATE_453"
 
 	history={
-		owner = EGY
-		add_core_of = EGY
+		owner = ISR
+		add_core_of = ISR
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 453.nationality = 30 } # Egyptian
+		set_variable = { 453.nationality = 296 } # Jewish / can become Israeli
 		victory_points = { 4161 3 }
 		victory_points = { 10099 1 }
 		buildings = {

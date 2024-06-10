@@ -3,23 +3,23 @@ state={
 	name="STATE_430"
 
 	history={
+		owner = BAN
 		add_core_of = BAN
-		owner = SOV
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 430.nationality = 57 } # Bengali
 		victory_points = {
-			11929 1 
+			11929 1
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2
 			11968 = {
 				naval_base = 3
-
 			}
-
 		}
-		add_core_of = PAK
-		add_core_of = SOV
-
 	}
 
 	provinces={
@@ -29,5 +29,5 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

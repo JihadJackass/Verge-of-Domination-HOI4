@@ -7,7 +7,11 @@ state={
 	history={
 		owner = PRC
 		add_core_of = PRC
-
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 591.nationality = 68 } # Min
 		victory_points = {
 			1070 1
 		}

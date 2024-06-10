@@ -5,6 +5,12 @@ state={
 
 	history={
 		owner = USE
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 119.nationality = 132 } # Irish
 		victory_points = {
 			3379 5
 		}
@@ -21,7 +27,6 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = USE
 	}
 
 	provinces={

@@ -9,6 +9,13 @@ state={
 	state_category = large_city
 
 	history={
+		owner = BOH
+		add_core_of = BOH
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 69.nationality = 199 } # Bohemian
 		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
 		victory_points = { 9569 5 }
@@ -19,12 +26,6 @@ state={
 			industrial_complex = 1
 			anti_air_building = 5
 			air_base = 5
-		}
-		owner = BOH
-		add_core_of = BOH
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

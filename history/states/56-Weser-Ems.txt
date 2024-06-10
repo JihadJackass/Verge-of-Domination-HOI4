@@ -6,15 +6,16 @@ state={
 	state_category = city
 
 	history={
-		victory_points = {
-			241 5
+		owner = GER
+		add_core_of = GER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			11360 1
-		}
-		victory_points = {
-			11388 5
-		}
+		set_variable = { 56.nationality = 167 } # West German
+		victory_points = { 241 5 }
+		victory_points = { 11360 1 }
+		victory_points = { 11388 5 }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -22,16 +23,8 @@ state={
 			fuel_silo = 1
 			241 = {
 				naval_base = 8
-
 			}
 			air_base = 3
-
-		}
-		owner = GER
-		add_core_of = GER
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
 		}
 	}
 

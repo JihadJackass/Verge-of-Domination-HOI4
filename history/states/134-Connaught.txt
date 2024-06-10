@@ -1,6 +1,4 @@
-
-state=
-{
+state={
 	id=134
 	name="STATE_134"
 	manpower = 667100
@@ -9,21 +7,20 @@ state=
 
 	history= {
 		owner = USE
-		victory_points = {
-			9303 3 #Galway
+		add_core_of = USE
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			11371 1 #Sligo
-		}
+		set_variable = { 134.nationality = 132 } # Irish
+		victory_points = { 9303 3 } #Galway
+		victory_points = { 11371 1 } #Sligo
 		buildings = {
 			infrastructure = 3 #was: 6
 		}
-		add_core_of = USE
 	}
 
-	provinces=
-	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
+	provinces= { 337 3396 9255 9303 9321 9369 11238 11287 11371 	}
 
 	local_supplies=13.0
 }

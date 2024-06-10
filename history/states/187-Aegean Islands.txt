@@ -11,7 +11,13 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = TRM
+		add_core_of = TRM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 187.nationality = 37 } # Greek
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
@@ -28,7 +34,6 @@ state={
 		victory_points = {
 			8435 1
 		}
-		add_core_of = USA
 	}
 
 	provinces={

@@ -12,6 +12,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 602.nationality = 71 } # Xiang
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

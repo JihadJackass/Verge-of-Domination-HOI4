@@ -11,29 +11,21 @@ state={
 	state_category = town
 
 	history={
-		victory_points = {
-			6282 5
-		}
-		victory_points = {
-			11372 3
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			11372 = {
-				naval_base = 1
-			}
-			6282 = {
-				naval_base = 4
-
-			}
-			air_base = 3
-		}
 		owner = WPR
 		add_core_of = WPR
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
+		}
+		set_variable = { 63.nationality = 132 } # Irish
+		victory_points = { 6282 5 }
+		victory_points = { 11372 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11372 = { naval_base = 1 }
+			6282 = { naval_base = 4 }
+			air_base = 3
 		}
 	}
 

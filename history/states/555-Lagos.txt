@@ -2,14 +2,18 @@
 state={
 	id=555
 	name="STATE_555" #Kuril Islands
-	manpower = 15000 
-	
+	manpower = 15000
+
 	state_category = tiny_island
 
 	history={
-		owner = USA
-		#add_core_of = USA
-		#add_claim_by = SOV # Removed because of too much aggression
+		owner = JAP
+		add_core_of = JAP
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 555.nationality = 62 } # Japanese
 		buildings = {
 			infrastructure = 2
 			1399 = {
@@ -22,8 +26,8 @@ state={
 	}
 
 	provinces={
-		1399 1515 13037 
+		1399 1515 13037
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

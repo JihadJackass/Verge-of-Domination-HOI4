@@ -10,9 +10,13 @@ state={
 	}
 
 	history={
-		owner = SSC
-		add_core_of = SSC
-
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 592.nationality = 69 } # Yue
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2

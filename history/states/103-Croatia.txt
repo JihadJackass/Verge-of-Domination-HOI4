@@ -14,6 +14,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 103.nationality = 39 } # Croatian
 		victory_points = { #Dubrovnik
 			6889 3
 		}

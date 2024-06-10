@@ -7,7 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = ARB
+		add_core_of = ARB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 454.nationality = 21 } # Levantine Arab
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -16,16 +22,9 @@ state={
 				naval_base = 3
 			}
 		}
-		victory_points = {
-			1086 1
-		}
-		victory_points = {
-			4206 1
-		}
-		victory_points = {
-			1065 1
-		}
-		add_core_of = SOV
+		victory_points = { 1086 1 }
+		victory_points = { 4206 1 }
+		victory_points = { 1065 1 }
 	}
 
 	provinces={

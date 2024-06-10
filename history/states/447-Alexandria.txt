@@ -16,6 +16,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 447.nationality = 30 } # Egyptian
 		victory_points = {
 			4076 10
 		}

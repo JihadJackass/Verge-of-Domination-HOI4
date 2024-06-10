@@ -1,0 +1,22 @@
+kiwi_mode = {
+	id = custom_achievements_123456
+
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1945.01.02
+		NOT = { has_start_date > 1945.01.02 }
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+		NOT = {
+			any_country = {
+				has_government = communism
+			}
+		}
+	}
+
+	happened = {
+		# TODO: add requirement for purging all communist cultures
+		# TODO: add requirement for removing all communist elements
+	}
+}

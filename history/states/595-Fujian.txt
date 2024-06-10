@@ -3,10 +3,14 @@ state= {
 	name="STATE_595"
 	manpower = 11755600
 	state_category = city
-	history=
-	{
-		owner = SSC
-		add_core_of = SSC
+	history= {
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 595.nationality = 68 } # Min
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

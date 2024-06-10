@@ -6,27 +6,19 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SOV
+		owner = EGY
+		add_core_of = EGY
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 446.nationality = 151 } # Russian
+		victory_points = { 12049 5 }
+		victory_points = { 4073 3 }
 		buildings = {
 			infrastructure = 3
-
-			12049 = {
-				naval_base = 2
-
-			}
-
+			12049 = { naval_base = 2 }
 		}
-
-		victory_points = {
-			12049 5
-		}
-
-		victory_points = {
-			4073 3
-		}
-
-		add_core_of = SOV
-
 	}
 
 	provinces={

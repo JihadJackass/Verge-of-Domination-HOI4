@@ -8,6 +8,12 @@ state={
 
 	history={
 		owner = SOV
+		add_core_of = SOV
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 105.nationality = 296 } # Jewish
 		victory_points = {
 			4111 5
 		}
@@ -15,7 +21,6 @@ state={
 			infrastructure = 2
 			air_base = 1
 		}
-		add_core_of = SOV
 
 	}
 

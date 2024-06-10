@@ -8,8 +8,13 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=town
 	history={
-		owner = SSC
-		add_core_of = SSC
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 749.nationality = 67 } # Wu
 		buildings = {
 			infrastructure = 2
 		}

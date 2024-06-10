@@ -13,6 +13,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
+		set_variable = { 106.nationality = 176 } # Macedonian
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

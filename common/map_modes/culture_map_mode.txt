@@ -427,6 +427,17 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
+							check_variable = { nationality = 40 } #Bosnian
+						}
+					}
+					set_temp_variable = { red = 0.600 }
+					set_temp_variable = { green = 0.600 }
+					set_temp_variable = { blue = 0.600 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
 							check_variable = { nationality = 41 } #Sindhi
 						}
 					}
@@ -1767,7 +1778,17 @@ scripted_map_modes = {
 					set_temp_variable = { blue = 0.510 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
-				### There is no 167 ###
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { nationality = 167 } #West German
+						}
+					}
+					set_temp_variable = { red = 0.220 }
+					set_temp_variable = { green = 0.270 }
+					set_temp_variable = { blue = 0.270 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
 				else_if = {
 					limit = {
 						FROM = {

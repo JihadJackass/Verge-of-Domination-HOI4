@@ -3,7 +3,13 @@ state={
 	name="STATE_230"
 
 	history={
-		owner = SOV
+		owner = ARM
+		add_core_of = ARM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 230.nationality = 12 } # Armenian
 		victory_points = {
 			12320 3
 		}
@@ -14,26 +20,15 @@ state={
 			infrastructure = 2
 			industrial_complex = 2
 			air_base = 2
-
 		}
-		add_core_of = SOV
-		add_core_of = ARM
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
-
 	}
 
 	provinces={
-		3564 4660 6642 6997 11708 12320 12380 12441 12450 13123 
+		3564 4660 6642 6997 11708 12320 12380 12441 12450 13123
 	}
 	manpower=1250082
 	buildings_max_level_factor=1.000
 	state_category=town
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

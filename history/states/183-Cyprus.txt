@@ -2,22 +2,22 @@ state= {
 	id=183
 	name="STATE_183"
 	manpower = 347959
-	
+
 	state_category = rural
 	resources={
 		chromium=3 # was: 4
 	}
 
-	history=
-	{
+	history= {
 		owner = USA
-		add_core_of = CYP
-		victory_points = {
-			11984 5
+		add_core_of = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			7193 3
-		}
+		set_variable = { 183.nationality = 8 } # Greco-Turkish
+		victory_points = { 11984 5 }
+		victory_points = { 7193 3 }
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -29,5 +29,5 @@ state= {
 	}
 	provinces= { 7193 11984 }
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

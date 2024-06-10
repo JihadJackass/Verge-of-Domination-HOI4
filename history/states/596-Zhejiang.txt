@@ -1,38 +1,21 @@
-state=
-{
+state= {
 	id=596
 	name="STATE_596"
 	manpower = 21230700
 	state_category = city
 	history= {
-		owner = SSC
-		add_core_of = SSC
-
-		victory_points = {
-			9974 1
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			7191 1
-		}
+		set_variable = { 596.nationality = 67 } # Wu
+		victory_points = { 9974 1 }
+		victory_points = { 7191 1 }
 
 		buildings = {
 			infrastructure = 2
-
-			7191 = {
-				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
-			}
-			9974 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-			}
-			1055 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-			}
 		}
 	}
 	provinces={

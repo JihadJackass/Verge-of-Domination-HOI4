@@ -3,8 +3,13 @@ state={
 	name="STATE_600"
 
 	history={
-		owner = SSC
-		add_core_of = SSC
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 600.nationality = 72 } # Gan
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

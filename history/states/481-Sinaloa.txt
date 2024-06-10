@@ -3,11 +3,20 @@ state={
 	id=481
 	name="STATE_481" # Durango
 	manpower = 1255094
-	
+
 	state_category = rural
-	
+
 	history={
-		owner = USA
+		owner = MEX
+		add_core_of = MEX
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 481.nationality = 302 } # Mexican
+		victory_points = { 7921 10 }
+		victory_points = { 8057 10 }
+		victory_points = { 10895 5 }
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -15,22 +24,12 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
-		victory_points = {
-			7921 10
-		}
-		#victory_points = {
-		#	8057 10
-		#}
-		#victory_points = {
-		#	10895 5
-		#}
 	}
 
 	provinces={
-		1945 4946 7921 8003 8057 10853 10871 10895 12804 
+		1945 4946 7921 8003 8057 10853 10871 10895 12804
 	}
-	
 
-	local_supplies=6.0 
+
+	local_supplies=6.0
 }

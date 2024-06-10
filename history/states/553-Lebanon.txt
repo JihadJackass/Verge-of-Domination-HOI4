@@ -7,11 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		victory_points = {
-			792 5
+		owner = ARB
+		add_core_of = ARB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 553.nationality = 21 } # Levantine Arab
+		victory_points = { 792 5 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,12 +22,6 @@ state={
 			792 = {
 				naval_base = 3
 			}
-		}
-
-		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
-			controller = SOV
 		}
 	}
 

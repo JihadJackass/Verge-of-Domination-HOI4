@@ -13,15 +13,10 @@ state=
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = {
-			11999 1
-		}
-		victory_points = {
-			12071 3
-		}
-		victory_points = {
-			11974 1
-		}
+		set_variable = { 456.nationality = 30 } # Egyptian
+		victory_points = { 11999 1 }
+		victory_points = { 12071 3 }
+		victory_points = { 11974 1 }
 		buildings = {
 			infrastructure = 2
 		}

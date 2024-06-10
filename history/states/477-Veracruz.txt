@@ -3,15 +3,23 @@ state={
 	id=477
 	name="STATE_477"
 	manpower = 1951460
-	
+
 	state_category = town
-	
+
 	resources={
 		oil=9
 	}
 
 	history={
-		owner = USA
+		owner = MEX
+		add_core_of = MEX
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 477.nationality = 302 } # Mexican
+		victory_points = { 12810 5 }
+		victory_points = { 8089 10 }
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -19,19 +27,12 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
-		victory_points = {
-			12810 5
-		}
-		victory_points = {
-			8089 10
-		}
 	}
 
 	provinces={
-		8079 8089 10732 12810 
+		8079 8089 10732 12810
 	}
-	
 
-	local_supplies=0.0 
+
+	local_supplies=0.0
 }

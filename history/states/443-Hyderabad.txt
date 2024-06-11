@@ -7,10 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
-		victory_points = {
-			3456 3
+		owner = PAK
+		add_core_of = PAK
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 443.nationality = 183 } # Pashtun
+		victory_points = { 3456 3 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -18,8 +22,6 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={

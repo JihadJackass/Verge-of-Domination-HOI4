@@ -7,15 +7,20 @@ state={
 	state_category = wasteland
 
 	history={
+		owner = PAK
+		add_core_of = PAK
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 445.nationality = 183 } # Pashtun
 		victory_points = {
 			5105 1
 		}
-		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 4
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

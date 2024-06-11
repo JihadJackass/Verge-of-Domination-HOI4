@@ -1,25 +1,22 @@
-
 state={
 	id=344
 	name="STATE_344"
 	manpower = 1081781
-	
+
 	state_category = town
 
 	history={
-		owner = SOV
-		victory_points = {
-			9893 15
+		owner = KUR
+		add_core_of = KUR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			7620 10
-		}
-		victory_points = {
-			6813 3
-		}
-		victory_points = {
-			11746 5 
-		}
+		set_variable = { 798.nationality = 13 } # Turkish
+		victory_points = { 9893 15 }
+		victory_points = { 7620 10 }
+		victory_points = { 6813 3 }
+		victory_points = { 11746 5 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -27,14 +24,12 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = SOV
-		add_claim_by = KUR
 	}
 
 	provinces={
-		806 3889 6813 7620 9893 9912 11746 
+		806 3889 6813 7620 9893 9912 11746
 	}
 
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

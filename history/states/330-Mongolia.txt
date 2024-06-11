@@ -8,26 +8,25 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			4801 10
+		owner = MON
+		add_core_of = MON
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			7799 1 
-		}
+		set_variable = { 330.nationality = 192 } # Mongolian
+		victory_points = { 4801 10 }
+		victory_points = { 7799 1  }
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
-
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		1725 1728 1798 1859 4697 4732 4801 4862 7799 7881 10554 10623 12605 12675 
+		1725 1728 1798 1859 4697 4732 4801 4862 7799 7881 10554 10623 12605 12675
 	}
 	manpower=435550
 	buildings_max_level_factor=1.000

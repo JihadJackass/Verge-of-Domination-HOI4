@@ -4,19 +4,19 @@ state={
 	name="STATE_677"
 
 	history={
-		owner = SOV
-		victory_points = {
-			12473 3
+		owner = ARB
+		add_core_of = ARB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			1056 1
-		}
+		set_variable = { 677.nationality = 21 } # Levantine Arab
+		victory_points = { 12473 3 }
+		victory_points = { 1056 1 }
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={

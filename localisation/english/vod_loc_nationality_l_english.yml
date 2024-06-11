@@ -145,8 +145,8 @@
   var_nationality.139: "Dutch"
   var_nationality.140: "Flemish"
   var_nationality.141: "Rheinisch"
-  var_nationality.142: "Bairisch"
-  var_nationality.143: "Österreichisch"
+  var_nationality.142: "Bavarian" # Bairisch
+  var_nationality.143: "Österreichisch" # German Austrian
   var_nationality.144: "Schleswigisch"
   var_nationality.145: "Niedersächsisch"
   var_nationality.146: "Märkisch"
@@ -192,7 +192,7 @@
   var_nationality.186: "Karakalpak"
   var_nationality.187: "Persian"
   var_nationality.188: "Rusyn"
-  var_nationality.189: ""
+  var_nationality.189: "Manchu"
   var_nationality.190: "Cossack"
   var_nationality.191: "Moldovan"
   var_nationality.192: "Mongolian"
@@ -308,7 +308,8 @@
   var_nationality.302: "Mexican"
   var_nationality.303: "Swiss French"
   var_nationality.304: "Swiss Italian"
-  var_nationality.305: "Zhujin, §Yborn from the intermingling of §YCantonese§! and §YJapanese§! culture in the §YThree Pearls§! of [GNG.Getflag] §VGuangdong§!§!" # Guangdong!!!
+  var_nationality.305: "Zhujin"
+  #§Yborn from the intermingling of §YCantonese§! and §YJapanese§! culture in the §YThree Pearls§! of [GNG.Getflag] §VGuangdong§!§! # Guangdong!!!
   var_nationality.306: "Kirghiz"
   var_nationality.307: "Gulf Arab"
   var_nationality.308: "Hijazi"
@@ -380,13 +381,15 @@
   var_nationality.376: "Czech"
   var_nationality.377: "Austrian Italian"
   var_nationality.378: "Caiçaran"
-  var_nationality.379: "Bavarian"
+  var_nationality.379: "Bairisch" # German Bavarian
   var_nationality.380: "Spanish"
   var_nationality.381: "Franco-Flemish"
-  var_nationality.382: "Okie"
+  var_nationality.382: "Oklahoman"
   var_nationality.383: "American" # Modern American
   var_nationality.384: "Chinese" # Modern Chinese
   var_nationality.385: "Zagrebi"
   var_nationality.386: "Kam-Tai"
   var_nationality.387: "Burman"
   var_nationality.388: "Israeli"
+  var_nationality.389: "Floridian"
+  #var_nationality.390: "Xīnán Guānhuà" # Southwestern

@@ -1517,12 +1517,12 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							check_variable = { nationality = 143 } #Austrian
+							check_variable = { nationality = 143 } # German Austrian
 						}
 					}
-					set_temp_variable = { red = 0.45 }
-					set_temp_variable = { green = 0.45 }
-					set_temp_variable = { blue = 0.45 }
+					set_temp_variable = { red = 0.200 }
+					set_temp_variable = { green = 0.200 }
+					set_temp_variable = { blue = 0.200 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
 				else_if = {
@@ -4036,12 +4036,12 @@ scripted_map_modes = {
 				else_if = {
 					limit = {
 						FROM = {
-							check_variable = { nationality = 375 } # Pony
+							check_variable = { nationality = 375 } # Austrian
 						}
 					}
-					set_temp_variable = { red = 1 }
-					set_temp_variable = { green = 0.753 }
-					set_temp_variable = { blue = 0.796 }
+					set_temp_variable = { red = 0.450 }
+					set_temp_variable = { green = 0.353 }
+					set_temp_variable = { blue = 0.396 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
 				else_if = {
@@ -4061,8 +4061,8 @@ scripted_map_modes = {
 							check_variable = { nationality = 377 } #Austrian Italian
 						}
 					}
-					set_temp_variable = { red = 0.427 }
-					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { red = 0.400 }
+					set_temp_variable = { green = 0.550 }
 					set_temp_variable = { blue = 0.487 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
@@ -4185,6 +4185,39 @@ scripted_map_modes = {
 					set_temp_variable = { red = 0.210 }
 					set_temp_variable = { green = 0.100 }
 					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { # Israeli
+					limit = {
+						FROM = {
+							check_variable = { nationality = 388 } # Israeli
+						}
+					}
+					set_temp_variable = { red = 0.210 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { # Floridian
+					limit = {
+						FROM = {
+							check_variable = { nationality = 389 } # Floridian
+						}
+					}
+					set_temp_variable = { red = 0.210 }
+					set_temp_variable = { green = 0.100 }
+					set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = { # Southwestern Mandarin
+					limit = {
+						FROM = {
+							check_variable = { nationality = 390 } # Southwestern Mandarin
+						}
+					}
+					set_temp_variable = { red = 0.310 }
+					set_temp_variable = { green = 0.200 }
+					set_temp_variable = { blue = 0.140 }
 		 			set_temp_variable = { alpha = alpha_temp }
 				}
 				else = {

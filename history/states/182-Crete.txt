@@ -6,23 +6,20 @@ state = {
 	state_category = town
 	history = {
 		owner = USA
-		victory_points = {
-			9940 5
+		add_core_of = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			12058 3
-		}
+		set_variable = { 182.nationality = 37 } # Greek
+		victory_points = { 9940 5 }
+		victory_points = { 12058 3 }
 		buildings = {
 			infrastructure = 2
 			air_base = 2
-			12058 = {
-				naval_base = 1
-			}
-			9940 = {
-				naval_base = 3
-			}
+			12058 = { naval_base = 1 }
+			9940 = { naval_base = 3 }
 		}
-		add_core_of = USA
 	}
 	provinces = {
 		1164 4170 9940 12058

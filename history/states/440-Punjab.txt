@@ -7,14 +7,17 @@ state={
 	state_category = town
 
 	history={
-		victory_points = {
-			10887 5
+		owner = PUN
+		add_core_of = PUN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		owner = SOV
+		set_variable = { 440.nationality = 42 } # Punjabi
+		victory_points = { 10887 5 }
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

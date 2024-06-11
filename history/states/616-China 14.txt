@@ -5,18 +5,14 @@ state={
 	history={
 		owner = PRC
 		add_core_of = PRC
-		add_core_of = SOV
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 1
-
-		}
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
-			controller = SOV
 		}
-
+		set_variable = { 616.nationality = 192 } # Mongolian
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

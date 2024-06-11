@@ -108,6 +108,42 @@ EPR = {
 	color = rgb { 20 100 20 }
 	color_ui = rgb { 20 100 20 }
 }
+KOR = {
+	color = rgb { 204 95 65 }
+	color_ui = rgb { 204 95 65 }
+}
+FIN = {
+	color = rgb { 207 195 192 }
+	color_ui = rgb { 207 195 192 }
+}
+SWE = {
+	color = rgb { 160 159 199 }
+	color_ui = rgb { 160 159 199 }
+}
+NOR = {
+	color = rgb { 133 56 54 }
+	color_ui = rgb { 133 56 54 }
+}
+ARB = {
+	color = rgb { 64 122 51 }
+	color_ui = rgb { 64 122 51 }
+}
+ISR = {
+	color = rgb { 96 190 247 }
+	color_ui = rgb { 96 190 247 }
+}
+ARM = {
+	color = rgb { 168 104 104 }
+	color_ui = rgb { 168 104 104 }
+}
+GEO = {
+	color = rgb { 87 26 26 }
+	color_ui = rgb { 87 26 26 }
+}
+PER = {
+	color = rgb { 126 138 113 }
+	color_ui = rgb { 126 138 113 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }
@@ -136,6 +172,14 @@ CAP = { # Cape
 USV = {
 	color = rgb { 115 160 171 }
 	color_ui = rgb { 115 160 171 }
+}
+JAP = {
+	color = rgb { 186 161 155 }
+	color_ui = rgb { 186 161 155 }
+}
+MEX = {
+	color = rgb { 47 94 61 }
+	color_ui = rgb { 186 161 155 }
 }
 # Start Dynamic Country TAGs
 D01 = {

@@ -13,12 +13,9 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = {
-			3350 3
-		}
-		victory_points = {
-			11313 1
-		}
+		set_variable = { 204.nationality = 170 } # Belarusian
+		victory_points = { 3350 3 }
+		victory_points = { 11313 1 }
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

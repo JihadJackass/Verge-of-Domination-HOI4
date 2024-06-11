@@ -1,5 +1,4 @@
-state=
-{
+state= {
 	id=118
 	name="STATE_118"
 	manpower=21372
@@ -12,7 +11,7 @@ state=
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 290.nationality = 380 } # Spanish
+		set_variable = { 118.nationality = 383 } # American
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 3

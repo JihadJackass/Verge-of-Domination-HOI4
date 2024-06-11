@@ -1,4 +1,3 @@
-
 state={
 	id=342
 	name="STATE_342" # Antalya
@@ -9,23 +8,24 @@ state={
 	state_category = rural
 
 	history={
-		owner = SOV
-		victory_points = {
-			1005 5 
+		owner = TUR
+		add_core_of = TUR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 342.nationality = 13 } # Turkish
+		victory_points = { 1005 5 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			1005 = {
-				naval_base = 4
-			}
+			1005 = { naval_base = 4 }
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		1005 1119 9941 10122 11917 12013 12016 12096 
+		1005 1119 9941 10122 11917 12013 12016 12096
 	}
 
-	local_supplies=7.0 
+	local_supplies=7.0
 }

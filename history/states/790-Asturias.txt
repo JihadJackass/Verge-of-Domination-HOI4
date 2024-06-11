@@ -9,10 +9,8 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 790.nationality = 380 } # Spanish
-		victory_points = {
-			11707 3
-		}
+		set_variable = { 790.nationality = 206 } # Astur-Leonese
+		victory_points = { 11707 3 }
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1

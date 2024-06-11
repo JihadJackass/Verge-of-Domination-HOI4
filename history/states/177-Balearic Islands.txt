@@ -5,9 +5,14 @@ state={
 	state_category = rural
 
 	history={
-		victory_points = { 9793 1 }
 		owner = USA
 		add_core_of = USA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 118.nationality = 380 } # Spanish
+		victory_points = { 9793 1 }
 		buildings = {
 			infrastructure = 3 #was: 6
 			air_base = 1

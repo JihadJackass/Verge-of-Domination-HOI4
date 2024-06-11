@@ -14,7 +14,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 846.nationality = 4 } # Northern Italian
+		set_variable = { 846.nationality = 304 } # Swiss Italian
 		victory_points = { 9600 1 }
 		buildings = {
 			infrastructure = 2

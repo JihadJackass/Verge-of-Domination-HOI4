@@ -1,33 +1,30 @@
-
 state={
 	id=346
 	name="STATE_346"
 	manpower = 849453
-	
+
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = TUR
+		add_core_of = TUR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 346.nationality = 13 } # Turkish
+		victory_points = { 9861 5 }
+		victory_points = { 6807 3 }
+		victory_points = { 784 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 5
 		}
-		
-		victory_points = {
-			9861 5
-		}
-		victory_points = {
-			6807 3
-		}
-		victory_points = {
-			784 1
-		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		784 869 940 3788 3876 6807 6894 9755 9763 9811 9861 11792 11860 13122 
+		784 869 940 3788 3876 6807 6894 9755 9763 9811 9861 11792 11860 13122
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

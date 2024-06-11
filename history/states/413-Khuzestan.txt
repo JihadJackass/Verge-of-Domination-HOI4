@@ -6,27 +6,28 @@ state={
 	resources={
 		oil=28 # was: 42
 	}
-	
+
 	state_category = rural
-	
+
 
 	history={
-		owner = SOV
+		owner = PER
+		add_core_of = PER
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 413.nationality = 187 } # Persian
 		buildings = {
 			infrastructure = 3 #was: 5
-			5005 = {
-				naval_base = 1
-			}
+			5005 = { naval_base = 1 }
 		}
-		victory_points = {
-			7953 1 
-		}
-		add_core_of = SOV
+		victory_points = { 7953 1 }
 	}
 
 	provinces={
-		1922 5005 5089 7953 
+		1922 5005 5089 7953
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

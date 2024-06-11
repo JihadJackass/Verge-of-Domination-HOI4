@@ -2,22 +2,23 @@ state={
 	id=759
 	name="STATE_759"
 	provinces={
-		1698 1943 2074 4947 5736 10315 
+		1698 1943 2074 4947 5736 10315
 	}
 	manpower=70000
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
+		owner = PRC
 		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 759.nationality = 203 } # Xinan
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

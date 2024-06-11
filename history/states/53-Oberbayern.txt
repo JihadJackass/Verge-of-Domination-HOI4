@@ -7,14 +7,15 @@ state={
 	state_category = city
 
 	history={
-		buildings = {
-			infrastructure = 3
-		}
 		owner = GER
 		add_core_of = GER
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
+		}
+		set_variable = { 53.nationality = 167 } # West German
+		buildings = {
+			infrastructure = 3
 		}
 	}
 

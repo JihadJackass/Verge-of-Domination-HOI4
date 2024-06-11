@@ -7,26 +7,21 @@ state={
 
 	state_category = large_city
 	history={
-		victory_points = {
-			9517 20
-		}
-		victory_points = {
-			11499 3 #10
-		}
-		buildings = {
-			infrastructure = 4
-			arms_factory = 5
-			industrial_complex = 1
-			air_base = 3
-
-		}
 		owner = GER
 		add_core_of = GER
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-
+		set_variable = { 50.nationality = 167 } # West German
+		victory_points = { 9517 20 }
+		victory_points = { 11499 3  }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+		}
 	}
 
 	provinces={

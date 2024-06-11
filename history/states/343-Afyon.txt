@@ -1,4 +1,3 @@
-
 state={
 	id=343
 	name="STATE_343" # Afyon
@@ -6,30 +5,29 @@ state={
 	resources={
 		chromium=25 # was: 32
 	}
-	
+
 	state_category = rural
 
 	history={
-		owner = SOV
-		victory_points = {
-			10041 1 
+		owner = TUR
+		add_core_of = TUR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			9878 5
-		}
-		victory_points = {
-			3856 3
-		}
+		set_variable = { 343.nationality = 13 } # Turkish
+		victory_points = { 10041 1  }
+		victory_points = { 9878 5 }
+		victory_points = { 3856 3 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = SOV
 	}
 
 	provinces={
-		856 981 3856 3983 6877 6945 9878 10041 11796 11831 11907 
+		856 981 3856 3983 6877 6945 9878 10041 11796 11831 11907
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

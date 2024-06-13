@@ -1,6 +1,6 @@
 ﻿capital = 527
 
-oob = "KOR	_1945"
+oob = "KOR_1945"
 
 set_research_slots = 2
 set_stability = 0.5

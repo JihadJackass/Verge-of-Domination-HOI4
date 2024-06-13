@@ -9,21 +9,16 @@ state= {
 	state_category = rural
 
 	history={
-		owner = BLN
-		add_core_of = BLN
+		owner = ERT
+		add_core_of = ERT
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		victory_points = { #Massaua
-			12766 1
-		}
-		victory_points = { #Asmara
-			13250 3
-		}
-		victory_points = { #Biscia
-			12723 1
-		}
+		set_variable = { 550.nationality = 27 } # Eritrean
+		victory_points = { 12766 1 } #Massaua
+		victory_points = { 13250 3 } #Asmara
+		victory_points = { 12723 1 } #Biscia
 		buildings = {
 			infrastructure = 2
 			air_base = 3

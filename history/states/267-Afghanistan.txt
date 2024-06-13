@@ -1,4 +1,3 @@
-
 state={
 	id=267
 	name="STATE_267" # Kabul
@@ -10,20 +9,20 @@ state={
 		tungsten=3 # was: 3
 	}
 	history={
-		owner = PER
-		add_core_of = PER
+		owner = AFG
+		add_core_of = AFG
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 267.nationality = 187 } # Persian
+		set_variable = { 267.nationality = 183 } # Pashtun
+		victory_points = { 10737 5 }
+		victory_points = { 12248 1 }
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 2
 		}
-		victory_points = { 10737 5 }
-		victory_points = { 12248 1 }
 	}
 
 	provinces={

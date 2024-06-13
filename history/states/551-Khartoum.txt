@@ -5,19 +5,19 @@ state={
 	manpower = 821003
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = BLN
+		add_core_of = BLN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 551.nationality = 30 } # Egyptian
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			air_base = 2
 		}
-		victory_points = {
-			12806 3
-		}
-
-
-
+		victory_points = { 12806 3 }
 	}
 
 	provinces={

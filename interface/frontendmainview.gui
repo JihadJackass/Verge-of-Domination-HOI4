@@ -167,29 +167,28 @@ guiTypes = {
 			pdx_tooltip = "MENU_ACHIEVEMENTS"
 		}
 
-		iconType = { # TODO: JihadiJackass Studios Logo
-			#name ="jihadijackass_studios_logo"
+		iconType = {
+			name ="jihadijackass_studios_logo"
 			spriteType = "GFX_jihadijackass_studios_logo"
 			position = { x= -120 y = 25 }
 			#Orientation = "CENTER"
 		}
 
 		iconType = { # ua logo
-			#name ="support_ukraine_logo"
+			name ="support_ukraine_logo"
 			spriteType = "GFX_support_ukraine_logo"
 			position = { x= -250 y = 25 }
 		}
 
 		iconType = { # ua logo 2
-			#name ="support_ukraine_logo_2"
+			name ="support_ukraine_logo_2"
 			spriteType = "GFX_support_ukraine_logo_2"
 			position = { x= -275 y = 75 }
 		}
 
 		containerWindowType = { # TODO: fix name error
-
 			ButtonType = {
-				#name = "discord_button"
+				name = "discord_button"
 				position = { x=190 y=700 }
 				quadTextureSprite ="discord_logo"
 				spriteType = "GFX_discord_logo"

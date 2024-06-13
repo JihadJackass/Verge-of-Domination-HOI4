@@ -16,8 +16,8 @@ state= {
 			add_core_of = USA
 		}
 		set_variable = { 314.nationality = 106 } # Salvadorian
+		victory_points = { 12823 3 }
 		buildings = {
-			victory_points = { 12823 3 }
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 2

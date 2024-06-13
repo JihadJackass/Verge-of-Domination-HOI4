@@ -7,8 +7,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = PER
-		add_core_of = PER
+		owner = PUN
+		add_core_of = PUN
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV

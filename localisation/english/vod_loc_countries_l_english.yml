@@ -164,11 +164,46 @@
             SER_communism_ADJ: "Soviet-Serbian"
 
             # Soviet Lithuania
-            SER_communism: "Lithuanian Soviet"
-            SER_communism_DEF: "the Soviet-Lithuanian State"
-            SER_communism_ADJ: "Soviet-Lithuanian"
+            LIT_communism: "Lithuanian Soviet"
+            LIT_communism_DEF: "the Soviet-Lithuanian State"
+            LIT_communism_ADJ: "Soviet-Lithuanian"
 
             # Soviet Moldavia
             MOL_communism: "Moldavian Soviet"
             MOL_communism_DEF: "the Soviet-Moldavian State"
             MOL_communism_ADJ: "Soviet-Moldavian"
+
+            # Soviet East Prussia
+            EPR_communism: "Soviet East Prussia"
+            EPR_communism_DEF: "the Soviet-East Prussian State"
+            EPR_communism_ADJ: "Soviet-East Prussian"
+
+            # Soviet Moldavia
+            MOL_communism: "Soviet Moldavia"
+            MOL_communism_DEF: "the Soviet-Moldavian State"
+            MOL_communism_ADJ: "Soviet-Moldavian"
+
+            # Soviet Denmark
+            DEN_communism: "Soviet Denmark"
+            DEN_communism_DEF: "the Soviet-Danish State"
+            DEN_communism_ADJ: "Soviet-Danish"
+
+            # Soviet Belarus
+            BEL_communism: "Belarus"
+            BEL_communism_DEF: "the People's Republic of Belarus"
+            BEL_communism_ADJ: "Soviet-Belarusian"
+
+            # Soviet Turkey
+            TUR_communism: "Soviet Turkey"
+            TUR_communism_DEF: "the Soviet-Turkish Republic"
+            TUR_communism_ADJ: "Soviet-Turkish"
+
+            # Soviet Bulgaria
+            BUL_communism: "Soviet Bulgaria"
+            BUL_communism_DEF: "the Soviet-Bulgarian Republic"
+            BUL_communism_ADJ: "Soviet-Bulgarian"
+
+            # Soviet Wallachia
+            BUL_communism: "Soviet Wallachia"
+            BUL_communism_DEF: "the Soviet-Wallachian Republic"
+            BUL_communism_ADJ: "Soviet-Wallachian"

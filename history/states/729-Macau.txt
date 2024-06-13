@@ -2,16 +2,18 @@ state={
 	id=729
 	name="STATE_729"
 	manpower = 157805
-	
+
 	state_category = enclave
-	
+
 	history={
-		owner = USA
-		add_core_of = SOV
+		owner = PRC
 		add_core_of = PRC
-		victory_points = {
-			4189 1 
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 729.nationality = 69 } # Yue
+		victory_points = { 4189 1 }
 		buildings = {
 			infrastructure = 2
 			4189 = {
@@ -19,10 +21,10 @@ state={
 			}
 		}
 	}
-	
+
 	provinces={
-		4189 
+		4189
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

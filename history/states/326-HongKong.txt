@@ -1,16 +1,17 @@
-state=
-{
+state= {
 	id=326
 	name="STATE_326"
 	manpower = 1143516
 	state_category = large_town
-	history=
-	{
-		owner = SSC
-		add_core_of = SSC
-		victory_points = {
-			10062 3
+	history= {
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 326.nationality = 69 } # Yue
+		victory_points = { 10062 3 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1

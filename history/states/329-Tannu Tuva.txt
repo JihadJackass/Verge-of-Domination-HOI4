@@ -6,26 +6,28 @@ state={
 	resources={
 		chromium=2 # was: 2
 	}
-	
+
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = TUV
+		add_core_of = TUV
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 329.nationality = 161 } # Tuvan
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		victory_points = {
-			10627 3
-		}
-		add_core_of = SOV
-		add_core_of = SOV
+		victory_points = { 10627 3 }
 	}
 
 	provinces={
-		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

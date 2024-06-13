@@ -7,13 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = PER
-		add_core_of = PER
+		owner = AFG
+		add_core_of = AFG
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 415.nationality = 187 } # Persian
+		set_variable = { 415.nationality = 183 } # Pashtun
 		victory_points = { 4893 1 }
 		victory_points = { 5064 1 }
 		buildings = {

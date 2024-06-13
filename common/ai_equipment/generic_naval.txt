@@ -179,7 +179,7 @@ generic_escorts = {
 		factor = 1000
 		modifier = {
 			factor = 5
-			#anti_submarine_strategy_required_trigger = yes
+			## anti_submarine_strategy_required_trigger TODO: fix = yes
 		}
 	}
 
@@ -189,7 +189,7 @@ generic_escorts = {
 			factor = 100
 			modifier = {
 				factor = 20
-				#anti_submarine_strategy_required_trigger = yes
+				## anti_submarine_strategy_required_trigger TODO: fix = yes
 			}
 		}
 
@@ -229,7 +229,7 @@ generic_escorts = {
 			factor = 120
 			modifier = {
 				factor = 20
-				#anti_submarine_strategy_required_trigger = yes
+				## anti_submarine_strategy_required_trigger TODO: fix = yes
 			}
 		}
 		enable = {

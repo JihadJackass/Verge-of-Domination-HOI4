@@ -3,14 +3,20 @@ state={
 	id=434
 	name="STATE_434"
 	manpower = 200000
-	
+
 	state_category = wasteland
 	resources={
 		# tungsten=49 # was: 54
 	}
 
 	history={
-		owner = SOV
+		owner = PRC
+		add_core_of = PRC
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 434.nationality = 198 } # Tibetan
 		buildings = {
 			infrastructure = 1
 		}
@@ -18,8 +24,8 @@ state={
 	}
 
 	provinces={
-		1116 1996 10810 12322 12730 
+		1116 1996 10810 12322 12730
 	}
 
-	local_supplies=3.0 
+	local_supplies=3.0
 }

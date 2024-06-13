@@ -23,24 +23,3 @@ set_popularities = {
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "George S. Patton"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_George_S_Patton.dds"
-	expire = "1947.1.1"
-	ideology = liberalism
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "George S. Patton"
-	picture = "Portrait_USA_George_S_Patton.dds"
-	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
-	skill = 5
-
-	attack_skill = 7
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}

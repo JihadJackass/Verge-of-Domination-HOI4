@@ -2,21 +2,22 @@ state={
 	id=820
 	name="STATE_820"
 	provinces={
-		1689 1791 1834 4882 7676 7717 12579 12649 
+		1689 1791 1834 4882 7676 7717 12579 12649
 	}
 
 	history={
-		owner = SOV
+		owner = MON
+		add_core_of = MON
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 820.nationality = 192 } # Mongolian
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = {
-			1791 1 #Darkhan
-		}
-		victory_points = {
-			1834 1 #Erdenet
-		}
-		add_core_of = SOV
+		victory_points = { 1791 1 } #Darkhan
+		victory_points = { 1834 1 } #Erdenet
 	}
 	manpower=88200
 	buildings_max_level_factor=1.000

@@ -1034,7 +1034,7 @@ technologies = {
 			factor = 20
 			modifier = {
 				factor = 0
-				NOT = { ai_has_completed_air_doctrine = yes }
+				# NOT = { ai_has_completed_air_doctrine = yes } TODO: fix
 			}
 		}
 

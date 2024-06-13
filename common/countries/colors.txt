@@ -144,6 +144,50 @@ PER = {
 	color = rgb { 126 138 113 }
 	color_ui = rgb { 126 138 113 }
 }
+VIN = {
+	color = rgb { 181 168 49 }
+	color_ui = rgb { 181 168 49 }
+}
+LAO = {
+	color = rgb { 224 142 123 }
+	color_ui = rgb { 224 142 123 }
+}
+BAN = {
+	color = rgb { 89 133 95 }
+	color_ui = rgb { 89 133 95 }
+}
+BRM = {
+	color = rgb { 222 212 29 }
+	color_ui = rgb { 222 212 29 }
+}
+MAN = {
+	color = rgb { 171 149 173 }
+	color_ui = rgb { 171 149 173 }
+}
+MAN = {
+	color = rgb { 171 149 173 }
+	color_ui = rgb { 171 149 173 }
+}
+BLN = {
+	color = rgb { 108 120 184 }
+	color_ui = rgb { 108 120 184 }
+}
+AZE = {
+	color = rgb { 135 166 86 }
+	color_ui = rgb { 135 166 86 }
+}
+SYR = {
+	color = rgb { 230 184 142 }
+	color_ui = rgb { 230 184 142 }
+}
+TUR = {
+	color = rgb { 120 56 48 }
+	color_ui = rgb { 120 56 48 }
+}
+ETH = {
+	color = rgb { 100 128 88 }
+	color_ui = rgb { 100 128 88 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }

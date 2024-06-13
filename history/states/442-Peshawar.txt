@@ -1,4 +1,3 @@
-
 state={
 	id=442
 	name="STATE_442"
@@ -7,15 +6,18 @@ state={
 	state_category = rural
 
 	history={
-		victory_points = {
-			12763 3
+		owner = AFG
+		add_core_of = AFG
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		owner = SOV
+		set_variable = { 442.nationality = 183 } # Pashtun
+		victory_points = { 12763 3 }
 		buildings = {
 			infrastructure = 2
 			air_base = 3
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

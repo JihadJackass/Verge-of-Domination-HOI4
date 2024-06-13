@@ -1981,3 +1981,9 @@
  TECH_DISALLOWED_BECAUSE: "§RThis branch requires:§!"
  SUBUNIT_PER_BATTALION_MODIFIER_DESC: "\n§LBattalion Modifiers add their listed stats multiplied by the number of target battalions in the division.§!"
  DIVISION_VIEW_HAS_MEDALS:0 "This division can be awarded a §HMedal§!.\n§GClick to open Medals view.§!"
+ # Custom
+ jihadijackass_studios_logo: "JihadiJackass Studios"
+ support_ukraine_logo: "Support Ukraine"
+ support_ukraine_logo_2: "Support Ukraine"
+ discord_button: "Discord"
+ discord_logo: "Discord"

@@ -849,9 +849,9 @@ leader_traits = {
 		attack_skill = 1
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_offensive_1
-		expert_advisor_trait = army_chief_offensive_2
-		genius_advisor_trait = army_chief_offensive_3
+		# specialist_advisor_trait = army_chief_offensive_1 TODO: Fix
+		# expert_advisor_trait = army_chief_offensive_2 TODO: Fix
+		# genius_advisor_trait = army_chief_offensive_3 TODO: Fix
 
 		ai_will_do = {
 			factor = 1
@@ -872,9 +872,9 @@ leader_traits = {
 			max_dig_in_factor = 0.30
 		}
 		slot = army_chief
-		specialist_advisor_trait = army_chief_entrenchment_1
-		expert_advisor_trait = army_chief_entrenchment_2
-		genius_advisor_trait = army_chief_entrenchment_3
+		#specialist_advisor_trait = army_chief_entrenchment_1 # TODO: fix
+		#expert_advisor_trait = army_chief_entrenchment_2
+		#genius_advisor_trait = army_chief_entrenchment_3
 		ai_will_do = {
 			factor = 1
 		}
@@ -894,9 +894,9 @@ leader_traits = {
 		}
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_reform_1
-		expert_advisor_trait = army_chief_reform_2
-		genius_advisor_trait = army_chief_reform_3
+		#specialist_advisor_trait = army_chief_reform_1 TODO: fix
+		#expert_advisor_trait = army_chief_reform_2
+		#genius_advisor_trait = army_chief_reform_3
 
 		ai_will_do = {
 			factor = 1
@@ -919,9 +919,9 @@ leader_traits = {
 		}
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_planning_1
-		expert_advisor_trait = army_chief_planning_2
-		genius_advisor_trait = army_chief_planning_3
+		#specialist_advisor_trait = army_chief_planning_1 TODO: FIX
+		#expert_advisor_trait = army_chief_planning_2
+		#genius_advisor_trait = army_chief_planning_3
 
 		ai_will_do = {
 			factor = 1
@@ -950,9 +950,9 @@ leader_traits = {
 		custom_effect_tooltip = INCREASED_COUNTERATTACK_CHANCE
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_defensive_1
-		expert_advisor_trait = army_chief_defensive_2
-		genius_advisor_trait = army_chief_defensive_3
+		#specialist_advisor_trait = army_chief_defensive_1 TODO: fix
+		#expert_advisor_trait = army_chief_defensive_2
+		#genius_advisor_trait = army_chief_defensive_3
 
 		ai_will_do = {
 			factor = 1
@@ -979,9 +979,9 @@ leader_traits = {
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_maneuver_1
-		expert_advisor_trait = army_chief_maneuver_2
-		genius_advisor_trait = army_chief_maneuver_3
+		#specialist_advisor_trait = army_chief_maneuver_1 # TODO: fix
+		#expert_advisor_trait = army_chief_maneuver_2
+		#genius_advisor_trait = army_chief_maneuver_3
 
 		ai_will_do = {
 			factor = 1
@@ -1003,9 +1003,9 @@ leader_traits = {
 		}
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_organizational_1
-		expert_advisor_trait = army_chief_organizational_2
-		genius_advisor_trait = army_chief_organizational_3
+		#specialist_advisor_trait = army_chief_organizational_1 # TODO: fix
+		#expert_advisor_trait = army_chief_organizational_2
+		#genius_advisor_trait = army_chief_organizational_3
 
 		ai_will_do = {
 			factor = 1
@@ -1026,9 +1026,9 @@ leader_traits = {
 		}
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_morale_1
-		expert_advisor_trait = army_chief_morale_2
-		genius_advisor_trait = army_chief_morale_3
+		#specialist_advisor_trait = army_chief_morale_1 TODO: FIX
+		#expert_advisor_trait = army_chief_morale_2
+		#genius_advisor_trait = army_chief_morale_3
 
 		ai_will_do = {
 			factor = 1
@@ -1049,9 +1049,9 @@ leader_traits = {
 		}
 
 		slot = army_chief
-		specialist_advisor_trait = army_chief_drill_1
-		expert_advisor_trait = army_chief_drill_2
-		genius_advisor_trait = army_chief_drill_3
+		#specialist_advisor_trait = army_chief_drill_1 # todo: FIX
+		#expert_advisor_trait = army_chief_drill_2
+		#genius_advisor_trait = army_chief_drill_3
 
 		ai_will_do = {
 			factor = 1
@@ -1079,9 +1079,9 @@ leader_traits = {
 		}
 
 		slot = high_command
-		specialist_advisor_trait = army_regrouping_1
-		expert_advisor_trait = army_regrouping_2
-		genius_advisor_trait = army_regrouping_3
+		#specialist_advisor_trait = army_regrouping_1 TODO: fix
+		#expert_advisor_trait = army_regrouping_2
+		#genius_advisor_trait = army_regrouping_3
 
 		ai_will_do = {
 			factor = 1
@@ -1110,9 +1110,9 @@ leader_traits = {
 		}
 
 		slot = high_command
-		specialist_advisor_trait = army_cavalry_1
-		expert_advisor_trait = army_cavalry_2
-		genius_advisor_trait = army_cavalry_3
+		#specialist_advisor_trait = army_cavalry_1 # TODO: fix
+		#expert_advisor_trait = army_cavalry_2
+		#genius_advisor_trait = army_cavalry_3
 
 		ai_will_do = {
 			factor = 1
@@ -1136,9 +1136,9 @@ leader_traits = {
 		}
 
 		slot = high_command
-		specialist_advisor_trait = army_infantry_1
-		expert_advisor_trait = army_infantry_2
-		genius_advisor_trait = army_infantry_3
+		#specialist_advisor_trait = army_infantry_1 # TODO: fix
+		#expert_advisor_trait = army_infantry_2
+		#genius_advisor_trait = army_infantry_3
 
 		ai_will_do = {
 			factor = 1
@@ -1173,9 +1173,9 @@ leader_traits = {
 		gui_row = 15
 
 		slot = high_command
-		specialist_advisor_trait = army_logistics_1
-		expert_advisor_trait = army_logistics_2
-		genius_advisor_trait = army_logistics_3
+		#specialist_advisor_trait = army_logistics_1 todo: fix
+		#expert_advisor_trait = army_logistics_2
+		#genius_advisor_trait = army_logistics_3
 	}
 	trickster = {
 		type = corps_commander

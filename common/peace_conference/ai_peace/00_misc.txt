@@ -11,7 +11,7 @@ peace_ai_desires = {
         }
         ai_desire = 100
     }
-	
+
     generic_influence_cutoff = { #Only do force gov and liberate outside influence range
         peace_action_type = { take_states puppet }
         enable = {
@@ -150,7 +150,7 @@ peace_ai_desires = {
     fascist_majors_on_a_mission = {
         peace_action_type = take_states
         enable = {
-            ROOT = { 
+            ROOT = {
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
                 has_government = fascism    #We are the baddies
@@ -164,7 +164,7 @@ peace_ai_desires = {
     fascist_puppet_desire = {
         peace_action_type = puppet
         enable = {
-            ROOT = { 
+            ROOT = {
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
                 has_government = fascism    #We are the baddies
@@ -177,7 +177,7 @@ peace_ai_desires = {
     fascist_liberate_desire = {
         peace_action_type = liberate
         enable = {
-            ROOT = { 
+            ROOT = {
                 NOT = { tag = JAP }            #We aren't Japan (special handling)
                 is_major = yes                #We are big
                 has_government = fascism    #We are the baddies
@@ -192,11 +192,11 @@ peace_ai_desires = {
     # Countries the ai should be more unlikely to release in a peace deal
     unlikely_countries = {
         peace_action_type = liberate
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
+        #enable = {
+        #    FROM = {
+        #        is_unlikely_country_tag = yes # TODO: FIX
+        #    }
+        #}
         ai_desire = -85  # 85 percent lower desire
     }
 
@@ -204,11 +204,11 @@ peace_ai_desires = {
     # Countries the ai should be more unlikely to puppet in a peace deal
     unlikely_countries = {
         peace_action_type = puppet
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
+        #enable = {
+        #    FROM = {
+        #        is_unlikely_country_tag = yes # TODO: FIX
+        #    }
+        #}
         ai_desire = -50  # 50 percent lower desire (slightly more keen to puppet than to liberate)
     }
 
@@ -342,7 +342,7 @@ peace_ai_desires = {
         peace_action_type = { take_states puppet liberate force_government }
 
         enable = {
-            FROM.FROM.FROM = { 
+            FROM.FROM.FROM = {
                 NOT = { is_controlled_by = ROOT }
                 controller = {
                     pc_is_loser = no
@@ -547,7 +547,7 @@ peace_ai_desires = {
     non_aligned_should_stick_to_claims = {
         peace_action_type = take_states
         enable = {
-            ROOT = { 
+            ROOT = {
                 has_government = neutrality
                 is_major = no
             }
@@ -648,9 +648,9 @@ peace_ai_desires = {
                     tag = ROOT.FROM
                 }
             }
-            ROOT.FROM = {
-                NOT = { has_same_ideology = yes }
-            }
+       #     ROOT.FROM = {
+       #         NOT = { has_same_ideology = yes } # TODO: fix
+       #     }
         }
         ai_desire = -20
     }
@@ -899,7 +899,7 @@ peace_ai_desires = {
                         pc_is_forced_government_by = ROOT
                         AND = {
                             country_exists = THIS #Ie - has provinces already and isn't a new creation
-                            has_same_ideology = yes
+                            #has_same_ideology = yes # TODO: fix
                         }
                         is_in_faction_with = ROOT
                     }
@@ -1044,7 +1044,7 @@ peace_ai_desires = {
 
         enable = {
             is_faction_leader = yes
-            ROOT.FROM.FROM = { 
+            ROOT.FROM.FROM = {
                 is_subject = yes
                 OR = {
                     pc_is_puppeted = no
@@ -1066,7 +1066,7 @@ peace_ai_desires = {
         peace_action_type = { force_government }
 
         enable = {
-            ROOT.FROM.FROM = { 
+            ROOT.FROM.FROM = {
                 is_subject = yes
             }
             ROOT.FROM.FROM.FROM = {
@@ -1076,7 +1076,7 @@ peace_ai_desires = {
         }
         ai_desire = -90
     }
-	
+
 	prefer_not_taking_land_from_force_governmented_minors = {
         peace_action_type = take_states
         enable = {
@@ -1103,7 +1103,7 @@ peace_ai_desires = {
         }
         ai_desire = -100 #Should still allow taking claims etc
     }
-	
+
 	try_and_finish_off_SU = {
         peace_action_type = force_government
         enable = {
@@ -1135,7 +1135,7 @@ peace_ai_desires = {
         }
         ai_desire = 50
     }
-	
+
 	allies_try_and_have_a_unified_goal_for_eastern_europe = {
 		peace_action_type = puppet
 		enable = {
@@ -1152,7 +1152,7 @@ peace_ai_desires = {
 		}
 		ai_desire = -100
 	}
-	
+
 	release_ukraine_because_it_is_big_and_would_otherwise_be_messy = {
 		peace_action_type = liberate
 		enable = {

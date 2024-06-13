@@ -31,7 +31,7 @@ debug_decisions = {
 			clr_global_flag = show_debug_decisions_flag
 		}
 	}
-	
+
 	research_all_tank_techs_nsb = {
 		icon = generic_tank
 
@@ -49,83 +49,83 @@ debug_decisions = {
 			set_technology = {
 				basic_light_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				improved_light_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				amphibious_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				amphibious_drive = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				advanced_light_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				basic_medium_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				improved_medium_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				advanced_medium_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				main_battle_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				basic_heavy_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				improved_heavy_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				advanced_heavy_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				super_heavy_tank_chassis = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				armor_tech_1 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				armor_tech_2 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				armor_tech_3 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				armor_tech_4 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				engine_tech_1 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				engine_tech_2 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				engine_tech_3 = 1
 				popup = no
-			}			
+			}
 			set_technology = {
 				engine_tech_4 = 1
 				popup = no
@@ -276,7 +276,7 @@ debug_decisions = {
 			add_ideas = add_production_efficiency
 		}
 	}
-		
+
 	remove_efficiency_growth_debug = {
 		icon = generic_research
 
@@ -306,10 +306,10 @@ debug_decisions = {
 					has_idea = decrease_production_efficiency
 				}
 				remove_ideas = decrease_production_efficiency
-			}	
+			}
 		}
 	}
-		
+
 	decrease_efficiency_growth_debug = {
 		icon = generic_research
 
@@ -335,7 +335,7 @@ debug_decisions = {
 			base = 0
 		}
 	}
-	
+
 	history_entry_debug = {
 
 		icon = generic_research
@@ -362,7 +362,7 @@ debug_decisions = {
 					allow = yes
 				}
 			}
-			
+
 		}
 
 		ai_will_do = {
@@ -397,7 +397,7 @@ debug_decisions = {
 		ai_will_do = {
 			base = 0
 		}
-		
+
 		power_balance = _test_balance
 	}
 
@@ -717,12 +717,12 @@ debug_decisions = {
 		complete_effect = {
 			set_variable = { fighter_buy_amount = 200 }
 			save_event_target_as = license_target
-			bba_get_fighter_GER_effect = yes
-			GER = {
-				bba_create_fighter_license_effect = yes
-			}
+			#bba_get_fighter_GER_effect = yes
+			#GER = {
+			#	bba_create_fighter_license_effect = yes
+			#}
 		}
-		
+
 	}
 
 	debug_clr_dreadnought_flags = {
@@ -742,18 +742,18 @@ debug_decisions = {
 							target = FROM
 							value < 50
 						}
-					}					
+					}
 				}
 			}
-			
+
 		}
 		days_remove = 1
 		remove_effect = {
 			every_other_country = {
-				clr_country_flag = negotiating_dreadnought_purchase_flag@ROOT  
+				clr_country_flag = negotiating_dreadnought_purchase_flag@ROOT
 				clr_country_flag = sold_dreadnoughts_to_us@ROOT
 			}
 		}
 	}
-	
+
 }

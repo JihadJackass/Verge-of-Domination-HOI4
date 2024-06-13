@@ -47,7 +47,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			remove_potential_special_forces_tree = yes
+			# remove_potential_special_forces_tree = yes # TODO: fix
 		}
 
 		categories = {
@@ -448,7 +448,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			remove_potential_special_forces_tree = yes
+			# remove_potential_special_forces_tree = yes # TODO: fix
 		}
 
 		path = {
@@ -496,7 +496,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { ai_has_completed_naval_doctrine = yes }
+				# NOT = { ai_has_completed_naval_doctrine = yes } # TODO: fix
 			}
 		}
 
@@ -1002,7 +1002,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			remove_potential_special_forces_tree = yes
+			# remove_potential_special_forces_tree = yes # TODO: fix
 		}
 
 		path = {

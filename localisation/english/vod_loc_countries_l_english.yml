@@ -204,6 +204,56 @@
             BUL_communism_ADJ: "Soviet-Bulgarian"
 
             # Soviet Wallachia
-            BUL_communism: "Soviet Wallachia"
-            BUL_communism_DEF: "the Soviet-Wallachian Republic"
-            BUL_communism_ADJ: "Soviet-Wallachian"
+            WAL_communism: "Soviet Wallachia"
+            WAL_communism_DEF: "the Soviet-Wallachian Republic"
+            WAL_communism_ADJ: "Soviet-Wallachian"
+
+            # Soviet Norway
+            NOR_communism: "Soviet Norway"
+            NOR_communism_DEF: "the Norwegian Social Republic"
+            NOR_communism_ADJ: "Soviet-Norwegian"
+
+            # Soviet Sweden
+            SWE_communism: "Soviet Sweden"
+            SWE_communism_DEF: "the Swedish Autonomous Soviet Republic"
+            SWE_communism_ADJ: "Soviet-Swedish"
+
+            # Soviet Finland
+            FIN_communism: "Soviet Finland"
+            FIN_communism_DEF: "the Soviet-Finnish People's Republic"
+            FIN_communism_ADJ: "Soviet-Finnish"
+
+            # Soviet Albania
+            ALB_communism: "Soviet Albania"
+            ALB_communism_DEF: "the Albanian People's Republic"
+            ALB_communism_ADJ: "Soviet-Albanian"
+
+            # Soviet Georgia
+            GEO_communism: "Georgian SSR"
+            GEO_communism_DEF: "the Georgian People's SSR"
+            GEO_communism_ADJ: "Soviet-Georgian"
+
+            # Soviet Armenian
+            ARM_communism: "Armenian Directorate"
+            ARM_communism_DEF: "the Armenian DSSR"
+            ARM_communism_ADJ: "Soviet-Armenian"
+
+            # Soviet Syria
+            SYR_communism: "Syrian Federative Social Republic"
+            SYR_communism_DEF: "the Syrian Federative Social Republic"
+            SYR_communism_ADJ: "Soviet-Syrian"
+
+            # Soviet Levant
+            ARB_communism: "Levant Arab Republic"
+            ARB_communism_DEF: "the Levant Arab Social Republic"
+            ARB_communism_ADJ: "Soviet-Levant"
+
+            # Soviet Azerbaijan
+            AZE_communism: "Azerbaijani SSR"
+            AZE_communism_DEF: "the Azerbaijani People's SSR"
+            AZE_communism_ADJ: "Soviet-Azerbaijani"
+
+            # Soviet Kurdistan
+            KUR_communism: "Soviet Kurdistan"
+            KUR_communism_DEF: "the Kurdistani People's Republic"
+            KUR_communism_ADJ: "Soviet-Kurdistani"

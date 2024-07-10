@@ -1,0 +1,40 @@
+# argentina
+music = {
+	name = "argentina_civilian"
+	file = "argentina/argentina_civilian.ogg"
+	volume = 0.7
+}
+
+music = {
+	name = "argentina_militaristic"
+	file = "argentina/argentina_militaristic.ogg"
+	volume = 0.7
+}
+
+
+# Brazil
+music = {
+	name = "brazil_civilian"
+	file = "brazil/brazil_civilian.ogg"
+	volume = 0.7
+}
+
+music = {
+	name = "brazil_militaristic"
+	file = "brazil/brazil_militaristic.ogg"
+	volume = 0.7
+}
+
+
+# Chile
+music = {
+	name = "chile_civilian"
+	file = "chile/chile_civilian.ogg"
+	volume = 0.7
+}
+
+music = {
+	name = "chile_militaristic"
+	file = "chile/chile_militaristic.ogg"
+	volume = 0.7
+}

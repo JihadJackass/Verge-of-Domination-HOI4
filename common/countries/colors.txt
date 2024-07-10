@@ -192,6 +192,14 @@ KUR = {
 	color = rgb { 168 143 40 }
 	color_ui = rgb { 168 143 40 }
 }
+AFG = {
+	color = rgb { 153 116 84 }
+	color_ui = rgb { 153 116 84 }
+}
+PUN = {
+	color = rgb { 59 117 68 }
+	color_ui = rgb { 59 117 68 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }

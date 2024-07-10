@@ -5,8 +5,13 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = ERT
+		add_core_of = ERT
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 883.nationality = 27 } # Eritrean
 		victory_points = {
 			12725 1
 		}

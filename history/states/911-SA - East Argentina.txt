@@ -1,0 +1,26 @@
+state = {
+	id = 911
+	name = "STATE_911"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 912.nationality = 30 } # Egyptian
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		10515 1449 12453 10943 8187 12964 8238 11007
+	}
+	manpower = 95100
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+}

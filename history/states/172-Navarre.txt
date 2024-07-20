@@ -10,7 +10,7 @@ state={
 			add_core_of = SOV
 		}
 		set_variable = { 172.nationality = 14 } # Caiçaran
-		victory_points = { 9710 3 }
+		victory_points = { 9857 3 }
 		victory_points = { 3933 1 }
 		buildings = {
 			infrastructure = 3 #was: 6

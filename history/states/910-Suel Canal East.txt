@@ -14,7 +14,7 @@ state = {
 			infrastructure = 1
 			arms_factory = 1
 		}
-		victory_points = { 6361 1 }
+		victory_points = { 1155 1 }
 	}
 
 	provinces = {

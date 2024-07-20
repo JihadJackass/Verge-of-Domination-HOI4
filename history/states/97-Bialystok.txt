@@ -11,7 +11,7 @@ state={
 		}
 		set_variable = { 97.nationality = 268 } # Lithuanian
 		victory_points = { 11301 3 }
-		victory_points = { 3393 3 }
+		victory_points = { 11274 3 }
 		victory_points = { 3254 1 }
 		buildings = {
 			infrastructure = 3

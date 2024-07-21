@@ -2357,4 +2357,16 @@ defined_text = {
 		}
 		localization_key = var_nationality.390
 	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 391 } # Ethiopian
+		}
+		localization_key = var_nationality.391
+	}
+	text = {
+		trigger = {
+			check_variable = { nationality = 392 } # Sikh
+		}
+		localization_key = var_nationality.392
+	}
 }

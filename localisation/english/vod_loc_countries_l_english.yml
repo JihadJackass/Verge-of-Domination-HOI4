@@ -75,8 +75,8 @@
             SOV_neutrality: "Empire of Russia"
             SOV_neutrality_DEF: "the Empire of Russia"
             SOV_neutrality_ADJ: "Russian"
-            SOV_communism: "Union of Socialist Republics"
-            SOV_communism_DEF: "the Union of Soviet Socialist Republics"
+            SOV_communism: "Soviet Union of Socialist Republics"
+            SOV_communism_DEF: "the Soviet Union of Socialist Republics"
             SOV_communism_ADJ: "Soviet"
 
             # People's Republic of China
@@ -128,10 +128,10 @@
             ITA_communism_DEF: "the Soviet-Italian Social Republic"
             ITA_communism_ADJ: "Soviet-Italian"
 
-            # Soviet Third Rome
-            TRM_communism: "Soviet Third Rome"
-            TRM_communism_DEF: "the Third Rome Soviet Republic"
-            TRM_communism_ADJ: "Greco-Soviet"
+            # Soviet Anatolia
+            TUR_communism: "Soviet Turkey"
+            TUR_communism_DEF: "the Anatolian Soviet"
+            TUR_communism_ADJ: "Greco-Soviet"
 
             # Soviet Breslau
             BSL_communism: "Breslau Soviet State"
@@ -177,11 +177,6 @@
             EPR_communism: "Soviet East Prussia"
             EPR_communism_DEF: "the Soviet-East Prussian State"
             EPR_communism_ADJ: "Soviet-East Prussian"
-
-            # Soviet Moldavia
-            MOL_communism: "Soviet Moldavia"
-            MOL_communism_DEF: "the Soviet-Moldavian State"
-            MOL_communism_ADJ: "Soviet-Moldavian"
 
             # Soviet Denmark
             DEN_communism: "Soviet Denmark"
@@ -257,3 +252,28 @@
             KUR_communism: "Soviet Kurdistan"
             KUR_communism_DEF: "the Kurdistani People's Republic"
             KUR_communism_ADJ: "Soviet-Kurdistani"
+
+            # Soviet Persia
+            PER_communism: "Soviet Persia"
+            PER_communism_DEF: "the Persian Soviet"
+            PER_communism_ADJ: "Soviet-Persian"
+
+            # Soviet Korea
+            KOR_communism: "People's Democratic Republic of Korea"
+            KOR_communism_DEF: "the Korean People's Soviet"
+            KOR_communism_ADJ: "Soviet-Korean"
+
+            # Soviet Afghanistan
+            KOR_communism: "People's Afghanistan Soviet"
+            KOR_communism_DEF: "the People's Soviet of Afghanistan"
+            KOR_communism_ADJ: "Soviet-Afghanistani"
+
+            # Soviet Punjab
+            KOR_communism: "Punjabi Soviet"
+            KOR_communism_DEF: "the Punjabi Soviet"
+            KOR_communism_ADJ: "Soviet-Punjabi"
+
+            # Soviet Pakistan
+            KOR_communism: "Soviet Pakistan"
+            KOR_communism_DEF: "the Pakistani Soviet"
+            KOR_communism_ADJ: "Soviet-Pakistani"

@@ -1,0 +1,67 @@
+﻿capital = 219
+
+oob = "SOV_1945"
+
+set_research_slots = 1
+set_stability = 0.14
+set_war_support = 0.24
+set_convoys = 100
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 2
+	communism = 88
+}
+
+add_ideas = {
+}
+
+# Soviet Socialist Bloc
+create_faction = SSB
+# Soviet Socialist Republics (SSRs)
+puppet = UKR
+set_autonomy = {
+    target = UKR
+    autonomous_state = colony
+}
+
+create_country_leader = {
+	name = "Joseph Stalin"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Rodzaevsky"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Fyodorovich Kerensky"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = socialism
+	traits = {
+
+	}
+}
+

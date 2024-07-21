@@ -3,18 +3,18 @@
 oob = "USA_1945"
 
 set_research_slots = 2
-set_stability = 0.75
+set_stability = 0.12
 set_war_support = 0
-set_convoys = 50
+set_convoys = 100
 
 set_technology = {
 }
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.11.8"
-	election_frequency = 48
-	elections_allowed = yes
+	last_election = "1930.1.1"
+	election_frequency = 24 # Election Cycle adjusted via 1930s law
+	elections_allowed = no # Elections currently halted due to political crisis
 }
 set_popularities = {
 	democratic = 99
@@ -22,6 +22,67 @@ set_popularities = {
 }
 
 add_ideas = {
+}
+
+# North American Treaty Organization
+create_faction = NATO
+USA = {
+	add_to_faction = USE
+	add_to_faction = USG
+	add_to_faction = USC
+	add_to_faction = USS
+	add_to_faction = CAP
+	add_to_faction = QEB
+	add_to_faction = MEX
+}
+# Occupational Treaty of 1931
+# European Occupation Zone
+puppet = USE
+set_autonomy = {
+    target = USE
+    autonomous_state = supervised_state
+}
+# North Africa Occupation Zone
+puppet = USG
+set_autonomy = {
+    target = USG
+    autonomous_state = supervised_state
+}
+# Central African Occupation Zone
+puppet = USC
+set_autonomy = {
+    target = USC
+    autonomous_state = supervised_state
+}
+# South African Occupation Zone
+puppet = USS
+set_autonomy = {
+    target = USC
+    autonomous_state = supervised_state
+}
+# Cape Occupation Zone
+puppet = CAP
+set_autonomy = {
+    target = USC
+    autonomous_state = supervised_state
+}
+# Canada Occupation Zone
+puppet = CAN
+set_autonomy = {
+    target = CAN
+    autonomous_state = supervised_state
+}
+# Quebec Occupation Zone
+puppet = QEB
+set_autonomy = {
+    target = QEB
+    autonomous_state = supervised_state
+}
+# Mexico Occupation Zone
+puppet = MEX
+set_autonomy = {
+    target = MEX
+    autonomous_state = supervised_state
 }
 
 create_country_leader = {

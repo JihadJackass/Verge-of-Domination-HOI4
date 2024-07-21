@@ -1,29 +1,33 @@
-state=
-{
+state= {
 	id=318
 	name="STATE_318"
 	manpower = 2380000
-	
+
 	state_category = town
-	
+
 	resources={
 		chromium=2 # was: 3
 	}
-	history=
-	{
-		owner = USA
+
+	history= {
+		owner = CAR
+		add_core_of = CAR
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 318.nationality = 101 } # Haitian
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 1
 			4641 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
 		victory_points = {
-			4641 5 
+			4641 5
 		}
 
 	}
@@ -31,5 +35,5 @@ state=
 		1594 1635 4641
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

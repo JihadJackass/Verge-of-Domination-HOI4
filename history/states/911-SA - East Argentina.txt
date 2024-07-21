@@ -9,7 +9,7 @@ state = {
 			owner = USA
 			add_core_of = USA
 		}
-		set_variable = { 912.nationality = 30 } # Egyptian
+		set_variable = { 911.nationality = 30 } # Egyptian
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

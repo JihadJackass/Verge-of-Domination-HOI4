@@ -2,17 +2,6 @@
 
     # Factions
 
-    # Bookmarks
-
-        BM_HISTORY_TITLE: "Detailed History"
-        VERGE_OF_DOMINATION_NAME: "Verge of Domination"
-        VERGE_OF_DOMINATION_DESC: "Placeholder"
-        HITTING_FAN_NAME: "Placeholder"
-        HITTING_FAN_DESC: "Placeholder"
-        USA_VERGE_OF_DOMINATION_DESC: "Placeholder"
-        SOV_VERGE_OF_DOMINATION_DESC: "Placeholder"
-        OTHER_GATHERING_STORM_DESC: "Placeholder"
-
     # Events
 
         vod_soviet_events.1.t: "Status of the USSR"

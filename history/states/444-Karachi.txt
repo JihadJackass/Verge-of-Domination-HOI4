@@ -7,13 +7,13 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = PUN
-		add_core_of = PUN
+		owner = PAK
+		add_core_of = PAK
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 444.nationality = 187 } # Persian
+		set_variable = { 444.nationality = 42 } # Punjabi
 		victory_points = {
 			8066 1
 		}

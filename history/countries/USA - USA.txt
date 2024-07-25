@@ -24,9 +24,72 @@ set_popularities = {
 add_ideas = {
 }
 
+# European Occupation Zone
+USA = {
+	puppet = CIA
+	set_autonomy = {
+		target = CIA
+		autonomous_state = autonomy_integrated_bureaucracy
+	}
+}
 # North American Treaty Organization
 create_faction = NATO
+# Occupational Treaty of 1931
+# European Occupation Zone
+puppet = USE
+# North Africa Occupation Zone
+puppet = USG
+# Central African Occupation Zone
+puppet = USC
+# South African Occupation Zone
+puppet = USS
+# Cape Occupation Zone
+puppet = CAP
+# Canada Occupation Zone
+puppet = CAN
+# Quebec Occupation Zone
+puppet = QEB
+# Mexico Occupation Zone
+puppet = MEX
+# Ontario Occupation Zone
+puppet = ONT
 USA = {
+	set_autonomy = {
+		target = USC
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = USG
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = USE
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = USC
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = USC
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = QEB
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_supervised_state
+	}
+	set_autonomy = {
+		target = ONT
+		autonomous_state = autonomy_supervised_state
+	}
 	add_to_faction = USE
 	add_to_faction = USG
 	add_to_faction = USC
@@ -34,63 +97,15 @@ USA = {
 	add_to_faction = CAP
 	add_to_faction = QEB
 	add_to_faction = MEX
-}
-# Occupational Treaty of 1931
-# European Occupation Zone
-puppet = USE
-set_autonomy = {
-    target = USE
-    autonomous_state = supervised_state
-}
-# North Africa Occupation Zone
-puppet = USG
-set_autonomy = {
-    target = USG
-    autonomous_state = supervised_state
-}
-# Central African Occupation Zone
-puppet = USC
-set_autonomy = {
-    target = USC
-    autonomous_state = supervised_state
-}
-# South African Occupation Zone
-puppet = USS
-set_autonomy = {
-    target = USC
-    autonomous_state = supervised_state
-}
-# Cape Occupation Zone
-puppet = CAP
-set_autonomy = {
-    target = USC
-    autonomous_state = supervised_state
-}
-# Canada Occupation Zone
-puppet = CAN
-set_autonomy = {
-    target = CAN
-    autonomous_state = supervised_state
-}
-# Quebec Occupation Zone
-puppet = QEB
-set_autonomy = {
-    target = QEB
-    autonomous_state = supervised_state
-}
-# Mexico Occupation Zone
-puppet = MEX
-set_autonomy = {
-    target = MEX
-    autonomous_state = supervised_state
+	add_to_faction = ONT
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
+	name = "Wendell Willkie"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = liberalism
+	#picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "1950.1.1"
+	ideology = conservatism
 	traits = {
 	}
 }

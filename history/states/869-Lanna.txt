@@ -2,17 +2,20 @@ state={
 	id=869
 	name="STATE_869"
 	provinces={
-		1253 1488 1990 4496 7492 7531 7675 8045 10371 
+		1253 1488 1990 4496 7492 7531 7675 8045 10371
 	}
 	history = {
-		victory_points = {
-			1488 1 
+		owner = MND
+		add_core_of = MND
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 869.nationality = 75 } # Thai
+		victory_points = { 1488 1 }
 		buildings = {
 			infrastructure = 1
 		}
-		owner = SOV
-		add_core_of = SOV
 	}
 	manpower=2000000
 	state_category = rural

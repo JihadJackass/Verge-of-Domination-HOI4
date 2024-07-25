@@ -7,14 +7,15 @@ state=
 	state_category = enclave
 
 	history= {
-		victory_points = {
-			10833 1
+		owner = SML
+		add_core_of = SML
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			5068 1
-		}
-		owner = SOV
-		add_core_of = SOM
+		set_variable = { 269.nationality = 25 } # Somalian
+		victory_points = { 10833 1 }
+		victory_points = { 5068 1 }
 		buildings = {
 			infrastructure = 2
 			10833 = {

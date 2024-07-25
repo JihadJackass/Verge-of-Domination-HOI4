@@ -2,11 +2,16 @@ state={
 	id=856
 	name="STATE_856"
 	provinces={
-		1923 2090 5037 8073 10786 12883 
+		1923 2090 5037 8073 10786 12883
 	}
 	history = {
-		owner = SOV
-		add_core_of	= SOV
+		owner = ARA
+		add_core_of = ARA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 856.nationality = 307 } # Gulf Arab
 		buildings = {
 			infrastructure = 1
 			12883 = {
@@ -15,7 +20,7 @@ state={
 			}
 		}
 		victory_points = {
-			12883 1 
+			12883 1
 		}
 	}
 	manpower=500000

@@ -1,20 +1,25 @@
-
 state={
 	id=304
 	name="STATE_304"
 	manpower = 467459
 	resources={
-		oil=1 # was: 1
+		oil=2
 	}
-	
+
 	state_category = town
-	
+
 	history={
-		owner = USA
+		owner = USM
+		add_core_of = USM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 304.nationality = 109 } # Panamanian
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
 			air_base = 1
 			7630 = {
 				naval_base = 4
@@ -23,19 +28,13 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
-		victory_points = {
-			7630 5 
-		}
-		victory_points = {
-			4611 1
-		}
-
+		victory_points = { 7630 5 }
+		victory_points = { 4611 1 }
 	}
 
 	provinces={
-		1633 4611 4624 7630 10482 
+		1633 4611 4624 7630 10482
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

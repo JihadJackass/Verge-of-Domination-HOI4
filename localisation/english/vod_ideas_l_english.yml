@@ -1,0 +1,17 @@
+﻿l_english:
+ # IDEAS
+
+  # NATO
+
+    # CIA - Central Intelligence Agency Ideas
+    vod_cia_intelligence_agency: "CIA Intelligence Agency"
+    vod_cia_political_deadlock: "Political Deadlock"
+    vod_cia_corruption_high: "Corruption - High"
+    vod_cia_internal_strife: "Internal Strife"
+
+  # Soviet
+
+    # USSR Ideas
+    vod_sov_ssbe_faction: "Soviet Socialist Bloc of Europe"
+    vod_sov_ssbe_faction_desc: "The @SOVSoviet Union established the SSBE in 1941 during the wave of socialist penetration in Europe which allows them to informally control the countries that are tied to the Soviets.\n\n§YFaction Rules:§!\n-§RCannot Integrate Soviet Subjects§! TODO: WHY\n-§RCannot Invade Soviet Subjects without liberal conflict in the region occuring.§!\n-§RCannot Remove faction members§! TODO: WHY"
+

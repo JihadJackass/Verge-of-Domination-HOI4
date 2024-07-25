@@ -1,0 +1,12 @@
+﻿# Decisions localization
+l_english:
+  # Soviets
+  soviet_foreign_policies: "Soviet Foreign Policy"
+  soviet_union_management: "Soviet Union Management"
+
+  # NATO
+
+
+  # Cultures
+  vod_culture_category: "Cultural Influence"
+  vod_promote_primary_culture: "Promote Primary Culture"

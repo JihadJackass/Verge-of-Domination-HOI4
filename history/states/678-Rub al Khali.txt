@@ -3,17 +3,21 @@ state={
 	name="STATE_678"
 
 	history={
-		owner = SOV
+		owner = ARA
+		add_core_of = ARA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 678.nationality = 307 } # Gulf Arab
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		4932 5081 8118 12740 
+		4932 5081 8118 12740
 	}
 	manpower=42
 	buildings_max_level_factor=1.000

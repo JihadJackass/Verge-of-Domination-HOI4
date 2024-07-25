@@ -161,12 +161,12 @@ BRM = {
 	color_ui = rgb { 222 212 29 }
 }
 MAN = {
-	color = rgb { 171 149 173 }
-	color_ui = rgb { 171 149 173 }
+	color = rgb { 120 61 68 }
+	color_ui = rgb { 120 61 683 }
 }
-MAN = {
-	color = rgb { 171 149 173 }
-	color_ui = rgb { 171 149 173 }
+TUV = {
+	color = rgb { 163 114 120 }
+	color_ui = rgb { 163 114 120 }
 }
 BLN = {
 	color = rgb { 108 120 184 }
@@ -212,14 +212,58 @@ ERT = {
 	color = rgb { 94 107 140 }
 	color_ui = rgb { 94 107 140 }
 }
+MON = {
+	color = rgb { 133 24 37 }
+	color_ui = rgb { 133 24 37 }
+}
+KAZ = {
+	color = rgb { 224 22 46 }
+	color_ui = rgb { 224 22 46 }
+}
+UZB = {
+	color = rgb { 161 13 37 }
+	color_ui = rgb { 161 13 37 }
+}
+TAJ = {
+	color = rgb { 154 117 161 }
+	color_ui = rgb { 154 117 161 }
+}
+TRK = {
+	color = rgb { 125 163 114 }
+	color_ui = rgb { 125 163 114 }
+}
+DEL = {
+	color = rgb { 170 163 114 }
+	color_ui = rgb { 170 163 114 }
+}
+TAI = {
+	color = rgb { 170 130 114 }
+	color_ui = rgb { 170 130 114 }
+}
+ARA = {
+	color = rgb { 70 120 55 }
+	color_ui = rgb { 70 120 55 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }
 	color_ui = rgb { 23 96 163 }
 }
+ONT = {
+	color = rgb { 90 161 96 }
+	color_ui = rgb { 90 161 96 }
+}
+CIA = {
+	color = rgb { 23 96 180 }
+	color_ui = rgb { 23 96 180 }
+}
 USG = { # United States of Northern Africa
 	color = rgb { 76 97 140 }
 	color_ui = rgb { 76 97 140 }
+}
+USM = { # US - central america
+	color = rgb { 80 80 120 }
+	color_ui = rgb { 80 80 120 }
 }
 USE = { # United States of Northern Africa
 	color = rgb { 5 125 180 }
@@ -254,8 +298,8 @@ CUB = {
 	color_ui = rgb { 20 25 145 }
 }
 CAR = {
-	color = rgb { 103 107 207 }
-	color_ui = rgb { 103 107 207 }
+	color = rgb { 107 117 143 }
+	color_ui = rgb { 107 117 143 }
 }
 # Start Dynamic Country TAGs
 D01 = {

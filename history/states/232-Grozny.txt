@@ -1,30 +1,31 @@
-
 state={
 	id = 232
 	name = "STATE_232" #Dagestan
 	manpower = 1358292
-	
+
 	state_category = rural
-	
+
 	resources = {
-		oil = 10 # was: 26 and then 19, but was split into 2 different states
+		oil = 10
 	}
 
 	history = {
-		owner = SOV
+		owner = DAG
+		add_core_of = DAG
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 232.nationality = 11 } # Georgian
 		buildings = {
 			infrastructure = 2
 		}
-		victory_points = {
-			6701 3 
-		}
-		add_core_of = SOV
-		add_core_of = DAG
+		victory_points = { 6701 3 }
 	}
 
 	provinces = {
-		683 700 712 728 1450 3668 3682 3711 4463 6701 6730 6748 7554 7624 9645 11632 
+		683 700 712 728 1450 3668 3682 3711 4463 6701 6730 6748 7554 7624 9645 11632
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

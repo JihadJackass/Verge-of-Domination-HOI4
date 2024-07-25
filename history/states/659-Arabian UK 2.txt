@@ -5,21 +5,21 @@ state={
 	manpower=871202
 
 	history={
-		owner = SOV
-		victory_points = {
-			5074 1
+		owner = YEM
+		add_core_of = YEM
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 659.nationality = 23 } # Yemeni
+		victory_points = { 5074 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 4
 			5074 = {
 				naval_base = 3
-
 			}
-
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={

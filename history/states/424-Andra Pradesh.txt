@@ -1,23 +1,28 @@
-
 state={
 	id=424
 	name="STATE_424" # Madras
 	manpower = 15791700
 	state_category = rural
-	
+
 
 	history={
-		owner = SOV
+		owner = DEL
+		add_core_of = DEL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 424.nationality = 49 } # Hindustani
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-
 	}
 
 	provinces={
-		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+		1228 1344 1430 4321 4365 4414 7297 7310
+		7340 10152 10296 10756 10897 12180 12779
 	}
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

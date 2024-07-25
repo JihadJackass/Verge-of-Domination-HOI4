@@ -1,0 +1,17 @@
+# CENTRAL INTELLIGENCE AGENCY
+
+characters = {
+	CIA_director_placeholder = {
+		name = "Director of Central Intelligence - Hoyt Vandenberg" # TODO: change when American political history is written
+		portraits = {
+			civilian = {
+				large = GFX_CIA_director_placeholder
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

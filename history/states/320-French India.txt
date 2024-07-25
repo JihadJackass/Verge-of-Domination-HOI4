@@ -7,8 +7,13 @@ state={
 	state_category = enclave
 
 	history={
-		owner = USE
-		add_core_of = SOV
+		owner = DEL
+		add_core_of = DEL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 320.nationality = 49 } # Hindustani
 		buildings = {
 			infrastructure = 3 #was: 5
 			10149 = {
@@ -19,5 +24,5 @@ state={
 
 	provinces={ 10149 }
 
-	local_supplies=0.0 
+	local_supplies=0.0
 }

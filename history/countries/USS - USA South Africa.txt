@@ -1,0 +1,25 @@
+﻿capital = 540
+
+oob = "USS_1945"
+
+set_research_slots = 1
+set_stability = 0.75
+set_war_support = 0
+set_convoys = 50
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+add_ideas = {
+}
+

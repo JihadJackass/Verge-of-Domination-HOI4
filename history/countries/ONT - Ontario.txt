@@ -1,0 +1,28 @@
+﻿capital = 276
+
+oob = "ONT_1945"
+
+set_research_slots = 1
+set_stability = 0.19
+set_war_support = 0
+set_convoys = 50
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.1.1"
+	election_frequency = 24 # Election Cycle adjusted via 1930s law
+	elections_allowed = no # Elections currently halted due to political crisis
+}
+set_popularities = {
+	democratic = 80
+	fascism = 20
+}
+
+add_ideas = {
+}
+
+recruit_character = CIA_director_placeholder
+

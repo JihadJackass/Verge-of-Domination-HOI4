@@ -3,23 +3,18 @@ state = {
 	name = "STATE_832"
 
 	history = {
-	
-		owner = SOV
-		
-		victory_points = {
-			1493 1
+		owner = TRK
+		add_core_of = TRK
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		
+		set_variable = { 832.nationality = 181 } # Turkmen
+		victory_points = { 1493 1 }
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
 		}
-		
-		add_core_of = SOV
-		add_core_of = TMS
-		add_core_of = KHI
-
 	}
 
 	provinces = {
@@ -29,6 +24,6 @@ state = {
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 
-	local_supplies = 4.0 
-	
+	local_supplies = 4.0
+
 }

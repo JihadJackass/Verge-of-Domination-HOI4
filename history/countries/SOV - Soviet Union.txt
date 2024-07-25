@@ -13,7 +13,7 @@ set_technology = {
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"
-	election_frequency = 48
+	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
@@ -23,15 +23,70 @@ set_popularities = {
 }
 
 add_ideas = {
+	vod_sov_ssbe_faction
 }
 
-# Soviet Socialist Bloc
-create_faction = SSB
+# Soviet Socialist Bloc of Europe
+create_faction = SSBE
 # Soviet Socialist Republics (SSRs)
-puppet = UKR
-set_autonomy = {
-    target = UKR
-    autonomous_state = colony
+SOV = {
+	puppet = UKR
+	puppet = POL
+	puppet = GER
+	puppet = ITA
+	puppet = BOH
+	puppet = ALB
+	puppet = MOL
+	puppet = HUN
+	puppet = BEL
+	puppet = LIT
+	puppet = BSL
+	puppet = WPR
+	puppet = EPR
+	puppet = DEN
+	puppet = SWE
+	puppet = NOR
+	puppet = FIN
+	puppet = AUS
+	puppet = TRS
+	puppet = ZAG
+	puppet = SER
+	puppet = WAL
+	puppet = BUL
+	puppet = TUR
+	puppet = TRM
+	puppet = GEO
+	puppet = AZE
+	puppet = ARM
+	puppet = KUR
+	puppet = SYR
+	puppet = ARB
+	puppet = ISR
+	puppet = EGY
+	puppet = LIB
+	puppet = KAZ
+	puppet = PER
+	puppet = AFG
+	puppet = PAK
+	puppet = PRC
+	puppet = KOR
+	puppet = MAN
+	puppet = MON
+	puppet = TUV
+	puppet = VIN
+	puppet = LAO
+	puppet = BRM
+	puppet = BEN
+	puppet = TAI
+	puppet = JAV
+	puppet = BLN
+	puppet = ERT
+	puppet = ETH
+	puppet = SOM
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_satellite
+	}
 }
 
 create_country_leader = {

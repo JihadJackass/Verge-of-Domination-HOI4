@@ -1,0 +1,17 @@
+soviet_foreign_policies = {
+	icon = generic_propaganda
+
+	visible = {
+		tag = SOV
+	}
+
+}
+
+soviet_union_management = {
+	icon = generic_propaganda
+
+	visible = {
+		tag = SOV
+	}
+
+}

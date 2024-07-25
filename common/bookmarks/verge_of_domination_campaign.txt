@@ -34,6 +34,20 @@ bookmarks = {
 			history = "VERGE_OF_DOMINATION_DESC"
 		}
 
+		"CIA"={
+			minor = yes
+			history = "CIA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				vod_cia_intelligence_agency
+				vod_cia_political_deadlock
+				vod_cia_corruption_high
+				vod_cia_internal_strife
+			}
+			focuses = {
+				CIA_basic_focus
+			}
+		}
 
 		"CAN"={
 			minor = yes
@@ -46,14 +60,58 @@ bookmarks = {
 			}
 		}
 
+		"MEX"={
+			minor = yes
+			history = "MEX_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				MEX_basic_focus
+			}
+		}
+
 		"UKR"={
 			minor = yes
 			history = "UKR_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 			}
 			focuses = {
 				UKR_basic_focus
+			}
+		}
+
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				PRC_basic_focus
+			}
+		}
+
+		"GER"={
+			minor = yes
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				GER_basic_focus
+			}
+		}
+
+		"POL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				POL_basic_focus
 			}
 		}
 

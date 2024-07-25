@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	# Follow the rule GFX_culture_<variable value of the culture> #
+
+	spriteType = {
+		name = "GFX_CIA_director_placeholder"
+		texturefile = "gfx/interface/CIA_director.dds"
+	}
+}

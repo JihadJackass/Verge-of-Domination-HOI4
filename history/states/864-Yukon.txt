@@ -2,11 +2,17 @@ state={
 	id=864
 	name="STATE_864"
 	provinces={
-		3606 7869 7891 
+		3606 7869 7891
 	}
 	history = {
-		owner = USA
+		owner = BCM
+		add_core_of = BCM
 		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 864.nationality = 302 } # Western Canadian
 	}
 	manpower=10
 	state_category = wasteland

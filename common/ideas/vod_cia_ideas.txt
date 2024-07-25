@@ -1,0 +1,76 @@
+ideas = {
+
+	country = {
+
+		# CENTRAL INTELLIGENCE AGENCY - CIA
+
+		vod_cia_intelligence_agency = {
+
+			allowed = {
+				tag = CIA
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+		vod_cia_political_deadlock = {
+
+			allowed = {
+				tag = CIA
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+		vod_cia_corruption_high = {
+
+			allowed = {
+				tag = CIA
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+		vod_cia_internal_strife = {
+
+			allowed = {
+				tag = CIA
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+	}
+}

@@ -2,11 +2,16 @@ state={
 	id=854
 	name="STATE_854"
 	provinces={
-		2057 4974 8101 10815 10901 
+		2057 4974 8101 10815 10901
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = ARA
+		add_core_of = ARA
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 854.nationality = 307 } # Gulf Arab
 	}
 	manpower=5000
 	state_category=pastoral

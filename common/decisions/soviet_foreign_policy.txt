@@ -1,0 +1,67 @@
+soviet_foreign_policies = {
+
+	# Foreign Policy - Israel
+	israel_policy = {
+		priority = 100
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			NOT = {
+				OR = {
+					has_global_flag = soviet_israel_policy_support # Embrace Israel
+					has_global_flag = soviet_israel_policy_reject # Reject, Status Quo - Possible uprising?
+					has_global_flag = soviet_israel_policy_arabs # Reject, Support Arab Nationalism - Uprising
+				}
+			}
+		}
+		complete_effect = {
+			set_global_flag = soviet_israel_policy_support
+		}
+	}
+
+	# Foreign Policy - Ukraine
+	ukraine_policy = {
+		priority = 100
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			NOT = {
+				OR = {
+					has_global_flag = soviet_ukraine_policy_support # Give Ukraine Land
+					has_global_flag = soviet_ukraine_policy_reject # Reject
+					has_global_flag = soviet_ukraine_policy_crimea # Reject, Seize Crimea
+				}
+			}
+		}
+		complete_effect = {
+			set_global_flag = soviet_israel_policy_support
+		}
+	}
+
+}
+
+soviet_union_management = {
+	# Military Parade
+	ssr_military_parade = {
+		priority = 100
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		complete_effect = {
+
+		}
+	}
+}

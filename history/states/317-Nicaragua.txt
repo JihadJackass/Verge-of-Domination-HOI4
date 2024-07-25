@@ -8,8 +8,8 @@ state={
 	state_category = town
 
 	history={
-		owner = CAR
-		add_core_of = CAR
+		owner = USM
+		add_core_of = USM
 		1950.1.1 = {
 			owner = USA
 			add_core_of = USA

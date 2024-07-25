@@ -1,0 +1,33 @@
+﻿capital = 912
+
+oob = "CIA_1945"
+
+set_research_slots = 0
+set_stability = 0.12
+set_war_support = 0
+set_convoys = 100
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.1.1"
+	election_frequency = 12 # CIA yearly rotation
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 70
+	neutrality = 15
+	fascism = 10
+}
+
+add_ideas = {
+	vod_cia_intelligence_agency
+	vod_cia_political_deadlock
+	vod_cia_corruption_high
+	vod_cia_internal_strife
+}
+
+recruit_character = CIA_director_placeholder
+

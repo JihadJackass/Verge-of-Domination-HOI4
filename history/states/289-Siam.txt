@@ -7,7 +7,13 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = TAI
+		add_core_of = TAI
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 289.nationality = 75 } # Thai TODO: Siamese
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -19,17 +25,11 @@ state={
 			}
 
 		}
-		victory_points = {
-			7408 10 
-		}
-		
-		
-		add_core_of = SOV
-
+		victory_points = { 7408 10 }
 	}
 
 	provinces={
-		1244 1427 4319 4348 4433 4566 7225 7292 7312 7338 7353 7367 7408 7544 7559 7572 7587 10193 10221 10250 10293 10398 10411 12173 12224 12345 
+		1244 1427 4319 4348 4433 4566 7225 7292 7312 7338 7353 7367 7408 7544 7559 7572 7587 10193 10221 10250 10293 10398 10411 12173 12224 12345
 	}
 	manpower=8422400
 	buildings_max_level_factor=1.000

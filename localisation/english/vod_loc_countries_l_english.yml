@@ -18,6 +18,11 @@
             USA_communism_DEF: "the Communist States of America"
             USA_communism_ADJ: "American"
 
+            # Central Intelligence Agency
+            CIA_democratic: "CIA"
+            CIA_democratic_DEF: "the Central Intelligence Agency"
+            CIA_democratic_ADJ: "CIA"
+
             # American Canadian Occupation Zone
             CAN_democratic: "Canadian Occupation Zone"
             CAN_democratic_DEF: "the American-Canadian Occupation Zone"
@@ -62,6 +67,18 @@
             GUS_democratic: "Guyana Occupation Zone"
             GUS_democratic_DEF: "the American-Guyana Occupation Zone"
             GUS_democratic_ADJ: "Guyanan"
+
+            # Mexican Occupation Zone
+            MEX_democratic: "Mexican Occupation Zone"
+            MEX_democratic_DEF: "the American-Mexican Occupation Zone"
+            MEX_democratic_ADJ: "American-Mexican"
+
+            # Military Occupation District of Ontario
+            ONT_democratic: "Ontario Military Occupation Zone"
+            ONT_democratic_DEF: "the American-Ontarian Military Occupation Zone"
+            ONT_democratic_ADJ: "American-Ontarian"
+            ONT_democratic_ADJ:1 "Ontarian"
+
 
         # Soviet Factions
 
@@ -264,16 +281,67 @@
             KOR_communism_ADJ: "Soviet-Korean"
 
             # Soviet Afghanistan
-            KOR_communism: "People's Afghanistan Soviet"
-            KOR_communism_DEF: "the People's Soviet of Afghanistan"
-            KOR_communism_ADJ: "Soviet-Afghanistani"
+            AFG_communism: "People's Afghanistan Soviet"
+            AFG_communism_DEF: "the People's Soviet of Afghanistan"
+            AFG_communism_ADJ: "Soviet-Afghanistani"
 
             # Soviet Punjab
-            KOR_communism: "Punjabi Soviet"
-            KOR_communism_DEF: "the Punjabi Soviet"
-            KOR_communism_ADJ: "Soviet-Punjabi"
+            PUN_communism: "Punjabi Soviet"
+            PUN_communism_DEF: "the Punjabi Soviet"
+            PUN_communism_ADJ: "Soviet-Punjabi"
 
             # Soviet Pakistan
-            KOR_communism: "Soviet Pakistan"
-            KOR_communism_DEF: "the Pakistani Soviet"
-            KOR_communism_ADJ: "Soviet-Pakistani"
+            PAK_communism: "Soviet Pakistan"
+            PAK_communism_DEF: "the Pakistani Soviet"
+            PAK_communism_ADJ: "Soviet-Pakistani"
+
+            # Soviet Anatolia
+            TRM_communism: "Soviet Anatolia"
+            TRM_communism_DEF: "the Anatolian Soviet"
+            TRM_communism_ADJ: "Soviet-Anatolian"
+
+            # Soviet Bengal
+            BAN_communism: "Soviet Bengal"
+            BAN_communism_DEF: "the Bengali People's Soviet"
+            BAN_communism_ADJ: "Soviet-Bengali"
+
+            # Soviet Eritrea
+            ERT_communism: "Soviet Eritrea"
+            ERT_communism_DEF: "the Eritrean Soviet"
+            ERT_communism_ADJ: "Soviet-Eritrean"
+
+            # Soviet Kazakhstan
+            KAZ_communism: "Kazakhstan SSR"
+            KAZ_communism_DEF: "the Kazakhstan SSR"
+            KAZ_communism_ADJ: "Soviet-Kazakhstani"
+
+            # Soviet Somalia
+            SOM_communism: "Somali SSR"
+            SOM_communism_DEF: "the Somalian SSR"
+            SOM_communism_ADJ: "Soviet-Somalian"
+
+            # Soviet Vietnam
+            VIN_communism: "Vietnamese SSR"
+            VIN_communism_DEF: "the Vietnamese SSR"
+            VIN_communism_ADJ: "Soviet-Vietnamese"
+
+            # Soviet Laos
+            LAO_communism: "Laotian SSR"
+            LAO_communism_DEF: "the Laotian SSR"
+            LAO_communism_ADJ: "Soviet-Laotian"
+
+            # Soviet Manchuria
+            MAN_communism: "Manchurian SSR"
+            MAN_communism_DEF: "the Manchurian SSR"
+            MAN_communism_ADJ: "Soviet-Manchurian"
+
+            # Soviet Blue Nile
+            BLN_communism: "Blue Nile SSR"
+            BLN_communism_DEF: "the Blue Nile SSR"
+            BLN_communism_ADJ: "Soviet-Egyptian"
+
+            # Soviet Uzbekistan
+            UZB_communism: "Uzbekistan SSR"
+            UZB_communism_DEF: "the Uzbekistan SSR"
+            UZB_communism_ADJ: "Soviet-Uzbekistani"
+

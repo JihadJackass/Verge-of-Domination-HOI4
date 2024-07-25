@@ -6,16 +6,15 @@ state={
 	state_category = rural
 
 	history= {
-		owner = UKR
+		owner = MOL
+		add_core_of = MOL
 		add_core_of = UKR
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV
 		}
 		set_variable = { 766.nationality = 164 } # Ukrainian
-		victory_points = {
-			6727 1
-		}
+		victory_points = { 6727 1 }
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

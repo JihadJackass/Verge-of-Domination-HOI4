@@ -6,11 +6,14 @@ state={
 	state_category = rural
 
 	history={
-		add_core_of = GDL
-		owner = USE
-		victory_points = {
-			9377 1
+		owner = USA
+		add_core_of = USA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
 		}
+		set_variable = { 694.nationality = 383 } # Modern American
+		victory_points = { 9377 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -22,10 +25,10 @@ state={
 			}
 		}
 	}
-	
+
 	provinces={
-		177 9377 13084 
+		177 9377 13084
 	}
 
-	local_supplies=3.0 
+	local_supplies=3.0
 }

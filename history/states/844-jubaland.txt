@@ -2,26 +2,26 @@ state = {
 	id = 844
 	name = "STATE_844"
 	manpower = 1028895
-	
+
 	state_category = pastoral
-	
+
 	history = {
-		owner = SOV
+		owner = SOM
 		add_core_of = SOM
-		victory_points = {
-		 	12941 1 
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 844.nationality = 25 } # Somalian
+		victory_points = { 12941 1 }
 		buildings = {
 			infrastructure = 2
-			12941 = {
-				naval_base = 2
-			}
-			
+			12941 = { naval_base = 2 }
 		}
 	}
-	provinces = { 
+	provinces = {
 		11014 12941
 	}
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

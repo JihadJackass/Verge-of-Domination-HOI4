@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+
+		# Soviet Union
+
+		vod_sov_ssbe_faction = {
+
+			allowed = {
+				tag = SOV
+				has_faction = SSBU
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+	}
+}

@@ -4,18 +4,21 @@ state={
 	name="STATE_811"
 
 	history={
-		owner = SOV
+		owner = EST
+		add_core_of = EST
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 811.nationality = 168 } # Estonian
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = {
-			185 1
-		}
-		add_core_of = SOV
+		victory_points = { 185 1 }
 	}
 
 	provinces={
-		185 6201 
+		185 6201
 	}
 	manpower=32370
 	buildings_max_level_factor=1.000

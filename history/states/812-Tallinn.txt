@@ -4,10 +4,14 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = SOV
-		victory_points = {
-			3152 5 
+		owner = EST
+		add_core_of = EST
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 812.nationality = 168 } # Estonian
+		victory_points = { 3152 5 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -15,16 +19,12 @@ state={
 			3152 = {
 				naval_base = 3
 				coastal_bunker = 1
-
 			}
-
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		496 567 3152 11426 
+		496 567 3152 11426
 	}
 	manpower=275220
 	buildings_max_level_factor=1.000

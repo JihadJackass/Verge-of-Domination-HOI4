@@ -3,25 +3,27 @@ state = {
 	name = "STATE_881" # Karagandy
 
 	history = {
-		owner = SOV
-		#victory_points = {
-		#	7597 1
-		#}
+		owner = KAZ
 		add_core_of = KAZ
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 881.nationality = 180 } # Kazakh
+		victory_points = { 4250 1 }
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces = {
-		1243 1312 1382 1402 4250 4277 4389 4492 4595 7335 10179 10220 10268 10275 10277 10508 12111 12121 12177 12194 12385 12487
+		1243 1312 1382 1402 4250 4277 4389 4492 4595 7335 10179 10220
+		10268 10275 10277 10508 12111 12121 12177 12194 12385 12487
 	}
 	manpower = 227016
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

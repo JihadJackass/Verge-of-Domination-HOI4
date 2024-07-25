@@ -1,0 +1,55 @@
+﻿capital = 484
+
+oob = "BAJ_1945"
+
+set_research_slots = 2
+set_stability = 0.75
+set_war_support = 0
+set_convoys = 50
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.1.1" # American Occupation of Canada - 1930.1.1
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+}
+
+add_ideas = {
+}
+
+create_country_leader = {
+	name = "Richard Bedford Bennett"
+	desc = "VOD_POL_Richard_Bedford_Bennett"
+	picture = "portrait_CAN_baillie_grohman.dds"
+	expire = "1947.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "portrait_USA_earl_browder.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+
+	}
+}

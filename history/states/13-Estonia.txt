@@ -7,10 +7,14 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			3174 1 #Voru
+		owner = EST
+		add_core_of = EST
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
+		set_variable = { 13.nationality = 168 } # Estonian
+		victory_points = { 3174 1 }
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,15 +22,13 @@ state={
 			air_base = 2
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
-		83 308 3074 3174 6381 11291 
+		83 308 3074 3174 6381 11291
 	}
 
-	local_supplies=6.0 
+	local_supplies=6.0
 	manpower=423070
 	buildings_max_level_factor=1.000
 	state_category=rural

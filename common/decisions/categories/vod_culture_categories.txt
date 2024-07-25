@@ -1,0 +1,8 @@
+vod_culture_category = {
+	icon = generic_propaganda
+
+	visible = {
+		always = yes
+	}
+
+}

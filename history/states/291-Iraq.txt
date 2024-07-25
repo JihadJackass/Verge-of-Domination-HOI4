@@ -10,9 +10,13 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_claim_by = KUR
+		owner = IRQ
+		add_core_of = IRQ
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 291.nationality = 18 } # Iraqi
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

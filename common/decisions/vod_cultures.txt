@@ -1,0 +1,36 @@
+vod_culture_category = {
+
+	# Cultures
+	vod_promote_primary_culture = {
+		priority = 10
+		allowed = {
+			always = yes
+			# TODO: check for if any province does not have primary culture
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+			# TODO: create scripted trigger for dominant culture
+		}
+		complete_effect = {
+			# TODO: create scripted effect to promote primary culture
+		}
+	}
+
+	vod_promote_immigration_policy = {
+		priority = 10
+		allowed = {
+			always = yes
+		}
+
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+		complete_effect = {
+			#set_global_flag = soviet_israel_policy_support
+		}
+	}
+
+}

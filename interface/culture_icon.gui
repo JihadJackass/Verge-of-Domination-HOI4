@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "culture_icon_container"
 		position = {x=60 y=87}
-		size = { width=780 height=496 }
+		size = { width=296 height=450 }
 
 		background = {
 			name = "Background"
@@ -12,7 +12,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "culture_title_marker"
-			position = { x = 80 y = 320 }
+			position = { x = 100 y = 320 }
 			#font = "aldrich_14_outline"
 			text = culture_icon_container_culture_title_marker
 			maxWidth = 225

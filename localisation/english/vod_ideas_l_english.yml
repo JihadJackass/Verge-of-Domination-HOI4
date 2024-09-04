@@ -12,6 +12,12 @@
   # Soviet
 
     # USSR Ideas
-    vod_sov_ssbe_faction: "Soviet Socialist Bloc of Europe"
+    vod_sov_ssbe_faction: "SSBE"
     vod_sov_ssbe_faction_desc: "The @SOVSoviet Union established the SSBE in 1941 during the wave of socialist penetration in Europe which allows them to informally control the countries that are tied to the Soviets.\n\n§YFaction Rules:§!\n-§RCannot Integrate Soviet Subjects§! TODO: WHY\n-§RCannot Invade Soviet Subjects without liberal conflict in the region occuring.§!\n-§RCannot Remove faction members§! TODO: WHY"
+
+  # United States
+
+    # USA Ideas
+    vod_usa_nato_faction: "North American Treaty Organization"
+    vod_usa_nato_faction_desc: "The @SOVSoviet Union established the SSBE in 1941 during the wave of socialist penetration in Europe which allows them to informally control the countries that are tied to the Soviets.\n\n§YFaction Rules:§!\n-§ROccupation Zones must be dealt with, and cannot be integrated without appeasing the local populations.§! TODO: WHY\n-§RCannot declare war without 'FOCUS NAME'.§!\n-§RCannot Remove faction members§! TODO: WHY\n-§RCannot Annex @CIA[CIA.GetName]§! TODO: WHY" 
 

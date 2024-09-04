@@ -8,10 +8,13 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
-		add_core_of = PRC
+		owner = MON
+		add_core_of = MON
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 760.nationality = 192 } # Mongolian
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

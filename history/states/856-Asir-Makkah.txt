@@ -5,8 +5,8 @@ state={
 		1923 2090 5037 8073 10786 12883
 	}
 	history = {
-		owner = ARA
-		add_core_of = ARA
+		owner = ARB
+		add_core_of = ARB
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV

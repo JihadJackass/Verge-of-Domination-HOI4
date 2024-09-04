@@ -1,12 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "verge_of_domination",
 			"path": "."
 		},
 		{
-			"path": "..\\..\\logs"
+			"name": "logs",
+			"path": "../../logs"
 		},
 		{
+			"name": "mod",
+			"path": ".."
+		},
+		{
+			"name": "Hearts of Iron IV",
 			"path": "D:/Steam/steamapps/common/Hearts of Iron IV"
 		}
 	]

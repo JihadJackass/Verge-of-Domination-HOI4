@@ -6,8 +6,13 @@ state={
 	state_category = small_island
 
 	history={
-		owner = USA
-		add_core_of = FIJ
+		owner = PHI
+		add_core_of = PHI
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 643.nationality = 195 } # Filipino
 		buildings = {
 			infrastructure = 2
 			13056 = {

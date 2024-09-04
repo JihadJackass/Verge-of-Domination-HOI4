@@ -6,14 +6,19 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = MON
+		add_core_of = MON
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 818.nationality = 192 } # Mongolian
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			7843 1 #Ulaangom
 		}
-		add_core_of = SOV
 	}
 	manpower=149000
 	buildings_max_level_factor=1.000

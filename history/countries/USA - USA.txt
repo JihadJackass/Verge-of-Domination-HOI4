@@ -22,9 +22,10 @@ set_popularities = {
 }
 
 add_ideas = {
+	vod_usa_nato_faction
 }
 
-# European Occupation Zone
+# Central Intelligence Agency
 USA = {
 	puppet = CIA
 	set_autonomy = {
@@ -34,70 +35,52 @@ USA = {
 }
 # North American Treaty Organization
 create_faction = NATO
-# Occupational Treaty of 1931
-# European Occupation Zone
-puppet = USE
-# North Africa Occupation Zone
-puppet = USG
-# Central African Occupation Zone
-puppet = USC
-# South African Occupation Zone
-puppet = USS
-# Cape Occupation Zone
-puppet = CAP
-# Canada Occupation Zone
-puppet = CAN
-# Quebec Occupation Zone
-puppet = QEB
-# Mexico Occupation Zone
-puppet = MEX
-# Ontario Occupation Zone
-puppet = ONT
 USA = {
+	# Central African Occupation Zone
 	set_autonomy = {
 		target = USC
 		autonomous_state = autonomy_supervised_state
 	}
+	# North Africa Occupation Zone
 	set_autonomy = {
 		target = USG
 		autonomous_state = autonomy_supervised_state
 	}
+	# European Occupation Zone
 	set_autonomy = {
 		target = USE
 		autonomous_state = autonomy_supervised_state
 	}
+	# South African Occupation Zone
 	set_autonomy = {
-		target = USC
+		target = USS
 		autonomous_state = autonomy_supervised_state
 	}
+	# Cape Occupation Zone
 	set_autonomy = {
-		target = USC
+		target = CAP
 		autonomous_state = autonomy_supervised_state
 	}
+	# Canada Occupation Zone
 	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_supervised_state
 	}
+	# Quebec Occupation Zone
 	set_autonomy = {
 		target = QEB
 		autonomous_state = autonomy_supervised_state
 	}
+	# Mexico Occupation Zone
 	set_autonomy = {
 		target = MEX
 		autonomous_state = autonomy_supervised_state
 	}
+	# Ontario Occupation Zone
 	set_autonomy = {
 		target = ONT
 		autonomous_state = autonomy_supervised_state
 	}
-	add_to_faction = USE
-	add_to_faction = USG
-	add_to_faction = USC
-	add_to_faction = USS
-	add_to_faction = CAP
-	add_to_faction = QEB
-	add_to_faction = MEX
-	add_to_faction = ONT
 }
 
 create_country_leader = {

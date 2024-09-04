@@ -9,16 +9,18 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = KAZ
 		add_core_of = KAZ
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 882.nationality = 180 } # Kazakh
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
-		victory_points = {
-			7708 1
-		}
+		victory_points = { 7708 1 }
 	}
 
 	provinces = {

@@ -1,14 +1,18 @@
-state=
-{
+state= {
 	id=628
 	name="STATE_628"
 	manpower = 3525715
 	
 	state_category = rural
 	
-	history=
-	{
-		owner = USA
+	history= {
+		owner = PHI
+		add_core_of = PHI
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 628.nationality = 195 } # Filipino
 		buildings = {
 			infrastructure = 2
 			12118 = {
@@ -16,10 +20,7 @@ state=
 			}
 		}
 		
-		victory_points = {
-			12118 1 
-		}
-		add_core_of = USA
+		victory_points = { 12118 1  }
 	}
 
 	provinces={

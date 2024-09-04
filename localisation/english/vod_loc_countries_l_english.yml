@@ -79,6 +79,17 @@
             ONT_democratic_ADJ: "American-Ontarian"
             ONT_democratic_ADJ:1 "Ontarian"
 
+            # Military Occupation District of British Columbia
+            BCM_democratic: "British Columbia Military Occupation Zone"
+            BCM_democratic_DEF: "the American-British Columbian Military Occupation Zone"
+            BCM_democratic_ADJ: "American-British Columbian"
+            ONT_democratic_ADJ:1 "British Columbian"
+
+            # Cuba
+            CUB_democratic: "Cuban Occupation Zone"
+            CUB_democratic_DEF: "the American-Cuban Occupation Zone"
+            CUB_democratic_ADJ: "Cuban"
+
 
         # Soviet Factions
 
@@ -345,3 +356,32 @@
             UZB_communism_DEF: "the Uzbekistan SSR"
             UZB_communism_ADJ: "Soviet-Uzbekistani"
 
+            # Soviet Mongolia
+            MON_communism: "Mongolia SSR"
+            MON_communism_DEF: "the Mongolian SSR"
+            MON_communism_ADJ: "Soviet-Mongolian"
+
+            # Soviet Delhi
+            DEL_communism: "Delhi SSR"
+            DEL_communism_DEF: "the Delhi SSR"
+            DEL_communism_ADJ: "Soviet-Delhi"
+
+            # Soviet Burma
+            BRM_communism: "Burma SSR"
+            BRM_communism_DEF: "the Burmese SSR"
+            BRM_communism_ADJ: "Soviet-Burmese"
+
+           # Soviet Mandalay
+            MND_communism: "Mandalay SSR"
+            MND_communism_DEF: "the Mandalayan SSR"
+            MND_communism_ADJ: "Soviet-Mandalayan"
+
+           # Soviet Siam
+            TAI_communism: "Siam SSR"
+            TAI_communism_DEF: "the Siamese SSR"
+            TAI_communism_ADJ: "Soviet-Siamese"
+
+           # Soviet Java
+            JAV_communism: "Java SSR"
+            JAV_communism_DEF: "the Java SSR"
+            JAV_communism_ADJ: "Soviet-Java"

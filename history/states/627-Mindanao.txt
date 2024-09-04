@@ -7,17 +7,20 @@ state={
 	state_category = rural
 
 	history={
-		owner = USA
+		owner = PHI
+		add_core_of = PHI
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 627.nationality = 195 } # Filipino
 		buildings = {
 			infrastructure = 2
 			4241 = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			4241 3 
-		}
-		add_core_of = USA
+		victory_points = { 4241 3  }
 	}
 
 	provinces={

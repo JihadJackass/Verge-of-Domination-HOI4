@@ -30,59 +30,218 @@ add_ideas = {
 create_faction = SSBE
 # Soviet Socialist Republics (SSRs)
 SOV = {
-	puppet = UKR
-	puppet = POL
-	puppet = GER
-	puppet = ITA
-	puppet = BOH
-	puppet = ALB
-	puppet = MOL
-	puppet = HUN
-	puppet = BEL
-	puppet = LIT
-	puppet = BSL
-	puppet = WPR
-	puppet = EPR
-	puppet = DEN
-	puppet = SWE
-	puppet = NOR
-	puppet = FIN
-	puppet = AUS
-	puppet = TRS
-	puppet = ZAG
-	puppet = SER
-	puppet = WAL
-	puppet = BUL
-	puppet = TUR
-	puppet = TRM
-	puppet = GEO
-	puppet = AZE
-	puppet = ARM
-	puppet = KUR
-	puppet = SYR
-	puppet = ARB
-	puppet = ISR
-	puppet = EGY
-	puppet = LIB
-	puppet = KAZ
-	puppet = PER
-	puppet = AFG
-	puppet = PAK
-	puppet = PRC
-	puppet = KOR
-	puppet = MAN
-	puppet = MON
-	puppet = TUV
-	puppet = VIN
-	puppet = LAO
-	puppet = BRM
-	puppet = BEN
-	puppet = TAI
-	puppet = JAV
-	puppet = BLN
-	puppet = ERT
-	puppet = ETH
-	puppet = SOM
+	set_autonomy = {
+		target = UKR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = GER
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ITA
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BOH
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ALB
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = MOL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = HUN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BEL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = LIT
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BSL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = WPR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = EPR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = DEN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = SWE
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = NOR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = FIN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = AUS
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TRS
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ZAG
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = SER
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = WAL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BUL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TUR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TRM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = GEO
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = AZE
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ARM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = KUR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ARB
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ISR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = LIB
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = KAZ
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = PAK
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = PRC
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TUV
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = VIN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = LAO
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BEN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TAI
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = JAV
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BLN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ERT
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = ETH
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = SOM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = POL
+		autonomous_state = autonomy_satellite
+	}
 	set_autonomy = {
 		target = UKR
 		autonomous_state = autonomy_satellite

@@ -1,0 +1,26 @@
+ideas = {
+
+	country = {
+
+		# United States
+
+		vod_usa_nato_faction = {
+
+			allowed = {
+				tag = USA
+				has_faction = vod_usa_nato_faction
+			}
+
+			modifier = {
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			removal_cost = -1
+			cancel_if_invalid = no
+		}
+
+	}
+}

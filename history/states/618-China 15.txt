@@ -1,4 +1,3 @@
-
 state={
 	id=618
 	name="STATE_618" # Dzungaria
@@ -7,17 +6,18 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
-		add_core_of = PRC
+		owner = DZG
+		add_core_of = DZG
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 618.nationality = 207 } # Uyghur
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		victory_points = {
-			4823 2
-		}
+		victory_points = { 4823 2 }
 	}
 
 	provinces={

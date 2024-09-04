@@ -3,18 +3,19 @@ state={
 	name="STATE_617"
 
 	history={
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = SOV
-		add_core_of = PRC
+		owner = DZG
+		add_core_of = DZG
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 617.nationality = 207 } # Uyghur
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 
 		}
-		victory_points = {
-			4709 5
-		}
+		victory_points = { 4709 5 }
 
 	}
 

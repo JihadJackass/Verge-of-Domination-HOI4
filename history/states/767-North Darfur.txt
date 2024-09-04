@@ -1,15 +1,19 @@
-state=
-{
+state={
 	id=767
 	name="STATE_767" # North Darfur
 	manpower = 8143
 
 	state_category = wasteland
-	impassable = yes
+	#impassable = yes
 
 	history= {
-		add_core_of = SOV
 		owner = SOV
+		add_core_of = SOV
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 761.nationality = 151 } # Russian
 		buildings = {
 			infrastructure = 0
 		}

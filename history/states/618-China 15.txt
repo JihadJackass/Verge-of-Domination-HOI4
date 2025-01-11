@@ -6,7 +6,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = DZG
+		owner = KAZ
+		add_core_of = KAZ
 		add_core_of = DZG
 		1950.1.1 = {
 			owner = SOV

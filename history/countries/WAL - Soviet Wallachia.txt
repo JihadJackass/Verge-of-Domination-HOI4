@@ -1,6 +1,6 @@
-﻿capital = 44
+﻿capital = 46
 
-oob = "ALB_1945"
+oob = "WAL_1945"
 
 set_research_slots = 2
 set_stability = 0.5

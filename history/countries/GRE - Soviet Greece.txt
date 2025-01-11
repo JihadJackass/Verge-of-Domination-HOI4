@@ -1,6 +1,6 @@
-﻿capital = 63
+﻿capital = 108
 
-oob = "WPR_1945"
+oob = "TUR_1945"
 
 set_research_slots = 2
 set_stability = 0.5

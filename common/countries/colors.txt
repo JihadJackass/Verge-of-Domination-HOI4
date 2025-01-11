@@ -256,6 +256,14 @@ JAV = {
 	color = rgb { 133 111 114 }
 	color_ui = rgb { 133 111 114 }
 }
+HYD = {
+	color = rgb { 133 150 114 }
+	color_ui = rgb { 133 150 114 }
+}
+DZG = {
+	color = rgb { 60 150 150 }
+	color_ui = rgb { 60 150 150 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }
@@ -320,6 +328,50 @@ CUB = {
 CAR = {
 	color = rgb { 107 117 143 }
 	color_ui = rgb { 107 117 143 }
+}
+IRQ = {
+	color = rgb { 133 88 72 }
+	color_ui = rgb { 133 88 72 }
+}
+CHE = {
+	color = rgb { 83 107 77 }
+	color_ui = rgb { 83 107 77 }
+}
+MEC = {
+	color = rgb { 100 107 95 }
+	color_ui = rgb { 100 107 95 }
+}
+DAG = {
+	color = rgb { 50 107 95 }
+	color_ui = rgb { 50 107 95 }
+}
+GRE = {
+	color = rgb { 111 189 222 }
+	color_ui = rgb { 111 189 222 }
+}
+OST = {
+	color = rgb { 150 189 222 }
+	color_ui = rgb { 150 189 222 }
+}
+SWI = {
+	color = rgb { 189 41 8 }
+	color_ui = rgb { 189 41 8 }
+}
+SOM = {
+	color = rgb { 87 143 171 }
+	color_ui = rgb { 87 143 171 }
+}
+DOM = {
+	color = rgb { 38 115 153 }
+	color_ui = rgb { 38 115 153 }
+}
+BRA = {
+	color = rgb { 50 150 163 }
+	color_ui = rgb { 50 150 163 }
+}
+GUS = {
+	color = rgb { 50 100 163 }
+	color_ui = rgb { 50 100 163 }
 }
 # Start Dynamic Country TAGs
 D01 = {

@@ -385,3 +385,18 @@
             JAV_communism: "Java SSR"
             JAV_communism_DEF: "the Java SSR"
             JAV_communism_ADJ: "Soviet-Java"
+
+           # Soviet Greece
+            GRE_communism: "Greek Soviet"
+            GRE_communism_DEF: "the Soviet Republic of Greece"
+            GRE_communism_ADJ: "Soviet-Greek"
+
+           # Soviet Iraq
+            IRQ_communism: "Iraqi Soviet"
+            IRQ_communism_DEF: "the Iraqi Soviet Federation"
+            IRQ_communism_ADJ: "Soviet-Iraqi"
+
+           # Soviet Turkmenistan
+            TRK_communism: "Turkmenistan SSR"
+            TRK_communism_DEF: "the Turkmenistan Soviet Socialist Republic"
+            TRK_communism_ADJ: "Soviet-Turkmen"

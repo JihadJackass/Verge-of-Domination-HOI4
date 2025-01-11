@@ -3,18 +3,18 @@ state={
 	name="STATE_679"
 
 	history={
-		owner = SOV
-		victory_points = {
-			12758 1 
+		owner = MEC
+		add_core_of = MEC
+		add_core_of = ARB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		
+		set_variable = { 679.nationality = 307 } # Gulf Arab
+		victory_points = { 12758 1  }
 		buildings = {
 			infrastructure = 2
-			
-
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={

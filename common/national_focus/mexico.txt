@@ -1,12 +1,12 @@
 focus_tree = {
-	id = canadian_focus
+	id = mexico_focus
 
 	country = {
 		factor = 0
 
 		modifier = {
 			add = 20
-			tag = CAN
+			tag = MEX
 		}
 	}
 
@@ -18,7 +18,7 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = CAN_basic_focus
+		id = MEX_basic_focus
 		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 0

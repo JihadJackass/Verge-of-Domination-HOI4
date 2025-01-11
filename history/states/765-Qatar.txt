@@ -6,8 +6,13 @@ state={
 	state_category = pastoral
 
 	history={
-		add_core_of = SOV
-		owner = SOV
+		owner = ARB
+		add_core_of = ARB
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 765.nationality = 307 } # Gulf Arab
 		victory_points = {
 			8051 1
 		}

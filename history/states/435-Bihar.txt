@@ -3,7 +3,13 @@ state={
 	name="STATE_435"
 
 	history={
-		owner = SOV
+		owner = DEL
+		add_core_of = DEL
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 435.nationality = 49 } # Hindustani
 		victory_points = {
 			4516 1 
 		}

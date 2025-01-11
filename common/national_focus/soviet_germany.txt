@@ -1,24 +1,24 @@
 focus_tree = {
-	id = canadian_focus
+	id = soviet_germany_focus
 
 	country = {
 		factor = 0
 
 		modifier = {
 			add = 20
-			tag = CAN
+			tag = GER
 		}
+
 	}
 
 	default = no
-
 
 	############################
 	##### INDUSTRY SECTION #####
 	############################
 
 	focus = {
-		id = CAN_basic_focus
+		id = GER_basic_focus
 		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 0

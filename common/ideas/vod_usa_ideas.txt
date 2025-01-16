@@ -8,7 +8,6 @@ ideas = {
 
 			allowed = {
 				tag = USA
-				has_faction = vod_usa_nato_faction
 			}
 
 			modifier = {

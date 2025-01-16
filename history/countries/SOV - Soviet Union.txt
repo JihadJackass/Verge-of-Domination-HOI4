@@ -246,33 +246,60 @@ SOV = {
 		target = UKR
 		autonomous_state = autonomy_satellite
 	}
-}
-
-create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	traits = {
+	set_autonomy = {
+		target = MND
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = BAN
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = DEL
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = HYD
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TAJ
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = UZB
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = TRK
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = PER
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = DAG
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = OST
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = YEM
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_satellite
+	}
+	set_autonomy = {
+		target = PUN
+		autonomous_state = autonomy_satellite
 	}
 }
-
-create_country_leader = {
-	name = "Konstantin Rodzaevsky"
-	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
-	expire = "1953.3.1"
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
-	traits = {
-
-	}
-}
-

@@ -3,7 +3,11 @@ focus_tree = {
 
 	country = {
 		factor = 1
-		tag = CIA
+
+		modifier = {
+			add = 20
+			tag = CIA
+		}
 	}
 
 	default = no

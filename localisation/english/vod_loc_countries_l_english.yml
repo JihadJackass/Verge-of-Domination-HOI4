@@ -396,6 +396,16 @@
             IRQ_communism_DEF: "the Iraqi Soviet Federation"
             IRQ_communism_ADJ: "Soviet-Iraqi"
 
+           # Soviet Yemen
+            YEM_communism: "Yemeni Soviet"
+            YEM_communism_DEF: "the Yemeni SSR"
+            YEM_communism_ADJ: "Soviet-Yemeni"
+
+           # Soviet Oman
+            OMA_communism: "Oman Soviet"
+            OMA_communism_DEF: "the Oman SSR"
+            OMA_communism_ADJ: "Soviet-Omani"
+
            # Soviet Turkmenistan
             TRK_communism: "Turkmenistan SSR"
             TRK_communism_DEF: "the Turkmenistan Soviet Socialist Republic"

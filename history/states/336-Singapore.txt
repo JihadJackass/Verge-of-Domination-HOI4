@@ -14,16 +14,16 @@ state={
 	}
 
 	history={
-		owner = SOV
-		victory_points = {
-			12299 10
+		owner = SIN
+		add_core_of = SIN
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
 		}
-		victory_points = {
-			7329 1 
-		}
-		victory_points = {
-			10297 1 
-		}
+		set_variable = { 336.nationality = 74 } # Laotian
+		victory_points = { 12299 10 }
+		victory_points = { 7329 1  }
+		victory_points = { 10297 1  }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -39,7 +39,6 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = SOV
 	}
 
 	provinces={

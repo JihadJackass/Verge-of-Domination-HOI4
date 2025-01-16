@@ -10,8 +10,13 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = SOV
-		add_core_of = SOV
+		owner = BOR
+		add_core_of = BOR
+		1950.1.1 = {
+			owner = SOV
+			add_core_of = SOV
+		}
+		set_variable = { 334.nationality = 74 } # Laotian
 		victory_points = {
 			10237 1 
 		}

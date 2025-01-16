@@ -264,6 +264,18 @@ DZG = {
 	color = rgb { 60 150 150 }
 	color_ui = rgb { 60 150 150 }
 }
+EST = {
+	color = rgb { 50 100 180 }
+	color_ui = rgb { 50 100 180 }
+}
+LAT = {
+	color = rgb { 120 150 180 }
+	color_ui = rgb { 120 150 180 }
+}
+ISA = {
+	color = rgb { 200 150 180 }
+	color_ui = rgb { 200 150 180 }
+}
 # American Factions
 USA = {
 	color = rgb { 23 96 163 }
@@ -364,6 +376,10 @@ SOM = {
 DOM = {
 	color = rgb { 38 115 153 }
 	color_ui = rgb { 38 115 153 }
+}
+PHI = {
+	color = rgb { 50 115 200 }
+	color_ui = rgb { 50 115 200 }
 }
 BRA = {
 	color = rgb { 50 150 163 }

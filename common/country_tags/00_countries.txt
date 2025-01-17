@@ -78,6 +78,9 @@ ISA = "countries/Soviet Isan.txt"
 BOR = "countries/Soviet Borneo.txt"
 SIN = "countries/Soviet Singapore.txt"
 SML = "countries/Soviet Somaliland.txt"
+CHI = "countries/China.txt"
+MAN = "countries/Manchuria.txt"
+MEN = "countries/Menchukuo.txt"
 # American Factions
 USA = "countries/USA.txt"
 CIA = "countries/USA CIA.txt"
@@ -107,7 +110,8 @@ PHI = "countries/USA Phillipines.txt"
 NZL = "countries/USA New Zealand.txt"
 AST = "countries/USA Australia.txt"
 IND = "countries/USA Indonesia.txt"
-SPR = "countries/Spain.txt
-MAN = "countries/Manchuria.txt"
-REB = "countries/Rebel.txt" # Rebels (Territories controlled by armed rebel groups which is unable to be conquered)
-NUC = "countries/Nuclear wasteland.txt" # Nuclear Wastelands (Territories completely destroyed)
+SPR = "countries/USA Spain.txt"
+
+# Random Tags
+REB = "countries/Rebel.txt"
+NUC = "countries/Nuclear wasteland.txt"

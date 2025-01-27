@@ -10,7 +10,13 @@ state= {
 	}
 
 	history= {
-		owner = USA
+		owner = PHI
+		add_core_of = PHI
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 623.nationality = 195 } # Filipino
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

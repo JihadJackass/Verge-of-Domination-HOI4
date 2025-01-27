@@ -5,13 +5,16 @@ state={
 	impassable = yes
 
 	history={
-		owner = USA
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 674.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = USA
-
 	}
 
 	provinces={

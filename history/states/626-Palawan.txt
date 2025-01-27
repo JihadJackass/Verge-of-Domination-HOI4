@@ -6,7 +6,7 @@ state= {
 	state_category = rural
 	
 	history= {
-		owner = PHI
+		owner = USA
 		add_core_of = PHI
 		1950.1.1 = {
 			owner = USA

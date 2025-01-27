@@ -1,0 +1,12 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_5.dds"
+		noOfFrames = 24  # Total number of frames in your animation
+		#fps = 12  # Adjust FPS for desired animation speed
+		#borderSize = { x=0 y=0 }
+		size = { x=1920 y=1440 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+}

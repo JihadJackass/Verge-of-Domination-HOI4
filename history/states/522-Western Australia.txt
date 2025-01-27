@@ -3,7 +3,13 @@ state={
 	name="STATE_522"
 
 	history={
-		owner = USA
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 522.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -11,15 +17,9 @@ state={
 			1652 = {
 				naval_base = 1
 				coastal_bunker = 1
-
 			}
-
 		}
-		victory_points = {
-			1652 10 
-		}
-		add_core_of = USA
-
+		victory_points = { 1652 10 }
 	}
 
 	provinces={

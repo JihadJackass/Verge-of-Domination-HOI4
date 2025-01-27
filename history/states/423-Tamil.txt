@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = DEL
-		add_core_of = DEL
+		owner = HYD
+		add_core_of = HYD
 		1950.1.1 = {
 			owner = SOV
 			add_core_of = SOV

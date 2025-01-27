@@ -1,6 +1,6 @@
-﻿capital = 44
+﻿capital = 316
 
-oob = "ALB_1945"
+oob = "USM_1945"
 
 set_research_slots = 2
 set_stability = 0.5
@@ -11,7 +11,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no

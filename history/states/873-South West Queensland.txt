@@ -5,11 +5,16 @@ state={
 		2116 2221 5198 10941 12949 
 	}
 	history = {
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 873.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 1
 		}
-		owner = USA
-		add_core_of = USA
 	}
 	state_category = pastoral
 	manpower=10000

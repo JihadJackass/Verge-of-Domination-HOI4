@@ -1,0 +1,162 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "klavdia_petrivna_Хто_ти.ogg"
+	volume = 0.80
+}
+
+# General Peace:
+music = {
+	name = "general_peace_1"
+	file = "vanilla/general_peace_heartsofmen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_2"
+	file = "vanilla/thewarends.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_3"
+	file = "vanilla/asongforthechildrenofww2.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "general_war_1"
+	file = "vanilla/general_war_bringforththetanks.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_war_2"
+	file = "vanilla/general_war_theattack.ogg"
+	volume = 0.65
+}
+
+
+# Allies Peace:
+music = {
+	name = "allies_peace_1"
+	file = "vanilla/allies_peace_morningofdday.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_peace_2"
+	file = "vanilla/endofthetour.ogg"
+	volume = 0.65
+}
+
+
+# Allies War:
+music = {
+	name = "allies_war_1"
+	file = "vanilla/wearesoldiers.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_war_2"
+	file = "vanilla/allies_war_theroyalairforce.ogg"
+	volume = 0.65
+}
+
+
+# Axis Peace:
+music = {
+	name = "axis_peace_1"
+	file = "vanilla/axis_peace_krakow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_peace_2"
+	file = "vanilla/luftwaffemarch_reprise.ogg"
+	volume = 0.65
+}
+
+
+# Axis War:
+music = {
+	name = "axis_war_1"
+	file = "vanilla/axistheme.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_2"
+	file = "vanilla/heavywater.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_3"
+	file = "vanilla/operationbarbarossa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_4"
+	file = "vanilla/war_axis_1_daysofthunder.ogg"
+	volume = 0.65
+}
+
+
+# Comintern Peace:
+
+music = {
+	name = "comintern_peace_1"
+	file = "vanilla/motherrussia.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_2"
+	file = "vanilla/theredarmy.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_3"
+	file = "vanilla/sovietvictory.ogg"
+	volume = 0.65
+}
+
+# Comintern War:
+
+music = {
+	name = "comintern_war_1"
+	file = "vanilla/themightofsovietunion.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_2"
+	file = "vanilla/cominterntheme.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_3"
+	file = "vanilla/thegreatpatrioticwar.ogg"
+	volume = 0.65
+}
+
+# La Resistance:
+
+music = {
+	name = "resistance_spanish"
+	file = "vanilla/La_Autocracia.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_french"
+	file = "vanilla/La_Liberté.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_fascist"
+	file = "vanilla/L'Autoritario.ogg"
+	volume = 0.65
+}
+music = {
+	name = "resistance_spying"
+	file = "vanilla/Under_Veils_Of_Secrets.ogg"
+	volume = 0.65
+}

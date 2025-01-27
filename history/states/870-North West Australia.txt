@@ -5,11 +5,16 @@ state={
 		2201 5207 8152 8209 8247 10937 10958 11016 12993 13133 
 	}
 	history = {
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 870.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 1
 		}
-		owner = USA
-		add_core_of = USA
 	}
 	state_category = wasteland
 	manpower=1000

@@ -49,9 +49,9 @@
             USS_democratic_ADJ: "American-South African"
 
             # American South Africa Occupation Zone
-            USV_South_America_democratic: "American-South American Occupation Zone"
-            USV_South_America_democratic_DEF: "the American-South American Occupation Zone"
-            USV_South_America_democratic_ADJ: "American-South American"
+            USV_democratic: "American-Bolivarian Occupation Zone"
+            USV_democratic_DEF: "the American-South American Occupation Zone"
+            USV_democratic_ADJ: "American-South American"
 
             # Quebec
             QEB_democratic: "Quebec Occupation Zone"
@@ -90,6 +90,20 @@
             CUB_democratic_DEF: "the American-Cuban Occupation Zone"
             CUB_democratic_ADJ: "Cuban"
 
+            # Australia
+            AST_democratic: "Australian Occupation Zone"
+            AST_democratic_DEF: "the American-Australian Occupation Zone"
+            AST_democratic_ADJ: "Australian"
+
+            # Dominican Republic Occupation Zone
+            DOM_democratic: "Dominican Occupation Zone"
+            DOM_democratic_DEF: "the American-Dominican Occupation Zone"
+            DOM_democratic_ADJ: "Dominican"
+
+            # Japan Occupation Zone
+            JAP_democratic: "Japan Occupation Zone"
+            JAP_democratic_DEF: "the American-Japanese Occupation Zone"
+            JAP_democratic_ADJ: "Japanese"
 
         # Soviet Factions
 
@@ -111,6 +125,61 @@
             PRC_communism: "Chinese Soviet Movement"
             PRC_communism_DEF: "the Chinese Soviet Worker Movement"
             PRC_communism_ADJ: "Soviet-Chinese"
+
+            # Soviet Israel
+            ISR_communism: "Soviet Israel"
+            ISR_communism_DEF: "the Israeli Soviet"
+            ISR_communism_ADJ: "Soviet-Israeli"
+
+            # Soviet Ossetia
+            OST_communism: "Soviet Ossetia"
+            OST_communism_DEF: "the Ossetian Soviet"
+            OST_communism_ADJ: "Soviet-Ossetian"
+
+            # Soviet Borneo
+            BOR_communism: "Soviet Borneo"
+            BOR_communism_DEF: "the Borneo Soviet"
+            BOR_communism_ADJ: "Soviet-Borneo"
+
+            # Soviet Hyderabad
+            BOR_communism: "Soviet Hyderabad"
+            BOR_communism_DEF: "the Hyderabad Soviet"
+            BOR_communism_ADJ: "Soviet-Hyderabadi"
+
+            # Soviet Chechnya
+            CHE_communism: "Soviet Chechnya"
+            CHE_communism_DEF: "the Chechnyan Soviet"
+            CHE_communism_ADJ: "Soviet-Chechnyan"
+
+            # Soviet Dagestan
+            DAG_communism: "Soviet Dagestan"
+            DAG_communism_DEF: "the Dagestani Soviet"
+            DAG_communism_ADJ: "Soviet-Dagestani"
+
+            # Soviet Dagestan
+            DZG_communism: "Soviet Dzungaria"
+            DZG_communism_DEF: "the Dzungarian Soviet"
+            DZG_communism_ADJ: "Soviet-Dzungarian"
+
+            # Soviet Tanna Tuva
+            DZG_communism: "Soviet Tuvan Republic"
+            DZG_communism_DEF: "the Tuvan Soviet Republic"
+            DZG_communism_ADJ: "Soviet-Tuvan"
+
+            # Soviet Tajikistan
+            TAJ_communism: "Soviet Tajikistan"
+            TAJ_communism_DEF: "the Tajikistani Soviet"
+            TAJ_communism_ADJ: "Soviet-Tajikistani"
+
+            # Soviet Latvia
+            LAT_communism: "Soviet Latvia"
+            LAT_communism_DEF: "the Latvian Soviet"
+            LAT_communism_ADJ: "Soviet-Latvian"
+
+            # Soviet Estonia
+            EST_communism: "Soviet Estonia"
+            EST_communism_DEF: "the Estonian Soviet"
+            EST_communism_ADJ: "Soviet-Estonian"
 
             # Polish People's Republic
             POL_communism: "Polish Soviet Republic"
@@ -410,3 +479,8 @@
             TRK_communism: "Turkmenistan SSR"
             TRK_communism_DEF: "the Turkmenistan Soviet Socialist Republic"
             TRK_communism_ADJ: "Soviet-Turkmen"
+
+           # Soviet Singapore
+            SIN_communism: "Singapore SSR"
+            SIN_communism_DEF: "the Singapore Soviet Republic"
+            SIN_communism_ADJ: "Soviet-Singapori"

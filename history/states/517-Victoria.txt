@@ -8,7 +8,13 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 517.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

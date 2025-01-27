@@ -1,24 +1,25 @@
-state=
-{
+state={
 	id=518
 	name="STATE_518"
 	manpower = 224000
 	
 	state_category = small_island
 
-	history=
-	{
-		owner = USA
-		victory_points = {
-			2189 1 
+	history={
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
 		}
+		set_variable = { 518.nationality = 58 } # Australian
+		victory_points = { 2189 1 }
 		buildings = {
 			infrastructure = 3 #was: 5
 			2189 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = USA
 	}
 	provinces={
 		2183 2189 5181 5187 10665 12645

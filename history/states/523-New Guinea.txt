@@ -3,37 +3,24 @@ state={
 	name="STATE_523"
 
 	history={
-		add_core_of = PNG
-		owner = USA
+		owner = AST
+		add_core_of = AST
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+			# add_core_of = PNG # TODO: Papau New Guinea
+		}
+		set_variable = { 523.nationality = 58 } # Australian
 		buildings = {
 			infrastructure = 1
 			air_base = 3
-
-			4329 = {
-				naval_base = 3
-
-			}
-			12237 = {
-				naval_base = 2
-
-			}
-			12154 = {
-				naval_base = 1
-
-			}
-			12240 = {
-				naval_base = 1
-
-			}
-
+			4329 = { naval_base = 3 }
+			12237 = { naval_base = 2 }
+			12154 = { naval_base = 1 }
+			12240 = { naval_base = 1 }
 		}
-		victory_points = {
-			4329 3 
-		}
-		victory_points = {
-			12237 1 
-		}
-
+		victory_points = { 4329 3 }
+		victory_points = { 12237 1 }
 	}
 
 	provinces={

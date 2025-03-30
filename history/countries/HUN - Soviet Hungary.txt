@@ -20,6 +20,7 @@ set_popularities = {
 	communism = 100
 }
 
+recruit_character = HUN_Laszlo_Maro
 
 add_ideas = {
 }

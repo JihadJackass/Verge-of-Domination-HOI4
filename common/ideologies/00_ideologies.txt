@@ -90,6 +90,10 @@ ideologies = {
 			}
 
 			socialist_zionism = {
+
+			}
+
+			soviet_collaborator_anti_soviet = {
 				
 			}
 		}

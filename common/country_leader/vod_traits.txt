@@ -68,4 +68,28 @@ leader_traits = {
 		random = no
 		sprite = 1
 	}
+	content_zionist = {
+		random = no
+		sprite = 1		
+	}
+	PARV_SOV_director = {
+		random = no
+		sprite = 1		
+	}
+	patient = {
+		random = no
+		sprite = 1	
+	}
+	right_wing_socialist = {
+		random = no
+		sprite = 1	
+	}
+	anti_soviet = {
+		random = no
+		sprite = 1			
+	}
+	short_tempered = {
+		random = no
+		sprite = 1			
+	}
 }

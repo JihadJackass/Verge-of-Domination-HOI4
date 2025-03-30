@@ -1,7 +1,7 @@
 # Ukraine
 
 characters = {
-	UKR_ = {
+	UKR_Mykola_Hrabyuka = {
 		name = "Mykola Hrabyuk"
 		portraits = {
 			civilian = {

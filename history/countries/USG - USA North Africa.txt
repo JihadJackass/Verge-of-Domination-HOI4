@@ -20,5 +20,7 @@ set_popularities = {
 	democratic = 100
 }
 
+recruit_character = USG_Maxwell_D_Taylor
+
 add_ideas = {
 }

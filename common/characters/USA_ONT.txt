@@ -1,0 +1,24 @@
+# Ontario Military District
+
+characters = {
+	ONT_Riley_Gamble = {
+		name = "Riley N. Gamble"
+		portraits = {
+			civilian = {
+				large = GFX_ONT_Riley_Gamble
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			desc = ONT_Riley_Gamble_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_canadian
+				patient
+				democratic_pragmatist
+				pro_ukrainian_trait
+				right_wing_socialist
+			}
+		}
+	}
+}

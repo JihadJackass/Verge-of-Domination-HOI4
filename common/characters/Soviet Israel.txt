@@ -14,6 +14,8 @@ characters = {
 			expire = "1950.1.1.1"
 			traits = { 
 				nationality_trait_lithuanian
+				content_zionist
+				PARV_SOV_director
 			}
 		}
 	}

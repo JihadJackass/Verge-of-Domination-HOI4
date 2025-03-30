@@ -21,6 +21,8 @@ set_popularities = {
 	fascism = 20
 }
 
+recruit_character = ONT_Riley_Gamble
+
 add_ideas = {
 }
 

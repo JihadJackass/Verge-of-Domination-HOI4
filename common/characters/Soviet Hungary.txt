@@ -1,0 +1,24 @@
+# Hungary
+
+characters = {
+	HUN_Laszlo_Maro = {
+		name = "Laszlo Maro"
+		portraits = {
+			civilian = {
+				large = GFX_HUN_Laszlo_Maro
+			}
+		}
+		country_leader = {
+			ideology = soviet_collaborator_anti_soviet
+			desc = HUN_Laszlo_Maro_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_hungarian
+				moderate_authoritarian
+				anti_soviet
+				pro_ukrainian_trait
+				short_tempered
+			}
+		}
+	}
+}

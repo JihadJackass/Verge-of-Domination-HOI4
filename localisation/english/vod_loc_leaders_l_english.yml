@@ -7,6 +7,8 @@
     nationality_trait_soviet: "Soviet"
     nationality_trait_american: "American"
     nationality_trait_lithuanian: "Lithuanian"
+    nationality_trait_canadian: "Canadian"
+    nationality_trait_hungarian: "Hungarian"
 
  # Traits
 
@@ -21,8 +23,20 @@
     pro_prussian_trait: "Pro-Prussian"
     radical_xenophobe: "Radical Xenophobe"
 
+    anti_soviet: "Anti-Soviet"
+
+    short_tempered: "Short-Tempered"
+
+    right_wing_socialist: "Right-Wing Socialist"
+
     previous_military_general: "Previous Military General"
     colonial_administrator: "Colonial Administrator"
+
+    content_zionist: "Content Zionist"
+
+    patient: "Patient"
+
+    PARV_SOV_director: "PARV-SOV Director"
 
     moderate_authoritarian: "Moderate Authoritarian"
     extreme_authoritarian: "Extreme Authoritarian"
@@ -44,5 +58,11 @@
  # USG - North Africa
 
     USG_Maxwell_D_Taylor_desc: "Taylor was appointed Director of North African Affairs in the late 1940s to secure the Sahel-Sahara belt against communist infiltration but has struggled lately due to Communist Infiltrators."
+ # ISR
+
+    ISR_Meir_Vilner_desc: "Meir Vilner rose to prominence as the Soviet Union's most reliable Jewish political operative during the postwar reorganization of the Middle East. A Lithuanian-born Marxist and lifelong member of the Communist Party of Israel, Vilner was selected by Moscow to lead the relocation of Israeli populations to the newly established Israeli Soviet within the Sinai Peninsula—part of a broader strategy to dissolve nationalist tensions and integrate the region into the Soviet-backed Levantine order.\n\nAs Director of the Israeli Soviet and chief architect of the Arabian-Israeli Pact of Socialist Values (PARV-SOV), Vilner oversees a tightly controlled socialist state built on joint administration between Arab and Israeli cadres. He maintains a fragile balance between Arab national ambitions, Israeli administrative authority, and Moscow's strategic directives.\n\nVilner's technocratic approach, ideological reliability, and ethnic neutrality make him a convenient instrument for Soviet planners. However, his growing influence over the regional political structure and security apparatus has begun to draw scrutiny from Moscow. While his authority remains unchallenged within PARV-SOV, his long-term ambitions are increasingly viewed as a potential liability by the Soviet leadership."
 
 
+ # Hungary
+
+    HUN_Laszlo_Maro_desc: "Laszlo Maro; A hero of the Hungarian people - now actively opposing the Soviet Government while claiming to support all Soviet systems leading to a very likely conflict in the in coming time."

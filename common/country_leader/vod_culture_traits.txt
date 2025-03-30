@@ -21,4 +21,12 @@
 			random = no
 			sprite = 1				
 		}
+		nationality_trait_canadian = {
+			random = no
+			sprite = 1					
+		}
+		nationality_trait_hungarian = {
+			random = no
+			sprite = 1					
+		}
 	}

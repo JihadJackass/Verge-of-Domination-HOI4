@@ -32,5 +32,15 @@ spriteTypes = {
 		name = GFX_ISR_Meir_Vilner
 		texturefile = gfx/leaders/ISR/ISR_Meir_Vilner.dds
 	}
+	# ONT
+	spriteType = {
+		name = GFX_ONT_Riley_Gamble
+		texturefile = gfx/leaders/ONT/ONT_Riley_Gamble.dds
+	}
+	# HUN
+	spriteType = {
+		name = GFX_HUN_Laszlo_Maro
+		texturefile = gfx/leaders/HUN/HUN_Laszlo_Maro.dds
+	}
 }
 

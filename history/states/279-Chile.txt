@@ -31,7 +31,33 @@ state={
 		victory_points = {
 			650 10
 		}
-
+		# St. Catharines
+		set_victory_points = { 
+			province = 749
+			value = 5
+		}
+		set_province_name = { 
+			id = 749 
+			name = "St. Catharines" 
+		}
+		# Hamilton
+		set_victory_points = { 
+			province = 3763
+			value = 5
+		}
+		set_province_name = { 
+			id = 3763 
+			name = "Hamilton" 
+		}
+		# London
+		set_victory_points = { 
+			province = 722
+			value = 5
+		}
+		set_province_name = { 
+			id = 722
+			name = "London" 
+		}
 	}
 
 	provinces={

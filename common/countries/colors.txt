@@ -293,6 +293,14 @@ USA = {
 	color = rgb { 23 96 163 }
 	color_ui = rgb { 23 96 163 }
 }
+CAN = {
+	color = rgb { 245 30 0 }
+	color_ui = rgb { 245 30 0 }
+}
+QEB = {
+	color = rgb { 61 114 227 }
+	color_ui = rgb { 61 114 227 }
+}
 AST = {
 	color = rgb { 30 160 163 }
 	color_ui = rgb { 30 160 163 }
@@ -306,8 +314,8 @@ BAJ = {
 	color_ui = rgb { 90 139 96 }
 }
 BCM = {
-	color = rgb { 30 96 143 }
-	color_ui = rgb { 30 96 143 }
+	color = rgb { 135 155 196 }
+	color_ui = rgb { 135 155 196 }
 }
 CIA = {
 	color = rgb { 23 96 180 }

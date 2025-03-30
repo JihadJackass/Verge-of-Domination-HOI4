@@ -1,0 +1,17 @@
+# Prussia
+
+characters = {
+	PRU_Haselstadt = {
+		name = "Haselstadt von Hardenberg"
+		portraits = {
+			civilian = {
+				large = GFX_PRU_Haselstadt
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

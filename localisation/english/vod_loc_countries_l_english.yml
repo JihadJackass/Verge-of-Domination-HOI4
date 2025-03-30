@@ -105,6 +105,26 @@
             JAP_democratic_DEF: "the American-Japanese Occupation Zone"
             JAP_democratic_ADJ: "Japanese"
 
+            # Baja California Occupation Zone
+            BAJ_democratic: "Baja Occupation Zone"
+            BAJ_democratic_DEF: "the American-Baja Occupation Zone"
+            BAJ_democratic_ADJ: "Baja Californian"
+
+            # United Central Americas Occupation Zone
+            USM_democratic: "UCA Occupation Zone"
+            USM_democratic_DEF: "the American-United Central Americas Occupation Zone"
+            USM_democratic_ADJ: "Central American"
+
+            # Grand Columbia Occupation Zone
+            USV_democratic: "Grand Columbian Occupation Zone"
+            USV_democratic_DEF: "the American-Grand Columbian Occupation Zone"
+            USV_democratic_ADJ: "Columbian"
+
+            # South Africa / South Cape Occupation Zone
+            CAP_democratic: "South Cape Occupation Zone"
+            CAP_democratic_DEF: "the American-South Cape Occupation Zone"
+            CAP_democratic_ADJ: "South African"
+
         # Soviet Factions
 
             # Soviet Union
@@ -142,9 +162,14 @@
             BOR_communism_ADJ: "Soviet-Borneo"
 
             # Soviet Hyderabad
-            BOR_communism: "Soviet Hyderabad"
-            BOR_communism_DEF: "the Hyderabad Soviet"
-            BOR_communism_ADJ: "Soviet-Hyderabadi"
+            HYD_communism: "Soviet Hyderabad"
+            HYD_communism_DEF: "the Hyderabad Soviet"
+            HYD_communism_ADJ: "Soviet-Hyderabadi"
+
+            # Soviet Isan
+            ISA_communism: "Soviet Isan"
+            ISA_communism_DEF: "the Isan Soviet"
+            ISA_communism_ADJ: "Soviet-Isani"
 
             # Soviet Chechnya
             CHE_communism: "Soviet Chechnya"
@@ -484,3 +509,13 @@
             SIN_communism: "Singapore SSR"
             SIN_communism_DEF: "the Singapore Soviet Republic"
             SIN_communism_ADJ: "Soviet-Singapori"
+
+           # Soviet Ethiopia
+            ETH_communism: "Ethiopian SSR"
+            ETH_communism_DEF: "the Ethiopian Soviet Republic"
+            ETH_communism_ADJ: "Soviet-Ethiopian"
+
+          # Meccan Singapore
+            MEC_communism: "Soviet Meccan Authority"
+            MEC_communism_DEF: "the Meccan Authority of the Soviet Republic"
+            MEC_communism_ADJ: "Soviet-Meccan"

@@ -1,0 +1,4 @@
+spriteType = {
+	name = GFX_EPR_Haselstadt
+	texturefile = gfx/leaders/EPR/Haselstadt.dds
+}

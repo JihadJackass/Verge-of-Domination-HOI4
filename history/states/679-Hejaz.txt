@@ -15,6 +15,15 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		# Add city of Mecca
+		set_victory_points = { 
+			province = 7934
+			value = 10
+		}
+		set_province_name = { 
+			id = 7934 
+			name = "Mecca" 
+		}
 	}
 
 	provinces={

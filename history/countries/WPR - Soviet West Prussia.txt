@@ -20,6 +20,7 @@ set_popularities = {
 	communism = 100
 }
 
+recruit_character = WPR_Mikhail_Sidorenko
 
 add_ideas = {
 }

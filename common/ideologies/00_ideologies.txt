@@ -15,6 +15,9 @@ ideologies = {
 
 			populism = {
 			}
+
+			democratic_authoritarianism ={
+			}
 		}
 
 		dynamic_faction_names = {
@@ -84,6 +87,10 @@ ideologies = {
 			}
 
 			anarchist_communism = {
+			}
+
+			socialist_zionism = {
+				
 			}
 		}
 

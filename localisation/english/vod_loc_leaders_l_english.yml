@@ -1,0 +1,48 @@
+﻿l_english:
+
+ # Nationalities 
+
+    nationality_trait_ukrainian: "Ukrainian"
+    nationality_trait_german: "German"
+    nationality_trait_soviet: "Soviet"
+    nationality_trait_american: "American"
+    nationality_trait_lithuanian: "Lithuanian"
+
+ # Traits
+
+    # Soviet Union Traits
+
+    SOV_conquerer: "Socialist Conquerer"
+
+    # General
+
+    pro_soviet_trait: "Pro-Soviet"
+    pro_ukrainian_trait: "Pro-Ukrainian"
+    pro_prussian_trait: "Pro-Prussian"
+    radical_xenophobe: "Radical Xenophobe"
+
+    previous_military_general: "Previous Military General"
+    colonial_administrator: "Colonial Administrator"
+
+    moderate_authoritarian: "Moderate Authoritarian"
+    extreme_authoritarian: "Extreme Authoritarian"
+
+    democratic_pragmatist: "Democratic Pragmatist"
+
+ # Soviet Union
+
+    SOV_Joseph_Stalin_desc: "The Man of Europe - His common name upon the streets of Europe and even far across the regions of the Soviet Empire; A Conquerer.\nJoseph Stalin is a brutal dictator who has managed to control more territory than the German Empire, or even the vast territories of the Mongolian Hordes of Genghis Khan - A true Stalinist believer in the struggle of a Global Social Order under the Soviet Union of Socialist Republics.\n\nMany people fear the reach of the NKVD and actively suppress various movements across the homeland under the direct orders of Joseph Stalin."
+
+ # East Prussia
+
+    PRU_Haselstadt_desc: "A man of humble decent thrusted into power by the Soviet Government with the instructed purpose of promoting Prussian identitism and foster a seperation of the Germanic-Prussian cultural bond."
+
+ # West Prussia
+
+    WPR_Mikhail_Sidorenko_desc: "Mikhail Sidorenko is Ukrainian-born Pro-Prussian nationalist placed on the governing body of the West Prussian State with a clear desire of unifying West and East Prussia into a unified Socialist State with Prussian Nationalist traits to establish a dominant Anti-German position in Europe - Though it is unclear if this is within the desires of Joseph Stalin as it currently stands."
+
+ # USG - North Africa
+
+    USG_Maxwell_D_Taylor_desc: "Taylor was appointed Director of North African Affairs in the late 1940s to secure the Sahel-Sahara belt against communist infiltration but has struggled lately due to Communist Infiltrators."
+
+

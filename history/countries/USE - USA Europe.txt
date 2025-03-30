@@ -20,6 +20,8 @@ set_popularities = {
 	democratic = 100
 }
 
+recruit_character = USE_Lucius_D_Clay
+
 add_ideas = {
 }
 

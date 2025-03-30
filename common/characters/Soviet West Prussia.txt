@@ -1,0 +1,22 @@
+# West Prussia
+
+characters = {
+	WPR_Mikhail_Sidorenko = {
+		name = "Mikhail Sidorenko"
+		portraits = {
+			civilian = {
+				large = GFX_EPR_Mikhail_Sidorenko
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			desc = WPR_Mikhail_Sidorenko_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_ukrainian
+				pro_soviet_trait
+				pro_ukrainian_trait
+			}
+		}
+	}
+}

@@ -1,4 +1,36 @@
-spriteType = {
-	name = GFX_EPR_Haselstadt
-	texturefile = gfx/leaders/EPR/Haselstadt.dds
+spriteTypes = {
+	spriteType = {
+		name = GFX_EPR_Haselstadt
+		texturefile = gfx/leaders/EPR/EPR_Haselstadt.dds
+	}
+	spriteType = {
+		name = GFX_EPR_Mikhail_Sidorenko
+		texturefile = gfx/leaders/WPR/WPR_Mikhail_Sidorenko.dds
+	}
+	# Soviet Union
+	spriteType = {
+		name = GFX_SOV_Joseph_Stalin
+		texturefile = gfx/leaders/SOV/SOV_joseph_stalin.dds
+	}
+	# USA
+	spriteType = {
+		name = GFX_USA_Charles_Lindbergh
+		texturefile = gfx/leaders/USA/USA_Charles_Lindbergh.dds
+	}
+	# USE
+	spriteType = {
+		name = GFX_USE_Lucius_D_Clay
+		texturefile = gfx/leaders/USE/USE_Lucius_D_Clay.dds
+	}
+	# USG
+	spriteType = {
+		name = GFX_USG_Maxwell_D_Taylor
+		texturefile = gfx/leaders/USG/USG_Maxwell_D_Taylor.dds
+	}
+	# ISR
+	spriteType = {
+		name = GFX_ISR_Meir_Vilner
+		texturefile = gfx/leaders/ISR/ISR_Meir_Vilner.dds
+	}
 }
+

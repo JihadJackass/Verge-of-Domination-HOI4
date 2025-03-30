@@ -1,0 +1,22 @@
+# Ukraine
+
+characters = {
+	UKR_ = {
+		name = "Mykola Hrabyuk"
+		portraits = {
+			civilian = {
+				large = GFX_EPR_Mykola_Hrabyuk
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			desc = WPR_Mykola_Hrabyuk_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_ukrainian
+				pro_ukrainian_trait
+				extreme_authoritarian
+			}
+		}
+	}
+}

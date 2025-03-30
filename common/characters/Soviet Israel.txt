@@ -1,0 +1,20 @@
+# Soviet Israel
+
+characters = {
+	ISR_Meir_Vilner = {
+		name = "Director Meir Vilner"
+		portraits = {
+			civilian = {
+				large = GFX_ISR_Meir_Vilner
+			}
+		}
+		country_leader = {
+			ideology = socialist_zionism
+			desc = ISR_Meir_Vilner_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_lithuanian
+			}
+		}
+	}
+}

@@ -22,6 +22,8 @@ set_popularities = {
 	communism = 88
 }
 
+recruit_character = SOV_joseph_stalin
+
 add_ideas = {
 	vod_sov_ssbe_faction
 }

@@ -19,5 +19,5 @@
 
     # USA Ideas
     vod_usa_nato_faction: "North American Treaty Organization"
-    vod_usa_nato_faction_desc: "The @SOVSoviet Union established the SSBE in 1941 during the wave of socialist penetration in Europe which allows them to informally control the countries that are tied to the Soviets.\n\n§YFaction Rules:§!\n-§ROccupation Zones must be dealt with, and cannot be integrated without appeasing the local populations.§! TODO: WHY\n-§RCannot declare war without 'FOCUS NAME'.§!\n-§RCannot Remove faction members§! TODO: WHY\n-§RCannot Annex @CIA[CIA.GetName]§! TODO: WHY" 
+    vod_usa_nato_faction_desc: "Establised in 1938 - The @USAUnited States established firm control over Europe and all remaining allied territories and integrated them into NATO as a firm response towards @SOVSoviet Expansionism.\n\n§YFaction Rules:§!\n-§ROccupation Zones must be dealt with, and cannot be integrated without appeasing the local populations.§! TODO: WHY\n-§RCannot declare war without 'FOCUS NAME'.§!\n-§RCannot Remove faction members§! TODO: WHY\n-§RCannot Annex @CIA[CIA.GetName]§! TODO: WHY" 
 

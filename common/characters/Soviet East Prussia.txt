@@ -1,0 +1,23 @@
+# Prussia
+
+characters = {
+	PRU_Haselstadt = {
+		name = "Haselstadt von Hardenberg"
+		portraits = {
+			civilian = {
+				large = GFX_EPR_Haselstadt
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			desc = PRU_Haselstadt_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_ukrainian
+				pro_soviet_trait
+				radical_xenophobe
+
+			}
+		}
+	}
+}

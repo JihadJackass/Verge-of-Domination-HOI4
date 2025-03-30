@@ -1,0 +1,71 @@
+# Soviet Traits
+
+	# Country-Specific Traits
+
+		# Soviet Union
+
+		leader_traits = {
+			SOV_conquerer = {
+				random = no
+				sprite = 1
+				generate_wargoal_tension = 0.080
+				join_faction_tension = 0.225
+			}
+		}
+
+		# West Prussia
+
+	# Global Traits
+
+	leader_traits = {
+		pro_soviet_trait = {
+			random = no
+			sprite = 1
+			political_power_gain = 0.05
+		}
+		pro_ukrainian_trait = {
+			random = no
+			sprite = 1
+		}
+		pro_prussian_trait = {
+			random = no
+			sprite = 1
+		}
+	}
+
+# USA Traits
+
+	# Country-Specific Traits
+
+		# CIA
+
+	# Global Traits
+
+# Global Traits
+
+leader_traits = {
+	radical_xenophobe = {
+		random = no
+		sprite = 1
+	}
+	moderate_authoritarian = {
+		random = no
+		sprite = 1
+	}
+	extreme_authoritarian = {
+		random = no
+		sprite = 1
+	}
+	democratic_pragmatist = {
+		random = no
+		sprite = 1
+	}
+	colonial_administrator = {
+		random = no
+		sprite = 1
+	}
+	previous_military_general = {
+		random = no
+		sprite = 1
+	}
+}

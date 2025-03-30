@@ -1,0 +1,23 @@
+# USG
+
+characters = {
+	USG_Maxwell_D_Taylor = {
+		name = "Lucius Dubignon Clay"
+		portraits = {
+			civilian = {
+				large = GFX_USG_Maxwell_D_Taylor
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = USG_Maxwell_D_Taylor_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_american
+				democratic_pragmatist
+				colonial_administrator
+				previous_military_general
+			}
+		}
+	}
+}

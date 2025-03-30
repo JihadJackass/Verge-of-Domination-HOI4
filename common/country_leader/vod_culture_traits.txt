@@ -1,0 +1,24 @@
+# CULTURAL TRAITS
+
+	leader_traits = {
+		nationality_trait_ukrainian = {
+			random = no
+			sprite = 1
+		}
+		nationality_trait_german = {
+			random = no
+			sprite = 1
+		}
+		nationality_trait_soviet = {
+			random = no
+			sprite = 1	
+		}
+		nationality_trait_american = {
+			random = no
+			sprite = 1	
+		}
+		nationality_trait_lithuanian = {
+			random = no
+			sprite = 1				
+		}
+	}

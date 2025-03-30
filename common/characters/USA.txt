@@ -1,0 +1,21 @@
+# USA
+
+characters = {
+	USA_charles_lindbergh = {
+		name = "Charles Lindbergh"
+		portraits = {
+			civilian = {
+				large = GFX_USA_Charles_Lindbergh
+			}
+		}
+		country_leader = {
+			ideology = populism
+			desc = USA_Charles_Lindbergh_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_american
+				moderate_authoritarian
+			}
+		}
+	}
+}

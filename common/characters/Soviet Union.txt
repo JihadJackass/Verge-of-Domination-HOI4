@@ -1,0 +1,22 @@
+# Soviet Union
+
+characters = {
+	SOV_joseph_stalin = {
+		name = "Joseph Stalin"
+		portraits = {
+			civilian = {
+				large = GFX_SOV_Joseph_Stalin
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			desc = SOV_Joseph_Stalin_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_soviet
+				SOV_conquerer
+				extreme_authoritarian
+			}
+		}
+	}
+}

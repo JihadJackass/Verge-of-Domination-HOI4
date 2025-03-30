@@ -21,6 +21,8 @@ set_popularities = {
 	communism = 1
 }
 
+recruit_character = USA_charles_lindbergh
+
 add_ideas = {
 	vod_usa_nato_faction
 }
@@ -82,14 +84,3 @@ USA = {
 		autonomous_state = autonomy_supervised_state
 	}
 }
-
-create_country_leader = {
-	name = "Wendell Willkie"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	#picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1950.1.1"
-	ideology = conservatism
-	traits = {
-	}
-}
-

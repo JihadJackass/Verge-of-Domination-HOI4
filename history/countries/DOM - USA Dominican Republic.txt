@@ -1,6 +1,6 @@
-﻿capital = 763
+﻿capital = 319
 
-oob = "EPR_1945"
+oob = "DOM_1945"
 
 set_research_slots = 2
 set_stability = 0.5
@@ -11,8 +11,8 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1940.1.1"
+	ruling_party = democratic
+	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }

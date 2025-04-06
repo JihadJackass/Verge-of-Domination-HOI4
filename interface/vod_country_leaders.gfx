@@ -42,5 +42,10 @@ spriteTypes = {
 		name = GFX_HUN_Laszlo_Maro
 		texturefile = gfx/leaders/HUN/HUN_Laszlo_Maro.dds
 	}
+	# CAN
+	spriteType = {
+		name = GFX_CAN_General_Howard_Wainwright
+		texturefile = gfx/leaders/CAN/CAN_General_Howard_Wainwright.dds
+	}
 }
 

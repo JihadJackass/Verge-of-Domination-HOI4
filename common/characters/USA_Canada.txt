@@ -1,0 +1,21 @@
+# Ontario Military District
+
+characters = {
+	CAN_General_Howard_Wainwright = {
+		name = "General Howard Wainwright"
+		portraits = {
+			civilian = {
+				large = GFX_CAN_General_Howard_Wainwright
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			desc = ONT_Riley_Gamble_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				nationality_trait_canadian
+				patient
+			}
+		}
+	}
+}

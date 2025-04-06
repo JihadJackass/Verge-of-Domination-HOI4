@@ -20,6 +20,8 @@ set_popularities = {
 	democratic = 100
 }
 
+recruit_character = CAN_General_Howard_Wainwright
+
 add_ideas = {
 }
 

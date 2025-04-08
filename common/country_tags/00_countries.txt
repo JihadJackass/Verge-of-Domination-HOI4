@@ -110,6 +110,8 @@ PHI = "countries/USA Phillipines.txt"
 NZL = "countries/USA New Zealand.txt"
 AST = "countries/USA Australia.txt"
 IND = "countries/USA Indonesia.txt"
+# US States
+TEX = "countries/USA Texas.txt"
 #SPR = "countries/USA Spain.txt"
 
 # Random Tags

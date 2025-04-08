@@ -47,5 +47,15 @@ spriteTypes = {
 		name = GFX_CAN_General_Howard_Wainwright
 		texturefile = gfx/leaders/CAN/CAN_General_Howard_Wainwright.dds
 	}
+	#QEB
+	spriteType = {
+		name = GFX_QEB_Pierre_Dupuy
+		texturefile = gfx/leaders/QEB/QEB_Pierre_Dupuy.dds
+	}	
+	#MEX
+	spriteType = {
+		name = GFX_QEB_Pierre_Dupuy
+		texturefile = gfx/leaders/MEX/MEX_Lazaro_Cardenas.dds
+	}	
 }
 

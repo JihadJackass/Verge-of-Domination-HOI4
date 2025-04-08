@@ -301,6 +301,10 @@ QEB = {
 	color = rgb { 61 114 227 }
 	color_ui = rgb { 61 114 227 }
 }
+TEX = {
+	color = rgb { 30 100 227 }
+	color_ui = rgb { 30 100 227 }
+}
 AST = {
 	color = rgb { 30 160 163 }
 	color_ui = rgb { 30 160 163 }

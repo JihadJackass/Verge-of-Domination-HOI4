@@ -1,27 +1,24 @@
-﻿capital = 863
+﻿capital = 375 # Texas
 
-oob = "QEB_1945"
+oob = "TEX_1945"
 
 set_research_slots = 2
 set_stability = 0.75
 set_war_support = 0
 set_convoys = 50
 
-set_technology = {
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
+	democratic = 100
 }
 
-recruit_character = QEB_Pierre_Dupuy
+#recruit_character = USE_Lucius_D_Clay
 
 add_ideas = {
 }
+

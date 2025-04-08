@@ -1,0 +1,24 @@
+# Quebec
+
+characters = {
+	QEB_Pierre_Dupuy = {
+		name = "Pierre Dupuy"
+		portraits = {
+			civilian = {
+				large = GFX_QEB_Pierre_Dupuy
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = QEB_Pierre_Dupuy_desc
+			expire = "1950.1.1.1"
+			traits = { 
+				# nationality_trait_mexican
+				# anti_us_sentiment
+				# staunch_anti_communist
+				# anti_socialist
+				# pro_soviet # hates commies but respects Soviet Union due to delusions
+			}
+		}
+	}
+}

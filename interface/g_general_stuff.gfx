@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+	# VOD stuff
+
+	spriteType = {
+		name = "GFX_vod_subjects_header_bg"
+		texturefile = "gfx/interface/subjects_header_bg.dds"
+	}
+	
+}

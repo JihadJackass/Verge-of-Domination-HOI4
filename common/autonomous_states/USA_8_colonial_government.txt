@@ -2,10 +2,9 @@ autonomy_state = {
 	id = USA_8_colonial_government
 
 	use_overlord_color = no
-	min_freedom_level = 0.40
+	min_freedom_level = 0.10
 	peace_conference_initial_freedom = 0.001
 	manpower_influence = 0.9
-	min_freedom_level = 0.10
 
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
@@ -33,10 +32,10 @@ autonomy_state = {
 	}
 
 	allowed = {
-		has_dlc = "Man the Guns"
+		OVERLORD = { tag = USA }
 		OR = {
 			is_subject = no
-			has_autonomy_state = USA_7_transitional_government
+			has_autonomy_state = USA_8_colonial_government
 		}
 	}
 

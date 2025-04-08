@@ -2,10 +2,9 @@ autonomy_state = {
 	id = USA_5_military_occupation_zone
 
 	use_overlord_color = no
-	min_freedom_level = 0.40
+	min_freedom_level = 0.45
 	peace_conference_initial_freedom = 0.001
 	manpower_influence = 0.9
-	min_freedom_level = 0.45
 	
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
@@ -41,9 +40,10 @@ autonomy_state = {
 	}
 
 	allowed = {
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			OVERLORD = { NOT = { has_government = fascism } }
+		OVERLORD = { tag = USA }
+		OR = {
+			is_subject = no
+			has_autonomy_state = USA_5_military_occupation_zone
 		}
 	}
 

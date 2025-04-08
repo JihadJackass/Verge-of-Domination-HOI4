@@ -1,11 +1,11 @@
 autonomy_state = {
-	id = autonomy_integrated_bureaucracy
-	use_overlord_color = yes
-	min_freedom_level = 0.75
+	id = USA_6_civil_occupation_zone
 
+	use_overlord_color = no
+	min_freedom_level = 0.40
 	peace_conference_initial_freedom = 0.001
-
-	manpower_influence = 0.2
+	manpower_influence = 0.9
+	min_freedom_level = 0.30
 
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
@@ -36,12 +36,12 @@ autonomy_state = {
 		has_dlc = "Man the Guns"
 		OR = {
 			is_subject = no
-			has_autonomy_state = autonomy_integrated_bureaucracy
+			has_autonomy_state = USA_6_civil_occupation_zone
 		}
 	}
 
 	allowed_levels_filter = {
-		autonomy_integrated_bureaucracy
+		USA_7_transitional_government
 	}
 
 	#ROOT is puppet - FROM is potential OVERLORD

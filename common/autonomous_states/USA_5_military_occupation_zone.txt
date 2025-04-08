@@ -1,12 +1,11 @@
 autonomy_state = {
-	id = autonomy_puppet
-	
-	#default = yes
-	is_puppet = yes
-	
-	min_freedom_level = 0.4
-	
+	id = USA_5_military_occupation_zone
+
+	use_overlord_color = no
+	min_freedom_level = 0.40
+	peace_conference_initial_freedom = 0.001
 	manpower_influence = 0.9
+	min_freedom_level = 0.45
 	
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"

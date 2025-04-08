@@ -90,7 +90,7 @@ USE = "countries/USA Europe.txt"
 USG = "countries/USA North Africa.txt"
 USC = "countries/USA Central Africa.txt"
 USS = "countries/USA South Africa.txt"
-USV = "countries/USA South America.txt"
+USV = "countries/USA Columbia.txt"
 USM = "countries/USA Central America.txt"
 MEX = "countries/USA Mexico.txt"
 CAN = "countries/USA Canada.txt"
@@ -112,6 +112,7 @@ AST = "countries/USA Australia.txt"
 IND = "countries/USA Indonesia.txt"
 # US States
 TEX = "countries/USA Texas.txt"
+OKL = "countries/USA Oklahoma.txt"
 #SPR = "countries/USA Spain.txt"
 
 # Random Tags

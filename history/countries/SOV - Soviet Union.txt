@@ -7,8 +7,7 @@ set_stability = 0.14
 set_war_support = 0.24
 set_convoys = 100
 
-set_technology = {
-}
+
 
 set_politics = {
 	ruling_party = communism
@@ -32,276 +31,304 @@ add_ideas = {
 create_faction = SSBE
 # Soviet Socialist Republics (SSRs)
 SOV = {
-	set_autonomy = {
-		target = UKR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = POL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = GER
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ITA
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BOH
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ALB
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = MOL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = HUN
-		autonomous_state = autonomy_satellite
-	}
+	#################################
+	# 1. Constituent Union Republic #
+	#################################
 	set_autonomy = {
 		target = BEL
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_1_union_republic
 	}
 	set_autonomy = {
-		target = LIT
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BSL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = WPR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = EPR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = DEN
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = SWE
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = NOR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = FIN
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = AUS
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TRS
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ZAG
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = SER
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = WAL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BUL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TUR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TRM
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = GEO
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = AZE
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ARM
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = KUR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = SYR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ARB
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ISR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = LIB
-		autonomous_state = autonomy_satellite
+		target = UKR
+		autonomous_state = SOV_1_union_republic
 	}
 	set_autonomy = {
 		target = KAZ
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_1_union_republic
+	}
+	#################################
+	# 2. Associated Socialist Union #
+	#################################
+	set_autonomy = {
+		target = LIT
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
-		target = AFG
-		autonomous_state = autonomy_satellite
+		target = LAT
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
-		target = PAK
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = PRC
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = KOR
-		autonomous_state = autonomy_satellite
+		target = EST
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
 		target = MAN
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
 		target = MON
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
-		target = TUV
-		autonomous_state = autonomy_satellite
+		target = NOR
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
-		target = VIN
-		autonomous_state = autonomy_satellite
+		target = GEO
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
-		target = LAO
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BRM
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BEN
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TAI
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = JAV
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BLN
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ERT
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = ETH
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = SOM
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = POL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = UKR
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = MND
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = BAN
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = DEL
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = HYD
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TAJ
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = UZB
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = TRK
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = PER
-		autonomous_state = autonomy_satellite
-	}
-	set_autonomy = {
-		target = IRQ
-		autonomous_state = autonomy_satellite
+		target = TUR
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
 		target = DAG
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_2_associated_socialist_union
 	}
 	set_autonomy = {
 		target = OST
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_2_associated_socialist_union
+	}
+	##################################
+	# 3. Socialist Republic-in-Exile #
+	##################################
+	set_autonomy = {
+		target = FIN
+		autonomous_state = SOV_3_republic_in_exile
+	}
+	set_autonomy = {
+		target = SWE
+		autonomous_state = SOV_3_republic_in_exile
+	}
+	set_autonomy = {
+		target = ARM
+		autonomous_state = SOV_3_republic_in_exile
+	}
+	set_autonomy = {
+		target = KUR
+		autonomous_state = SOV_3_republic_in_exile
+	}
+	############################
+	# 4. Union Satellite State #
+	############################
+	set_autonomy = {
+		target = POL
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = MOL
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = WAL
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = BUL
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = TRM
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = AZE
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = ISR
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	set_autonomy = {
+		target = EGY
+		autonomous_state = SOV_4_union_satellite_state
+	}
+	#################################
+	# 5. People’s Republic (Client) #
+	#################################
+
+	set_autonomy = {
+		target = DZG
+		autonomous_state = SOV_5_peoples_republic
+	}
+	set_autonomy = {
+		target = AUS
+		autonomous_state = SOV_5_peoples_republic
+	}
+	set_autonomy = {
+		target = TRS
+		autonomous_state = SOV_5_peoples_republic
+	}
+	set_autonomy = {
+		target = ZAG
+		autonomous_state = SOV_5_peoples_republic
+	}
+
+	##################################
+	# 6. Soviet Military Governorate #
+	##################################
+
+	set_autonomy = {
+		target = GER
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = ITA
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = BOH
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = ALB
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = HUN
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = BSL
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = DEN
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = SER
+		autonomous_state = SOV_6_military_governorate
+	}
+	##########################################
+	# 7. Provisional Revolutionary Committee #
+	##########################################
+	set_autonomy = {
+		target = WPR
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = EPR
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = KOR
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = SYR
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = ARB
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = PAK
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = PRC
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = TUV
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = VIN
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = LAO
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = BRM
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = POL
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = MND
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = BAN
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = DEL
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = HYD
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = TAJ
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = UZB
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = TRK
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = PER
+		autonomous_state = SOV_7_provisional_committee
+	}
+	set_autonomy = {
+		target = IRQ
+		autonomous_state = SOV_7_provisional_committee
 	}
 	set_autonomy = {
 		target = YEM
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_7_provisional_committee
 	}
 	set_autonomy = {
 		target = OMA
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_7_provisional_committee
 	}
 	set_autonomy = {
 		target = PUN
-		autonomous_state = autonomy_satellite
+		autonomous_state = SOV_7_provisional_committee
+	}
+
+	####################################
+	# 8. Revolutionary Liberation Zone #
+	####################################
+	set_autonomy = {
+		target = TAI
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = JAV
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = ERT
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = ETH
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = SOM
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = LIB
+		autonomous_state = SOV_8_autonomous_soviet_zone
 	}
 }

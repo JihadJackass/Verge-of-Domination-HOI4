@@ -1,14 +1,13 @@
-﻿capital = 108
+﻿capital = 49 # TODO: Will be / can be moved via soviet decision to 356 (Kastamonu)
 
-oob = "TUR_1945"
+oob = "TRM_1945"
 
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.8
 set_convoys = 50
 
-set_technology = {
-}
+
 
 set_politics = {
 	ruling_party = communism

@@ -7,9 +7,6 @@ set_stability = 0.5
 set_war_support = 0.8
 set_convoys = 50
 
-set_technology = {
-}
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"

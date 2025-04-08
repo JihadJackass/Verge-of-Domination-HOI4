@@ -26,7 +26,7 @@ SUBJECTS OF VOD LEAST AUTONOMOUS TO HIGHEST AUTONOMY
 - Not Autonomous and directly controlled from Washington
 - Does not share overlord color
 
-5. OCCUPATION ZONE 
+5. MILITARY OCCUPATION ZONE 
 - Active Military Occupation which requires significant resources to occupy
 - Active Restistance
 - Does not share overlord color
@@ -47,8 +47,48 @@ SUBJECTS OF VOD LEAST AUTONOMOUS TO HIGHEST AUTONOMY
 - SOV BASED SUBJECTS -
 ----------------------
 
+----------------------
+- SOV BASED SUBJECTS -
+----------------------
 
+SOV_1_union_republic: "Constituent Union Republic"
+- Full SSR-like status, technically "equal" to Soviet core but under strict CPSU control.
+- Playable subject.
+- Shares overlord color
 
+SOV_2_associated_socialist_union: "Associated Socialist Union"
+- High-trust communist partner, part of Soviet regional integration.
+- Modeled after Warsaw Pact unity.
+- Shares overlord color
+
+SOV_3_republic_in_exile: "Socialist Republic-in-Exile"
+- Government hosted and maintained by USSR for ideological legitimacy.
+- Future puppet-in-waiting.
+- Does not share overlord color
+
+SOV_4_union_satellite_state: "Union Satellite State"
+- Formal client state with local governance.
+- Loyal leadership under KGB/Moscow watch.
+- Does not share overlord color
+
+SOV_5_peoples_republic: "People’s Republic (Client)"
+- Installed Marxist-Leninist government; shares ideology but not trusted with autonomy.
+- Soviet-aligned puppet state.
+- Does not share overlord color
+
+SOV_6_military_governorate: "Soviet Military Governorate"
+- Militarized occupation zone; tightly controlled by Red Army command structures.
+- Does not share overlord color
+
+SOV_7_provisional_committee: "Provisional Revolutionary Committee"
+- Emergency Bolshevik-style administration formed after regime collapse.
+- Total dependency on Soviet support.
+- Does not share overlord color
+
+SOV_8_autonomous_soviet_zone: "Revolutionary Liberation Zone"
+- Military-occupied, revolutionary warzone; communist uprising incubator.
+- No civilian control, constant unrest.
+- Does not share overlord color
 
 -------------------------
 - GENERAL SUBJECT TYPES -

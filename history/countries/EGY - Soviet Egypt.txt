@@ -1,14 +1,13 @@
-﻿capital = 447
+﻿capital = 907
 
-oob = "AUS_1945"
+oob = "EGY_1945"
 
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.8
 set_convoys = 50
 
-set_technology = {
-}
+
 
 set_politics = {
 	ruling_party = communism

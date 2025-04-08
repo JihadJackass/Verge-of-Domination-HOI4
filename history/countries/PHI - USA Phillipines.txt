@@ -2,15 +2,14 @@
 
 oob = "PHI_1945"
 
-recruit_character = GFX_EPR_Haselstadt
+#recruit_character = GFX_EPR_Haselstadt
 
 set_research_slots = 1
 set_stability = 0.75
 set_war_support = 0
 set_convoys = 50
 
-set_technology = {
-}
+
 
 set_politics = {
 	ruling_party = democratic

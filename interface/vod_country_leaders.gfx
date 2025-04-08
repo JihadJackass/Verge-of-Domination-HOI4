@@ -54,7 +54,7 @@ spriteTypes = {
 	}	
 	#MEX
 	spriteType = {
-		name = GFX_QEB_Pierre_Dupuy
+		name = GFX_MEX_Lazaro_Cardenas
 		texturefile = gfx/leaders/MEX/MEX_Lazaro_Cardenas.dds
 	}	
 }

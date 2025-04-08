@@ -1,0 +1,90 @@
+#background sprite is in frontendmainviewbg.gfx
+
+spriteTypes = {
+	# 1. State of the Union
+	spriteType = {
+		name = "GFX_USA_1_state_of_the_union_icon"
+		textureFile = "gfx/interface/subjects/USA_1_state_of_the_union.dds"
+	}
+	# 2. Territory of the Union
+	spriteType = {
+		name = "GFX_USA_2_territory_of_the_union_icon"
+		textureFile = "gfx/interface/subjects/USA_2_territory_of_the_union.dds"
+	}
+	# 3. Integration Zone
+	spriteType = {
+		name = "GFX_USA_3_integration_zone_icon"
+		textureFile = "gfx/interface/subjects/USA_3_integration_zone.dds"
+	}	
+	# 4. Puppet
+	spriteType = {
+		name = "GFX_USA_4_puppet_icon"
+		textureFile = "gfx/interface/subjects/USA_4_puppet.dds"
+	}	
+	# 5. U.S. Military Occupation Zone
+	spriteType = {
+		name = "GFX_USA_5_military_occupation_zone_icon"
+		textureFile = "gfx/interface/subjects/USA_5_military_occupation_zone.dds"
+	}	
+	# 6. U.S. Civilian Occupation Sector
+	spriteType = {
+		name = "GFX_USA_6_civil_occupation_zone_icon"
+		textureFile = "gfx/interface/subjects/USA_6_civil_occupation_zone.dds"
+	}	
+	# 7. U.S. Transitional Council Government
+	spriteType = {
+		name = "GFX_USA_7_transitional_government_icon"
+		textureFile = "gfx/interface/subjects/USA_7_transitional_government.dds"
+	}	
+	# 8. U.S. Colonial Government
+	spriteType = {
+		name = "GFX_USA_8_colonial_government_icon"
+		textureFile = "gfx/interface/subjects/USA_8_colonial_government.dds"
+	}	
+	# x. U.S. Integrated Bureaucracy
+	spriteType = {
+		name = "GFX_USA_x_integrated_bureaucracy_icon"
+		textureFile = "gfx/interface/subjects/USA_x_integrated_bureaucracy.dds"
+	}	
+
+	# 1. Constituent Union Republic
+	spriteType = {
+		name = "GFX_SOV_1_constituent_union_republic_icon"
+		textureFile = "gfx/interface/subjects/SOV_1_constituent_union_republic.dds"
+	}
+	# 2. Associated Socialist Union
+	spriteType = {
+		name = "GFX_SOV_2_associated_socialist_union_icon"
+		textureFile = "gfx/interface/subjects/SOV_2_associated_socialist_union.dds"
+	}	
+	# 3. Socialist Republic-in-Exile
+	spriteType = {
+		name = "GFX_SOV_3_republic_in_exile_icon"
+		textureFile = "gfx/interface/subjects/SOV_3_republic_in_exile.dds"
+	}	
+	# 4. Union Satellite State
+	spriteType = {
+		name = "GFX_SOV_4_union_satellite_state_icon"
+		textureFile = "gfx/interface/subjects/SOV_4_union_satellite_state.dds"
+	}
+	# 5. People’s Republic
+	spriteType = {
+		name = "GFX_SOV_5_peoples_republic_icon"
+		textureFile = "gfx/interface/subjects/SOV_5_peoples_republic.dds"
+	}
+	# 6. Soviet Military Governorate
+	spriteType = {
+		name = "GFX_SOV_6_military_governorate_icon"
+		textureFile = "gfx/interface/subjects/SOV_6_military_governorate.dds"
+	}
+	# 7. Provisional Revolutionary Committee
+	spriteType = {
+		name = "GFX_SOV_7_provisional_committee_icon"
+		textureFile = "gfx/interface/subjects/SOV_7_provisional_committee.dds"
+	}
+	# 8. Revolutionary Liberation Zone
+	spriteType = {
+		name = "GFX_SOV_8_autonomous_soviet_zone_icon"
+		textureFile = "gfx/interface/subjects/SOV_8_autonomous_soviet_zone.dds"
+	}
+}

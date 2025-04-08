@@ -1,4 +1,29 @@
 ﻿l_english:
  # SUBJECT TYPES
 
-  autonomy_integrated_bureaucracy: "Integrated Bureaucracy"
+  USA_1_state_of_the_union: "State of the Union"
+  USA_2_territory_of_the_union: "Territory of the Union"
+  USA_3_integration_zone: "U.S. Integration Action Plan Zone"
+  USA_4_puppet: "U.S. Direct-Puppet Government"
+  USA_5_military_occupation_zone: "U.S. Military Occupation Zone"
+  USA_6_civil_occupation_zone: "U.S. Civilian Occupation Sector"
+  USA_7_transitional_government: "U.S. Transitional Council Government"
+  USA_8_colonial_government: "U.S. Colonial Government"
+  USA_x_integrated_bureaucracy: "U.S. Integrated Bureaucracy"
+
+  SOV_1_union_republic: "Constituent Union Republic"
+  SOV_2_associated_socialist_union: "Associated Socialist Union"
+  SOV_3_republic_in_exile: "Socialist Republic-in-Exile"
+  SOV_4_union_satellite_state: "Union Satellite State"
+  SOV_5_peoples_republic: "People’s Republic"
+  SOV_6_military_governorate: "Soviet Military Governorate"
+  SOV_7_provisional_committee: "Provisional Revolutionary Committee"
+  SOV_8_autonomous_soviet_zone: "Revolutionary Liberation Zone"
+
+
+
+
+
+
+
+  

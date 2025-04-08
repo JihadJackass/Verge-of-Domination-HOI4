@@ -27,30 +27,133 @@ add_ideas = {
 	vod_usa_nato_faction
 }
 
-# Central Intelligence Agency
-USA = {
-	puppet = CIA
-	set_autonomy = {
-		target = CIA
-		autonomous_state = autonomy_integrated_bureaucracy
-	}
-}
 # North American Treaty Organization
 create_faction = NATO
 USA = {
-	# Canada Occupation Zone
+	#########################
+	# 1. State of the Union #
+	#########################
+	
+	# Texas
 	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_supervised_state
+		target = TEX
+		autonomous_state = USA_1_state_of_the_union
 	}
-	# Ontario Occupation Zone
+	# Oklahoma 
 	set_autonomy = {
-		target = ONT
-		autonomous_state = autonomy_supervised_state
+		target = OKL
+		autonomous_state = USA_1_state_of_the_union
 	}
+	#######################
+	# 2. U.S. Territories #
+	#######################
+
+	# Dominican Republic
+	set_autonomy = {
+		target = DOM
+		autonomous_state = USA_2_territory_of_the_union
+	}
+
+	########################################
+	# 3. U.S. Integration Action Plan Zone #
+	########################################
+
+	# Baja California
+	set_autonomy = {
+		target = BAJ
+		autonomous_state = USA_3_integration_zone
+	}
+
+	##################
+	# 4. U.S. Puppet #
+	##################
+
+	# Mexico
+	set_autonomy = {
+		target = MEX
+		autonomous_state = USA_4_puppet
+	}
+
 	# Cape Occupation Zone
 	set_autonomy = {
 		target = CAP
-		autonomous_state = autonomy_supervised_state
+		autonomous_state = USA_4_puppet
+	}
+
+	# Brazil Occupation Zone
+	set_autonomy = {
+		target = BRA
+		autonomous_state = USA_4_puppet
+	}
+
+	####################################
+	# 5. U.S. Military Occupation Zone #
+	####################################
+
+	# Ontario Occupation Zone
+	set_autonomy = {
+		target = ONT
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	# Bolivarian Occupation Zone
+	set_autonomy = {
+		target = USV
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	# Central America Occupation Zone
+	set_autonomy = {
+		target = USM
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	######################################
+	# 6. U.S. Civilian Occupation Sector #
+	######################################
+
+	# Canada Occupation Zone
+	set_autonomy = {
+		target = CAN
+		autonomous_state = USA_6_civil_occupation_zone
+	}
+
+	# Quebec 
+	set_autonomy = {
+		target = QEB
+		autonomous_state = USA_6_civil_occupation_zone
+	}
+
+	# Columbia
+	set_autonomy = {
+		target = USV
+		autonomous_state = USA_6_civil_occupation_zone
+	}
+
+	###########################################
+	# 7. U.S. Transitional Council Government #
+	###########################################
+
+	set_autonomy = {
+		target = BCM
+		autonomous_state = USA_7_transitional_government
+	}
+
+	###############################
+	# 8. U.S. Colonial Government #
+	###############################
+
+	set_autonomy = {
+		target = GUS
+		autonomous_state = USA_8_colonial_government
+	}	
+
+	##################################
+	# 8. U.S. Integrated Bureaucracy #
+	##################################
+
+	set_autonomy = {
+		target = CIA
+		autonomous_state = USA_x_integrated_bureaucracy
 	}
 }

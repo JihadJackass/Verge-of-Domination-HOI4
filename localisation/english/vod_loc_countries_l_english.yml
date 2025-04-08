@@ -8,7 +8,7 @@
             USA_fascism: "American Empire"
             USA_fascism_DEF: "the United American Empire"
             USA_fascism_ADJ: "American"
-            USA_democratic: "American United Federal Republic"
+            USA_democratic: "United States Federal Republic"
             USA_democratic_DEF: "the United States Federal Republic"
             USA_democratic_ADJ: "American"
             USA_neutrality: "American Loyalists"
@@ -115,15 +115,26 @@
             USM_democratic_DEF: "the American-United Central Americas Occupation Zone"
             USM_democratic_ADJ: "Central American"
 
-            # Grand Columbia Occupation Zone
-            USV_democratic: "Grand Columbian Occupation Zone"
-            USV_democratic_DEF: "the American-Grand Columbian Occupation Zone"
-            USV_democratic_ADJ: "Columbian"
-
             # South Africa / South Cape Occupation Zone
             CAP_democratic: "South Cape Occupation Zone"
             CAP_democratic_DEF: "the American-South Cape Occupation Zone"
             CAP_democratic_ADJ: "South African"
+
+            # Ecuador 
+            ECU_democratic: "Ecuador Occupation Zone"
+            ECU_democratic_DEF: "the American-Ecuadoran Occupation Zone"
+            ECU_democratic_ADJ: "Ecuadoran"
+
+            # States of the Union
+
+                # Texas
+                TEX_democratic: "Texas"
+                TEX_democratic_DEF: "the State of Texas"
+                TEX_democratic_ADJ: "Texan"
+                # Oklahoma
+                OKL_democratic: "Oklahoma"
+                OKL_democratic_DEF: "the State of Oklahoma"
+                OKL_democratic_ADJ: "Oklahoman"
 
         # Soviet Factions
 

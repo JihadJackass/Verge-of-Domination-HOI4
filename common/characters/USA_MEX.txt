@@ -1,16 +1,16 @@
 # Quebec
 
 characters = {
-	QEB_Pierre_Dupuy = {
+	MEX_Lazaro_Cardenas = {
 		name = "Pierre Dupuy"
 		portraits = {
 			civilian = {
-				large = GFX_QEB_Pierre_Dupuy
+				large = GFX_MEX_Lazaro_Cardenas
 			}
 		}
 		country_leader = {
 			ideology = conservatism
-			desc = QEB_Pierre_Dupuy_desc
+			desc = GFX_MEX_Lazaro_Cardenas_desc
 			expire = "1950.1.1.1"
 			traits = { 
 				# nationality_trait_mexican

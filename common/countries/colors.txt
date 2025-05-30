@@ -13,8 +13,8 @@ PRC = {
 	color_ui = rgb { 150 55 30 }
 }
 GER = {
-	color = rgb { 140 40 30 }
-	color_ui = rgb { 140 40 30 }
+	color = rgb { 79 70 70 }
+	color_ui = rgb { 79 70 70 }
 }
 BOH = {
 	color = rgb { 180 140 40 }

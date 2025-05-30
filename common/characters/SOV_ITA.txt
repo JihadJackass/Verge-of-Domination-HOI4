@@ -1,0 +1,19 @@
+# Italy
+
+characters = {
+	ITA_socialist_council = {
+		name = "Socialist Council"
+		portraits = {
+			civilian = {
+				large = GFX_ITA_socialist_council
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			desc = GFX_ITA_socialist_council_desc
+			expire = "1955.1.1.1"
+			traits = { 
+			}
+		}
+	}
+}

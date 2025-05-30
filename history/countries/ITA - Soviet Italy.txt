@@ -1,13 +1,11 @@
-﻿capital = 159
+﻿capital = 160
 
-oob = "AUS_1945"
+oob = "ITA_1945"
 
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.8
 set_convoys = 50
-
-
 
 set_politics = {
 	ruling_party = communism
@@ -19,6 +17,7 @@ set_popularities = {
 	communism = 100
 }
 
+recruit_character = ITA_socialist_council
 
 add_ideas = {
 }

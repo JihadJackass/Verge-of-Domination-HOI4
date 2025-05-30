@@ -81,6 +81,8 @@ SML = "countries/Soviet Somaliland.txt"
 CHI = "countries/China.txt"
 MAN = "countries/Soviet Manchuria.txt"
 MEN = "countries/Soviet Menchukuo.txt"
+SUZ = "countries/Soviet Suez.txt"
+BSZ = "countries/Soviet Bosphorus Strait Zone.txt"
 # American Factions
 USA = "countries/USA.txt"
 CIA = "countries/USA CIA.txt"
@@ -113,7 +115,8 @@ IND = "countries/USA Indonesia.txt"
 # US States
 TEX = "countries/USA Texas.txt"
 OKL = "countries/USA Oklahoma.txt"
-#SPR = "countries/USA Spain.txt"
+# EU
+SPR = "countries/Spain.txt"
 
 # Random Tags
 REB = "countries/Rebel.txt"

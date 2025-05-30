@@ -64,6 +64,12 @@ USA = {
 		autonomous_state = USA_3_integration_zone
 	}
 
+	# Cuba
+	set_autonomy = {
+		target = CUB
+		autonomous_state = USA_3_integration_zone
+	}
+
 	##################
 	# 4. U.S. Puppet #
 	##################
@@ -83,6 +89,12 @@ USA = {
 	# Brazil Occupation Zone
 	set_autonomy = {
 		target = BRA
+		autonomous_state = USA_4_puppet
+	}
+
+	# European Occupation Zone
+	set_autonomy = {
+		target = USE
 		autonomous_state = USA_4_puppet
 	}
 
@@ -108,6 +120,31 @@ USA = {
 		autonomous_state = USA_5_military_occupation_zone
 	}
 
+	# Central-South Africa
+	set_autonomy = {
+		target = USS
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	# Central Africa
+	set_autonomy = {
+		target = USC
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	# North Africa
+	set_autonomy = {
+		target = USG
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+	# Japan
+	set_autonomy = {
+		target = JAP
+		autonomous_state = USA_5_military_occupation_zone
+	}
+
+
 	######################################
 	# 6. U.S. Civilian Occupation Sector #
 	######################################
@@ -117,16 +154,24 @@ USA = {
 		target = CAN
 		autonomous_state = USA_6_civil_occupation_zone
 	}
-
 	# Quebec 
 	set_autonomy = {
 		target = QEB
 		autonomous_state = USA_6_civil_occupation_zone
 	}
-
 	# Columbia
 	set_autonomy = {
 		target = USV
+		autonomous_state = USA_6_civil_occupation_zone
+	}
+	# Phillipines
+	set_autonomy = {
+		target = PHI
+		autonomous_state = USA_6_civil_occupation_zone
+	}
+	# Australia
+	set_autonomy = {
+		target = AST
 		autonomous_state = USA_6_civil_occupation_zone
 	}
 

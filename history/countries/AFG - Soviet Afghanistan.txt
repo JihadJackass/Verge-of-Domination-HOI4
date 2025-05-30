@@ -1,6 +1,6 @@
-﻿capital = 329
+﻿capital = 267
 
-oob = "TUV_1945"
+oob = "AFG_1945"
 
 set_research_slots = 2
 set_stability = 0.5

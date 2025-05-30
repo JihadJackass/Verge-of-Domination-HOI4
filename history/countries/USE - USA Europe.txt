@@ -1,6 +1,6 @@
-﻿capital = 458 # Tunis
+﻿capital = 23 
 
-oob = "USG_1945"
+oob = "USE_1945"
 
 set_research_slots = 2
 set_stability = 0.75

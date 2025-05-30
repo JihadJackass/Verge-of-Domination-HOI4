@@ -21,7 +21,7 @@ set_popularities = {
 	communism = 88
 }
 
-recruit_character = SOV_joseph_stalin
+#recruit_character = SOV_joseph_stalin
 
 add_ideas = {
 	vod_sov_ssbe_faction
@@ -143,6 +143,11 @@ SOV = {
 		target = EGY
 		autonomous_state = SOV_4_union_satellite_state
 	}
+	set_autonomy = {
+		target = MEC
+		autonomous_state = SOV_4_union_satellite_state
+	}
+
 	#################################
 	# 5. People’s Republic (Client) #
 	#################################
@@ -161,6 +166,10 @@ SOV = {
 	}
 	set_autonomy = {
 		target = ZAG
+		autonomous_state = SOV_5_peoples_republic
+	}
+	set_autonomy = {
+		target = CHE
 		autonomous_state = SOV_5_peoples_republic
 	}
 
@@ -198,6 +207,10 @@ SOV = {
 	}
 	set_autonomy = {
 		target = SER
+		autonomous_state = SOV_6_military_governorate
+	}
+	set_autonomy = {
+		target = GRE
 		autonomous_state = SOV_6_military_governorate
 	}
 	##########################################
@@ -329,6 +342,26 @@ SOV = {
 	}
 	set_autonomy = {
 		target = LIB
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = BLN
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = SML
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = ISA
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = SIN
+		autonomous_state = SOV_8_autonomous_soviet_zone
+	}
+	set_autonomy = {
+		target = BOR
 		autonomous_state = SOV_8_autonomous_soviet_zone
 	}
 }

@@ -5,11 +5,12 @@ state = {
 	state_category = town
 
 	history = {
-		owner = ITA
+		owner = USE
+		add_core_of = USE
 		add_core_of = ITA
 		1950.1.1 = {
-			owner = SOV
-			add_core_of = SOV
+			owner = USA
+			add_core_of = USA
 		}
 		set_variable = { 735.nationality = 5 } # Tunisian
 		victory_points = { 778 1 }

@@ -10,7 +10,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = marxism
-			desc = GFX_ITA_socialist_council_desc
+			desc = ITA_socialist_council_desc
 			expire = "1955.1.1.1"
 			traits = { 
 			}

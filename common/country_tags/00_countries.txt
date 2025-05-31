@@ -82,7 +82,7 @@ CHI = "countries/China.txt"
 MAN = "countries/Soviet Manchuria.txt"
 MEN = "countries/Soviet Menchukuo.txt"
 SUZ = "countries/Soviet Suez.txt"
-BSZ = "countries/Soviet Bosphorus Strait Zone.txt"
+#BSZ = "countries/Soviet Bosphorus Strait Zone.txt"
 # American Factions
 USA = "countries/USA.txt"
 CIA = "countries/USA CIA.txt"

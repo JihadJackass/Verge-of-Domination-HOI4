@@ -15,6 +15,9 @@ characters = {
 			traits = { 
 				nationality_trait_american
 				democratic_pragmatist
+				autocratic_tendancies
+				moralist_zealot
+				democratic_christian
 			}
 		}
 	}

@@ -1,0 +1,30 @@
+state = {
+	id = 913
+	name = "STATE_913"
+
+	manpower = 35000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
+	history = {
+		owner = USE
+		add_core_of = USE
+		add_core_of = ITA
+		1950.1.1 = {
+			owner = USA
+			add_core_of = USA
+		}
+		set_variable = { 913.nationality = 383 } # American TODO: italian
+		victory_points = {
+			6780 3
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		611 6635 11570 3782 6780 770 11891 11721 9738
+	}
+}

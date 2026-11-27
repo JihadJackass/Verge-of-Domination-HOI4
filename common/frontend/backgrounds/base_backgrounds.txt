@@ -1,0 +1,10 @@
+# Verge of Domination override of the 1.20.1 main-menu background database.
+# Overriding this file (same name as vanilla) removes all vanilla/DLC menu backgrounds, so the
+# background manager can only pick the VoD image. load_5.dds is already replaced by the mod
+# (gfx/loadingscreens/load_5.dds); its selector thumbnail is gfx/loadingscreens/load_5_small.dds
+# (192x144, sprite GFX_load_5_small from vanilla interface/small_background.gfx).
+#
+# When the animated background is made, point this at it, e.g.
+# vod_menu_animated = { gfx = GFX_vod_menu_bg_animated }   (see review notes)
+
+load_5 = {}

@@ -1,28 +1,33 @@
 guiTypes = {
+	# VoD 1.20.1 review proposal (verify in game):
+	# - 1.20.1's countrystateview is taller (state_resources now y=270..410, shared-building grid
+	#   x=150..455 / y=170..420 with 50px rows, province_info_window starts at y=488).
+	# - The old container was 296x450 at (60,87) and laid over the whole building grid/resources
+	#   area; with a background it can swallow clicks there. Shrunk to just the culture strip
+	#   in the free band y=420..488. Absolute positions of the text/icon are kept close to the
+	#   1.14 ones (title ~ (160,420), icon ~ (140,442)).
 	containerWindowType = {
 		name = "culture_icon_container"
-		position = {x=60 y=87}
-		size = { width=296 height=450 }
+		position = { x = 125 y = 420 }
+		size = { width = 231 height = 66 }
 
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_tiled_window_transparent"
-			position = { x = 65  y = 322 }
 		}
 
 		instantTextboxType = {
 			name = "culture_title_marker"
-			position = { x = 100 y = 320 }
-			#font = "aldrich_14_outline"
+			position = { x = 35 y = 0 }
 			text = culture_icon_container_culture_title_marker
-			maxWidth = 225
-			maxHeight = 30
+			maxWidth = 190
+			maxHeight = 20
 			format = left
 		}
 
 		iconType = {
 			name = "culture_icon"
-			position = {x=80 y= 345}
+			position = { x = 15 y = 22 }
 			spriteType = GFX_culture_0
 			pdx_tooltip = "CULTURE_INFO"
 		}

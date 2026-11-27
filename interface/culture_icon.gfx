@@ -1390,18 +1390,18 @@ spriteTypes = {
 		name = "GFX_culture_346"
 		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_polish_weichseldeutsch.dds
 	}
-	#spriteType = {
-	#	name = "GFX_culture_347"
-	#	texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_lur.dds
-	#}
-	#spriteType = {
-	#	name = "GFX_culture_348"
-	#	texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_gilaki.dds
-	#}
-	#spriteType = {
-	#	name = "GFX_culture_349"
-	#	texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_mazandarani.dds
-	#}
+	spriteType = {
+		name = "GFX_culture_347"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_lur.dds
+	}
+	spriteType = {
+		name = "GFX_culture_348"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_gilaki.dds
+	}
+	spriteType = {
+		name = "GFX_culture_349"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_mazandarani.dds
+	}
 	spriteType = {
 		name = "GFX_culture_350"
 		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_nortino.dds
@@ -1509,5 +1509,104 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_culture_376"
 		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art: culture_czech.dds
+	}
+
+	# VoD 1.20.1 review: sprites for nationality values that are set in history/states or
+	# handled in common/scripted_localisation/culture_scripted_localisation.txt but had no icon
+	spriteType = {
+		name = "GFX_culture_40"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_116"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_128"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_189"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_377"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_378"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_379"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_380"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_381"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_382"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_383"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_384"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_385"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_386"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_387"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_388"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_389"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_390"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_391"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_392"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_777"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_778"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_779"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
+	}
+	spriteType = {
+		name = "GFX_culture_780"
+		texturefile = "gfx/interface/culture/culture_placeholder.dds" # TODO art
 	}
 }

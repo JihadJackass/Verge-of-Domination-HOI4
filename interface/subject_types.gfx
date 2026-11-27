@@ -49,7 +49,7 @@ spriteTypes = {
 
 	# 1. Constituent Union Republic
 	spriteType = {
-		name = "GFX_SOV_1_constituent_union_republic_icon"
+		name = "GFX_SOV_1_union_republic_icon" # was GFX_SOV_1_constituent_union_republic_icon; engine looks up GFX_<autonomy id>_icon
 		textureFile = "gfx/interface/subjects/SOV_1_union_republic.dds"
 	}
 	# 2. Associated Socialist Union

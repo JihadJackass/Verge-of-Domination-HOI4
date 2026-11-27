@@ -1,0 +1,42 @@
+# Starting technologies and doctrines written into each country's history by generate_oob.py.
+# One entry per line. [all] = every country, [superpower] = USA and SOV only.
+# [doctrines:<TAG>] or [doctrines:<family>] (american / soviet) = grand doctrines for that tag or side;
+# a tag section wins over its family section.
+# Techs must cover every unit type the templates use (infantry, motorized, mountaineers, cavalry,
+# artillery, engineer, recon). Names change between game versions: keep one file per version.
+
+[all]
+infantry_weapons
+infantry_weapons1
+tech_support
+tech_engineers
+tech_recon
+tech_mountaineers
+tech_trucks
+motorised_infantry
+gw_artillery
+
+[superpower]
+infantry_weapons2
+improved_infantry_weapons
+support_weapons
+support_weapons2
+interwar_artillery
+artillery1
+artillery2
+
+[doctrines:USA]
+superior_firepower
+new_base_strike
+new_strategic_destruction
+
+[doctrines:SOV]
+mass_assault
+new_fleet_in_being
+new_battlefield_support
+
+[doctrines:american]
+superior_firepower
+
+[doctrines:soviet]
+mass_assault

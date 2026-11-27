@@ -19,7 +19,7 @@ set GAME_VERSION below and add templates/<version>/ and techs/<version>.txt.
 """
 import csv, math, os, re, sys
 
-GAME_VERSION = "1.14"
+GAME_VERSION = "1.20"
 BOOKMARKS = ((1945, 1, 1), (1950, 1, 1))
 HERE = os.path.dirname(os.path.abspath(__file__))
 MOD = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -192,7 +192,7 @@ def techs():
         if line.startswith("["):
             sec = line.strip("[]")
         elif line and sec:
-            out[sec].append(line)
+            out.setdefault(sec, []).append(line)
     return out
 
 def place(n, st_list, land, capital):
@@ -277,8 +277,10 @@ def generate(dry):
         if not re.search(r'^\s*oob\s*=', h2, re.M):
             h2 = re.sub(r'^(\s*capital\s*=\s*\d+[^\n]*\n)', rf'\1\noob = "{tag}_1945"\n', h2, count=1, flags=re.M)
         tl = tech["all"] + (tech["superpower"] if r["role"] == "superpower" else [])
-        gen = ("# >>> generated (tools/oob/generate_oob.py): starting techs and 1950 army\n"
+        docs = tech.get(f"doctrines:{tag}", tech.get(f"doctrines:{r['family']}", []))
+        gen = ("# >>> generated (tools/oob/generate_oob.py): starting techs, doctrines and 1950 army\n"
                "set_technology = {\n" + "".join(f"\t{t} = 1\n" for t in tl) + "}\n"
+               + "".join(f"set_grand_doctrine = {d}\n" for d in docs)
                + (f'1950.1.1 = {{\n\tset_oob = "{tag}_1950"\n}}\n' if exists_1950 else "")
                + "# <<< generated\n")
         if "# >>> generated" in h2:

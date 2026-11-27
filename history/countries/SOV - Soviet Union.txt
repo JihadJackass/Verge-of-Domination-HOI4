@@ -2,7 +2,7 @@
 
 oob = "SOV_1945"
 
-# >>> generated (tools/oob/generate_oob.py): starting techs and 1950 army
+# >>> generated (tools/oob/generate_oob.py): starting techs, doctrines and 1950 army
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -10,15 +10,20 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	tech_mountaineers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	infantry_weapons2 = 1
 	improved_infantry_weapons = 1
+	support_weapons = 1
 	support_weapons2 = 1
 	interwar_artillery = 1
 	artillery1 = 1
 	artillery2 = 1
 }
+set_grand_doctrine = mass_assault
+set_grand_doctrine = new_fleet_in_being
+set_grand_doctrine = new_battlefield_support
 1950.1.1 = {
 	set_oob = "SOV_1950"
 }

@@ -1,4 +1,4 @@
-﻿capital = 773 # Cameroon
+﻿capital = 473 # British Columbia
 
 oob = "BCM_1945"
 

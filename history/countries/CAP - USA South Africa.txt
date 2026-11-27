@@ -1,4 +1,4 @@
-﻿capital = 540
+﻿capital = 275 # South Africa
 
 oob = "CAP_1945"
 

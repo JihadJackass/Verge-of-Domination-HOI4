@@ -1,4 +1,4 @@
-﻿capital = 863
+﻿capital = 848 # Vorarlberg
 
 oob = "SWI_1945"
 

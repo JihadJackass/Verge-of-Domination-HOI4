@@ -150,9 +150,9 @@ units = {
 			division_template = "Garrison Brigade"
 			start_experience_factor = 0.2
 		}
-		division = { # garrison in CAP, state 719
+		division = { # garrison in CAP, state 275
 			division_name = { is_name_ordered = yes name_order = 11 }
-			location = 1468
+			location = 10400
 			division_template = "Garrison Brigade"
 			start_experience_factor = 0.2
 		}

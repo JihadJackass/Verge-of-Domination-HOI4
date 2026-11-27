@@ -86,21 +86,21 @@ division_template = {
 ###### OOB ######
 
 units = {
-		division = { # local, state 719
+		division = { # local, state 275
 			name = "1st Infantry Division"
-			location = 1468
+			location = 10400
 			division_template = "Infantry Division"
 			start_experience_factor = 0.1
 		}
-		division = { # local, state 719
+		division = { # local, state 275
 			name = "2nd Infantry Division"
-			location = 1468
+			location = 10400
 			division_template = "Infantry Division"
 			start_experience_factor = 0.1
 		}
-		division = { # local, state 719
+		division = { # local, state 275
 			name = "3rd Infantry Division"
-			location = 1468
+			location = 10400
 			division_template = "Infantry Division"
 			start_experience_factor = 0.1
 		}

@@ -1,0 +1,15 @@
+﻿# Verge of Domination: vanilla compatibility definitions
+# common/scripted_effects is in replace_path, so vanilla definitions are not loaded.
+# These are the ones still called by vanilla files the mod loads unchanged.
+# Remove an entry once nothing calls it (check error.log after deleting).
+
+# from vanilla 1.14.10 scripted_effects/00_scripted_effects.txt
+remove_potential_special_forces_tree = {
+	if = {
+		limit = { NOT = { has_variable = sf_trees } }
+		set_variable = { sf_trees = 0 }
+	}
+	else = {
+		subtract_from_variable = { sf_trees = 1 }
+	}
+}

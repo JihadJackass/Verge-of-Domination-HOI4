@@ -1,0 +1,4 @@
+﻿l_english:
+ # Overrides of vanilla keys (files in replace/ win over vanilla)
+ FE_INTERESTING_COUNTRIES:0 "Country Selection"
+ maintheme:0 "Klavdia Petrivna - Хто ти"

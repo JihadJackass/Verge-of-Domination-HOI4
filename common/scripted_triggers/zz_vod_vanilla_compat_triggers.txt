@@ -1,0 +1,114 @@
+﻿# Verge of Domination: vanilla compatibility definitions
+# common/scripted_triggers is in replace_path, so vanilla definitions are not loaded.
+# These are the ones still called by vanilla files the mod loads unchanged.
+# Remove an entry once nothing calls it (check error.log after deleting).
+
+# from vanilla 1.14.10 scripted_triggers/NOR_scripted_triggers.txt
+NOR_AAT = { # Trigger to check if playing as Norway while having AAT
+	original_tag = NOR
+	has_dlc = "Arms Against Tyranny"
+}
+
+# from vanilla 1.14.10 scripted_triggers/00_scripted_triggers.txt
+ai_has_completed_air_doctrine = {
+	is_ai = yes
+	OR = {
+		has_tech = offensive_formations
+		has_tech = mass_destruction
+		has_tech = forward_interception
+		has_tech = high_level_bombing
+	}
+}
+
+# from vanilla 1.14.10 scripted_triggers/00_scripted_triggers.txt
+ai_has_completed_army_doctrine = {
+	is_ai = yes
+	OR = {
+		has_tech = werwolf_guerillas
+		has_tech = modern_blitzkrieg
+		has_tech = air_land_battle
+		has_tech = shock_and_awe
+		has_tech = c3i_theory
+		has_tech = infiltration_in_depth
+		has_tech = continuous_offensive
+		has_tech = guerilla_warfare
+	}
+}
+
+# from vanilla 1.14.10 scripted_triggers/00_scripted_triggers.txt
+ai_has_completed_naval_doctrine = {
+	is_ai = yes
+	OR = {
+		has_tech = grand_battlefleet
+		has_tech = submarine_offensive
+		has_tech = floating_airfield
+		has_tech = combined_operations_raiding
+		has_tech = integrated_convoy_defence
+		has_tech = submarine_offensive_bs
+		has_tech = carrier_battlegroups
+	}
+}
+
+# from vanilla 1.14.10 scripted_triggers/00_scripted_triggers.txt
+anti_submarine_strategy_required_trigger = {
+	OR = {
+		AND = {
+			tag = ENG
+			not = { is_in_faction_with = GER }
+			GER = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = USA
+			not = { is_in_faction_with = GER }
+			GER = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = JAP
+			not = { is_in_faction_with = USA }
+		}
+		AND = {
+			has_war = yes
+			any_enemy_country = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		convoy_threat > 0.3
+	}
+}
+
+# from vanilla 1.14.10 scripted_triggers/00_scripted_triggers.txt
+can_unlock_new_special_forces_tree = {
+	if = {
+		limit = { NOT = { has_variable = sf_trees } }
+		custom_trigger_tooltip = {
+			tooltip = can_unlock_new_special_forces_tree_none
+			NOT = { has_variable = sf_trees }
+		}
+	}
+	else_if = {
+		limit = { check_variable = { sf_trees > 0 } }
+		custom_trigger_tooltip = {
+			tooltip = can_unlock_new_special_forces_tree_more_yes
+			check_variable = { sf_trees > 0 }
+		}
+	}
+	else = {
+		custom_trigger_tooltip = {
+			tooltip = can_unlock_new_special_forces_tree_more_no
+			always = no
+		}
+	}
+}

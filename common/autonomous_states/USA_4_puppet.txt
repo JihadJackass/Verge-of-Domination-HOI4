@@ -35,7 +35,7 @@ autonomy_state = {
 		OVERLORD = { tag = USA }
 		OR = {
 			is_subject = no
-			has_autonomy_state = autonomy_state
+			has_autonomy_state = USA_4_puppet
 		}
 	}
 

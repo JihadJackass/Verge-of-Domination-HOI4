@@ -61,6 +61,15 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_ITA_socialist_council
 		texturefile = gfx/leaders/ITA/ITA_socialist_council.dds
-	}		
-}
+	}
 
+	# Placeholders until portraits exist (both referenced in common/characters)
+	spriteType = {
+		name = GFX_EPR_Mykola_Hrabyuk
+		texturefile = gfx/leaders/leader_unknown.dds # TODO art
+	}
+	spriteType = {
+		name = GFX_CIA_director_placeholder
+		texturefile = gfx/leaders/leader_unknown.dds # TODO art
+	}
+}

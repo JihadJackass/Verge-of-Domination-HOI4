@@ -1962,7 +1962,8 @@ faction_goal_develop_lappland_metals = {
 	visible = {
 		OR = {
 			666 = { is_controlled_by_ROOT_or_ally = yes }
-			918 = {	is_controlled_by_ROOT_or_ally = yes }
+			always = no # VoD: state 918 does not exist
+
 		}
 	}
 	available = {
@@ -1971,17 +1972,16 @@ faction_goal_develop_lappland_metals = {
 			has_tech = excavation2
 		}
 		666 = { is_controlled_by_ROOT_or_ally = yes }
-		918 = {	is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 918 does not exist
+
 	}
 	completed = {
 		666 = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		918 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
+		always = no # VoD: state 918 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2001,20 +2001,8 @@ faction_goal_develop_lappland_metals = {
 				    amount = 8
 				}
 			}
-			918 = {
-				add_resource = {
-				    type = tungsten
-				    amount = 10
-				}
-				add_resource = {
-				    type = steel
-				    amount = 10
-				}
-				add_resource = {
-				    type = chromium
-				    amount = 5
-				}
-			}
+			# VoD: removed effects for state 918, which does not exist
+
 		}
 	}
 	ai_will_do = {
@@ -2260,7 +2248,8 @@ faction_goal_develop_iraqi_oil = {
 		OR = {
 			291 = { is_controlled_by_ROOT_or_ally = yes }
 			676 = {	is_controlled_by_ROOT_or_ally = yes }
-			1010 = { is_controlled_by_ROOT_or_ally = yes }	
+			always = no # VoD: state 1010 does not exist
+	
 		}
 	}
 	available = {
@@ -2270,7 +2259,8 @@ faction_goal_develop_iraqi_oil = {
 		}
 		291 = { is_controlled_by_ROOT_or_ally = yes }
 		676 = {	is_controlled_by_ROOT_or_ally = yes }
-		1010 = { is_controlled_by_ROOT_or_ally = yes }	
+		always = no # VoD: state 1010 does not exist
+	
 	}
 	completed = {
 		291 = {
@@ -2281,10 +2271,8 @@ faction_goal_develop_iraqi_oil = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1010 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
+		always = no # VoD: state 1010 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2302,12 +2290,8 @@ faction_goal_develop_iraqi_oil = {
 				    amount = 4
 				}
 			}
-			1010 = {
-				add_resource = {
-				    type = oil
-				    amount = 2
-				}
-			}
+			# VoD: removed effects for state 1010, which does not exist
+
 		}
 	}
 	ai_will_do = {
@@ -2625,14 +2609,22 @@ faction_goal_develop_malayan_riches = {
 		OR = {
 			333 = { is_controlled_by_ROOT_or_ally = yes }
 			336 = {	is_controlled_by_ROOT_or_ally = yes }
-			1021 = { is_controlled_by_ROOT_or_ally = yes }
-			1024 = { is_controlled_by_ROOT_or_ally = yes }
-			1059 = { is_controlled_by_ROOT_or_ally = yes }
-			1060 = { is_controlled_by_ROOT_or_ally = yes }
-			1063 = { is_controlled_by_ROOT_or_ally = yes }
-			1064 = { is_controlled_by_ROOT_or_ally = yes }
-			1062 = { is_controlled_by_ROOT_or_ally = yes }
-			1061 = { is_controlled_by_ROOT_or_ally = yes }
+			always = no # VoD: state 1021 does not exist
+
+			always = no # VoD: state 1024 does not exist
+
+			always = no # VoD: state 1059 does not exist
+
+			always = no # VoD: state 1060 does not exist
+
+			always = no # VoD: state 1063 does not exist
+
+			always = no # VoD: state 1064 does not exist
+
+			always = no # VoD: state 1062 does not exist
+
+			always = no # VoD: state 1061 does not exist
+
 		}
 	}
 	available = {
@@ -2642,14 +2634,22 @@ faction_goal_develop_malayan_riches = {
 		}
 		333 = { is_controlled_by_ROOT_or_ally = yes }
 		336 = {	is_controlled_by_ROOT_or_ally = yes }
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
-		1024 = { is_controlled_by_ROOT_or_ally = yes }
-		1059 = { is_controlled_by_ROOT_or_ally = yes }
-		1060 = { is_controlled_by_ROOT_or_ally = yes }
-		1063 = { is_controlled_by_ROOT_or_ally = yes }
-		1064 = { is_controlled_by_ROOT_or_ally = yes }
-		1062 = { is_controlled_by_ROOT_or_ally = yes }
-		1061 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1021 does not exist
+
+		always = no # VoD: state 1024 does not exist
+
+		always = no # VoD: state 1059 does not exist
+
+		always = no # VoD: state 1060 does not exist
+
+		always = no # VoD: state 1063 does not exist
+
+		always = no # VoD: state 1064 does not exist
+
+		always = no # VoD: state 1062 does not exist
+
+		always = no # VoD: state 1061 does not exist
+
 	}
 	completed = {
 		333 = {
@@ -2660,38 +2660,22 @@ faction_goal_develop_malayan_riches = {
 			CONTROLLER = { has_tech = excavation3 }
 			infrastructure > 4
 		}
-		1021 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1024 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1059 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1060 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1063 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1064 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1062 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
-		1061 = {
-			CONTROLLER = { has_tech = excavation3 }
-			infrastructure > 4
-		}
+		always = no # VoD: state 1021 does not exist
+
+		always = no # VoD: state 1024 does not exist
+
+		always = no # VoD: state 1059 does not exist
+
+		always = no # VoD: state 1060 does not exist
+
+		always = no # VoD: state 1063 does not exist
+
+		always = no # VoD: state 1064 does not exist
+
+		always = no # VoD: state 1062 does not exist
+
+		always = no # VoD: state 1061 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2711,20 +2695,8 @@ faction_goal_develop_malayan_riches = {
 				    amount = 1
 				}
 			}
-			1059 = {
-				add_resource = {
-				    type = oil
-				    amount = 2
-				}
-				add_resource = {
-				    type = rubber
-				    amount = 6
-				}
-				add_resource = {
-				    type = coal
-				    amount = 1
-				}
-			}
+			# VoD: removed effects for state 1059, which does not exist
+
 			336 = {
 				add_resource = {
 				    type = aluminium
@@ -2743,44 +2715,12 @@ faction_goal_develop_malayan_riches = {
 				    amount = 4
 				}
 			}
-			1062 = {
-				add_resource = {
-				    type = aluminium
-				    amount = 4
-				}
-				add_resource = {
-				    type = rubber
-				    amount = 40
-				}
-				add_resource = {
-				    type = tungsten
-				    amount = 8
-				}
-				add_resource = {
-				    type = steel
-				    amount = 4
-				}
-			}
-			1021 = {
-				add_resource = {
-				    type = aluminium
-				    amount = 3
-				}
-				add_resource = {
-				    type = tungsten
-				    amount = 12
-				}
-				add_resource = {
-				    type = steel
-				    amount = 4
-				}
-			}
-			1024 = {
-				add_resource = {
-				    type = rubber
-				    amount = 8
-				}
-			}
+			# VoD: removed effects for state 1062, which does not exist
+
+			# VoD: removed effects for state 1021, which does not exist
+
+			# VoD: removed effects for state 1024, which does not exist
+
 		}
 	}
 	ai_will_do = {
@@ -4789,22 +4729,15 @@ faction_goal_expand_gulf_of_aden_bases = {
 		
 	}
 	visible = {
-		992 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 992 does not exist
+
 	}
 	available = {
 
 	}
 	completed = {
-		992 = {
-			air_base > 2
-			any_province_building_level = {
-				province = {
-					all_provinces = yes
-				}
-				building = naval_base
-				level > 2
-			}
-		}
+		always = no # VoD: state 992 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -4872,12 +4805,14 @@ faction_goal_fortify_strait_of_hormuz = {
 	visible = {
 		OR = {
 			412 = { is_controlled_by_ROOT_or_ally = yes }
-			1013 = { is_controlled_by_ROOT_or_ally = yes }
+			always = no # VoD: state 1013 does not exist
+
 		}
 	}
 	available = {
 		412 = { is_controlled_by_ROOT_or_ally = yes }
-		1013 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1013 does not exist
+
 	}
 	completed = {
 		custom_trigger_tooltip = {
@@ -4898,22 +4833,8 @@ faction_goal_fortify_strait_of_hormuz = {
 					level > 0
 				}
 			}
-			1013 = {
-				any_province_building_level = {
-					province = {
-						id = 13369
-					}
-					building = coastal_bunker
-					level > 0
-				}
-				any_province_building_level = {
-					province = {
-						id = 13369
-					}
-					building = bunker
-					level > 0
-				}
-			}
+			always = no # VoD: state 1013 does not exist
+
 			OR = {
 				AND = {
 					divisions_in_state = { state = 412 size > 0 }
@@ -4959,25 +4880,8 @@ faction_goal_fortify_strait_of_hormuz = {
 				instant_build = yes
 			}
 		}
-		1013 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = coastal_bunker
-				level = 1
-				province = 13369
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				province = 13369
-				instant_build = yes
-			}
-		}
+		# VoD: removed effects for state 1013, which does not exist
+
 	}
 	ai_will_do = {
 		base = 1
@@ -5115,29 +5019,15 @@ faction_goal_expand_singapore_naval_base = {
 		
 	}
 	visible = {
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1021 does not exist
+
 	}
 	available = {
 
 	}
 	completed = {
-		1021 = {
-			air_base > 7
-			any_province_building_level = {
-				province = {
-					all_provinces = yes
-				}
-				building = naval_base
-				level > 9
-			}
-			any_province_building_level = {
-				province = {
-					all_provinces = yes
-				}
-				building = coastal_bunker
-				level > 3
-			}
-		}
+		always = no # VoD: state 1021 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5150,13 +5040,8 @@ faction_goal_expand_singapore_naval_base = {
 			}
 			add_faction_initiative = 1
 		}
-		1021 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-		}
+		# VoD: removed effects for state 1021, which does not exist
+
 	}
 	ai_will_do = {
 		base = 1

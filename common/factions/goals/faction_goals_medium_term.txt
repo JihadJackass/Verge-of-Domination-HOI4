@@ -60,7 +60,8 @@ faction_goal_undo_versailles = {
 		}
 		42 = { is_demilitarized_zone = no }
 		51 = { is_demilitarized_zone = no }
-		978 = { is_demilitarized_zone = no }
+		always = no # VoD: state 978 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -371,7 +372,8 @@ faction_goal_imperial_glory = {
 		count_triggers = {
 			amount = 3 # Add triggers to count below
 			
-			1021 = { is_controlled_by_ROOT_or_ally = yes } # Singapore
+			always = no # VoD: state 1021 does not exist
+ # Singapore
 			118 = { is_controlled_by_ROOT_or_ally = yes } # Gibraltar
 			116 = { is_controlled_by_ROOT_or_ally = yes } # Malta
 			IF = {
@@ -542,13 +544,15 @@ faction_goal_control_the_chinese_coast = {
 		}
 		count_triggers = {
 			amount = 5
-			1033 = { is_controlled_by_ROOT_or_ally = yes }
+			always = no # VoD: state 1033 does not exist
+
 			592 = {	is_controlled_by_ROOT_or_ally = yes }
 			593 = {	is_controlled_by_ROOT_or_ally = yes }
 			595 = {	is_controlled_by_ROOT_or_ally = yes }
 			596 = {	is_controlled_by_ROOT_or_ally = yes }
 			613 = {	is_controlled_by_ROOT_or_ally = yes }
-			1034 = { is_controlled_by_ROOT_or_ally = yes }
+			always = no # VoD: state 1034 does not exist
+
 			598 = {	is_controlled_by_ROOT_or_ally = yes }
 			597 = {	is_controlled_by_ROOT_or_ally = yes }
 		}
@@ -558,13 +562,15 @@ faction_goal_control_the_chinese_coast = {
 		NOT = {
 			count_triggers = {
 				amount = 5
-				1033 = { is_controlled_by_ROOT_or_ally = yes }
+				always = no # VoD: state 1033 does not exist
+
 				592 = {	is_controlled_by_ROOT_or_ally = yes }
 				593 = {	is_controlled_by_ROOT_or_ally = yes }
 				595 = {	is_controlled_by_ROOT_or_ally = yes }
 				596 = {	is_controlled_by_ROOT_or_ally = yes }
 				613 = {	is_controlled_by_ROOT_or_ally = yes }
-				1034 = { is_controlled_by_ROOT_or_ally = yes }
+				always = no # VoD: state 1034 does not exist
+
 				598 = {	is_controlled_by_ROOT_or_ally = yes }
 				597 = {	is_controlled_by_ROOT_or_ally = yes }
 			}
@@ -863,7 +869,8 @@ faction_goal_control_the_chinese_capitals = {
 	}
 	completed = {
 		608 = { is_controlled_by_ROOT_or_ally = yes }
-		1035 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1035 does not exist
+
 		592 = { is_controlled_by_ROOT_or_ally = yes }
 	}
 	complete_effect = {
@@ -2561,7 +2568,8 @@ faction_goal_control_lappland_metals = {
 	}
 	completed = {
 		666 = { is_controlled_by_ROOT_or_ally = yes }
-		918 = {	is_controlled_by_ROOT_or_ally = yes }	
+		always = no # VoD: state 918 does not exist
+	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -2600,11 +2608,8 @@ faction_goal_control_lappland_metals = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			918 = {
-				owner = {
-					has_war_with = ROOT
-				}
-			}
+			always = no # VoD: state 918 does not exist
+
 		}
 		modifier = {
 			add = 1 # If low on resources
@@ -2923,7 +2928,8 @@ faction_goal_control_iraqi_oil = {
 	completed = {
 		291 = { is_controlled_by_ROOT_or_ally = yes }
 		676 = {	is_controlled_by_ROOT_or_ally = yes }
-		1010 = { is_controlled_by_ROOT_or_ally = yes }	
+		always = no # VoD: state 1010 does not exist
+	
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -3302,14 +3308,22 @@ faction_goal_control_malayan_riches = {
 	completed = {
 		333 = { is_controlled_by_ROOT_or_ally = yes }
 		336 = {	is_controlled_by_ROOT_or_ally = yes }
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
-		1024 = { is_controlled_by_ROOT_or_ally = yes }
-		1059 = { is_controlled_by_ROOT_or_ally = yes }
-		1060 = { is_controlled_by_ROOT_or_ally = yes }
-		1063 = { is_controlled_by_ROOT_or_ally = yes }
-		1064 = { is_controlled_by_ROOT_or_ally = yes }
-		1062 = { is_controlled_by_ROOT_or_ally = yes }
-		1061 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1021 does not exist
+
+		always = no # VoD: state 1024 does not exist
+
+		always = no # VoD: state 1059 does not exist
+
+		always = no # VoD: state 1060 does not exist
+
+		always = no # VoD: state 1063 does not exist
+
+		always = no # VoD: state 1064 does not exist
+
+		always = no # VoD: state 1062 does not exist
+
+		always = no # VoD: state 1061 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5932,7 +5946,8 @@ faction_goal_control_gulf_of_aden_bases = {
 
 	}
 	completed = {
-		992 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 992 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -5945,37 +5960,15 @@ faction_goal_control_gulf_of_aden_bases = {
 			}
 			add_faction_initiative = 1
 		}
-		992 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = air_base
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = naval_base
-				level = 1
-				instant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_naval_base = yes
-				}
-			}
-		}
+		# VoD: removed effects for state 992, which does not exist
+
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			992 = {
-				owner = {
-					has_war_with = ROOT
-				}
-			}
+			always = no # VoD: state 992 does not exist
+
 		}
 		modifier = {
 			add = 2 # If convoys being threatened try to secure the suez supply lines better
@@ -6051,7 +6044,8 @@ faction_goal_control_strait_of_hormuz = {
 	}
 	completed = {
 		412 = { is_controlled_by_ROOT_or_ally = yes }
-		1013 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1013 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6100,49 +6094,15 @@ faction_goal_control_strait_of_hormuz = {
 				instant_build = yes
 			}
 		}
-		1013 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = air_base
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = naval_base
-				level = 1
-				instant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_naval_base = yes
-				}
-			}
-			add_building_construction = {
-				type = coastal_bunker
-				level = 1
-				province = 13369
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				level = 1
-				province = 13369
-				instant_build = yes
-			}
-		}
+		# VoD: removed effects for state 1013, which does not exist
+
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			1013 = {
-				owner = {
-					has_war_with = ROOT
-				}
-			}
+			always = no # VoD: state 1013 does not exist
+
 		}
 		modifier = {
 			add = 2 # If convoys being threatened try to secure the suez supply lines better
@@ -6350,7 +6310,8 @@ faction_goal_control_singapore = {
 
 	}
 	completed = {
-		1021 = { is_controlled_by_ROOT_or_ally = yes }
+		always = no # VoD: state 1021 does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 100
@@ -6363,37 +6324,15 @@ faction_goal_control_singapore = {
 			}
 			add_faction_initiative = 1
 		}
-		1021 = {
-			add_building_construction = {
-				type = anti_air_building
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = air_base
-				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = naval_base
-				level = 1
-				instant_build = yes
-				province = {
-					all_provinces = yes
-					limit_to_naval_base = yes
-				}
-			}
-		}
+		# VoD: removed effects for state 1021, which does not exist
+
 	}
 	ai_will_do = {
 		base = 0
 		modifier = {
 			factor = 2 # Target of opportunity - already at war anyway
-			1021 = {
-				owner = {
-					has_war_with = ROOT
-				}
-			}
+			always = no # VoD: state 1021 does not exist
+
 		}
 		modifier = {
 			add = 2 # If convoys being threatened try to secure the supply lines better

@@ -814,7 +814,7 @@ ideas = {
 				modifier = {
 					original_tag = JAP
 					has_idea = closed_economy
-					has_active_mission = JAP_government_faction_demands_trade_law_change
+					always = no # VoD: decision JAP_government_faction_demands_trade_law_change does not exist
 					factor = 10
 				}
 

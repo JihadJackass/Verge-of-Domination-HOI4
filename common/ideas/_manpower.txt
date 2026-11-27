@@ -171,8 +171,8 @@ ideas = {
 					original_tag = JAP
 					has_idea = volunteer_only
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						always = no # VoD: decision JAP_army_faction_demands_conscription_law_change does not exist
+						always = no # VoD: decision JAP_naval_faction_demands_conscription_law_change does not exist
 					}
 					factor = 10
 				}
@@ -468,8 +468,8 @@ ideas = {
 					original_tag = JAP
 					has_idea = service_by_requirement
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						always = no # VoD: decision JAP_army_faction_demands_conscription_law_change does not exist
+						always = no # VoD: decision JAP_naval_faction_demands_conscription_law_change does not exist
 					}
 					factor = 3
 				}
@@ -540,8 +540,8 @@ ideas = {
 					original_tag = JAP
 					has_idea = all_adults_serve
 					OR = {
-						has_active_mission = JAP_army_faction_demands_conscription_law_change
-						has_active_mission = JAP_naval_faction_demands_conscription_law_change
+						always = no # VoD: decision JAP_army_faction_demands_conscription_law_change does not exist
+						always = no # VoD: decision JAP_naval_faction_demands_conscription_law_change does not exist
 					}
 					factor = 2
 				}

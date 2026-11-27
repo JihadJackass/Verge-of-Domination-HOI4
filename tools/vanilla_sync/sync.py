@@ -1,0 +1,194 @@
+#!/usr/bin/env python3
+"""Regenerate the vanilla-derived files listed in manifest.txt from the installed game.
+
+Usage:  python tools/vanilla_sync/sync.py "C:/Steam/steamapps/common/Hearts of Iron IV" [--dry-run]
+
+Writes:
+  * blank files and sanitized copies at the same path inside the mod
+  * common/scripted_triggers/zz_vod_vanilla_compat_triggers.txt
+  * common/scripted_effects/zz_vod_vanilla_compat_effects.txt
+  * common/dynamic_modifiers/zz_vod_vanilla_compat_dynamic_modifiers.txt
+Then reports vanilla scripted triggers/effects still called by loaded vanilla files but not defined.
+Generated files start with a header; do not edit them by hand, edit manifest.txt instead.
+"""
+import os, re, sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+MOD = os.path.abspath(os.path.join(HERE, "..", ".."))
+BOM = "\ufeff"
+
+def read_raw(p):
+    s = open(p, encoding="utf-8", errors="replace").read()
+    return s.startswith(BOM), s.lstrip(BOM).replace("\r\n", "\n")
+
+def nocomment(s):
+    return re.sub(r"#[^\n]*", "", s)
+
+def block_end(s, i):
+    """s[i] == '{' -> index after matching '}' (comments ignored)."""
+    d = 0; j = i; n = len(s)
+    while j < n:
+        c = s[j]
+        if c == "#":
+            j = s.find("\n", j)
+            if j < 0: return n
+            continue
+        if c == '"':
+            j = s.find('"', j + 1) + 1; continue
+        if c == "{": d += 1
+        elif c == "}":
+            d -= 1
+            if d == 0: return j + 1
+        j += 1
+    return n
+
+def top_defs(folder):
+    """name -> (definition text, file) for top-level `name = { ... }` blocks."""
+    out = {}
+    if not os.path.isdir(folder): return out
+    for f in sorted(os.listdir(folder)):
+        if not f.endswith(".txt"): continue
+        _, s = read_raw(os.path.join(folder, f)); d = 0; i = 0
+        while i < len(s):
+            c = s[i]
+            if c == "#": i = s.find("\n", i); i = len(s) if i < 0 else i; continue
+            if c == '"': i = s.find('"', i + 1) + 1; continue
+            if c == "{": d += 1
+            elif c == "}": d -= 1
+            elif d == 0:
+                m = re.compile(r"([A-Za-z0-9_.@:]+)\s*=\s*\{").match(s, i)
+                if m:
+                    e = block_end(s, m.end() - 1)
+                    out.setdefault(m.group(1), (s[m.start():e], f)); i = e; continue
+            i += 1
+    return out
+
+def mod_ids():
+    focus, events = set(), set()
+    for root, _, fs in os.walk(os.path.join(MOD, "common/national_focus")):
+        for f in fs:
+            focus |= set(re.findall(r"\bid\s*=\s*([A-Za-z0-9_]+)", nocomment(read_raw(os.path.join(root, f))[1])))
+    for f in os.listdir(os.path.join(MOD, "events")):
+        if f.endswith(".txt"):
+            events |= set(re.findall(r"\bid\s*=\s*([A-Za-z0-9_]+\.\d+)", nocomment(read_raw(os.path.join(MOD, "events", f))[1])))
+    return focus, events
+
+EVENT_KEYS = r"(?:country_event|state_event|news_event|unit_leader_event|operative_leader_event)"
+
+def sanitize(text, focus, events, log):
+    # 1) focus references, line by line; the explanation goes at the end of the line
+    lines = text.split("\n")
+    for n, line in enumerate(lines):
+        code, sep, comment = line.partition("#")
+        notes = []
+        def foc(m):
+            if m.group(1) in focus: return m.group(0)
+            notes.append(f"focus {m.group(1)} does not exist"); log.append(f"focus {m.group(1)}")
+            return "always = no"
+        code = re.sub(r"\bhas_completed_focus\s*=\s*([A-Za-z0-9_]+)", foc, code)
+        def foc_eff(m):
+            if m.group(2) in focus: return m.group(0)
+            notes.append(f"removed {m.group(1)} {m.group(2)}"); log.append(f"focus {m.group(2)}")
+            return ""
+        code = re.sub(r"\b(complete_national_focus|unlock_national_focus)\s*=\s*([A-Za-z0-9_]+)", foc_eff, code)
+        if notes:
+            lines[n] = code.rstrip() + " # VoD: " + "; ".join(notes) + ((" | " + comment) if sep else "")
+    text = "\n".join(lines)
+    # 2) event calls; the removal note is its own line so it cannot swallow code after it
+    out = []; i = 0
+    for m in re.finditer(EVENT_KEYS + r"\s*=\s*(\{|[A-Za-z0-9_]+\.\d+)", text):
+        if m.start() < i: continue
+        line_start = text.rfind("\n", 0, m.start()) + 1
+        if "#" in text[line_start:m.start()]: continue
+        if m.group(1) == "{":
+            e = block_end(text, m.end() - 1); body = text[m.start():e]
+            idm = re.search(r"\bid\s*=\s*([A-Za-z0-9_]+\.\d+)", body)
+            if idm and idm.group(1) not in events:
+                out.append(text[i:m.start()]); out.append(f"\n# VoD: removed event {idm.group(1)}\n"); i = e
+                log.append(f"event {idm.group(1)}")
+        else:
+            ev = m.group(1)
+            if ev not in events:
+                out.append(text[i:m.start()]); out.append(f"\n# VoD: removed event {ev}\n"); i = m.end()
+                log.append(f"event {ev}")
+    out.append(text[i:])
+    return "".join(out)
+
+def header(what):
+    return f"# Generated by tools/vanilla_sync/sync.py ({what}). Edit manifest.txt, not this file.\n"
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if not args: sys.exit(__doc__)
+    game = args[0]; dry = "--dry-run" in sys.argv
+    manifest = [l.split("#")[0].split() for l in open(os.path.join(HERE, "manifest.txt"), encoding="utf-8")]
+    manifest = [l for l in manifest if len(l) == 2]
+    focus, events = mod_ids()
+    writes = {}
+    for kind, path in manifest:
+        if kind == "blank":
+            writes[path] = (False, header("tag-specific vanilla file, intentionally empty"))
+        elif kind == "sanitize":
+            src = os.path.join(game, path)
+            if not os.path.isfile(src): print(f"  ! missing in game: {path}"); continue
+            bom, s = read_raw(src); log = []
+            s2 = sanitize(s, focus, events, log)
+            writes[path] = (bom, header(f"sanitized copy of vanilla {path}") + s2)
+            if log: print(f"  {path}: neutralised {len(log)} ({', '.join(sorted(set(log))[:6])}{' ...' if len(set(log)) > 6 else ''})")
+    # compat definitions
+    vt = top_defs(os.path.join(game, "common/scripted_triggers"))
+    ve = top_defs(os.path.join(game, "common/scripted_effects"))
+    vd = top_defs(os.path.join(game, "common/dynamic_modifiers"))
+    parts = {"trigger": [], "effect": [], "dynmod": []}
+    for kind, name in manifest:
+        k, mode = kind.split("_")[0], kind.split("_")[-1] if "_" in kind else ""
+        if k not in parts: continue
+        src = {"trigger": vt, "effect": ve, "dynmod": vd}[k]
+        if mode == "copy":
+            if name not in src: print(f"  ! {k} {name} not found in vanilla"); continue
+            parts[k].append(f"# from vanilla {src[name][1]}\n{src[name][0]}\n")
+        else:
+            parts[k].append(f"{name} = {{ always = no }}\n" if k == "trigger" else f"{name} = {{ }}\n")
+    out_paths = {"trigger": "common/scripted_triggers/zz_vod_vanilla_compat_triggers.txt",
+                 "effect": "common/scripted_effects/zz_vod_vanilla_compat_effects.txt",
+                 "dynmod": "common/dynamic_modifiers/zz_vod_vanilla_compat_dynamic_modifiers.txt"}
+    for k, p in out_paths.items():
+        writes[p] = (False, header("vanilla definitions still called by vanilla files the mod loads") + "\n" + "\n".join(parts[k]))
+    for p, (bom, text) in writes.items():
+        if dry: continue
+        full = os.path.join(MOD, p); os.makedirs(os.path.dirname(full), exist_ok=True)
+        open(full, "w", encoding="utf-8", newline="\n").write((BOM if bom else "") + text)
+    print(f"{'would write' if dry else 'wrote'} {len(writes)} files")
+    report(game)
+
+def report(game):
+    """Vanilla scripted triggers/effects called by loaded vanilla files and not defined by the mod."""
+    rp = set(l.split('"')[1] for l in open(os.path.join(MOD, "descriptor.mod"), encoding="utf-8") if l.startswith("replace_path"))
+    vnames = set(top_defs(os.path.join(game, "common/scripted_triggers"))) | set(top_defs(os.path.join(game, "common/scripted_effects")))
+    mnames = set(top_defs(os.path.join(MOD, "common/scripted_triggers"))) | set(top_defs(os.path.join(MOD, "common/scripted_effects")))
+    missing = {}
+    def scan(path, rel):
+        s = nocomment(read_raw(path)[1])
+        for n in re.findall(r"\b([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(?:yes|no)\b", s):
+            if n in vnames and n not in mnames: missing.setdefault(n, set()).add(rel)
+    for root, _, fs in os.walk(os.path.join(game, "common")):
+        rel_dir = os.path.relpath(root, game).replace("\\", "/")
+        if rel_dir in rp: continue
+        for f in fs:
+            if not f.endswith(".txt"): continue
+            rel = rel_dir + "/" + f
+            mp = os.path.join(MOD, rel)
+            scan(mp if os.path.exists(mp) else os.path.join(root, f), rel)
+    for root, _, fs in os.walk(os.path.join(MOD, "common")):
+        for f in fs:
+            if f.endswith(".txt"):
+                rel = os.path.relpath(os.path.join(root, f), MOD).replace("\\", "/")
+                scan(os.path.join(root, f), rel)
+    if missing:
+        print("still undefined (add to manifest.txt):")
+        for n, fs in sorted(missing.items()): print(f"  {n}: {', '.join(sorted(fs)[:3])}")
+    else:
+        print("no undefined vanilla scripted triggers/effects")
+
+if __name__ == "__main__":
+    main()

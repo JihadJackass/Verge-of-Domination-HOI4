@@ -83,7 +83,6 @@
             BCM_democratic: "British Columbia Military Occupation Zone"
             BCM_democratic_DEF: "the American-British Columbian Military Occupation Zone"
             BCM_democratic_ADJ: "American-British Columbian"
-            ONT_democratic_ADJ:1 "British Columbian"
 
             # Cuba
             CUB_democratic: "Cuban Occupation Zone"
@@ -198,9 +197,9 @@
             DZG_communism_ADJ: "Soviet-Dzungarian"
 
             # Soviet Tanna Tuva
-            DZG_communism: "Soviet Tuvan Republic"
-            DZG_communism_DEF: "the Tuvan Soviet Republic"
-            DZG_communism_ADJ: "Soviet-Tuvan"
+            TUV_communism: "Soviet Tuvan Republic"
+            TUV_communism_DEF: "the Tuvan Soviet Republic"
+            TUV_communism_ADJ: "Soviet-Tuvan"
 
             # Soviet Tajikistan
             TAJ_communism: "Soviet Tajikistan"
@@ -261,10 +260,6 @@
             ITA_communism_DEF: "the Soviet-Italian Social Republic"
             ITA_communism_ADJ: "Soviet-Italian"
 
-            # Soviet Anatolia
-            TUR_communism: "Soviet Turkey"
-            TUR_communism_DEF: "the Anatolian Soviet"
-            TUR_communism_ADJ: "Greco-Soviet"
 
             # Soviet Breslau
             BSL_communism: "Breslau Soviet State"

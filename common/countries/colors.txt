@@ -44,10 +44,6 @@ ZAG = { # Zagreb
 	color = rgb { 102 55 85 }
 	color_ui = rgb { 102 55 85 }
 }
-TUR = { # Anatolia
-	color = rgb { 166 28 40 }
-	color_ui = rgb { 166 28 40 }
-}
 LIB = { # Libya
 	color = rgb { 166 83 116 }
 	color_ui = rgb { 166 83 116 }
@@ -67,14 +63,6 @@ LIT = { # Lithuania
 BEL = { # Belarus
 	color = rgb { 100 149 40 }
 	color_ui = rgb { 100 149 40 }
-}
-BEL = { # Denmark
-	color = rgb { 170 120 40 }
-	color_ui = rgb { 170 120 40 }
-}
-TRS = { # Trieste
-	color = rgb { 170 120 70 }
-	color_ui = rgb { 170 120 70 }
 }
 TRS = { # Trieste
 	color = rgb { 170 120 70 }

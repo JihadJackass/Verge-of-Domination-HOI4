@@ -116,7 +116,7 @@ IND = "countries/USA Indonesia.txt"
 TEX = "countries/USA Texas.txt"
 OKL = "countries/USA Oklahoma.txt"
 # EU
-SPR = "countries/Spain.txt"
+#SPR = "countries/Spain.txt" # no history or colour yet
 
 # Random Tags
 REB = "countries/Rebel.txt"

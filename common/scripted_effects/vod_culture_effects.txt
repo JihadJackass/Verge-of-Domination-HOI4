@@ -1,0 +1,405 @@
+# Verge of Domination - culture map mode colour table (one line per nationality id).
+# global.culture_r / _g / _b are arrays indexed by the state variable "nationality".
+# Index 0 (= no culture) and every id without a colour stay 0.001 (near black), as before.
+# Run once: called from on_startup (see VOD_culture_on_actions.txt). Safe to call again (it rebuilds).
+
+vod_init_culture_colors = {
+	clear_array = global.culture_r
+	clear_array = global.culture_g
+	clear_array = global.culture_b
+	resize_array = { array = global.culture_r value = 0.001 size = 393 }
+	resize_array = { array = global.culture_g value = 0.001 size = 393 }
+	resize_array = { array = global.culture_b value = 0.001 size = 393 }
+
+	set_variable = { global.culture_r^1 = 0.340 } set_variable = { global.culture_g^1 = 0.375 } set_variable = { global.culture_b^1 = 0.396 } # Prussian
+	set_variable = { global.culture_r^2 = 0.333 } set_variable = { global.culture_g^2 = 0.498 } set_variable = { global.culture_b^2 = 0.349 } # Sicilian
+	set_variable = { global.culture_r^3 = 0.610 } set_variable = { global.culture_g^3 = 0.610 } set_variable = { global.culture_b^3 = 0.730 } # Slovenian
+	set_variable = { global.culture_r^4 = 0.252 } set_variable = { global.culture_g^4 = 0.683 } set_variable = { global.culture_b^4 = 0.409 } # Northern Italian
+	set_variable = { global.culture_r^5 = 0.152 } set_variable = { global.culture_g^5 = 0.593 } set_variable = { global.culture_b^5 = 0.209 } # Southern Italian
+	set_variable = { global.culture_r^6 = 0.052 } set_variable = { global.culture_g^6 = 0.503 } set_variable = { global.culture_b^6 = 0.109 } # Central Italian
+	set_variable = { global.culture_r^7 = 0.211 } set_variable = { global.culture_g^7 = 0.487 } set_variable = { global.culture_b^7 = 0.510 } # Provençal
+	set_variable = { global.culture_r^8 = 0.551 } set_variable = { global.culture_g^8 = 0.369 } set_variable = { global.culture_b^8 = 0.512 } # Greco-Turkish
+	set_variable = { global.culture_r^9 = 0.469 } set_variable = { global.culture_g^9 = 0.429 } set_variable = { global.culture_b^9 = 0.462 } # Syrian
+	set_variable = { global.culture_r^10 = 0.569 } set_variable = { global.culture_g^10 = 0.561 } set_variable = { global.culture_b^10 = 0.762 } # Kurdish
+	set_variable = { global.culture_r^11 = 0.669 } set_variable = { global.culture_g^11 = 0.762 } set_variable = { global.culture_b^11 = 0.561 } # Georgian
+	set_variable = { global.culture_r^12 = 0.881 } set_variable = { global.culture_g^12 = 0.630 } set_variable = { global.culture_b^12 = 0.510 } # Armenian
+	set_variable = { global.culture_r^13 = 0.621 } set_variable = { global.culture_g^13 = 0.282 } set_variable = { global.culture_b^13 = 0.282 } # Turkish
+	set_variable = { global.culture_r^14 = 0.391 } set_variable = { global.culture_g^14 = 0.521 } set_variable = { global.culture_b^14 = 0.391 } # Basque
+	set_variable = { global.culture_r^15 = 0.662 } set_variable = { global.culture_g^15 = 0.526 } set_variable = { global.culture_b^15 = 0.082 } # Catalan
+	set_variable = { global.culture_r^16 = 0.251 } set_variable = { global.culture_g^16 = 0.621 } set_variable = { global.culture_b^16 = 0.497 } # Portuguese
+	set_variable = { global.culture_r^17 = 0.692 } set_variable = { global.culture_g^17 = 0.626 } set_variable = { global.culture_b^17 = 0.122 } # Castilian
+	set_variable = { global.culture_r^18 = 0.722 } set_variable = { global.culture_g^18 = 0.726 } set_variable = { global.culture_b^18 = 0.622 } # Iraqi
+	set_variable = { global.culture_r^20 = 0.522 } set_variable = { global.culture_g^20 = 0.100 } set_variable = { global.culture_b^20 = 0.100 } # Lebanese
+	set_variable = { global.culture_r^21 = 0.210 } set_variable = { global.culture_g^21 = 0.412 } set_variable = { global.culture_b^21 = 0.210 } # Levantine Arab
+	set_variable = { global.culture_r^22 = 0.321 } set_variable = { global.culture_g^22 = 0.412 } set_variable = { global.culture_b^22 = 0.421 } # Omani
+	set_variable = { global.culture_r^23 = 0.621 } set_variable = { global.culture_g^23 = 0.422 } set_variable = { global.culture_b^23 = 0.424 } # Yemeni
+	set_variable = { global.culture_r^24 = 0.690 } set_variable = { global.culture_g^24 = 0.425 } set_variable = { global.culture_b^24 = 0.355 } # Kikuyu
+	set_variable = { global.culture_r^25 = 0.510 } set_variable = { global.culture_g^25 = 0.660 } set_variable = { global.culture_b^25 = 0.723 } # Somalian
+	set_variable = { global.culture_r^26 = 0.813 } set_variable = { global.culture_g^26 = 0.510 } set_variable = { global.culture_b^26 = 0.390 } # Amhara
+	set_variable = { global.culture_r^27 = 0.213 } set_variable = { global.culture_g^27 = 0.440 } set_variable = { global.culture_b^27 = 0.490 } # Eritrean
+	set_variable = { global.culture_r^28 = 0.154 } set_variable = { global.culture_g^28 = 0.354 } set_variable = { global.culture_b^28 = 0.554 } # Sudanese
+	set_variable = { global.culture_r^29 = 0.642 } set_variable = { global.culture_g^29 = 0.656 } set_variable = { global.culture_b^29 = 0.422 } # Andalusian
+	set_variable = { global.culture_r^30 = 0.650 } set_variable = { global.culture_g^30 = 0.650 } set_variable = { global.culture_b^30 = 0.400 } # Egyptian
+	set_variable = { global.culture_r^31 = 0.411 } set_variable = { global.culture_g^31 = 0.542 } set_variable = { global.culture_b^31 = 0.551 } # Libyan
+	set_variable = { global.culture_r^32 = 0.311 } set_variable = { global.culture_g^32 = 0.442 } set_variable = { global.culture_b^32 = 0.311 } # Algerian
+	set_variable = { global.culture_r^33 = 0.562 } set_variable = { global.culture_g^33 = 0.226 } set_variable = { global.culture_b^33 = 0.206 } # Tunisian
+	set_variable = { global.culture_r^34 = 0.542 } set_variable = { global.culture_g^34 = 0.311 } set_variable = { global.culture_b^34 = 0.311 } # Berber
+	set_variable = { global.culture_r^35 = 0.362 } set_variable = { global.culture_g^35 = 0.246 } set_variable = { global.culture_b^35 = 0.206 } # Morrocan
+	set_variable = { global.culture_r^36 = 0.490 } set_variable = { global.culture_g^36 = 0.010 } set_variable = { global.culture_b^36 = 0.010 } # Albanian
+	set_variable = { global.culture_r^37 = 0.610 } set_variable = { global.culture_g^37 = 0.550 } set_variable = { global.culture_b^37 = 0.690 } # Greek
+	set_variable = { global.culture_r^38 = 0.290 } set_variable = { global.culture_g^38 = 0.210 } set_variable = { global.culture_b^38 = 0.380 } # Montenegrin
+	set_variable = { global.culture_r^39 = 0.721 } set_variable = { global.culture_g^39 = 0.622 } set_variable = { global.culture_b^39 = 0.622 } # Croatian
+	set_variable = { global.culture_r^40 = 0.600 } set_variable = { global.culture_g^40 = 0.600 } set_variable = { global.culture_b^40 = 0.600 } # Bosnian
+	set_variable = { global.culture_r^41 = 0.225 } set_variable = { global.culture_g^41 = 0.568 } set_variable = { global.culture_b^41 = 0.431 } # Sindhi
+	set_variable = { global.culture_r^42 = 0.286 } set_variable = { global.culture_g^42 = 0.413 } set_variable = { global.culture_b^42 = 0.287 } # Punjabi
+	set_variable = { global.culture_r^43 = 0.826 } set_variable = { global.culture_g^43 = 0.568 } set_variable = { global.culture_b^43 = 0.391 } # Gujarati
+	set_variable = { global.culture_r^44 = 0.796 } set_variable = { global.culture_g^44 = 0.618 } set_variable = { global.culture_b^44 = 0.341 } # Marathi
+	set_variable = { global.culture_r^45 = 0.696 } set_variable = { global.culture_g^45 = 0.618 } set_variable = { global.culture_b^45 = 0.441 } # Kannadiga
+	set_variable = { global.culture_r^46 = 0.596 } set_variable = { global.culture_g^46 = 0.218 } set_variable = { global.culture_b^46 = 0.441 } # Malayali
+	set_variable = { global.culture_r^47 = 0.258 } set_variable = { global.culture_g^47 = 0.232 } set_variable = { global.culture_b^47 = 0.426 } # Tamil
+	set_variable = { global.culture_r^48 = 0.386 } set_variable = { global.culture_g^48 = 0.452 } set_variable = { global.culture_b^48 = 0.481 } # Telugu
+	set_variable = { global.culture_r^49 = 0.776 } set_variable = { global.culture_g^49 = 0.518 } set_variable = { global.culture_b^49 = 0.341 } # Hindustani
+	set_variable = { global.culture_r^50 = 0.596 } set_variable = { global.culture_g^50 = 0.248 } set_variable = { global.culture_b^50 = 0.261 } # Odia
+	set_variable = { global.culture_r^52 = 0.426 } set_variable = { global.culture_g^52 = 0.513 } set_variable = { global.culture_b^52 = 0.277 } # Kashmiri
+	set_variable = { global.culture_r^53 = 0.676 } set_variable = { global.culture_g^53 = 0.478 } set_variable = { global.culture_b^53 = 0.341 } # Konkani
+	set_variable = { global.culture_r^54 = 0.696 } set_variable = { global.culture_g^54 = 0.676 } set_variable = { global.culture_b^54 = 0.491 } # Balochi
+	set_variable = { global.culture_r^55 = 0.401 } set_variable = { global.culture_g^55 = 0.541 } set_variable = { global.culture_b^55 = 0.318 } # Maldivian
+	set_variable = { global.culture_r^56 = 0.696 } set_variable = { global.culture_g^56 = 0.448 } set_variable = { global.culture_b^56 = 0.261 } # Bihari
+	set_variable = { global.culture_r^57 = 0.310 } set_variable = { global.culture_g^57 = 0.439 } set_variable = { global.culture_b^57 = 0.231 } # Bengali
+	set_variable = { global.culture_r^58 = 0.720 } set_variable = { global.culture_g^58 = 0.500 } set_variable = { global.culture_b^58 = 0.500 } # Australian
+	set_variable = { global.culture_r^59 = 0.420 } set_variable = { global.culture_g^59 = 0.100 } set_variable = { global.culture_b^59 = 0.100 } # Aboriginal
+	set_variable = { global.culture_r^60 = 0.042 } set_variable = { global.culture_g^60 = 0.681 } set_variable = { global.culture_b^60 = 0.681 } # Austronesian
+	set_variable = { global.culture_r^61 = 0.726 } set_variable = { global.culture_g^61 = 0.264 } set_variable = { global.culture_b^61 = 0.264 } # Papuan
+	set_variable = { global.culture_r^62 = 0.737 } set_variable = { global.culture_g^62 = 0.627 } set_variable = { global.culture_b^62 = 0.627 } # Japanese
+	set_variable = { global.culture_r^63 = 0.551 } set_variable = { global.culture_g^63 = 0.228 } set_variable = { global.culture_b^63 = 0.228 } # Zhongyuan
+	set_variable = { global.culture_r^64 = 0.561 } set_variable = { global.culture_g^64 = 0.118 } set_variable = { global.culture_b^64 = 0.118 } # Jianghuai
+	set_variable = { global.culture_r^65 = 0.637 } set_variable = { global.culture_g^65 = 0.217 } set_variable = { global.culture_b^65 = 0.517 } # Korean, §Ywith §YJapanese§! cultural influence due to decades of colonization§!
+	set_variable = { global.culture_r^66 = 0.737 } set_variable = { global.culture_g^66 = 0.517 } set_variable = { global.culture_b^66 = 0.637 } # Ainu
+	set_variable = { global.culture_r^67 = 0.471 } set_variable = { global.culture_g^67 = 0.108 } set_variable = { global.culture_b^67 = 0.108 } # Wu
+	set_variable = { global.culture_r^68 = 0.621 } set_variable = { global.culture_g^68 = 0.178 } set_variable = { global.culture_b^68 = 0.208 } # Min
+	set_variable = { global.culture_r^69 = 0.721 } set_variable = { global.culture_g^69 = 0.258 } set_variable = { global.culture_b^69 = 0.268 } # Yue
+	set_variable = { global.culture_r^70 = 0.621 } set_variable = { global.culture_g^70 = 0.358 } set_variable = { global.culture_b^70 = 0.368 } # Hakka
+	set_variable = { global.culture_r^71 = 0.611 } set_variable = { global.culture_g^71 = 0.308 } set_variable = { global.culture_b^71 = 0.308 } # Xiang
+	set_variable = { global.culture_r^72 = 0.571 } set_variable = { global.culture_g^72 = 0.238 } set_variable = { global.culture_b^72 = 0.238 } # Gan
+	set_variable = { global.culture_r^73 = 0.287 } set_variable = { global.culture_g^73 = 0.287 } set_variable = { global.culture_b^73 = 0.512 } # Malay
+	set_variable = { global.culture_r^74 = 0.699 } set_variable = { global.culture_g^74 = 0.538 } set_variable = { global.culture_b^74 = 0.581 } # Laotian
+	set_variable = { global.culture_r^75 = 0.510 } set_variable = { global.culture_g^75 = 0.090 } set_variable = { global.culture_b^75 = 0.210 } # Thai
+	set_variable = { global.culture_r^76 = 0.810 } set_variable = { global.culture_g^76 = 0.673 } set_variable = { global.culture_b^76 = 0.080 } # Shan
+	set_variable = { global.culture_r^77 = 0.337 } set_variable = { global.culture_g^77 = 0.478 } set_variable = { global.culture_b^77 = 0.275 } # Bamar
+	set_variable = { global.culture_r^78 = 0.200 } set_variable = { global.culture_g^78 = 0.529 } set_variable = { global.culture_b^78 = 0.482 } # Tani
+	set_variable = { global.culture_r^79 = 0.729 } set_variable = { global.culture_g^79 = 0.231 } set_variable = { global.culture_b^79 = 0.231 } # Meitai
+	set_variable = { global.culture_r^80 = 0.450 } set_variable = { global.culture_g^80 = 0.338 } set_variable = { global.culture_b^80 = 0.481 } # Khmer
+	set_variable = { global.culture_r^81 = 0.810 } set_variable = { global.culture_g^81 = 0.788 } set_variable = { global.culture_b^81 = 0.467 } # Vietnamese
+	set_variable = { global.culture_r^82 = 0.350 } set_variable = { global.culture_g^82 = 0.550 } set_variable = { global.culture_b^82 = 0.720 } # Yankee
+	set_variable = { global.culture_r^83 = 0.550 } set_variable = { global.culture_g^83 = 0.550 } set_variable = { global.culture_b^83 = 0.630 } # Dixie
+	set_variable = { global.culture_r^84 = 0.350 } set_variable = { global.culture_g^84 = 0.350 } set_variable = { global.culture_b^84 = 0.400 } # African-American
+	set_variable = { global.culture_r^85 = 0.410 } set_variable = { global.culture_g^85 = 0.510 } set_variable = { global.culture_b^85 = 0.610 } # Steel Belt
+	set_variable = { global.culture_r^86 = 0.500 } set_variable = { global.culture_g^86 = 0.500 } set_variable = { global.culture_b^86 = 0.590 } # Southwestern
+	set_variable = { global.culture_r^87 = 0.410 } set_variable = { global.culture_g^87 = 0.510 } set_variable = { global.culture_b^87 = 0.650 } # Rockies
+	set_variable = { global.culture_r^88 = 0.440 } set_variable = { global.culture_g^88 = 0.560 } set_variable = { global.culture_b^88 = 0.720 } # Pacific
+	set_variable = { global.culture_r^89 = 0.780 } set_variable = { global.culture_g^89 = 0.780 } set_variable = { global.culture_b^89 = 0.310 } # Hawaiian
+	set_variable = { global.culture_r^90 = 0.440 } set_variable = { global.culture_g^90 = 0.630 } set_variable = { global.culture_b^90 = 0.710 } # Puerto Rican
+	set_variable = { global.culture_r^91 = 0.731 } set_variable = { global.culture_g^91 = 0.510 } set_variable = { global.culture_b^91 = 0.600 } # Falklander
+	set_variable = { global.culture_r^92 = 0.770 } set_variable = { global.culture_g^92 = 0.060 } set_variable = { global.culture_b^92 = 0.200 } # Ontarian
+	set_variable = { global.culture_r^93 = 0.311 } set_variable = { global.culture_g^93 = 0.307 } set_variable = { global.culture_b^93 = 0.460 } # Québecois
+	set_variable = { global.culture_r^94 = 0.684 } set_variable = { global.culture_g^94 = 0.773 } set_variable = { global.culture_b^94 = 0.776 } # Inuit
+	set_variable = { global.culture_r^95 = 0.770 } set_variable = { global.culture_g^95 = 0.060 } set_variable = { global.culture_b^95 = 0.350 } # Maritimer, §Ywith an overwhelmingly §YOld Stock Canadian§! population, and only small minorities of §YFrancophones§! and §YIndigenous§! peoples. The primary §YFirst Nation§! in the Maritimes is the §YMi'kmaq§!§!
+	set_variable = { global.culture_r^96 = 0.681 } set_variable = { global.culture_g^96 = 0.500 } set_variable = { global.culture_b^96 = 0.650 } # Anglo-Caribbean
+	set_variable = { global.culture_r^97 = 0.241 } set_variable = { global.culture_g^97 = 0.397 } set_variable = { global.culture_b^97 = 0.540 } # Franco-Caribbean
+	set_variable = { global.culture_r^98 = 0.692 } set_variable = { global.culture_g^98 = 0.511 } set_variable = { global.culture_b^98 = 0.341 } # Dutch-Caribbean
+	set_variable = { global.culture_r^99 = 0.165 } set_variable = { global.culture_g^99 = 0.622 } set_variable = { global.culture_b^99 = 0.165 } # Jamaican
+	set_variable = { global.culture_r^100 = 0.522 } set_variable = { global.culture_g^100 = 0.240 } set_variable = { global.culture_b^100 = 0.422 } # Cuban
+	set_variable = { global.culture_r^101 = 0.422 } set_variable = { global.culture_g^101 = 0.125 } set_variable = { global.culture_b^101 = 0.440 } # Haitian
+	set_variable = { global.culture_r^102 = 0.322 } set_variable = { global.culture_g^102 = 0.125 } set_variable = { global.culture_b^102 = 0.140 } # Dominican
+	set_variable = { global.culture_r^103 = 0.202 } set_variable = { global.culture_g^103 = 0.322 } set_variable = { global.culture_b^103 = 0.451 } # Belizean
+	set_variable = { global.culture_r^104 = 0.402 } set_variable = { global.culture_g^104 = 0.561 } set_variable = { global.culture_b^104 = 0.651 } # Guatemalan
+	set_variable = { global.culture_r^105 = 0.312 } set_variable = { global.culture_g^105 = 0.312 } set_variable = { global.culture_b^105 = 0.565 } # Honduran
+	set_variable = { global.culture_r^106 = 0.512 } set_variable = { global.culture_g^106 = 0.312 } set_variable = { global.culture_b^106 = 0.528 } # Salvadorian
+	set_variable = { global.culture_r^107 = 0.350 } set_variable = { global.culture_g^107 = 0.412 } set_variable = { global.culture_b^107 = 0.515 } # Nicaraguan
+	set_variable = { global.culture_r^108 = 0.615 } set_variable = { global.culture_g^108 = 0.450 } set_variable = { global.culture_b^108 = 0.450 } # Costa Rican
+	set_variable = { global.culture_r^109 = 0.635 } set_variable = { global.culture_g^109 = 0.310 } set_variable = { global.culture_b^109 = 0.635 } # Panamanian
+	set_variable = { global.culture_r^110 = 0.750 } set_variable = { global.culture_g^110 = 0.700 } set_variable = { global.culture_b^110 = 0.312 } # Colombian
+	set_variable = { global.culture_r^111 = 0.750 } set_variable = { global.culture_g^111 = 0.600 } set_variable = { global.culture_b^111 = 0.502 } # Venezuelan
+	set_variable = { global.culture_r^112 = 0.775 } set_variable = { global.culture_g^112 = 0.741 } set_variable = { global.culture_b^112 = 0.612 } # Ecuadorian
+	set_variable = { global.culture_r^113 = 0.775 } set_variable = { global.culture_g^113 = 0.512 } set_variable = { global.culture_b^113 = 0.512 } # Peruvian
+	set_variable = { global.culture_r^114 = 0.575 } set_variable = { global.culture_g^114 = 0.312 } set_variable = { global.culture_b^114 = 0.612 } # Indigenous Peruvian
+	set_variable = { global.culture_r^117 = 0.500 } set_variable = { global.culture_g^117 = 0.500 } set_variable = { global.culture_b^117 = 0.760 } # Argentinean
+	set_variable = { global.culture_r^118 = 0.500 } set_variable = { global.culture_g^118 = 0.600 } set_variable = { global.culture_b^118 = 0.600 } # Uruguayan
+	set_variable = { global.culture_r^119 = 0.440 } set_variable = { global.culture_g^119 = 0.250 } set_variable = { global.culture_b^119 = 0.440 } # Paraguayan
+	set_variable = { global.culture_r^120 = 0.720 } set_variable = { global.culture_g^120 = 0.620 } set_variable = { global.culture_b^120 = 0.300 } # Bolivian
+	set_variable = { global.culture_r^121 = 0.300 } set_variable = { global.culture_g^121 = 0.450 } set_variable = { global.culture_b^121 = 0.300 } # Caipira
+	set_variable = { global.culture_r^122 = 0.341 } set_variable = { global.culture_g^122 = 0.692 } set_variable = { global.culture_b^122 = 0.341 } # Indigenous Brazilian
+	set_variable = { global.culture_r^123 = 0.211 } set_variable = { global.culture_g^123 = 0.387 } set_variable = { global.culture_b^123 = 0.510 } # French
+	set_variable = { global.culture_r^124 = 0.511 } set_variable = { global.culture_g^124 = 0.587 } set_variable = { global.culture_b^124 = 0.610 } # Breton
+	set_variable = { global.culture_r^125 = 0.441 } set_variable = { global.culture_g^125 = 0.387 } set_variable = { global.culture_b^125 = 0.510 } # Occitan
+	set_variable = { global.culture_r^126 = 0.591 } set_variable = { global.culture_g^126 = 0.310 } set_variable = { global.culture_b^126 = 0.310 } # South English
+	set_variable = { global.culture_r^127 = 0.531 } set_variable = { global.culture_g^127 = 0.310 } set_variable = { global.culture_b^127 = 0.410 } # North English
+	set_variable = { global.culture_r^129 = 0.551 } set_variable = { global.culture_g^129 = 0.651 } set_variable = { global.culture_b^129 = 0.551 } # Welsh
+	set_variable = { global.culture_r^130 = 0.551 } set_variable = { global.culture_g^130 = 0.511 } set_variable = { global.culture_b^130 = 0.651 } # Lowlander
+	set_variable = { global.culture_r^131 = 0.411 } set_variable = { global.culture_g^131 = 0.411 } set_variable = { global.culture_b^131 = 0.551 } # Highlander
+	set_variable = { global.culture_r^132 = 0.100 } set_variable = { global.culture_g^132 = 0.450 } set_variable = { global.culture_b^132 = 0.200 } # Irish
+	set_variable = { global.culture_r^133 = 0.511 } set_variable = { global.culture_g^133 = 0.411 } set_variable = { global.culture_b^133 = 0.551 } # Faroese
+	set_variable = { global.culture_r^134 = 0.100 } set_variable = { global.culture_g^134 = 0.100 } set_variable = { global.culture_b^134 = 0.472 } # Icelandic
+	set_variable = { global.culture_r^135 = 0.321 } set_variable = { global.culture_g^135 = 0.621 } set_variable = { global.culture_b^135 = 0.672 } # Norwegian
+	set_variable = { global.culture_r^136 = 0.321 } set_variable = { global.culture_g^136 = 0.321 } set_variable = { global.culture_b^136 = 0.572 } # Swedish
+	set_variable = { global.culture_r^137 = 0.621 } set_variable = { global.culture_g^137 = 0.572 } set_variable = { global.culture_b^137 = 0.621 } # Sami
+	set_variable = { global.culture_r^138 = 0.572 } set_variable = { global.culture_g^138 = 0.321 } set_variable = { global.culture_b^138 = 0.321 } # Danish
+	set_variable = { global.culture_r^139 = 0.532 } set_variable = { global.culture_g^139 = 0.491 } set_variable = { global.culture_b^139 = 0.421 } # Dutch
+	set_variable = { global.culture_r^140 = 0.111 } set_variable = { global.culture_g^140 = 0.155 } set_variable = { global.culture_b^140 = 0.510 } # Flemish
+	set_variable = { global.culture_r^141 = 0.430 } set_variable = { global.culture_g^141 = 0.456 } set_variable = { global.culture_b^141 = 0.435 } # Rheinisch
+	set_variable = { global.culture_r^142 = 0.410 } set_variable = { global.culture_g^142 = 0.416 } set_variable = { global.culture_b^142 = 0.445 } # Bavarian
+	set_variable = { global.culture_r^143 = 0.200 } set_variable = { global.culture_g^143 = 0.200 } set_variable = { global.culture_b^143 = 0.200 } # Österreichisch
+	set_variable = { global.culture_r^144 = 0.471 } set_variable = { global.culture_g^144 = 0.450 } set_variable = { global.culture_b^144 = 0.450 } # Schleswigisch
+	set_variable = { global.culture_r^145 = 0.420 } set_variable = { global.culture_g^145 = 0.420 } set_variable = { global.culture_b^145 = 0.420 } # Niedersächsisch
+	set_variable = { global.culture_r^146 = 0.480 } set_variable = { global.culture_g^146 = 0.480 } set_variable = { global.culture_b^146 = 0.480 } # Märkisch
+	set_variable = { global.culture_r^147 = 0.340 } set_variable = { global.culture_g^147 = 0.340 } set_variable = { global.culture_b^147 = 0.340 } # Sudeten
+	set_variable = { global.culture_r^148 = 0.390 } set_variable = { global.culture_g^148 = 0.390 } set_variable = { global.culture_b^148 = 0.390 } # Schlesisch
+	set_variable = { global.culture_r^149 = 0.410 } set_variable = { global.culture_g^149 = 0.529 } set_variable = { global.culture_b^149 = 0.499 } # Luxembourgian
+	set_variable = { global.culture_r^150 = 0.550 } set_variable = { global.culture_g^150 = 0.529 } set_variable = { global.culture_b^150 = 0.499 } # Swiss German
+	set_variable = { global.culture_r^151 = 0.021 } set_variable = { global.culture_g^151 = 0.375 } set_variable = { global.culture_b^151 = 0.125 } # Russian
+	set_variable = { global.culture_r^152 = 0.692 } set_variable = { global.culture_g^152 = 0.315 } set_variable = { global.culture_b^152 = 0.315 } # Udmurt
+	set_variable = { global.culture_r^153 = 0.276 } set_variable = { global.culture_g^153 = 0.441 } set_variable = { global.culture_b^153 = 0.488 } # Tatar
+	set_variable = { global.culture_r^154 = 0.473 } set_variable = { global.culture_g^154 = 0.441 } set_variable = { global.culture_b^154 = 0.225 } # Yakut
+	set_variable = { global.culture_r^155 = 0.566 } set_variable = { global.culture_g^155 = 0.716 } set_variable = { global.culture_b^155 = 0.758 } # Altai
+	set_variable = { global.culture_r^156 = 0.205 } set_variable = { global.culture_g^156 = 0.627 } set_variable = { global.culture_b^156 = 0.649 } # Buryats
+	set_variable = { global.culture_r^157 = 0.624 } set_variable = { global.culture_g^157 = 0.753 } set_variable = { global.culture_b^157 = 0.756 } # Chukchi
+	set_variable = { global.culture_r^158 = 0.251 } set_variable = { global.culture_g^158 = 0.591 } set_variable = { global.culture_b^158 = 0.768 } # Nganasany
+	set_variable = { global.culture_r^159 = 0.357 } set_variable = { global.culture_g^159 = 0.726 } set_variable = { global.culture_b^159 = 0.823 } # Nentsy
+	set_variable = { global.culture_r^160 = 0.613 } set_variable = { global.culture_g^160 = 0.863 } set_variable = { global.culture_b^160 = 0.863 } # Eveny
+	set_variable = { global.culture_r^161 = 0.387 } set_variable = { global.culture_g^161 = 0.628 } set_variable = { global.culture_b^161 = 0.566 } # Tuvan
+	set_variable = { global.culture_r^162 = 0.461 } set_variable = { global.culture_g^162 = 0.452 } set_variable = { global.culture_b^162 = 0.452 } # East German
+	set_variable = { global.culture_r^163 = 0.431 } set_variable = { global.culture_g^163 = 0.432 } set_variable = { global.culture_b^163 = 0.492 } # Wolgadeutsch
+	set_variable = { global.culture_r^164 = 0.349 } set_variable = { global.culture_g^164 = 0.471 } set_variable = { global.culture_b^164 = 0.531 } # Ukrainian
+	set_variable = { global.culture_r^165 = 0.221 } set_variable = { global.culture_g^165 = 0.325 } set_variable = { global.culture_b^165 = 0.125 } # Caucasian
+	set_variable = { global.culture_r^166 = 0.284 } set_variable = { global.culture_g^166 = 0.261 } set_variable = { global.culture_b^166 = 0.510 } # Azeri
+	set_variable = { global.culture_r^167 = 0.220 } set_variable = { global.culture_g^167 = 0.270 } set_variable = { global.culture_b^167 = 0.270 } # West German
+	set_variable = { global.culture_r^168 = 0.551 } set_variable = { global.culture_g^168 = 0.680 } set_variable = { global.culture_b^168 = 0.837 } # Estonian
+	set_variable = { global.culture_r^169 = 0.568 } set_variable = { global.culture_g^169 = 0.164 } set_variable = { global.culture_b^169 = 0.262 } # Latvian
+	set_variable = { global.culture_r^170 = 0.361 } set_variable = { global.culture_g^170 = 0.541 } set_variable = { global.culture_b^170 = 0.365 } # Belarusian
+	set_variable = { global.culture_r^171 = 0.800 } set_variable = { global.culture_g^171 = 0.850 } set_variable = { global.culture_b^171 = 0.800 } # Finnish
+	set_variable = { global.culture_r^172 = 0.461 } set_variable = { global.culture_g^172 = 0.641 } set_variable = { global.culture_b^172 = 0.465 } # Karelian
+	set_variable = { global.culture_r^173 = 0.720 } set_variable = { global.culture_g^173 = 0.720 } set_variable = { global.culture_b^173 = 0.421 } # Romanian
+	set_variable = { global.culture_r^174 = 0.529 } set_variable = { global.culture_g^174 = 0.285 } set_variable = { global.culture_b^174 = 0.323 } # Serbian
+	set_variable = { global.culture_r^175 = 0.152 } set_variable = { global.culture_g^175 = 0.483 } set_variable = { global.culture_b^175 = 0.209 } # Bulgarian
+	set_variable = { global.culture_r^176 = 0.590 } set_variable = { global.culture_g^176 = 0.310 } set_variable = { global.culture_b^176 = 0.450 } # Macedonian
+	set_variable = { global.culture_r^177 = 0.729 } set_variable = { global.culture_g^177 = 0.505 } set_variable = { global.culture_b^177 = 0.471 } # Hungarian
+	set_variable = { global.culture_r^178 = 0.647 } set_variable = { global.culture_g^178 = 0.492 } set_variable = { global.culture_b^178 = 0.492 } # Polish
+	set_variable = { global.culture_r^179 = 0.499 } set_variable = { global.culture_g^179 = 0.405 } set_variable = { global.culture_b^179 = 0.371 } # Uzbek
+	set_variable = { global.culture_r^180 = 0.476 } set_variable = { global.culture_g^180 = 0.592 } set_variable = { global.culture_b^180 = 0.598 } # Kazakh
+	set_variable = { global.culture_r^181 = 0.671 } set_variable = { global.culture_g^181 = 0.631 } set_variable = { global.culture_b^181 = 0.668 } # Turkmen
+	set_variable = { global.culture_r^182 = 0.478 } set_variable = { global.culture_g^182 = 0.491 } set_variable = { global.culture_b^182 = 0.431 } # Tajik
+	set_variable = { global.culture_r^183 = 0.248 } set_variable = { global.culture_g^183 = 0.361 } set_variable = { global.culture_b^183 = 0.447 } # Pashtun
+	set_variable = { global.culture_r^184 = 0.640 } set_variable = { global.culture_g^184 = 0.640 } set_variable = { global.culture_b^184 = 0.340 } # Hazara
+	set_variable = { global.culture_r^185 = 0.422 } set_variable = { global.culture_g^185 = 0.621 } set_variable = { global.culture_b^185 = 0.422 } # Bosniak
+	set_variable = { global.culture_r^186 = 0.691 } set_variable = { global.culture_g^186 = 0.671 } set_variable = { global.culture_b^186 = 0.588 } # Karakalpak
+	set_variable = { global.culture_r^187 = 0.239 } set_variable = { global.culture_g^187 = 0.647 } set_variable = { global.culture_b^187 = 0.541 } # Persian
+	set_variable = { global.culture_r^188 = 0.449 } set_variable = { global.culture_g^188 = 0.621 } set_variable = { global.culture_b^188 = 0.651 } # Rusyn
+	set_variable = { global.culture_r^190 = 0.479 } set_variable = { global.culture_g^190 = 0.411 } set_variable = { global.culture_b^190 = 0.531 } # Cossack
+	set_variable = { global.culture_r^191 = 0.620 } set_variable = { global.culture_g^191 = 0.720 } set_variable = { global.culture_b^191 = 0.390 } # Moldovan
+	set_variable = { global.culture_r^192 = 0.187 } set_variable = { global.culture_g^192 = 0.488 } set_variable = { global.culture_b^192 = 0.616 } # Mongolian
+	set_variable = { global.culture_r^193 = 0.651 } set_variable = { global.culture_g^193 = 0.178 } set_variable = { global.culture_b^193 = 0.198 } # Malayan Chinese
+	set_variable = { global.culture_r^194 = 0.727 } set_variable = { global.culture_g^194 = 0.547 } set_variable = { global.culture_b^194 = 0.597 } # Taiwanese
+	set_variable = { global.culture_r^195 = 0.509 } set_variable = { global.culture_g^195 = 0.212 } set_variable = { global.culture_b^195 = 0.325 } # Filipino
+	set_variable = { global.culture_r^196 = 0.820 } set_variable = { global.culture_g^196 = 0.718 } set_variable = { global.culture_b^196 = 0.267 } # Dongbei
+	set_variable = { global.culture_r^197 = 0.738 } set_variable = { global.culture_g^197 = 0.511 } set_variable = { global.culture_b^197 = 0.681 } # New Zealander
+	set_variable = { global.culture_r^198 = 0.304 } set_variable = { global.culture_g^198 = 0.304 } set_variable = { global.culture_b^198 = 0.304 } # Tibetan
+	set_variable = { global.culture_r^199 = 0.427 } set_variable = { global.culture_g^199 = 0.487 } set_variable = { global.culture_b^199 = 0.487 } # Bohemian
+	set_variable = { global.culture_r^200 = 0.751 } set_variable = { global.culture_g^200 = 0.701 } set_variable = { global.culture_b^200 = 0.701 } # Slovak
+	set_variable = { global.culture_r^201 = 0.653 } set_variable = { global.culture_g^201 = 0.598 } set_variable = { global.culture_b^201 = 0.639 } # Sardinian
+	set_variable = { global.culture_r^202 = 0.311 } set_variable = { global.culture_g^202 = 0.387 } set_variable = { global.culture_b^202 = 0.510 } # Corsican
+	set_variable = { global.culture_r^203 = 0.611 } set_variable = { global.culture_g^203 = 0.108 } set_variable = { global.culture_b^203 = 0.108 } # Xinan
+	set_variable = { global.culture_r^204 = 0.800 } set_variable = { global.culture_g^204 = 0.780 } set_variable = { global.culture_b^204 = 0.750 } # Hui
+	set_variable = { global.culture_r^205 = 0.522 } set_variable = { global.culture_g^205 = 0.616 } set_variable = { global.culture_b^205 = 0.632 } # Galician
+	set_variable = { global.culture_r^206 = 0.692 } set_variable = { global.culture_g^206 = 0.626 } set_variable = { global.culture_b^206 = 0.422 } # Astur-Leonese
+	set_variable = { global.culture_r^207 = 0.601 } set_variable = { global.culture_g^207 = 0.671 } set_variable = { global.culture_b^207 = 0.758 } # Uyghur
+	set_variable = { global.culture_r^208 = 0.551 } set_variable = { global.culture_g^208 = 0.138 } set_variable = { global.culture_b^208 = 0.158 } # Jin
+	set_variable = { global.culture_r^209 = 0.651 } set_variable = { global.culture_g^209 = 0.118 } set_variable = { global.culture_b^209 = 0.128 } # Jilu
+	set_variable = { global.culture_r^210 = 0.589 } set_variable = { global.culture_g^210 = 0.241 } set_variable = { global.culture_b^210 = 0.241 } # Ambon-Timor
+	set_variable = { global.culture_r^211 = 0.889 } set_variable = { global.culture_g^211 = 0.559 } set_variable = { global.culture_b^211 = 0.191 } # Bima-Sumba
+	set_variable = { global.culture_r^212 = 0.415 } set_variable = { global.culture_g^212 = 0.090 } set_variable = { global.culture_b^212 = 0.090 } # Acehnese
+	set_variable = { global.culture_r^213 = 0.750 } set_variable = { global.culture_g^213 = 0.550 } set_variable = { global.culture_b^213 = 0.150 } # Minangkabau
+	set_variable = { global.culture_r^214 = 0.312 } set_variable = { global.culture_g^214 = 0.513 } set_variable = { global.culture_b^214 = 0.251 } # Javanese
+	set_variable = { global.culture_r^215 = 0.686 } set_variable = { global.culture_g^215 = 0.494 } set_variable = { global.culture_b^215 = 0.459 } # Bhutanese
+	set_variable = { global.culture_r^216 = 0.660 } set_variable = { global.culture_g^216 = 0.123 } set_variable = { global.culture_b^216 = 0.272 } # Nepalese
+	set_variable = { global.culture_r^217 = 0.699 } set_variable = { global.culture_g^217 = 0.699 } set_variable = { global.culture_b^217 = 0.120 } # Dayak
+	set_variable = { global.culture_r^218 = 0.548 } set_variable = { global.culture_g^218 = 0.361 } set_variable = { global.culture_b^218 = 0.547 } # Sinhalese
+	set_variable = { global.culture_r^219 = 0.700 } set_variable = { global.culture_g^219 = 0.710 } set_variable = { global.culture_b^219 = 0.700 } # Haratin
+	set_variable = { global.culture_r^220 = 0.596 } set_variable = { global.culture_g^220 = 0.562 } set_variable = { global.culture_b^220 = 0.506 } # Sahrawi
+	set_variable = { global.culture_r^221 = 0.210 } set_variable = { global.culture_g^221 = 0.640 } set_variable = { global.culture_b^221 = 0.410 } # Mestiço
+	set_variable = { global.culture_r^222 = 0.400 } set_variable = { global.culture_g^222 = 0.650 } set_variable = { global.culture_b^222 = 0.200 } # Fang
+	set_variable = { global.culture_r^223 = 0.354 } set_variable = { global.culture_g^223 = 0.173 } set_variable = { global.culture_b^223 = 0.354 } # Tubu
+	set_variable = { global.culture_r^224 = 0.513 } set_variable = { global.culture_g^224 = 0.123 } set_variable = { global.culture_b^224 = 0.123 } # Fur
+	set_variable = { global.culture_r^225 = 0.413 } set_variable = { global.culture_g^225 = 0.190 } set_variable = { global.culture_b^225 = 0.190 } # Zande
+	set_variable = { global.culture_r^226 = 0.523 } set_variable = { global.culture_g^226 = 0.523 } set_variable = { global.culture_b^226 = 0.723 } # South Sudanese
+	set_variable = { global.culture_r^227 = 0.710 } set_variable = { global.culture_g^227 = 0.710 } set_variable = { global.culture_b^227 = 0.210 } # Swahili
+	set_variable = { global.culture_r^228 = 0.480 } set_variable = { global.culture_g^228 = 0.250 } set_variable = { global.culture_b^228 = 0.250 } # Kalenjin
+	set_variable = { global.culture_r^229 = 0.441 } set_variable = { global.culture_g^229 = 0.700 } set_variable = { global.culture_b^229 = 0.257 } # Oromo
+	set_variable = { global.culture_r^230 = 0.213 } set_variable = { global.culture_g^230 = 0.640 } set_variable = { global.culture_b^230 = 0.590 } # Afar
+	set_variable = { global.culture_r^231 = 0.360 } set_variable = { global.culture_g^231 = 0.250 } set_variable = { global.culture_b^231 = 0.560 } # Highland Cushitic
+	set_variable = { global.culture_r^232 = 0.213 } set_variable = { global.culture_g^232 = 0.590 } set_variable = { global.culture_b^232 = 0.590 } # Kanembu
+	set_variable = { global.culture_r^233 = 0.124 } set_variable = { global.culture_g^233 = 0.124 } set_variable = { global.culture_b^233 = 0.582 } # Liberian
+	set_variable = { global.culture_r^234 = 0.760 } set_variable = { global.culture_g^234 = 0.760 } set_variable = { global.culture_b^234 = 0.740 } # Kru
+	set_variable = { global.culture_r^235 = 0.512 } set_variable = { global.culture_g^235 = 0.731 } set_variable = { global.culture_b^235 = 0.321 } # Soninke
+	set_variable = { global.culture_r^236 = 0.271 } set_variable = { global.culture_g^236 = 0.271 } set_variable = { global.culture_b^236 = 0.612 } # Wolof
+	set_variable = { global.culture_r^237 = 0.812 } set_variable = { global.culture_g^237 = 0.812 } set_variable = { global.culture_b^237 = 0.123 } # Akan
+	set_variable = { global.culture_r^238 = 0.509 } set_variable = { global.culture_g^238 = 0.724 } set_variable = { global.culture_b^238 = 0.882 } # Malinke
+	set_variable = { global.culture_r^239 = 0.612 } set_variable = { global.culture_g^239 = 0.212 } set_variable = { global.culture_b^239 = 0.124 } # Bambara
+	set_variable = { global.culture_r^240 = 0.131 } set_variable = { global.culture_g^240 = 0.410 } set_variable = { global.culture_b^240 = 0.129 } # Fulani
+	set_variable = { global.culture_r^241 = 0.224 } set_variable = { global.culture_g^241 = 0.624 } set_variable = { global.culture_b^241 = 0.682 } # Mende
+	set_variable = { global.culture_r^242 = 0.731 } set_variable = { global.culture_g^242 = 0.213 } set_variable = { global.culture_b^242 = 0.213 } # Susu
+	set_variable = { global.culture_r^243 = 0.323 } set_variable = { global.culture_g^243 = 0.612 } set_variable = { global.culture_b^243 = 0.123 } # Dyula
+	set_variable = { global.culture_r^244 = 0.780 } set_variable = { global.culture_g^244 = 0.450 } set_variable = { global.culture_b^244 = 0.100 } # Mossi
+	set_variable = { global.culture_r^245 = 0.600 } set_variable = { global.culture_g^245 = 0.600 } set_variable = { global.culture_b^245 = 0.200 } # Gbe
+	set_variable = { global.culture_r^246 = 0.450 } set_variable = { global.culture_g^246 = 0.100 } set_variable = { global.culture_b^246 = 0.020 } # Songhay
+	set_variable = { global.culture_r^247 = 0.300 } set_variable = { global.culture_g^247 = 0.600 } set_variable = { global.culture_b^247 = 0.450 } # Hausa
+	set_variable = { global.culture_r^248 = 0.123 } set_variable = { global.culture_g^248 = 0.492 } set_variable = { global.culture_b^248 = 0.512 } # Kanuri
+	set_variable = { global.culture_r^249 = 0.150 } set_variable = { global.culture_g^249 = 0.500 } set_variable = { global.culture_b^249 = 0.325 } # Yoruba
+	set_variable = { global.culture_r^250 = 0.500 } set_variable = { global.culture_g^250 = 0.650 } set_variable = { global.culture_b^250 = 0.205 } # Biafran
+	set_variable = { global.culture_r^251 = 0.122 } set_variable = { global.culture_g^251 = 0.312 } set_variable = { global.culture_b^251 = 0.295 } # Duala
+	set_variable = { global.culture_r^252 = 0.258 } set_variable = { global.culture_g^252 = 0.392 } set_variable = { global.culture_b^252 = 0.129 } # Gbaya
+	set_variable = { global.culture_r^253 = 0.050 } set_variable = { global.culture_g^253 = 0.392 } set_variable = { global.culture_b^253 = 0.307 } # Sara
+	set_variable = { global.culture_r^254 = 0.810 } set_variable = { global.culture_g^254 = 0.740 } set_variable = { global.culture_b^254 = 0.310 } # Chadian
+	set_variable = { global.culture_r^255 = 0.450 } set_variable = { global.culture_g^255 = 0.610 } set_variable = { global.culture_b^255 = 0.510 } # Banda
+	set_variable = { global.culture_r^256 = 0.350 } set_variable = { global.culture_g^256 = 0.450 } set_variable = { global.culture_b^256 = 0.600 } # Congolese
+	set_variable = { global.culture_r^257 = 0.550 } set_variable = { global.culture_g^257 = 0.750 } set_variable = { global.culture_b^257 = 0.750 } # Luba
+	set_variable = { global.culture_r^258 = 0.200 } set_variable = { global.culture_g^258 = 0.500 } set_variable = { global.culture_b^258 = 0.100 } # Tabwa
+	set_variable = { global.culture_r^259 = 0.120 } set_variable = { global.culture_g^259 = 0.520 } set_variable = { global.culture_b^259 = 0.680 } # Kinyarwanda
+	set_variable = { global.culture_r^260 = 0.600 } set_variable = { global.culture_g^260 = 0.200 } set_variable = { global.culture_b^260 = 0.200 } # Kirundi
+	set_variable = { global.culture_r^261 = 0.380 } set_variable = { global.culture_g^261 = 0.510 } set_variable = { global.culture_b^261 = 0.250 } # Kikumu
+	set_variable = { global.culture_r^262 = 0.380 } set_variable = { global.culture_g^262 = 0.320 } set_variable = { global.culture_b^262 = 0.510 } # Mongo
+	set_variable = { global.culture_r^263 = 0.700 } set_variable = { global.culture_g^263 = 0.125 } set_variable = { global.culture_b^263 = 0.165 } # Maasai
+	set_variable = { global.culture_r^264 = 0.750 } set_variable = { global.culture_g^264 = 0.400 } set_variable = { global.culture_b^264 = 0.400 } # Bemba
+	set_variable = { global.culture_r^265 = 0.599 } set_variable = { global.culture_g^265 = 0.339 } set_variable = { global.culture_b^265 = 0.339 } # Lunda
+	set_variable = { global.culture_r^266 = 0.700 } set_variable = { global.culture_g^266 = 0.175 } set_variable = { global.culture_b^266 = 0.175 } # Lozi
+	set_variable = { global.culture_r^267 = 0.661 } set_variable = { global.culture_g^267 = 0.512 } set_variable = { global.culture_b^267 = 0.661 } # Zambezi
+	set_variable = { global.culture_r^268 = 0.533 } set_variable = { global.culture_g^268 = 0.535 } set_variable = { global.culture_b^268 = 0.253 } # Lithuanian
+	set_variable = { global.culture_r^269 = 0.500 } set_variable = { global.culture_g^269 = 0.600 } set_variable = { global.culture_b^269 = 0.650 } # Sukuma
+	set_variable = { global.culture_r^270 = 0.400 } set_variable = { global.culture_g^270 = 0.512 } set_variable = { global.culture_b^270 = 0.512 } # Nyamwezi
+	set_variable = { global.culture_r^271 = 0.320 } set_variable = { global.culture_g^271 = 0.300 } set_variable = { global.culture_b^271 = 0.300 } # Makonde
+	set_variable = { global.culture_r^272 = 0.300 } set_variable = { global.culture_g^272 = 0.612 } set_variable = { global.culture_b^272 = 0.551 } # Gogo
+	set_variable = { global.culture_r^273 = 0.500 } set_variable = { global.culture_g^273 = 0.250 } set_variable = { global.culture_b^273 = 0.250 } # Chewa
+	set_variable = { global.culture_r^274 = 0.120 } set_variable = { global.culture_g^274 = 0.410 } set_variable = { global.culture_b^274 = 0.490 } # Lango-Acoli
+	set_variable = { global.culture_r^275 = 0.150 } set_variable = { global.culture_g^275 = 0.150 } set_variable = { global.culture_b^275 = 0.500 } # Baganda
+	set_variable = { global.culture_r^276 = 0.450 } set_variable = { global.culture_g^276 = 0.710 } set_variable = { global.culture_b^276 = 0.450 } # Makua
+	set_variable = { global.culture_r^277 = 0.100 } set_variable = { global.culture_g^277 = 0.451 } set_variable = { global.culture_b^277 = 0.451 } # Sena
+	set_variable = { global.culture_r^278 = 0.300 } set_variable = { global.culture_g^278 = 0.700 } set_variable = { global.culture_b^278 = 0.850 } # Tsonga
+	set_variable = { global.culture_r^279 = 0.800 } set_variable = { global.culture_g^279 = 0.700 } set_variable = { global.culture_b^279 = 0.150 } # Shona
+	set_variable = { global.culture_r^280 = 0.300 } set_variable = { global.culture_g^280 = 0.720 } set_variable = { global.culture_b^280 = 0.500 } # Ndebele
+	set_variable = { global.culture_r^281 = 0.672 } set_variable = { global.culture_g^281 = 0.672 } set_variable = { global.culture_b^281 = 0.612 } # Ambundu
+	set_variable = { global.culture_r^282 = 0.214 } set_variable = { global.culture_g^282 = 0.414 } set_variable = { global.culture_b^282 = 0.512 } # Ovimbundu
+	set_variable = { global.culture_r^283 = 0.699 } set_variable = { global.culture_g^283 = 0.539 } set_variable = { global.culture_b^283 = 0.410 } # Chokwe
+	set_variable = { global.culture_r^284 = 0.700 } set_variable = { global.culture_g^284 = 0.650 } set_variable = { global.culture_b^284 = 0.300 } # Nama
+	set_variable = { global.culture_r^285 = 0.100 } set_variable = { global.culture_g^285 = 0.650 } set_variable = { global.culture_b^285 = 0.100 } # Herero
+	set_variable = { global.culture_r^286 = 0.200 } set_variable = { global.culture_g^286 = 0.512 } set_variable = { global.culture_b^286 = 0.651 } # Ovambo
+	set_variable = { global.culture_r^287 = 0.590 } set_variable = { global.culture_g^287 = 0.725 } set_variable = { global.culture_b^287 = 0.200 } # Malagasy
+	set_variable = { global.culture_r^288 = 0.650 } set_variable = { global.culture_g^288 = 0.400 } set_variable = { global.culture_b^288 = 0.150 } # Boer
+	set_variable = { global.culture_r^289 = 0.300 } set_variable = { global.culture_g^289 = 0.450 } set_variable = { global.culture_b^289 = 0.300 } # Cape
+	set_variable = { global.culture_r^290 = 0.660 } set_variable = { global.culture_g^290 = 0.340 } set_variable = { global.culture_b^290 = 0.340 } # Zulu
+	set_variable = { global.culture_r^291 = 0.450 } set_variable = { global.culture_g^291 = 0.580 } set_variable = { global.culture_b^291 = 0.500 } # Sotho
+	set_variable = { global.culture_r^292 = 0.460 } set_variable = { global.culture_g^292 = 0.240 } set_variable = { global.culture_b^292 = 0.240 } # Swati
+	set_variable = { global.culture_r^293 = 0.500 } set_variable = { global.culture_g^293 = 0.500 } set_variable = { global.culture_b^293 = 0.600 } # Tswana
+	set_variable = { global.culture_r^294 = 0.500 } set_variable = { global.culture_g^294 = 0.650 } set_variable = { global.culture_b^294 = 0.700 } # Xhosa
+	set_variable = { global.culture_r^295 = 0.662 } set_variable = { global.culture_g^295 = 0.546 } set_variable = { global.culture_b^295 = 0.506 } # Riffian
+	set_variable = { global.culture_r^296 = 0.450 } set_variable = { global.culture_g^296 = 0.450 } set_variable = { global.culture_b^296 = 0.700 } # Jewish
+	set_variable = { global.culture_r^297 = 0.400 } set_variable = { global.culture_g^297 = 0.400 } set_variable = { global.culture_b^297 = 0.221 } # African Creole
+	set_variable = { global.culture_r^298 = 0.799 } set_variable = { global.culture_g^298 = 0.641 } set_variable = { global.culture_b^298 = 0.450 } # Sulawesi
+	set_variable = { global.culture_r^299 = 0.641 } set_variable = { global.culture_g^299 = 0.450 } set_variable = { global.culture_b^299 = 0.640 } # North Moluccan
+	set_variable = { global.culture_r^300 = 0.601 } set_variable = { global.culture_g^300 = 0.338 } set_variable = { global.culture_b^300 = 0.388 } # Xibei
+	set_variable = { global.culture_r^301 = 0.701 } set_variable = { global.culture_g^301 = 0.338 } set_variable = { global.culture_b^301 = 0.358 } # Jiaoliao
+	set_variable = { global.culture_r^302 = 0.350 } set_variable = { global.culture_g^302 = 0.530 } set_variable = { global.culture_b^302 = 0.350 } # Mexican
+	set_variable = { global.culture_r^303 = 0.411 } set_variable = { global.culture_g^303 = 0.487 } set_variable = { global.culture_b^303 = 0.510 } # Swiss French
+	set_variable = { global.culture_r^304 = 0.552 } set_variable = { global.culture_g^304 = 0.623 } set_variable = { global.culture_b^304 = 0.409 } # Swiss Italian
+	set_variable = { global.culture_r^305 = 0.837 } set_variable = { global.culture_g^305 = 0.627 } set_variable = { global.culture_b^305 = 0.627 } # Zhujin
+	set_variable = { global.culture_r^306 = 0.350 } set_variable = { global.culture_g^306 = 0.420 } set_variable = { global.culture_b^306 = 0.210 } # Kirghiz
+	set_variable = { global.culture_r^307 = 0.250 } set_variable = { global.culture_g^307 = 0.382 } set_variable = { global.culture_b^307 = 0.210 } # Gulf Arab
+	set_variable = { global.culture_r^308 = 0.294 } set_variable = { global.culture_g^308 = 0.491 } set_variable = { global.culture_b^308 = 0.194 } # Hijazi
+	set_variable = { global.culture_r^309 = 0.094 } set_variable = { global.culture_g^309 = 0.311 } set_variable = { global.culture_b^309 = 0.094 } # Najdi
+	set_variable = { global.culture_r^310 = 0.599 } set_variable = { global.culture_g^310 = 0.364 } set_variable = { global.culture_b^310 = 0.391 } # Chin
+	set_variable = { global.culture_r^311 = 0.752 } set_variable = { global.culture_g^311 = 0.635 } set_variable = { global.culture_b^311 = 0.392 } # Kachin
+	set_variable = { global.culture_r^312 = 0.564 } set_variable = { global.culture_g^312 = 0.459 } set_variable = { global.culture_b^312 = 0.647 } # Karen
+	set_variable = { global.culture_r^313 = 0.711 } set_variable = { global.culture_g^313 = 0.601 } set_variable = { global.culture_b^313 = 0.686 } # Mon
+	set_variable = { global.culture_r^314 = 0.625 } set_variable = { global.culture_g^314 = 0.480 } set_variable = { global.culture_b^314 = 0.491 } # Rakhine
+	set_variable = { global.culture_r^315 = 0.601 } set_variable = { global.culture_g^315 = 0.650 } set_variable = { global.culture_b^315 = 0.420 } # Ulster, §Ya mixed demographic containing §YCatholics§! and §YProtestants§!§!
+	set_variable = { global.culture_r^316 = 0.701 } set_variable = { global.culture_g^316 = 0.701 } set_variable = { global.culture_b^316 = 0.241 } # Kalmyk
+	set_variable = { global.culture_r^317 = 0.712 } set_variable = { global.culture_g^317 = 0.532 } set_variable = { global.culture_b^317 = 0.323 } # Bodo
+	set_variable = { global.culture_r^318 = 0.312 } set_variable = { global.culture_g^318 = 0.487 } set_variable = { global.culture_b^318 = 0.523 } # Assamese
+	set_variable = { global.culture_r^319 = 0.478 } set_variable = { global.culture_g^319 = 0.670 } set_variable = { global.culture_b^319 = 0.749 } # Naga
+	set_variable = { global.culture_r^320 = 0.588 } set_variable = { global.culture_g^320 = 0.549 } set_variable = { global.culture_b^320 = 0.416 } # Mizo
+	set_variable = { global.culture_r^321 = 0.621 } set_variable = { global.culture_g^321 = 0.491 } set_variable = { global.culture_b^321 = 0.415 } # Korean
+	set_variable = { global.culture_r^322 = 0.421 } set_variable = { global.culture_g^322 = 0.671 } set_variable = { global.culture_b^322 = 0.525 } # Bashkir
+	set_variable = { global.culture_r^323 = 0.391 } set_variable = { global.culture_g^323 = 0.541 } set_variable = { global.culture_b^323 = 0.565 } # Komi
+	set_variable = { global.culture_r^324 = 0.380 } set_variable = { global.culture_g^324 = 0.380 } set_variable = { global.culture_b^324 = 0.390 } # Elsässisch, with a large French minority
+	set_variable = { global.culture_r^325 = 0.410 } set_variable = { global.culture_g^325 = 0.410 } set_variable = { global.culture_b^325 = 0.410 } # Alemannisch
+	set_variable = { global.culture_r^326 = 0.370 } set_variable = { global.culture_g^326 = 0.370 } set_variable = { global.culture_b^326 = 0.370 } # Westfälisch
+	set_variable = { global.culture_r^327 = 0.395 } set_variable = { global.culture_g^327 = 0.395 } set_variable = { global.culture_b^327 = 0.395 } # Fränkisch
+	set_variable = { global.culture_r^328 = 0.445 } set_variable = { global.culture_g^328 = 0.445 } set_variable = { global.culture_b^328 = 0.445 } # Schwäbisch
+	set_variable = { global.culture_r^329 = 0.510 } set_variable = { global.culture_g^329 = 0.510 } set_variable = { global.culture_b^329 = 0.510 } # Krainisch, §Ythe product of §YGerman§! colonization of Carniola§!
+	set_variable = { global.culture_r^330 = 0.365 } set_variable = { global.culture_g^330 = 0.365 } set_variable = { global.culture_b^330 = 0.365 } # Thüringisch
+	set_variable = { global.culture_r^331 = 0.435 } set_variable = { global.culture_g^331 = 0.445 } set_variable = { global.culture_b^331 = 0.435 } # Sächsisch
+	set_variable = { global.culture_r^332 = 0.457 } set_variable = { global.culture_g^332 = 0.422 } set_variable = { global.culture_b^332 = 0.422 } # Upper Silesian
+	set_variable = { global.culture_r^333 = 0.417 } set_variable = { global.culture_g^333 = 0.417 } set_variable = { global.culture_b^333 = 0.427 } # Mecklenburgisch
+	set_variable = { global.culture_r^334 = 0.479 } set_variable = { global.culture_g^334 = 0.479 } set_variable = { global.culture_b^334 = 0.479 } # Hessisch
+	set_variable = { global.culture_r^335 = 0.397 } set_variable = { global.culture_g^335 = 0.397 } set_variable = { global.culture_b^335 = 0.407 } # Pommersch
+	set_variable = { global.culture_r^336 = 0.340 } set_variable = { global.culture_g^336 = 0.340 } set_variable = { global.culture_b^336 = 0.340 } # Central German
+	set_variable = { global.culture_r^337 = 0.380 } set_variable = { global.culture_g^337 = 0.580 } set_variable = { global.culture_b^337 = 0.750 } # Corn Belt
+	set_variable = { global.culture_r^338 = 0.568 } set_variable = { global.culture_g^338 = 0.568 } set_variable = { global.culture_b^338 = 0.731 } # Nurestani
+	set_variable = { global.culture_r^339 = 0.340 } set_variable = { global.culture_g^339 = 0.480 } set_variable = { global.culture_b^339 = 0.340 } # Nordeste
+	set_variable = { global.culture_r^340 = 0.300 } set_variable = { global.culture_g^340 = 0.510 } set_variable = { global.culture_b^340 = 0.300 } # Mineiro
+	set_variable = { global.culture_r^341 = 0.370 } set_variable = { global.culture_g^341 = 0.520 } set_variable = { global.culture_b^341 = 0.370 } # Paulista
+	set_variable = { global.culture_r^342 = 0.290 } set_variable = { global.culture_g^342 = 0.580 } set_variable = { global.culture_b^342 = 0.290 } # Carioca
+	set_variable = { global.culture_r^343 = 0.320 } set_variable = { global.culture_g^343 = 0.470 } set_variable = { global.culture_b^343 = 0.400 } # Sulista, §Ywith a large proportion of §YEuropean§! immigrants§!
+	set_variable = { global.culture_r^344 = 0.491 } set_variable = { global.culture_g^344 = 0.118 } set_variable = { global.culture_b^344 = 0.118 } # Sichuanese
+	set_variable = { global.culture_r^345 = 0.617 } set_variable = { global.culture_g^345 = 0.552 } set_variable = { global.culture_b^345 = 0.492 } # Polish-Belarusian
+	set_variable = { global.culture_r^346 = 0.647 } set_variable = { global.culture_g^346 = 0.572 } set_variable = { global.culture_b^346 = 0.572 } # Polish-Weichseldeutsch
+	set_variable = { global.culture_r^347 = 0.550 } set_variable = { global.culture_g^347 = 0.382 } set_variable = { global.culture_b^347 = 0.482 } # Lur
+	set_variable = { global.culture_r^348 = 0.321 } set_variable = { global.culture_g^348 = 0.482 } set_variable = { global.culture_b^348 = 0.598 } # Gilaki
+	set_variable = { global.culture_r^349 = 0.221 } set_variable = { global.culture_g^349 = 0.482 } set_variable = { global.culture_b^349 = 0.498 } # Mazandarani
+	set_variable = { global.culture_r^350 = 0.200 } set_variable = { global.culture_g^350 = 0.200 } set_variable = { global.culture_b^350 = 0.340 } # Atacameño, §Ywith a sizeable proportion of indigenous §YAymara§! and §YKunza§!§!
+	set_variable = { global.culture_r^351 = 0.100 } set_variable = { global.culture_g^351 = 0.100 } set_variable = { global.culture_b^351 = 0.390 } # Centrino
+	set_variable = { global.culture_r^352 = 0.060 } set_variable = { global.culture_g^352 = 0.060 } set_variable = { global.culture_b^352 = 0.420 } # Sureño
+	set_variable = { global.culture_r^353 = 0.350 } set_variable = { global.culture_g^353 = 0.260 } set_variable = { global.culture_b^353 = 0.470 } # Sureño, §Ywith a large proportion of indigenous §YMapuche§!§!
+	set_variable = { global.culture_r^354 = 0.360 } set_variable = { global.culture_g^354 = 0.360 } set_variable = { global.culture_b^354 = 0.470 } # Sureño, §!with a large proportion of §YEuropean§! immigrants§!
+	set_variable = { global.culture_r^355 = 0.210 } set_variable = { global.culture_g^355 = 0.210 } set_variable = { global.culture_b^355 = 0.450 } # Chilote
+	set_variable = { global.culture_r^356 = 0.120 } set_variable = { global.culture_g^356 = 0.360 } set_variable = { global.culture_b^356 = 0.440 } # Magallanico, §Ywith a heavy military influence§!
+	set_variable = { global.culture_r^357 = 0.241 } set_variable = { global.culture_g^357 = 0.601 } set_variable = { global.culture_b^357 = 0.241 } # Abkhaz
+	set_variable = { global.culture_r^358 = 0.341 } set_variable = { global.culture_g^358 = 0.501 } set_variable = { global.culture_b^358 = 0.741 } # Kumyk
+	set_variable = { global.culture_r^361 = 0.241 } set_variable = { global.culture_g^361 = 0.507 } set_variable = { global.culture_b^361 = 0.629 } # Balkar
+	set_variable = { global.culture_r^362 = 0.441 } set_variable = { global.culture_g^362 = 0.501 } set_variable = { global.culture_b^362 = 0.341 } # Chechen
+	set_variable = { global.culture_r^363 = 0.550 } set_variable = { global.culture_g^363 = 0.550 } set_variable = { global.culture_b^363 = 0.550 } # Hamburger
+	set_variable = { global.culture_r^364 = 0.530 } set_variable = { global.culture_g^364 = 0.010 } set_variable = { global.culture_b^364 = 0.230 } # Soviet, §Ythe beginnings of the universal §MUltravisionary superculture§! and objective of the §YCultural Revolution§!§!
+	set_variable = { global.culture_r^365 = 0.630 } set_variable = { global.culture_g^365 = 0.140 } set_variable = { global.culture_b^365 = 0.270 } # Western Canadian
+	set_variable = { global.culture_r^366 = 0.750 } set_variable = { global.culture_g^366 = 0.140 } set_variable = { global.culture_b^366 = 0.270 } # British Columbian
+	set_variable = { global.culture_r^367 = 0.900 } set_variable = { global.culture_g^367 = 0.010 } set_variable = { global.culture_b^367 = 0.270 } # Newfoundlander
+	set_variable = { global.culture_r^368 = 0.688 } set_variable = { global.culture_g^368 = 0.519 } set_variable = { global.culture_b^368 = 0.084 } # Hiligaynon
+	set_variable = { global.culture_r^369 = 0.405 } set_variable = { global.culture_g^369 = 0.782 } set_variable = { global.culture_b^369 = 0.790 } # Iloko
+	set_variable = { global.culture_r^370 = 0.774 } set_variable = { global.culture_g^370 = 0.351 } set_variable = { global.culture_b^370 = 0.339 } # Waray
+	set_variable = { global.culture_r^371 = 0.401 } set_variable = { global.culture_g^371 = 0.758 } set_variable = { global.culture_b^371 = 0.519 } # Tagalog
+	set_variable = { global.culture_r^372 = 0.829 } set_variable = { global.culture_g^372 = 0.421 } set_variable = { global.culture_b^372 = 0.704 } # Bisaya
+	set_variable = { global.culture_r^373 = 0.386 } set_variable = { global.culture_g^373 = 0.488 } set_variable = { global.culture_b^373 = 0.778 } # Bangsamoro
+	set_variable = { global.culture_r^374 = 0.563 } set_variable = { global.culture_g^374 = 0.009 } set_variable = { global.culture_b^374 = 0.707 } # Bikolnon
+	set_variable = { global.culture_r^375 = 0.450 } set_variable = { global.culture_g^375 = 0.353 } set_variable = { global.culture_b^375 = 0.396 } # Austrian
+	set_variable = { global.culture_r^376 = 0.427 } set_variable = { global.culture_g^376 = 0.487 } set_variable = { global.culture_b^376 = 0.487 } # Czech
+	set_variable = { global.culture_r^377 = 0.400 } set_variable = { global.culture_g^377 = 0.550 } set_variable = { global.culture_b^377 = 0.487 } # Austrian Italian
+	set_variable = { global.culture_r^378 = 0.246 } set_variable = { global.culture_g^378 = 0.255 } set_variable = { global.culture_b^378 = 0.000 } # Caiçaran
+	set_variable = { global.culture_r^379 = 0.922 } set_variable = { global.culture_g^379 = 0.251 } set_variable = { global.culture_b^379 = 0.204 } # Bairisch
+	set_variable = { global.culture_r^380 = 0.555 } set_variable = { global.culture_g^380 = 0.521 } set_variable = { global.culture_b^380 = 0.100 } # Spanish
+	set_variable = { global.culture_r^381 = 0.750 } set_variable = { global.culture_g^381 = 0.511 } set_variable = { global.culture_b^381 = 0.337 } # Franco-Flemish
+	set_variable = { global.culture_r^382 = 0.717 } set_variable = { global.culture_g^382 = 0.750 } set_variable = { global.culture_b^382 = 0.337 } # Oklahoman
+	set_variable = { global.culture_r^383 = 0.445 } set_variable = { global.culture_g^383 = 0.750 } set_variable = { global.culture_b^383 = 0.337 } # American
+	set_variable = { global.culture_r^384 = 0.337 } set_variable = { global.culture_g^384 = 0.750 } set_variable = { global.culture_b^384 = 0.503 } # Chinese
+	set_variable = { global.culture_r^385 = 0.337 } set_variable = { global.culture_g^385 = 0.725 } set_variable = { global.culture_b^385 = 0.750 } # Zagrebi
+	set_variable = { global.culture_r^386 = 0.337 } set_variable = { global.culture_g^386 = 0.453 } set_variable = { global.culture_b^386 = 0.750 } # Kam-Tai
+	set_variable = { global.culture_r^387 = 0.494 } set_variable = { global.culture_g^387 = 0.337 } set_variable = { global.culture_b^387 = 0.750 } # Burman
+	set_variable = { global.culture_r^388 = 0.750 } set_variable = { global.culture_g^388 = 0.337 } set_variable = { global.culture_b^388 = 0.733 } # Israeli
+	set_variable = { global.culture_r^389 = 0.750 } set_variable = { global.culture_g^389 = 0.337 } set_variable = { global.culture_b^389 = 0.461 } # Floridian
+	set_variable = { global.culture_r^390 = 0.310 } set_variable = { global.culture_g^390 = 0.200 } set_variable = { global.culture_b^390 = 0.140 } # Xīnán Guānhuà
+	set_variable = { global.culture_r^189 = 0.700 } set_variable = { global.culture_g^189 = 0.582 } set_variable = { global.culture_b^189 = 0.280 } # Manchu
+	set_global_flag = vod_culture_colors_initialised
+}
+
+# Change the culture of the state in scope and refresh the map mode once.
+# Usage (state scope):  set_temp_variable = { vod_new_nationality = 5 }  vod_set_state_nationality = yes
+vod_set_state_nationality = {
+	set_variable = { nationality = vod_new_nationality }
+	force_update_map_mode = { mapmode = culture_map_mode }
+}

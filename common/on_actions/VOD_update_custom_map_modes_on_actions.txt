@@ -1,5 +1,0 @@
-on_actions = {
-	on_monthly = {
-		effect = { force_update_map_mode = { mapmode = culture_map_mode } }
-	}
-}

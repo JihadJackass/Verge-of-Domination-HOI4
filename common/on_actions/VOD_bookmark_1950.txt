@@ -1,0 +1,17 @@
+on_actions = {
+	# 1950 bookmark: these tags lose their 1945 capitals to the annexations in history/states,
+	# so move each capital to a state it still owns. Runs once, after all history is loaded.
+	on_startup = {
+		effect = {
+			if = {
+				limit = { tag = USA date > 1949.12.31 } # on_startup runs per country; do it once
+				CAN = { if = { limit = { exists = yes owns_state = 467 } set_capital = { remember_old_capital = no state = 467 } } }
+				CAP = { if = { limit = { exists = yes owns_state = 681 } set_capital = { remember_old_capital = no state = 681 } } }
+				PRC = { if = { limit = { exists = yes owns_state = 325 } set_capital = { remember_old_capital = no state = 325 } } }
+				QEB = { if = { limit = { exists = yes owns_state = 466 } set_capital = { remember_old_capital = no state = 466 } } }
+				USE = { if = { limit = { exists = yes owns_state = 167 } set_capital = { remember_old_capital = no state = 167 } } }
+				USS = { if = { limit = { exists = yes owns_state = 769 } set_capital = { remember_old_capital = no state = 769 } } }
+			}
+		}
+	}
+}

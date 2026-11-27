@@ -42,7 +42,7 @@ soviet_foreign_policies = {
 			}
 		}
 		complete_effect = {
-			set_global_flag = soviet_israel_policy_support
+			set_global_flag = soviet_ukraine_policy_support
 		}
 	}
 

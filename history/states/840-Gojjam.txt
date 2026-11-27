@@ -14,7 +14,7 @@ state = {
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 271.nationality = 83 } # Dixie todo:fix
+		set_variable = { 840.nationality = 83 } # Dixie todo:fix
 		victory_points = { 13242 2 }
 		buildings = {
 			# infrastructure = 1

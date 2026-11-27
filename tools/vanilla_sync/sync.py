@@ -139,11 +139,20 @@ def main():
     vt = top_defs(os.path.join(game, "common/scripted_triggers"))
     ve = top_defs(os.path.join(game, "common/scripted_effects"))
     vd = top_defs(os.path.join(game, "common/dynamic_modifiers"))
-    parts = {"trigger": [], "effect": [], "dynmod": []}
+    vs = {}
+    sl_dir = os.path.join(game, "common/scripted_localisation")
+    for f in sorted(os.listdir(sl_dir)):
+        if not f.endswith(".txt"): continue
+        _, t = read_raw(os.path.join(sl_dir, f))
+        for m in re.finditer(r"defined_text\s*=\s*\{", t):
+            b = t[m.start():block_end(t, m.end() - 1)]
+            nm = re.search(r"\bname\s*=\s*([A-Za-z0-9_]+)", b)
+            if nm: vs.setdefault(nm.group(1), (b, f))
+    parts = {"trigger": [], "effect": [], "dynmod": [], "scriptloc": []}
     for kind, name in manifest:
         k, mode = kind.split("_")[0], kind.split("_")[-1] if "_" in kind else ""
         if k not in parts: continue
-        src = {"trigger": vt, "effect": ve, "dynmod": vd}[k]
+        src = {"trigger": vt, "effect": ve, "dynmod": vd, "scriptloc": vs}[k]
         if mode == "copy":
             if name not in src: print(f"  ! {k} {name} not found in vanilla"); continue
             parts[k].append(f"# from vanilla {src[name][1]}\n{src[name][0]}\n")
@@ -151,7 +160,8 @@ def main():
             parts[k].append(f"{name} = {{ always = no }}\n" if k == "trigger" else f"{name} = {{ }}\n")
     out_paths = {"trigger": "common/scripted_triggers/zz_vod_vanilla_compat_triggers.txt",
                  "effect": "common/scripted_effects/zz_vod_vanilla_compat_effects.txt",
-                 "dynmod": "common/dynamic_modifiers/zz_vod_vanilla_compat_dynamic_modifiers.txt"}
+                 "dynmod": "common/dynamic_modifiers/zz_vod_vanilla_compat_dynamic_modifiers.txt",
+                 "scriptloc": "common/scripted_localisation/zz_vod_vanilla_compat_scripted_localisation.txt"}
     for k, p in out_paths.items():
         writes[p] = (False, header("vanilla definitions still called by vanilla files the mod loads") + "\n" + "\n".join(parts[k]))
     for p, (bom, text) in writes.items():

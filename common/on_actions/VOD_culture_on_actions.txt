@@ -1,0 +1,12 @@
+# Builds the culture colour table once. The map mode is refreshed where nationality changes
+# (vod_set_state_nationality), not on a timer.
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { NOT = { has_global_flag = vod_culture_colors_initialised } }
+				vod_init_culture_colors = yes
+			}
+		}
+	}
+}

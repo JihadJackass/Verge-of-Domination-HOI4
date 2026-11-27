@@ -108,3 +108,24 @@ CHI_southern_mandate_states = { always = no }
 SPR_scw_in_progress = { always = no }
 
 PHI_SEA = { always = no }
+
+IRQ_PER_should_seek_independence = { always = no }
+
+SIA_should_add_national_savings_bond = { always = no }
+
+is_chinese_warlord = { always = no }
+
+# from vanilla 00_scripted_triggers.txt
+pc_has_authored_wholesale_puppet_plan = {
+	OR = {
+		original_tag = GER # yalta.txt, FRA/USA/ENG each puppet an occupation zone. Was the existing exemption.
+		AND = {
+			original_tag = CHI # JAP.txt, JAP_create_chinese_puppet
+			ROOT = { original_tag = JAP }
+		}
+		AND = {
+			original_tag = JAP # USA.txt, USA_puppet_japan
+			ROOT = { original_tag = USA }
+		}
+	}
+}

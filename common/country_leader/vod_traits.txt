@@ -92,4 +92,17 @@ leader_traits = {
 		random = no
 		sprite = 1			
 	}
+	# Used by USE_Lucius_D_Clay; no effects yet
+	autocratic_tendancies = {
+		random = no
+		sprite = 1
+	}
+	moralist_zealot = {
+		random = no
+		sprite = 1
+	}
+	democratic_christian = {
+		random = no
+		sprite = 1
+	}
 }

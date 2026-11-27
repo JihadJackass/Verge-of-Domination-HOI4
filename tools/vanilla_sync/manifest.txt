@@ -8,6 +8,7 @@
 #   effect_copy <name>    vanilla scripted effect copied verbatim
 #   effect_stub <name>    tag-specific vanilla scripted effect, defined as empty
 #   dynmod_copy <name>    vanilla dynamic modifier copied verbatim
+#   scriptloc_copy <name> vanilla defined_text (scripted localisation) copied verbatim
 
 # --- tag-specific content (Japan, Romania, Siam, India, Indonesia, ...) ---
 blank common/raids/air_raids_custom.txt
@@ -109,3 +110,42 @@ dynmod_copy INS_state_militia_activity_1
 dynmod_copy INS_state_militia_activity_2
 dynmod_copy INS_state_militia_activity_3
 dynmod_copy idea_RAJ_famine_country
+
+# --- AI: these folders are replaced by the mod; keep vanilla's generic and USA/SOV files ---
+sanitize common/ai_equipment/generic_naval.txt
+sanitize common/ai_equipment/generic_planes.txt
+sanitize common/ai_equipment/generic_tank.txt
+sanitize common/ai_equipment/SOV_planes.txt
+sanitize common/ai_equipment/SOV_tank.txt
+sanitize common/ai_equipment/USA_naval.txt
+sanitize common/ai_equipment/USA_planes.txt
+sanitize common/ai_equipment/USA_tank.txt
+sanitize common/ai_templates/generic.txt
+sanitize common/ai_templates/templates_SOV.txt
+sanitize common/ai_templates/templates_USA.txt
+sanitize common/ai_focuses/generic.txt
+sanitize common/ai_focuses/SOV.txt
+sanitize common/ai_focuses/USA.txt
+sanitize common/ai_strategy/default.txt
+sanitize common/ai_strategy/doctrines.txt
+sanitize common/ai_strategy/generic_operation_strats.txt
+sanitize common/ai_strategy/operatives_default.txt
+
+# --- autonomy: replaced folder; the engine needs a default puppet level ---
+sanitize common/autonomous_states/puppet.txt
+sanitize common/autonomous_states/dominion.txt
+
+# --- definitions called by the 1.20 merges of _economic, _manpower, puppet, dominion, ai_peace, resistance_activity ---
+trigger_stub IRQ_PER_should_seek_independence
+effect_stub SIA_decrease_civilian_approval
+effect_stub SIA_decrease_military_approval
+effect_stub SIA_increase_civilian_approval
+effect_stub SIA_increase_military_approval
+effect_stub SIA_refresh_nsb_spirit
+trigger_stub SIA_should_add_national_savings_bond
+effect_copy clear_sabotaged_resources_if_necesary
+trigger_stub is_chinese_warlord
+trigger_copy pc_has_authored_wholesale_puppet_plan
+
+# --- scripted localisation (common/scripted_localisation is replaced by the mod) ---
+scriptloc_copy GetCountryContinent

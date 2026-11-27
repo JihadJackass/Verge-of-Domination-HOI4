@@ -50,7 +50,7 @@ add_ideas = {
 }
 
 # Soviet Socialist Bloc of Europe
-create_faction = SSBE
+create_faction_from_template = faction_template_vod_ssbe
 # Soviet Socialist Republics (SSRs)
 SOV = {
 	#################################
@@ -133,10 +133,6 @@ SOV = {
 	############################
 	# 4. Union Satellite State #
 	############################
-	set_autonomy = {
-		target = POL
-		autonomous_state = SOV_4_union_satellite_state
-	}
 	set_autonomy = {
 		target = MOL
 		autonomous_state = SOV_4_union_satellite_state

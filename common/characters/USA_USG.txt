@@ -2,7 +2,7 @@
 
 characters = {
 	USG_Maxwell_D_Taylor = {
-		name = "Lucius Dubignon Clay"
+		name = "Maxwell D. Taylor"
 		portraits = {
 			civilian = {
 				large = GFX_USG_Maxwell_D_Taylor

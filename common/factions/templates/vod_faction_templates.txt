@@ -1,0 +1,43 @@
+# Verge of Domination blocs. Created in history/countries via create_faction_from_template.
+
+# Soviet Socialist Bloc of Europe
+faction_template_vod_ssbe = {
+	name = SSBE
+	manifest = faction_manifest_security_through_expansion
+	icon = GFX_faction_logo_comintern
+
+	goals = {
+		# Medium term goals
+		faction_goal_indifference_is_a_threat
+
+		# Long term goals
+		faction_goal_the_red_tide
+	}
+
+	default_rules = {
+		faction_peace_rule_puppeting_focus
+		change_leader_rule_never
+		war_declaration_rule_major_only
+	}
+}
+
+# North Atlantic Treaty Organization
+faction_template_vod_nato = {
+	name = NATO
+	manifest = faction_manifest_defense_of_democracy_allies
+	icon = GFX_faction_icon_allies
+
+	goals = {
+		# Medium term goals
+		faction_goal_the_arteries_of_trade
+
+		# Long term goals
+		faction_goal_the_atomic_race
+	}
+
+	default_rules = {
+		faction_peace_rule_liberation_focus
+		government_in_exile_allowed
+		change_leader_rule_never
+	}
+}

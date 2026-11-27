@@ -50,7 +50,7 @@ add_ideas = {
 }
 
 # North American Treaty Organization
-create_faction = NATO
+create_faction_from_template = faction_template_vod_nato
 USA = {
 	#########################
 	# 1. State of the Union #
@@ -131,10 +131,6 @@ USA = {
 	}
 
 	# Bolivarian Occupation Zone
-	set_autonomy = {
-		target = USV
-		autonomous_state = USA_5_military_occupation_zone
-	}
 
 	# Central America Occupation Zone
 	set_autonomy = {

@@ -8,7 +8,7 @@ state={
 			owner = SOV
 			add_core_of = SOV
 		}
-		set_variable = { 670.nationality = 74 } # Laotian
+		set_variable = { 741.nationality = 74 } # Laotian
 		victory_points = {
 			7376 1
 		}

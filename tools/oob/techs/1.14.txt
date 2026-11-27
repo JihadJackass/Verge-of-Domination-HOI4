@@ -1,0 +1,23 @@
+# Starting technologies written into each country's history by generate_oob.py.
+# One tech per line. Lines under [superpower] are added for USA and SOV only.
+# Must cover every unit type used by the templates (infantry, motorized,
+# mountaineers, cavalry, artillery, engineer, recon). Tech names change between
+# game versions: keep one file per version.
+
+[all]
+infantry_weapons
+infantry_weapons1
+tech_support
+tech_engineers
+tech_recon
+tech_mountaineers
+motorised_infantry
+gw_artillery
+
+[superpower]
+infantry_weapons2
+improved_infantry_weapons
+support_weapons2
+interwar_artillery
+artillery1
+artillery2

@@ -303,7 +303,7 @@ SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
 			name = "Me 163 Komet"
 			type = small_plane_airframe_2
 			allow_without_tech = no
-		 	design_team = mio:GER_messerschmitt_organization
+ # VoD: removed design_team mio:GER_messerschmitt_organization
 			modules = {
 			 	fixed_main_weapon_slot = aircraft_cannon_1_2x
 			 	fixed_auxiliary_weapon_slot_1 = empty
@@ -328,7 +328,7 @@ SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
 			 		name = "J8M1"
 			 		type = small_plane_airframe_2
 			 		allow_without_tech = no
-			 		design_team = mio:JAP_mitsubishi_organization
+ # VoD: removed design_team mio:JAP_mitsubishi_organization
 			 		modules = {
 			 			fixed_main_weapon_slot = aircraft_cannon_1_2x
 			 			fixed_auxiliary_weapon_slot_1 = empty
@@ -348,7 +348,7 @@ SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
 					name = "J8M2"
 					type = small_plane_airframe_2
 					allow_without_tech = no
-					design_team = mio:JAP_mitsubishi_organization
+ # VoD: removed design_team mio:JAP_mitsubishi_organization
 					modules = {
 					 	fixed_main_weapon_slot = aircraft_cannon_1_1x
 					 	fixed_auxiliary_weapon_slot_1 = empty
@@ -431,7 +431,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -456,7 +456,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -480,7 +480,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -504,7 +504,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -528,7 +528,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -551,7 +551,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -575,7 +575,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -598,7 +598,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -622,7 +622,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -645,7 +645,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -665,7 +665,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:USA_newport_news_shipbuilding_organization
+ # VoD: removed design_team mio:USA_newport_news_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -695,7 +695,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -719,7 +719,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -744,7 +744,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -768,7 +768,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -792,7 +792,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -815,7 +815,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -839,7 +839,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -862,7 +862,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -886,7 +886,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -909,7 +909,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -929,7 +929,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:CAN_kingston_shipbuilding_organization
+ # VoD: removed design_team mio:CAN_kingston_shipbuilding_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -960,7 +960,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -984,7 +984,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1008,7 +1008,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1032,7 +1032,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1055,7 +1055,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1078,7 +1078,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1101,7 +1101,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space
@@ -1121,7 +1121,7 @@ SP_create_variant_of_habakkuk_for_production_line = {
 			create_equipment_variant = {
 				name = "Habakkuk"
 				type = ship_hull_mega_carrier
-				design_team = mio:ENG_harland_wolff_organization
+ # VoD: removed design_team mio:ENG_harland_wolff_organization
 				modules = {
 					fixed_ship_deck_slot_1 = big_ship_deck_space
 					fixed_ship_deck_slot_2 = big_ship_deck_space

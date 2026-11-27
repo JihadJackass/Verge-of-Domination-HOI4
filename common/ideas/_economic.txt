@@ -98,7 +98,7 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Thunder at Our Gates"
-						original_tag = SIA
+						always = no # VoD: country SIA does not exist
 					}
 					if = {
 						limit = { check_variable = { SIA_current_economy_law > 0 } }
@@ -129,15 +129,15 @@ ideas = {
 				}
 				if = {
 					limit = {
-						original_tag = CZE
+						always = no # VoD: country CZE does not exist
 						has_dlc = "Peace For Our Time"
 					}
 					custom_trigger_tooltip = {
 						tooltip = CZE_bop_no_industrialists_tt
 						NOT = {
 							OR = {
-								has_idea = CZE_industrialists_veto
-								has_idea = CZE_industrialists_veto_2
+								always = no # VoD: idea CZE_industrialists_veto does not exist
+								always = no # VoD: idea CZE_industrialists_veto_2 does not exist
 							}
 						}
 					}
@@ -678,7 +678,7 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Thunder at Our Gates"
-						original_tag = SIA
+						always = no # VoD: country SIA does not exist
 					}
 					if = {
 						limit = { check_variable = { SIA_current_trade_law > 0 } }
@@ -729,7 +729,7 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Thunder at Our Gates"
-						original_tag = SIA
+						always = no # VoD: country SIA does not exist
 					}
 					if = {
 						limit = { check_variable = { SIA_current_trade_law > 1 } }
@@ -780,7 +780,7 @@ ideas = {
 					}
 					if = {
 						limit = {
-							original_tag = RAJ
+							always = no # VoD: country RAJ does not exist
 							has_dlc = "Graveyard of Empires"
 						}
 						always = no # VoD: focus RAJ_raise_import_duties does not exist
@@ -872,7 +872,7 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Thunder at Our Gates"
-						original_tag = SIA
+						always = no # VoD: country SIA does not exist
 					}
 					if = {
 						limit = { check_variable = { SIA_current_trade_law > 2 } }
@@ -1097,7 +1097,7 @@ ideas = {
 				if = {
 					limit = {
 						has_dlc = "Thunder at Our Gates"
-						original_tag = SIA
+						always = no # VoD: country SIA does not exist
 					}
 					if = {
 						limit = { check_variable = { SIA_current_trade_law > 3 } }
@@ -1121,7 +1121,7 @@ ideas = {
 				always = no
 			}
 			visible = {
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				always = no # VoD: focus RAJ_special_economic_zones does not exist
 			}
 			available = {

@@ -2125,7 +2125,7 @@ sp_land_large_caliber_kinetic_energy_sabot = {
 				original_tag = GER
 				any_enemy_country = {
 					OR = {
-						original_tag = CZE
+						always = no # VoD: country CZE does not exist
 						original_tag = FRA
 					}
 					is_neighbor_of = ROOT

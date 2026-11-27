@@ -143,11 +143,11 @@ technologies = {
 				OR = {
 					tag = CHI
 					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					always = no # VoD: country XSM does not exist
+					always = no # VoD: country SIK does not exist
+					always = no # VoD: country GXC does not exist
+					always = no # VoD: country SHX does not exist
+					always = no # VoD: country YUN does not exist
 				}
 			}
 
@@ -552,9 +552,8 @@ technologies = {
 				factor = 20
 				tag = GER
 				always = no # VoD: focus GER_anschluss does not exist
-				CZE = { 
-					is_ai = no
-				}
+				always = no # VoD: country CZE does not exist
+
 			}
 
 			modifier = {
@@ -1615,20 +1614,20 @@ technologies = {
 				OR = {
 					original_tag = CHI
 					original_tag = PRC
-					original_tag = XSM
-					original_tag = SIK
-					original_tag = GXC
-					original_tag = SHX
-					original_tag = YUN
+					always = no # VoD: country XSM does not exist
+					always = no # VoD: country SIK does not exist
+					always = no # VoD: country GXC does not exist
+					always = no # VoD: country SHX does not exist
+					always = no # VoD: country YUN does not exist
 					original_tag = MAN
 					original_tag = MEN
 					original_tag = JAP
-					original_tag = GSM
-					original_tag = NXM
-					original_tag = HBC
-					original_tag = SND
-					original_tag = GDC
-					original_tag = KHM
+					always = no # VoD: country GSM does not exist
+					always = no # VoD: country NXM does not exist
+					always = no # VoD: country HBC does not exist
+					always = no # VoD: country SND does not exist
+					always = no # VoD: country GDC does not exist
+					always = no # VoD: country KHM does not exist
 				}
 			}
 
@@ -1710,11 +1709,11 @@ technologies = {
 				OR = {
 					tag = CHI
 					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					always = no # VoD: country XSM does not exist
+					always = no # VoD: country SIK does not exist
+					always = no # VoD: country GXC does not exist
+					always = no # VoD: country SHX does not exist
+					always = no # VoD: country YUN does not exist
 				}
 			}
 			modifier = {

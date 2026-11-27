@@ -290,8 +290,8 @@ faction_goal_the_arteries_of_trade = {
 			OR = {
 				tag = ENG
 				tag = CAN
-				tag = RAJ
-				tag = MAL
+				always = no # VoD: country RAJ does not exist
+				always = no # VoD: country MAL does not exist
 				tag = USA
 			}
 		}
@@ -354,13 +354,13 @@ faction_goal_imperial_glory = {
 			OR = {
 				original_tag = ENG
 				original_tag = CAN
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				original_tag = AST
 				original_tag = NZL
-				original_tag = MAL
+				always = no # VoD: country MAL does not exist
 				original_tag = FRA
-				original_tag = HOL
-				original_tag = INS
+				always = no # VoD: country HOL does not exist
+				always = no # VoD: country INS does not exist
 			}
 		}
 	}
@@ -422,13 +422,13 @@ faction_goal_imperial_glory = {
 			OR = {
 				original_tag = ENG
 				original_tag = CAN
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				original_tag = AST
 				original_tag = NZL
-				original_tag = MAL
+				always = no # VoD: country MAL does not exist
 				original_tag = FRA
-				original_tag = HOL
-				original_tag = INS
+				always = no # VoD: country HOL does not exist
+				always = no # VoD: country INS does not exist
 			}
 			is_historical_focus_on = yes
 		}
@@ -437,7 +437,7 @@ faction_goal_imperial_glory = {
 			OR = {
 				original_tag = ENG
 				original_tag = FRA
-				original_tag = HOL
+				always = no # VoD: country HOL does not exist
 			}
 		}
 		modifier = {
@@ -445,7 +445,7 @@ faction_goal_imperial_glory = {
 			OR = {
 				original_tag = ENG
 				original_tag = FRA
-				original_tag = HOL
+				always = no # VoD: country HOL does not exist
 			}
 			is_historical_focus_on = yes
 		}
@@ -2137,7 +2137,7 @@ faction_goal_control_curacao_oil = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = HOL
+				always = no # VoD: country HOL does not exist
 				is_in_faction_with = HOL
 			}
 		}
@@ -2245,7 +2245,7 @@ faction_goal_control_venezuelan_oil = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = VEN
+				always = no # VoD: country VEN does not exist
 				is_in_faction_with = VEN
 			}
 		}
@@ -2455,7 +2455,7 @@ faction_goal_control_suriname_bauxite = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = HOL
+				always = no # VoD: country HOL does not exist
 				is_in_faction_with = HOL
 			}
 		}
@@ -2678,7 +2678,7 @@ faction_goal_control_ploiesti_oil_fields = {
 		FROM = {
 			NOT = {
 				is_in_faction_with = ROM
-				original_tag = ROM
+				always = no # VoD: country ROM does not exist
 			}
 		}
 		any_collection_element = {
@@ -3286,7 +3286,7 @@ faction_goal_control_malayan_riches = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = MAL
+				always = no # VoD: country MAL does not exist
 				is_in_faction_with = MAL
 			}
 		}
@@ -3474,7 +3474,7 @@ faction_goal_control_indonesian_riches = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = INS
+				always = no # VoD: country INS does not exist
 				is_in_faction_with = INS
 			}
 		}
@@ -4317,7 +4317,7 @@ faction_goal_control_azores = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = POR
+				always = no # VoD: country POR does not exist
 				is_in_faction_with = POR
 			}
 		}
@@ -4455,7 +4455,7 @@ faction_goal_control_iceland = {
 			NOT = {
 				original_tag = DEN
 				is_in_faction_with = DEN
-				original_tag = ICE
+				always = no # VoD: country ICE does not exist
 				is_in_faction_with = ICE
 			}
 		}
@@ -5926,7 +5926,7 @@ faction_goal_control_gulf_of_aden_bases = {
 	visible = {
 		FROM = {
 			NOT = {
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				is_in_faction_with = RAJ
 			}
 		}
@@ -6681,7 +6681,7 @@ faction_goal_control_caroline_islands = {
 			NOT = {
 				original_tag = JAP
 				is_in_faction_with = JAP
-				original_tag = FSM
+				always = no # VoD: country FSM does not exist
 				is_in_faction_with = FSM
 			}
 		}
@@ -6816,7 +6816,7 @@ faction_goal_control_guadalcanal = {
 			NOT = {
 				original_tag = AST
 				is_in_faction_with = AST
-				original_tag = SOL
+				always = no # VoD: country SOL does not exist
 				is_in_faction_with = SOL
 			}
 		}

@@ -97,12 +97,13 @@ no_garrison = {
 	visible = {
 		if = {
 			limit = {
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				has_dlc = "Graveyard of Empires"
 			}
 
 			NOT = {
-				RAJ = { has_country_flag = RAJ_hide_no_garrison }
+				always = no # VoD: country RAJ does not exist
+
 			}
 
 		}
@@ -710,7 +711,7 @@ independent_rule = {
 	fallback_law = foreign_civilian_oversight
 
 	visible = {
-		original_tag = RAJ
+		always = no # VoD: country RAJ does not exist
 		has_dlc = "Graveyard of Empires"
 		OR = {
 			AND = {
@@ -748,24 +749,24 @@ independent_rule = {
 
 		FROM = {
 			OR = {
-				original_tag = MYS
+				always = no # VoD: country MYS does not exist
 				original_tag = HYD
-				original_tag = MYS
-				original_tag = RJP
-				original_tag = CIP
-				original_tag = WIS
+				always = no # VoD: country MYS does not exist
+				always = no # VoD: country RJP does not exist
+				always = no # VoD: country CIP does not exist
+				always = no # VoD: country WIS does not exist
 				original_tag = SIN
-				original_tag = KAS
-				original_tag = KOL
-				original_tag = KAS
-				original_tag = WIS
-				original_tag = NWF
-				original_tag = MPU
-				original_tag = KHL
-				original_tag = FSS
-				original_tag = SKK
-				original_tag = RAS
-				original_tag = KLT
+				always = no # VoD: country KAS does not exist
+				always = no # VoD: country KOL does not exist
+				always = no # VoD: country KAS does not exist
+				always = no # VoD: country WIS does not exist
+				always = no # VoD: country NWF does not exist
+				always = no # VoD: country MPU does not exist
+				always = no # VoD: country KHL does not exist
+				always = no # VoD: country FSS does not exist
+				always = no # VoD: country SKK does not exist
+				always = no # VoD: country RAS does not exist
+				always = no # VoD: country KLT does not exist
 			}
 		}
 	}
@@ -804,7 +805,7 @@ princely_subjugation = {
 	fallback_law = military_governor_occupation
 
 	visible = {
-		original_tag = RAJ
+		always = no # VoD: country RAJ does not exist
 		has_dlc = "Graveyard of Empires"
 		OR = {
 			AND = {
@@ -842,24 +843,24 @@ princely_subjugation = {
 
 		FROM = {
 			OR = {
-				original_tag = MYS
+				always = no # VoD: country MYS does not exist
 				original_tag = HYD
-				original_tag = MYS
-				original_tag = RJP
-				original_tag = CIP
-				original_tag = WIS
+				always = no # VoD: country MYS does not exist
+				always = no # VoD: country RJP does not exist
+				always = no # VoD: country CIP does not exist
+				always = no # VoD: country WIS does not exist
 				original_tag = SIN
-				original_tag = KAS
-				original_tag = KOL
-				original_tag = KAS
-				original_tag = WIS
-				original_tag = NWF
-				original_tag = MPU
-				original_tag = KHL
-				original_tag = FSS
-				original_tag = SKK
-				original_tag = RAS
-				original_tag = KLT
+				always = no # VoD: country KAS does not exist
+				always = no # VoD: country KOL does not exist
+				always = no # VoD: country KAS does not exist
+				always = no # VoD: country WIS does not exist
+				always = no # VoD: country NWF does not exist
+				always = no # VoD: country MPU does not exist
+				always = no # VoD: country KHL does not exist
+				always = no # VoD: country FSS does not exist
+				always = no # VoD: country SKK does not exist
+				always = no # VoD: country RAS does not exist
+				always = no # VoD: country KLT does not exist
 			}
 		}
 	}
@@ -927,7 +928,7 @@ senbu_occupation_law = {
 					tag = MAN
 					tag = KOR
 					tag = MON
-					tag = TIB
+					always = no # VoD: country TIB does not exist
 				}
 			}
 

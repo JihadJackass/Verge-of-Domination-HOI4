@@ -125,7 +125,7 @@ INS_state_militia_activity_1 = {
 	}
 	remove_trigger = {
 		owner = {
-			original_tag = INS
+			always = no # VoD: country INS does not exist
 			NOT = { is_subject_of = HOL }
 			NOT = { has_country_flag = { flag = INS_revolution_has_started } }
 		}
@@ -140,7 +140,7 @@ INS_state_militia_activity_2 = {
 	}
 	remove_trigger = {
 		owner = {
-			original_tag = INS
+			always = no # VoD: country INS does not exist
 			NOT = { is_subject_of = HOL }
 			NOT = { has_country_flag = { flag = INS_revolution_has_started } }
 		}
@@ -155,7 +155,7 @@ INS_state_militia_activity_3 = {
 	}
 	remove_trigger = {
 		owner = {
-			original_tag = INS
+			always = no # VoD: country INS does not exist
 			NOT = { is_subject_of = HOL }
 			NOT = { has_country_flag = { flag = INS_revolution_has_started } }
 		}

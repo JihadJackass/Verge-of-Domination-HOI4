@@ -38,7 +38,7 @@ MTG_naval_treaties = {
 }
 SAF_anti_colonialist_crusade = {
 	allowed = {
-		original_tag = SAF
+		always = no # VoD: country SAF does not exist
 	}
 }
 
@@ -289,12 +289,12 @@ lar_local_recruitment = {
 				capital_scope = { is_on_continent = asia }
 			}
 			NOT = {
-				tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				tag = PAK
 				tag = BAN
-				tag = NEP
-				tag = BHU
-				tag = SRL
+				always = no # VoD: country NEP does not exist
+				always = no # VoD: country BHU does not exist
+				always = no # VoD: country SRL does not exist
 			}
 		}
 	}
@@ -320,12 +320,12 @@ lar_local_recruitment = {
 		target_root_trigger = {
 			OR = {
 				has_country_flag = india_recruitment_unlocked
-				tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				tag = PAK
 				tag = BAN
-				tag = NEP
-				tag = BHU
-				tag = SRL
+				always = no # VoD: country NEP does not exist
+				always = no # VoD: country BHU does not exist
+				always = no # VoD: country SRL does not exist
 			}
 		}
 	}
@@ -387,21 +387,21 @@ generic_purchase_old_ships_category = {
 				has_dlc = "Trial of Allegiance"
 			}
 			AND = {
-				original_tag = CHL
+				always = no # VoD: country CHL does not exist
 				has_dlc = "Trial of Allegiance"
 			}
 			AND = {
-				original_tag = ARG
-				has_dlc = "Trial of Allegiance"
-			}
-
-			AND = {
-				original_tag = URG
+				always = no # VoD: country ARG does not exist
 				has_dlc = "Trial of Allegiance"
 			}
 
 			AND = {
-				original_tag = PAR
+				always = no # VoD: country URG does not exist
+				has_dlc = "Trial of Allegiance"
+			}
+
+			AND = {
+				always = no # VoD: country PAR does not exist
 				has_dlc = "Trial of Allegiance"
 			}
 
@@ -410,7 +410,7 @@ generic_purchase_old_ships_category = {
 				has_dlc = "Graveyard of Empires"
 			}
 			AND = {
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				has_dlc = "Graveyard of Empires"
 			}
 			AND = {
@@ -424,7 +424,7 @@ generic_purchase_old_ships_category = {
 			original_tag = CHI
 			original_tag = NZL
 			AND = {
-				original_tag = ROM
+				always = no # VoD: country ROM does not exist
 				has_dlc = "To The Bitter End"
 			}
 		}
@@ -449,12 +449,12 @@ generic_refit_civilian_ships_category = {
 				OR = {
 					original_tag = DEN
 					original_tag = FIN
-					original_tag = ICE
+					always = no # VoD: country ICE does not exist
 				}
 				has_dlc = "Arms Against Tyranny"
 			}
 			AND = {
-				original_tag = RAJ
+				always = no # VoD: country RAJ does not exist
 				has_dlc = "Graveyard of Empires"
 			}
 		}

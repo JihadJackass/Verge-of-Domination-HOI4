@@ -107,7 +107,7 @@ defensive_postures = {
                 original_tag = AST
                 original_tag = NZL
                 original_tag = CAN
-                original_tag = SAF
+                always = no # VoD: country SAF does not exist
                 original_tag = ITA
                 original_tag = FIN
             }
@@ -733,7 +733,7 @@ peoples_war = {
         if = {
             limit = {
                 NOT = {
-                    original_tag = INS
+                    always = no # VoD: country INS does not exist
                 }
             }
             has_government = communism
@@ -742,7 +742,7 @@ peoples_war = {
             OR = {
                 has_government = communism
                 AND = {
-                    original_tag = INS
+                    always = no # VoD: country INS does not exist
                     always = no # VoD: focus INS_underground_revolution does not exist
                 }
             }

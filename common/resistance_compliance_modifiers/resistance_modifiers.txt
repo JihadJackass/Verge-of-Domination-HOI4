@@ -110,13 +110,9 @@ resistance_90 = {
 	on_enable = {
 		if = {
 			limit = {
-				RAJ = { 
-					always = no # VoD: focus RAJ_forward_bloc does not exist
-					NOT = { 
-						has_dynamic_modifier = { modifier = idea_RAJ_famine_country }  
-					}
-				}
-				NOT = { var:occupied_country = { original_tag = DIP } }
+				always = no # VoD: country RAJ does not exist
+
+				NOT = { var:occupied_country = { always = no } } # VoD: country DIP does not exist
 			}
 			#dont do anything
 		}

@@ -146,16 +146,12 @@ types = {
 
 		allowed = {
 			has_dlc = "Thunder at Our Gates"
-			tag = INS
+			always = no # VoD: country INS does not exist
 		}
 
 		visible = {
-			INS = {
-				has_country_flag = {
-					flag = INS_revolution_has_started
-				}
-				always = no # VoD: focus INS_just_a_fisherman does not exist
-			}
+			always = no # VoD: country INS does not exist
+
 			has_event_target = INS_dutch_indonesia
 
 			NOT = {
@@ -170,7 +166,7 @@ types = {
 		show_target = {
 			FROM = {
 				OR = {
-					tag = HOL
+					always = no # VoD: country HOL does not exist
 					tag = event_target:INS_dutch_indonesia
 				}
 			}
@@ -585,9 +581,8 @@ types = {
 							owner = {
 								is_ai = yes
 							}
-							HOL = {
-								is_ai = yes
-							}
+							always = no # VoD: country HOL does not exist
+
 							factor = 0.75
 						}
 					}
@@ -798,7 +793,8 @@ types = {
 
 						if = {
 							limit = {
-								INS = { has_country_flag = INS_revolution_has_started }
+								always = no # VoD: country INS does not exist
+
 							}
 							transfer_state_to = INS
 							indonesia_increase_escalation_1_effect = yes
@@ -874,7 +870,8 @@ types = {
 
 						if = {
 							limit = {
-								INS = { has_country_flag = INS_revolution_has_started }
+								always = no # VoD: country INS does not exist
+
 							}
 							transfer_state_to = INS
 							indonesia_increase_escalation_1_effect = yes
@@ -955,13 +952,12 @@ types = {
 
 		allowed = {
 			has_dlc = "Thunder at Our Gates"
-			tag = SIA
+			always = no # VoD: country SIA does not exist
 		}
 
 		visible = {
-			SIA = {
-				always = no # VoD: focus SIA_pacific_war does not exist
-			}
+			always = no # VoD: country SIA does not exist
+
 		}
 
 		show_target = {
@@ -1287,7 +1283,7 @@ types = {
 		show_target = {
 			var:target_state = {
 				is_core_of = MAL
-				OWNER = { tag = MAL }
+				OWNER = { always = no } # VoD: country MAL does not exist
 				naval_base > 0
 				OR = {
 					state = 1060
@@ -1326,7 +1322,7 @@ types = {
 		target_type = {
 			state = {
 				is_core_of = MAL
-				owner = { tag = MAL }
+				owner = { always = no } # VoD: country MAL does not exist
 				is_coastal = yes
 			}
 		}

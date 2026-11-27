@@ -715,11 +715,11 @@ technologies = {
 				OR = {
 					tag = CHI
 					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					always = no # VoD: country XSM does not exist
+					always = no # VoD: country SIK does not exist
+					always = no # VoD: country GXC does not exist
+					always = no # VoD: country SHX does not exist
+					always = no # VoD: country YUN does not exist
 				}
 			}
 			modifier = {
@@ -1115,11 +1115,11 @@ technologies = {
 				OR = {
 					tag = CHI
 					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
+					always = no # VoD: country XSM does not exist
+					always = no # VoD: country SIK does not exist
+					always = no # VoD: country GXC does not exist
+					always = no # VoD: country SHX does not exist
+					always = no # VoD: country YUN does not exist
 				}
 			}
 			modifier = {

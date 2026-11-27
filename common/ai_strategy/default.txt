@@ -9,12 +9,12 @@ default_unit_production = {
 				original_tag = FRA
 				original_tag = CHI
 				original_tag = ENG
-				original_tag = CZE
+				always = no # VoD: country CZE does not exist
 				tag = SOV
 				original_tag = ITA
 				original_tag = JAP
 				original_tag = HUN
-				original_tag = SIA
+				always = no # VoD: country SIA does not exist
 				original_tag = USA
 			}
 		}
@@ -646,7 +646,7 @@ default_garrison_production = {
 			original_tag = FRA
 			original_tag = JAP
 			original_tag = ENG
-			original_tag = SIA
+			always = no # VoD: country SIA does not exist
 		}
 		ai_wants_divisions >  12 #Massively decreasing the amount of garrison and suppression the AI wants
 		is_major = yes
@@ -723,7 +723,7 @@ default_armored_production = {
 		NOT = {
 			OR = {
 				original_tag = GER
-				original_tag = CZE
+				always = no # VoD: country CZE does not exist
 				original_tag = SOV
 			}
 		}
@@ -1086,14 +1086,14 @@ default_market_convoy_purchases = {
 
 dont_build_capitals_if_on_treaty = {
 	enable = {
-		has_idea = MTG_naval_treaty_adherent
+		always = no # VoD: idea MTG_naval_treaty_adherent does not exist
 	}
 
 	abort = {
 		OR = {
 				original_tag = ITA
 				original_tag = ENG
-				NOT = { has_idea = MTG_naval_treaty_adherent }
+				NOT = { always = no } # VoD: idea MTG_naval_treaty_adherent does not exist
 			}
 	}
 
@@ -1126,7 +1126,7 @@ DEFAULT_early_template_design = {
 				tag = JAP
 				tag = USA
 				tag = POL
-				tag = SIA
+				always = no # VoD: country SIA does not exist
 			}
 		}
 		date < 1940.1.1
@@ -1189,7 +1189,7 @@ DEFAULT_midlate_template_design = {
 				tag = JAP
 				tag = USA
 				tag = POL
-				tag = SIA
+				always = no # VoD: country SIA does not exist
 			}
 		}
 		date > 1940.1.1

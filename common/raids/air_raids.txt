@@ -834,7 +834,7 @@ types = {
 				original_tag = ENG
 				has_war_with = GER
 				FROM = {
-					original_tag = ROM
+					always = no # VoD: country ROM does not exist
 					is_in_faction_with = GER
 				}
 			}
@@ -857,7 +857,7 @@ types = {
 			}
 			NOT = {
 				AND = {
-					original_tag = INS
+					always = no # VoD: country INS does not exist
 					has_country_flag = { flag = INS_revolution_has_started }
 					has_dlc = "Thunder at Our Gates"
 				}
@@ -999,7 +999,7 @@ types = {
 					var:victim_country = {
 						if = {
 							limit = {
-								original_tag = ROM
+								always = no # VoD: country ROM does not exist
 								is_ally_with = GER	#mentions Messerschmitt
 							}
 							
@@ -1036,7 +1036,7 @@ types = {
 					var:victim_country = {
 						if = {
 							limit = {
-								original_tag = ROM
+								always = no # VoD: country ROM does not exist
 								is_ally_with = GER	#mentions Messerschmitt
 							}
 							
@@ -1077,7 +1077,7 @@ types = {
 					var:victim_country = {
 						if = {
 							limit = {
-								original_tag = ROM
+								always = no # VoD: country ROM does not exist
 								is_ally_with = GER	#mentions Messerschmitt
 							}
 							

@@ -539,22 +539,16 @@ faction_goal_eastern_european_security = {
 				is_subject_of = ROOT
 				is_in_faction_with = ROOT
 			}
-			ROM = {
-				is_subject_of = ROOT
-				is_in_faction_with = ROOT
-			}
+			always = no # VoD: country ROM does not exist
+
 			HUN = {
 				is_subject_of = ROOT
 				is_in_faction_with = ROOT
 			}
-			CZE = {
-				is_subject_of = ROOT
-				is_in_faction_with = ROOT
-			}
-			SLO = {
-				is_subject_of = ROOT
-				is_in_faction_with = ROOT
-			}
+			always = no # VoD: country CZE does not exist
+
+			always = no # VoD: country SLO does not exist
+
 			BUL = {
 				is_subject_of = ROOT
 				is_in_faction_with = ROOT
@@ -563,10 +557,8 @@ faction_goal_eastern_european_security = {
 				is_subject_of = ROOT
 				is_in_faction_with = ROOT
 			}
-			YUG = {
-				is_subject_of = ROOT
-				is_in_faction_with = ROOT
-			}
+			always = no # VoD: country YUG does not exist
+
 			ALB = {
 				is_subject_of = ROOT
 				is_in_faction_with = ROOT
@@ -671,7 +663,7 @@ faction_goal_disarm_aggression_central_powers = {
 		FROM = {
 			OR = {
 				original_tag = FRA
-				original_tag = CZE
+				always = no # VoD: country CZE does not exist
 			}
 			has_government = democratic
 		}
@@ -785,7 +777,7 @@ faction_goal_rule_the_waves = {
 		FROM = {
 			OR = {
 				NOT = { has_government = democratic }
-				NOT = { has_idea = MTG_naval_treaty_adherent }
+				NOT = { always = no } # VoD: idea MTG_naval_treaty_adherent does not exist
 			}
 		}
 	}

@@ -62,16 +62,16 @@ ETH_is_horn_of_africa_original_tag = {
 	OR = {
 		original_tag = ETH
 		original_tag = SOM
-		original_tag = ERI
-		original_tag = DJI
-		original_tag = AFA
-		original_tag = HAR
-		original_tag = TIG
-		original_tag = BEG
-		original_tag = GBA
-		original_tag = SID
-		original_tag = ORO
-		original_tag = QEM
+		always = no # VoD: country ERI does not exist
+		always = no # VoD: country DJI does not exist
+		always = no # VoD: country AFA does not exist
+		always = no # VoD: country HAR does not exist
+		always = no # VoD: country TIG does not exist
+		always = no # VoD: country BEG does not exist
+		always = no # VoD: country GBA does not exist
+		always = no # VoD: country SID does not exist
+		always = no # VoD: country ORO does not exist
+		always = no # VoD: country QEM does not exist
 	}
 }
 
@@ -79,12 +79,12 @@ ETH_is_horn_of_africa_original_tag = {
 ITA_is_italian_tag_for_music = {
 	OR = {
 		original_tag = ITA
-		original_tag = AOI
-		original_tag = LBV
-		original_tag = PAP
-		original_tag = TOS
-		original_tag = SPM
-		original_tag = TTS
+		always = no # VoD: country AOI does not exist
+		always = no # VoD: country LBV does not exist
+		always = no # VoD: country PAP does not exist
+		always = no # VoD: country TOS does not exist
+		always = no # VoD: country SPM does not exist
+		always = no # VoD: country TTS does not exist
 	}
 }
 
@@ -127,5 +127,92 @@ pc_has_authored_wholesale_puppet_plan = {
 			original_tag = JAP # USA.txt, USA_puppet_japan
 			ROOT = { original_tag = USA }
 		}
+	}
+}
+
+# from vanilla 00_scripted_triggers.txt
+is_unlikely_country_tag = {
+	OR = {
+	    always = no # VoD: country BRI does not exist
+	    always = no # VoD: country CAT does not exist
+	    always = no # VoD: country NAV does not exist
+	    always = no # VoD: country GLC does not exist
+	    always = no # VoD: country ADU does not exist
+	    always = no # VoD: country BRI does not exist
+	    always = no # VoD: country OCC does not exist
+	    always = no # VoD: country COR does not exist
+	    always = no # VoD: country DNZ does not exist
+	    always = no # VoD: country KSH does not exist
+	    always = no # VoD: country CKK does not exist
+	    always = no # VoD: country FER does not exist
+	    always = no # VoD: country YAK does not exist
+	    always = no # VoD: country VLA does not exist
+	    always = no # VoD: country KKP does not exist
+	    always = no # VoD: country YAM does not exist
+	    always = no # VoD: country TAY does not exist
+	    always = no # VoD: country OVO does not exist
+	    always = no # VoD: country NEN does not exist
+	    always = no # VoD: country KOM does not exist
+	    always = no # VoD: country CHU does not exist
+	    always = no # VoD: country MEL does not exist
+	    always = no # VoD: country RIF does not exist
+	    always = no # VoD: country HAR does not exist
+	    always = no # VoD: country TIG does not exist
+	    always = no # VoD: country AFA does not exist
+	    always = no # VoD: country BEG does not exist
+	    always = no # VoD: country GBA does not exist
+	    always = no # VoD: country SID does not exist
+	    always = no # VoD: country ORO does not exist
+	    always = no # VoD: country QEM does not exist
+	    always = no # VoD: country LBV does not exist
+	    always = no # VoD: country PAP does not exist
+	    always = no # VoD: country TOS does not exist
+	    always = no # VoD: country SPM does not exist
+	    always = no # VoD: country TTS does not exist
+		always = no # VoD: country BSK does not exist
+		always = no # VoD: country TAT does not exist
+		always = no # VoD: country UDM does not exist
+		always = no # VoD: country KHA does not exist
+		always = no # VoD: country VGE does not exist
+		always = no # VoD: country KAL does not exist
+		always = no # VoD: country KAR does not exist
+		always = no # VoD: country SIL does not exist
+		always = no # VoD: country KSH does not exist
+		always = no # VoD: country ALT does not exist
+		always = no # VoD: country BUK does not exist
+		always = no # VoD: country KHI does not exist
+		always = no # VoD: country SMI does not exist
+		always = no # VoD: country QUE does not exist
+		always = no # VoD: country YUC does not exist
+		always = no # VoD: country RIG does not exist
+		always = no # VoD: country WLA does not exist
+		always = no # VoD: country GRN does not exist
+		always = no # VoD: country EVE does not exist
+		always = no # VoD: country SHL does not exist
+		always = no # VoD: country MEK does not exist
+		always = no # VoD: country HAN does not exist
+		always = no # VoD: country SAX does not exist
+		always = no # VoD: country PRE does not exist
+		always = no # VoD: country BAY does not exist
+		always = no # VoD: country WUR does not exist
+		always = no # VoD: country THU does not exist
+		always = no # VoD: country HES does not exist
+		always = no # VoD: country RHI does not exist
+		always = no # VoD: country RNG does not exist
+		always = no # VoD: country PSR does not exist
+		always = no # VoD: country GXC does not exist
+		always = no # VoD: country YUN does not exist
+		always = no # VoD: country SHX does not exist
+		always = no # VoD: country XSM does not exist
+		always = no # VoD: country SIK does not exist
+		always = no # VoD: country GDC does not exist
+		always = no # VoD: country SND does not exist
+		always = no # VoD: country SIC does not exist
+		always = no # VoD: country NXM does not exist
+		always = no # VoD: country GSM does not exist
+		always = no # VoD: country XIC does not exist
+		always = no # VoD: country KHM does not exist
+		always = no # VoD: country KUM does not exist
+		always = no # VoD: country HBC does not exist
 	}
 }

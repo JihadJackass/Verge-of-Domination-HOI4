@@ -185,36 +185,18 @@ faction_goal_north_subjugated = {
 		FROM = { always = no } # VoD: focus CHI_tour_the_north does not exist
 	}
 	completed = {
-		NXM = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		SHX = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		GSM = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		HBC = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		XIC = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		SND = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
+		always = no # VoD: country NXM does not exist
+
+		always = no # VoD: country SHX does not exist
+
+		always = no # VoD: country GSM does not exist
+
+		always = no # VoD: country HBC does not exist
+
+		always = no # VoD: country XIC does not exist
+
+		always = no # VoD: country SND does not exist
+
 
 	}
 	complete_effect = {
@@ -234,10 +216,9 @@ faction_goal_north_subjugated = {
 			custom_effect_tooltip = ALL_FACTION_MEMBERS
 			IF = {
 				limit = { NOT = { has_completed_goal = faction_goal_north_subjugated } }
-				add_timed_idea = {
-					idea = idea_CHI_central_government_integration_pressure
-					days = 365
-				}
+				
+# VoD: removed timed idea idea_CHI_central_government_integration_pressure
+
 			}
 		}
 	}
@@ -450,26 +431,14 @@ faction_goal_west_subjugated = {
 		FROM = { always = no } # VoD: focus CHI_tour_the_west does not exist
 	}
 	completed = {
-		XSM = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		KHM = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		SIK = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		SIC = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
+		always = no # VoD: country XSM does not exist
+
+		always = no # VoD: country KHM does not exist
+
+		always = no # VoD: country SIK does not exist
+
+		always = no # VoD: country SIC does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 50
@@ -488,10 +457,9 @@ faction_goal_west_subjugated = {
 			custom_effect_tooltip = ALL_FACTION_MEMBERS
 			IF = {
 				limit = { NOT = { has_completed_goal = faction_goal_west_subjugated } }
-				add_timed_idea = {
-					idea = idea_CHI_central_government_integration_pressure
-					days = 365
-				}
+				
+# VoD: removed timed idea idea_CHI_central_government_integration_pressure
+
 			}
 		}
 	}
@@ -519,21 +487,12 @@ faction_goal_south_subjugated = {
 		FROM = { always = no } # VoD: focus CHI_tour_the_south does not exist
 	}
 	completed = {
-		GDC = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		GXC = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
-		YUN = {
-			all_core_state = {
-				is_owned_by = ROOT
-			}
-		}
+		always = no # VoD: country GDC does not exist
+
+		always = no # VoD: country GXC does not exist
+
+		always = no # VoD: country YUN does not exist
+
 	}
 	complete_effect = {
 		add_faction_power_projection = 50
@@ -552,10 +511,9 @@ faction_goal_south_subjugated = {
 			custom_effect_tooltip = ALL_FACTION_MEMBERS
 			IF = {
 				limit = { NOT = { has_completed_goal = faction_goal_south_subjugated } }
-				add_timed_idea = {
-					idea = idea_CHI_central_government_integration_pressure
-					days = 365
-				}
+				
+# VoD: removed timed idea idea_CHI_central_government_integration_pressure
+
 			}
 		}
 	}

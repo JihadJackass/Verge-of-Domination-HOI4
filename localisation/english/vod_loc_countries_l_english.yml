@@ -77,7 +77,6 @@
             ONT_democratic: "Ontario Military Occupation Zone"
             ONT_democratic_DEF: "the American-Ontarian Military Occupation Zone"
             ONT_democratic_ADJ: "American-Ontarian"
-            ONT_democratic_ADJ:1 "Ontarian"
 
             # Military Occupation District of British Columbia
             BCM_democratic: "British Columbia Military Occupation Zone"

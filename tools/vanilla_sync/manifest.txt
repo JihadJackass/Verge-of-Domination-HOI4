@@ -9,6 +9,8 @@
 #   effect_stub <name>    tag-specific vanilla scripted effect, defined as empty
 #   dynmod_copy <name>    vanilla dynamic modifier copied verbatim
 #   scriptloc_copy <name> vanilla defined_text (scripted localisation) copied verbatim
+#   idea_copy <name>      vanilla idea copied with its category
+#   modifiers_missing     copy every vanilla static modifier the mod does not define (engine needs some of them)
 
 # --- tag-specific content (Japan, Romania, Siam, India, Indonesia, ...) ---
 blank common/raids/air_raids_custom.txt
@@ -149,3 +151,14 @@ trigger_copy pc_has_authored_wholesale_puppet_plan
 
 # --- scripted localisation (common/scripted_localisation is replaced by the mod) ---
 scriptloc_copy GetCountryContinent
+
+# --- found by the first 1.20.1 launch ---
+sanitize music/mtg_songs.txt
+sanitize music/lar_songs.txt
+sanitize common/peace_conference/cost_modifiers/faction_peace_action_modifiers.txt
+trigger_copy is_unlikely_country_tag
+idea_copy deterrence
+idea_copy special_project_consumer_costs_low
+idea_copy special_project_consumer_costs_medium
+idea_copy special_project_consumer_costs_high
+modifiers_missing

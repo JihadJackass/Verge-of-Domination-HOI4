@@ -1,0 +1,6 @@
+# Dev material lives in ../verge_of_domination_dev (outside the mod, so it is not uploaded to Workshop)
+*.psd
+*.avif
+*.webp
+*.exe
+.dev/
